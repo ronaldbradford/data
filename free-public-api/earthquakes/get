@@ -1,0 +1,1 @@
+curl -sL 'https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2022-02-22&endtime=2022-02-23'

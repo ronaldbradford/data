@@ -1,0 +1,1 @@
+curl -sl 'https://nominatim.openstreetmap.org/search?city=Trumbull&state=CT&country=USA&format=geojson'

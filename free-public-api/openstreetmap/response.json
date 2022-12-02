@@ -1,0 +1,33 @@
+{
+  "type": "FeatureCollection",
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "place_id": 299481643,
+        "osm_type": "relation",
+        "osm_id": 11049560,
+        "display_name": "Trumbull, Fairfield County, Connecticut, 06611, United States",
+        "place_rank": 16,
+        "category": "boundary",
+        "type": "administrative",
+        "importance": 0.634622043029699,
+        "icon": "https://nominatim.openstreetmap.org/ui/mapicons/poi_boundary_administrative.p.20.png"
+      },
+      "bbox": [
+        -73.275248,
+        41.2205313,
+        -73.140531,
+        41.2991435
+      ],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.2006687,
+          41.2428742
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+curl -s -H "Accept: application/vnd.github.v3+json" 'https://api.github.com/repos/mysql/mysql-server/tags?sort=full_name&per_page=100&page=2'

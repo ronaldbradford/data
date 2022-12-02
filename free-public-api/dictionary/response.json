@@ -1,0 +1,116 @@
+[
+  {
+    "word": "life",
+    "phonetic": "/laɪf/",
+    "phonetics": [
+      {
+        "text": "/laɪf/",
+        "audio": "https://api.dictionaryapi.dev/media/pronunciations/en/life-uk.mp3",
+        "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=9023195",
+        "license": {
+          "name": "BY 3.0 US",
+          "url": "https://creativecommons.org/licenses/by/3.0/us"
+        }
+      },
+      {
+        "text": "/laɪf/",
+        "audio": "https://api.dictionaryapi.dev/media/pronunciations/en/life-us.mp3",
+        "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=2423294",
+        "license": {
+          "name": "BY-SA 3.0",
+          "url": "https://creativecommons.org/licenses/by-sa/3.0"
+        }
+      }
+    ],
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          {
+            "definition": "The state of organisms preceding their death, characterized by biological processes such as metabolism and reproduction and distinguishing them from inanimate objects; the state of being alive and living.",
+            "synonyms": [],
+            "antonyms": [],
+            "example": "Having experienced both, the vampire decided that he preferred (un)death to life.  He gave up on life."
+          },
+          {
+            "definition": "The animating principle or force that keeps an inorganic thing or concept metaphorically alive (dynamic, relevant, etc) and makes it a \"living document\", \"living constitution\", etc.",
+            "synonyms": [],
+            "antonyms": []
+          },
+          {
+            "definition": "Lifeforms, generally or collectively.",
+            "synonyms": [],
+            "antonyms": [],
+            "example": "It's life, but not as we know it.   She discovered plant life on the planet.   The rover discovered signs of life on the alien world."
+          },
+          {
+            "definition": "A living individual; the fact of a particular individual being alive. (Chiefly when indicating individuals were lost (died) or saved.)",
+            "synonyms": [],
+            "antonyms": [],
+            "example": "Many lives were lost during the war.   Her quick thinking saved many dogs' lives."
+          },
+          {
+            "definition": "Existence.",
+            "synonyms": [],
+            "antonyms": [],
+            "example": "Man's life on this planet has been marked by continual conflict.   the eternal life of the soul"
+          },
+          {
+            "definition": "A period of time during which something has existence.",
+            "synonyms": [],
+            "antonyms": []
+          },
+          {
+            "definition": "Animation; spirit; vivacity.",
+            "synonyms": [],
+            "antonyms": []
+          },
+          {
+            "definition": "A biography.",
+            "synonyms": [],
+            "antonyms": [],
+            "example": "His life of the founder is finished, except for the title."
+          },
+          {
+            "definition": "Nature, reality, and the forms that exist in it.",
+            "synonyms": [],
+            "antonyms": []
+          },
+          {
+            "definition": "An opportunity for existence.",
+            "synonyms": [],
+            "antonyms": []
+          },
+          {
+            "definition": "The life insurance industry.",
+            "synonyms": [],
+            "antonyms": [],
+            "example": "I work in life."
+          },
+          {
+            "definition": "A life assured under a life assurance policy (equivalent to the policy itself for a single life contract).",
+            "synonyms": [],
+            "antonyms": []
+          }
+        ],
+        "synonyms": [
+          "existence",
+          "experience",
+          "time"
+        ],
+        "antonyms": [
+          "coma",
+          "void",
+          "death"
+        ]
+      }
+    ],
+    "license": {
+      "name": "CC BY-SA 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    "sourceUrls": [
+      "https://en.wiktionary.org/wiki/life"
+    ]
+  }
+]

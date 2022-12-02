@@ -1,0 +1,1 @@
+curl -sl 'http://polygons.openstreetmap.fr/get_geojson.py?id=11049560&params=0'
