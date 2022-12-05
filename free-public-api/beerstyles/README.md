@@ -1,6 +1,6 @@
 # Beer Styles
 
-12/22 This API appears to be no longer available
+12/22 This API appears to be no longer available, however the source JSON can be found at https://github.com/drodil/rustybeer/tree/master/rustybeer/src/json
 
 ### Request
 
@@ -23,3 +23,11 @@
         "color_srm_max": 3,
         "description": "Highly carbonated, very light-bodied, nearly flavorless lager designed to be consumed very cold. Very refreshing and thirst quenching."
       },
+
+
+### Source JSON
+
+    curl -sL https://raw.githubusercontent.com/drodil/rustybeer/master/rustybeer/src/json/beer_styles.json
+    curl -sL https://raw.githubusercontent.com/drodil/rustybeer/master/rustybeer/src/json/hops.json
+    curl -sL https://raw.githubusercontent.com/drodil/rustybeer/master/rustybeer/src/json/yeasts.json
+    curl -sL https://raw.githubusercontent.com/drodil/rustybeer/master/rustybeer/src/json/abv_calories.json
