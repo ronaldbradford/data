@@ -18,6 +18,8 @@ These APIs are publicly accessible and require no login information.
 - [OpenStreetMap](free-public-api/openstreetmap/README.md)
 - [Postman](free-public-api/postman/README/md)
 - [State of Missouri Data Portal](free-public-api/mo-data/README.md)
+- [UK National Archives](free-public-api/uk-archives/README.md)
+- [WikiData](free-public-api/wikidata/README.md)
 
 ## Free Sites with aggregated Data
 
