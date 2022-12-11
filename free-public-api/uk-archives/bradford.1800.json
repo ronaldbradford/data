@@ -1,0 +1,117 @@
+{
+  "records": [
+    {
+      "altName": "",
+      "places": [
+        "Frenchay Nr Bristol"
+      ],
+      "corpBodies": [
+        "56th (West Essex) Regiment of Foot"
+      ],
+      "taxonomies": [],
+      "formerReferenceDep": "",
+      "formerReferencePro": "",
+      "heldBy": [
+        "The National Archives, Kew"
+      ],
+      "context": "War Office and predecessors: Secretary-at-War, Secretary of State for War, and Related Bodies, Registers. RETURNS OF OFFICERS' SERVICES. WO 25. 56-60 Foot.",
+      "content": "",
+      "urlParameters": "66/1/C259/C528/C14234/C77305/0/C4397546/C13323852",
+      "department": "WO",
+      "note": "",
+      "adminHistory": "",
+      "arrangement": "",
+      "mapDesignation": "",
+      "mapScale": "",
+      "physicalCondition": "",
+      "catalogueLevel": 7,
+      "openingDate": "",
+      "closureStatus": "O",
+      "closureType": "N",
+      "closureCode": "30",
+      "documentType": "",
+      "coveringDates": "[1829]",
+      "description": "Folio 66. Name: Edward Joseph Bradford. Date of birth: 21 November 1801. Place of birth: Frenchay Nr Bristol. Regiment: 56th (West Essex) Regiment of Foot. Enlisted as rank: Hospital Assistant ; date: 5 December 1826. Last rank: Assistant Surgeon ; date: 20 March 1828. Married: Not stated.",
+      "endDate": "31/12/1829",
+      "numEndDate": 18291231,
+      "numStartDate": 18290101,
+      "startDate": "01/01/1829",
+      "id": "C13323852",
+      "reference": "WO 25/796/34",
+      "score": 0.125107646,
+      "source": "100",
+      "title": "Folio 66. Name: Edward Joseph Bradford. Date of birth: 21 November 1801. Place of birth:..."
+    },
+    {
+      "altName": "",
+      "places": [
+        "Canterbury, Kent"
+      ],
+      "corpBodies": [],
+      "taxonomies": [],
+      "formerReferenceDep": "",
+      "formerReferencePro": "",
+      "heldBy": [
+        "The National Archives, Kew"
+      ],
+      "context": "Admiralty: Royal Navy Continuous Service Engagement Books. CS NUMBERS. 1901 - 2000.",
+      "content": "",
+      "urlParameters": "66/2/C4/C728/C1848/C32012/0/C988261/C9523159",
+      "department": "ADM",
+      "note": "",
+      "adminHistory": "",
+      "arrangement": "",
+      "mapDesignation": "",
+      "mapScale": "",
+      "physicalCondition": "",
+      "catalogueLevel": 7,
+      "openingDate": "",
+      "closureStatus": "O",
+      "closureType": "N",
+      "closureCode": "30",
+      "documentType": "R",
+      "coveringDates": "[1853-1872]",
+      "description": "Name Bradford, George Thomas. Place of Birth: Canterbury, Kent. Continuous Service Number: 1942. Date of Volunteering: 01 July 1853. Date of Birth: 09 April 1809.",
+      "endDate": "31/12/1872",
+      "numEndDate": 18721231,
+      "numStartDate": 18530101,
+      "startDate": "01/01/1853",
+      "id": "C9523159",
+      "reference": "ADM 139/20/1942",
+      "score": 0.121365055,
+      "source": "200",
+      "title": "Name Bradford, George Thomas. Place of Birth: Canterbury, Kent. Continuous Service Number: 1942. Date of..."
+    }
+  ],
+  "taxonomySubjects": [],
+  "timePeriods": [
+    {
+      "code": "1800",
+      "count": 2
+    }
+  ],
+  "departments": [],
+  "catalogueLevels": [],
+  "closureStatuses": [],
+  "sources": [
+    {
+      "code": "100",
+      "count": 1
+    },
+    {
+      "code": "200",
+      "count": 1
+    }
+  ],
+  "repositories": [],
+  "heldByReps": [
+    {
+      "code": "TNA",
+      "count": 2
+    }
+  ],
+  "referenceFirstLetters": [],
+  "titleFirstLetters": [],
+  "count": 2,
+  "nextBatchMark": null
+}
