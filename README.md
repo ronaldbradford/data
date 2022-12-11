@@ -6,6 +6,7 @@ These APIs are publicly accessible and require no login information.
 
 - [AWS regions](free-public-api/aws-regions/README.md)
 - [Beer styles](free-public-api/beerstyles/README.md)
+- [Chess](free-public-api/chess/README.md)
 - [Dictionary word](free-public-api/dictonary/README.md)
 - [DuckDuckGo search results](free-public-api/duckduckgo/README.md)
 - [Earthquakes from USGS](free-public-api/earthquakes/README.md)
