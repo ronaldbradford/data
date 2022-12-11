@@ -1,0 +1,775 @@
+{
+  "meta" : {
+    "view" : {
+      "id" : "fkt2-8smh",
+      "name" : "Missouri Beer, Wine and Liquor Wholesaler List with Zip Code",
+      "assetType" : "dataset",
+      "attribution" : "Missouri Division of Alcohol and Tobacco Control",
+      "attributionLink" : "http://www.atc.dps.mo.gov",
+      "averageRating" : 0,
+      "category" : "Regulatory",
+      "createdAt" : 1344350577,
+      "description" : "Listing of current Missouri beer, wine and liquor wholesalers with their associated zip codes.  This listing is updated daily.",
+      "displayType" : "table",
+      "downloadCount" : 6973,
+      "hideFromCatalog" : false,
+      "hideFromDataJson" : false,
+      "newBackend" : true,
+      "numberOfComments" : 0,
+      "oid" : 38835650,
+      "provenance" : "official",
+      "publicationAppendEnabled" : false,
+      "publicationDate" : 1662125745,
+      "publicationGroup" : 398038,
+      "publicationStage" : "published",
+      "rowsUpdatedAt" : 1669817104,
+      "rowsUpdatedBy" : "8xqn-4t42",
+      "tableId" : 18857429,
+      "totalTimesRated" : 0,
+      "viewCount" : 640167,
+      "viewLastModified" : 1662125746,
+      "viewType" : "tabular",
+      "approvals" : [ {
+        "reviewedAt" : 1560431115,
+        "reviewedAutomatically" : true,
+        "state" : "approved",
+        "submissionId" : 4956308,
+        "submissionObject" : "public_audience_request",
+        "submissionOutcome" : "change_audience",
+        "submittedAt" : 1560431115,
+        "workflowId" : 2177,
+        "submissionDetails" : {
+          "permissionType" : "READ"
+        },
+        "submissionOutcomeApplication" : {
+          "failureCount" : 0,
+          "status" : "success"
+        },
+        "submitter" : {
+          "id" : "gytm-8bsj",
+          "displayName" : "Rob Gourley"
+        }
+      } ],
+      "clientContext" : {
+        "clientContextVariables" : [ ],
+        "inheritedVariables" : { }
+      },
+      "columns" : [ {
+        "id" : -1,
+        "name" : "sid",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":sid",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "id",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":id",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "position",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":position",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : 565289589,
+        "name" : "Business Name",
+        "dataTypeName" : "text",
+        "fieldName" : "business_name",
+        "position" : 1,
+        "renderTypeName" : "text",
+        "tableColumnId" : 3727829,
+        "width" : 390,
+        "cachedContents" : {
+          "non_null" : "268",
+          "largest" : "WOODSMEN LLC",
+          "null" : "0",
+          "top" : [ {
+            "item" : "BREAKTHRU BEVERAGE MISSOURI LLC",
+            "count" : "6"
+          }, {
+            "item" : "SOUTHERN GLAZER'S WINE & SPIRITS OF MO.",
+            "count" : "5"
+          }, {
+            "item" : "CLASSIQUE LLC",
+            "count" : "3"
+          }, {
+            "item" : "BLUE CLOUD DISTRIBUTION OF MISSOURI INC.",
+            "count" : "3"
+          }, {
+            "item" : "MISSOURI EAGLE LLC",
+            "count" : "3"
+          }, {
+            "item" : "3 EAGLES DISTRIBUTING LLC",
+            "count" : "3"
+          }, {
+            "item" : "D & D DISTRIBUTORS LLLP",
+            "count" : "3"
+          }, {
+            "item" : "CROWN VALLEY WINERY INC.",
+            "count" : "3"
+          }, {
+            "item" : "NAUSER BEVERAGE COMPANY",
+            "count" : "2"
+          }, {
+            "item" : "GRELLNER SALES & SERVICE INC.",
+            "count" : "2"
+          }, {
+            "item" : "SPARTA BEVERAGE GROUP INC.",
+            "count" : "2"
+          }, {
+            "item" : "LOHR DISTRIBUTING COMPANY INC.",
+            "count" : "2"
+          }, {
+            "item" : "PINNACLE IMPORTS LLC",
+            "count" : "2"
+          }, {
+            "item" : "HEART OF AMERICA BEVERAGE COMPANY, LLC",
+            "count" : "2"
+          }, {
+            "item" : "CITY CIDER LLC",
+            "count" : "2"
+          }, {
+            "item" : "GOLDEN EAGLE DISTRIBUTING COMPANY",
+            "count" : "2"
+          }, {
+            "item" : "NOBOLEIS VINEYARDS LLC",
+            "count" : "1"
+          }, {
+            "item" : "DEEP SLEEP BREWING COMPANY LLC",
+            "count" : "1"
+          }, {
+            "item" : "COUNTY DISTRIBUTING COMPANY INC.",
+            "count" : "1"
+          }, {
+            "item" : "ARTISAN SPIRITS, LLC",
+            "count" : "1"
+          } ],
+          "smallest" : "3CM HOLDINGS LLC",
+          "count" : "268",
+          "cardinality" : "239"
+        },
+        "format" : { }
+      }, {
+        "id" : 565289590,
+        "name" : "Zip Code",
+        "dataTypeName" : "text",
+        "fieldName" : "zip_code",
+        "position" : 2,
+        "renderTypeName" : "text",
+        "tableColumnId" : 3727830,
+        "width" : 98,
+        "cachedContents" : {
+          "non_null" : "268",
+          "largest" : "65810",
+          "null" : "0",
+          "top" : [ {
+            "item" : "64108",
+            "count" : "5"
+          }, {
+            "item" : "63143",
+            "count" : "4"
+          }, {
+            "item" : "64116",
+            "count" : "3"
+          }, {
+            "item" : "63090",
+            "count" : "3"
+          }, {
+            "item" : "63043",
+            "count" : "3"
+          }, {
+            "item" : "65041",
+            "count" : "3"
+          }, {
+            "item" : "641113667",
+            "count" : "2"
+          }, {
+            "item" : "64111",
+            "count" : "2"
+          }, {
+            "item" : "64015",
+            "count" : "2"
+          }, {
+            "item" : "64120",
+            "count" : "2"
+          }, {
+            "item" : "63026",
+            "count" : "2"
+          }, {
+            "item" : "63332",
+            "count" : "2"
+          }, {
+            "item" : "63084",
+            "count" : "2"
+          }, {
+            "item" : "65301",
+            "count" : "2"
+          }, {
+            "item" : "65802",
+            "count" : "2"
+          }, {
+            "item" : "63068",
+            "count" : "2"
+          }, {
+            "item" : "64506",
+            "count" : "2"
+          }, {
+            "item" : "64024",
+            "count" : "2"
+          }, {
+            "item" : "63303",
+            "count" : "2"
+          }, {
+            "item" : "63701",
+            "count" : "2"
+          } ],
+          "smallest" : "000000000",
+          "count" : "268",
+          "cardinality" : "237"
+        },
+        "format" : { }
+      }, {
+        "id" : 565289591,
+        "name" : "License Number",
+        "dataTypeName" : "text",
+        "fieldName" : "license_number",
+        "position" : 3,
+        "renderTypeName" : "text",
+        "tableColumnId" : 21884370,
+        "width" : 100,
+        "cachedContents" : {
+          "non_null" : "268",
+          "largest" : "999998",
+          "null" : "0",
+          "top" : [ {
+            "item" : "259236",
+            "count" : "1"
+          }, {
+            "item" : "272538",
+            "count" : "1"
+          }, {
+            "item" : "269765",
+            "count" : "1"
+          }, {
+            "item" : "269103",
+            "count" : "1"
+          }, {
+            "item" : "288553",
+            "count" : "1"
+          }, {
+            "item" : "280045",
+            "count" : "1"
+          }, {
+            "item" : "275657",
+            "count" : "1"
+          }, {
+            "item" : "177977",
+            "count" : "1"
+          }, {
+            "item" : "201153",
+            "count" : "1"
+          }, {
+            "item" : "165209",
+            "count" : "1"
+          }, {
+            "item" : "250354",
+            "count" : "1"
+          }, {
+            "item" : "216309",
+            "count" : "1"
+          }, {
+            "item" : "225830",
+            "count" : "1"
+          }, {
+            "item" : "153635",
+            "count" : "1"
+          }, {
+            "item" : "194998",
+            "count" : "1"
+          }, {
+            "item" : "281951",
+            "count" : "1"
+          }, {
+            "item" : "152341",
+            "count" : "1"
+          }, {
+            "item" : "256824",
+            "count" : "1"
+          }, {
+            "item" : "275189",
+            "count" : "1"
+          }, {
+            "item" : "274609",
+            "count" : "1"
+          } ],
+          "smallest" : "129953",
+          "count" : "268",
+          "cardinality" : "268"
+        },
+        "format" : { }
+      }, {
+        "id" : 565289592,
+        "name" : "License Type",
+        "dataTypeName" : "text",
+        "fieldName" : "license_type",
+        "position" : 4,
+        "renderTypeName" : "text",
+        "tableColumnId" : 21888933,
+        "width" : 100,
+        "cachedContents" : {
+          "non_null" : "268",
+          "largest" : "LWS",
+          "null" : "0",
+          "top" : [ {
+            "item" : "LWS",
+            "count" : "151"
+          }, {
+            "item" : "22WS",
+            "count" : "112"
+          }, {
+            "item" : "5WS",
+            "count" : "5"
+          } ],
+          "smallest" : "22WS",
+          "count" : "268",
+          "cardinality" : "3"
+        },
+        "format" : { }
+      }, {
+        "id" : 565289593,
+        "name" : "City",
+        "dataTypeName" : "text",
+        "fieldName" : "city",
+        "position" : 5,
+        "renderTypeName" : "text",
+        "tableColumnId" : 21924375,
+        "width" : 100,
+        "cachedContents" : {
+          "non_null" : "267",
+          "largest" : "WRIGHT CITY",
+          "null" : "1",
+          "top" : [ {
+            "item" : "KANSAS CITY",
+            "count" : "27"
+          }, {
+            "item" : "ST. LOUIS",
+            "count" : "24"
+          }, {
+            "item" : "SPRINGFIELD",
+            "count" : "9"
+          }, {
+            "item" : "HERMANN",
+            "count" : "8"
+          }, {
+            "item" : "COLUMBIA",
+            "count" : "6"
+          }, {
+            "item" : "WASHINGTON",
+            "count" : "5"
+          }, {
+            "item" : "NORTH KANSAS CITY",
+            "count" : "5"
+          }, {
+            "item" : "ST. CHARLES",
+            "count" : "5"
+          }, {
+            "item" : "JEFFERSON CITY",
+            "count" : "4"
+          }, {
+            "item" : "ST. JOSEPH",
+            "count" : "4"
+          }, {
+            "item" : "DEFIANCE",
+            "count" : "4"
+          }, {
+            "item" : "CAPE GIRARDEAU",
+            "count" : "4"
+          }, {
+            "item" : "ST LOUIS",
+            "count" : "4"
+          }, {
+            "item" : "MARYLAND HEIGHTS",
+            "count" : "4"
+          }, {
+            "item" : "STE. GENEVIEVE",
+            "count" : "4"
+          }, {
+            "item" : "AUGUSTA",
+            "count" : "4"
+          }, {
+            "item" : "SEDALIA",
+            "count" : "3"
+          }, {
+            "item" : "BLUE SPRINGS",
+            "count" : "3"
+          }, {
+            "item" : "JOPLIN",
+            "count" : "3"
+          }, {
+            "item" : "GRAIN VALLEY",
+            "count" : "3"
+          } ],
+          "smallest" : "AUGUSTA",
+          "count" : "268",
+          "cardinality" : "128"
+        },
+        "format" : { }
+      } ],
+      "grants" : [ {
+        "inherited" : false,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "metadata" : {
+        "rdfSubject" : "0",
+        "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+        "renderTypeConfig" : {
+          "visible" : {
+            "table" : true
+          }
+        }
+      },
+      "owner" : {
+        "id" : "gytm-8bsj",
+        "displayName" : "Rob Gourley",
+        "screenName" : "Rob Gourley",
+        "type" : "interactive"
+      },
+      "query" : { },
+      "rights" : [ "read" ],
+      "tableAuthor" : {
+        "id" : "gytm-8bsj",
+        "displayName" : "Rob Gourley",
+        "screenName" : "Rob Gourley",
+        "type" : "interactive"
+      },
+      "tags" : [ "missouri", "liquor", "wine", "wholesaler", "solicitor", "zip code", "excise", "tax" ],
+      "flags" : [ "default", "ownerMayBeContacted", "restorable", "restorePossibleForType" ]
+    }
+  },
+  "data" : [ [ "row-msu2~dk42~sr3i", "00000000-0000-0000-4F7E-69B4E414A61B", 0, 1662125735, null, 1662125735, null, "{ }", "AGAVES LLC", "64029", "269834", "LWS", "GRAIN VALLEY" ]
+, [ "row-ru2f~46tq-972y", "00000000-0000-0000-9263-DB3FF6C6F5B3", 0, 1662125735, null, 1662125735, null, "{ }", "ALMA MADER, LLC", "64108", "277230", "22WS", "KANSAS CITY" ]
+, [ "row-jw2i-v8vy~787b", "00000000-0000-0000-5466-7BB02B526C92", 0, 1662125735, null, 1662125735, null, "{ }", "ALPHABETA BREWERY LLC", "631161802", "256512", "22WS", "ST. LOUIS" ]
+, [ "row-pui2.ihs9~4fwy", "00000000-0000-0000-48E5-0A1BAC3498ED", 0, 1662125735, null, 1662125735, null, "{ }", "ANDERS IMPORTS LLC", "63090", "284048", "LWS", "WASHINGTON" ]
+, [ "row-aabf-q4nf-mivq", "00000000-0000-0000-6D15-2891EE72590B", 0, 1662125735, null, 1662125735, null, "{ }", "APPELT'S QUALITY LIQUORS WHOLESALE DIST.", "633793812", "252084", "22WS", "TROY" ]
+, [ "row-thm3_5wsa_yxdy", "00000000-0000-0000-B2C9-5B643AF2F3B0", 0, 1662125735, null, 1662125735, null, "{ }", "APPLE CREEK VINEYARD & WINERY LLC", "637477313", "209335", "22WS", "FRIEDHEIM" ]
+, [ "row-7u25.afhn~k52j", "00000000-0000-0000-6DA1-21A52CF229DB", 0, 1662125735, null, 1662125735, null, "{ }", "AQUAM VINOS HOSPITALITY LLC", "64015", "273503", "LWS", "BLUE SPRINGS" ]
+, [ "row-jrmv-s83h.8n4x", "00000000-0000-0000-AA35-3DBEDE23C38A", 0, 1662125735, null, 1662125735, null, "{ }", "ARCANA LLC", "631332506", "262378", "LWS", "ST. LOUIS" ]
+, [ "row-xtuh_sfuw.m48d", "00000000-0000-0000-4A54-CD7F136DA971", 0, 1662125735, null, 1662125735, null, "{ }", "ARTISAN SPIRITS, LLC", "630683206", "201153", "LWS", "NEW HAVEN" ]
+, [ "row-ba68_rtxx-2j93", "00000000-0000-0000-2378-7279398167F9", 0, 1662125735, null, 1662125735, null, "{ }", "ASPECT BEVERAGE LLC", "64111", "276489", "LWS", "KANSAS CITY" ]
+, [ "row-nn9w-jqgu.e8ie", "00000000-0000-0000-7929-DF4D983D17C3", 0, 1662125735, null, 1662125735, null, "{ }", "AUGUSTA BREWING VENTURE LLC", "63090", "278039", "22WS", "WASHINGTON" ]
+, [ "row-gvqa_yynu.u9ug", "00000000-0000-0000-2C3D-B351A86C5705", 0, 1662125735, null, 1662125735, null, "{ }", "AUGUSTA WINE COMPANY", "63332", "280349", "22WS", "AUGUSTA" ]
+, [ "row-kcq2.7gbq-6qtr", "00000000-0000-0000-E799-B6E4A336509B", 0, 1662125735, null, 1662125735, null, "{ }", "BACKYARD VINE & WINE LLC", "644688465", "259963", "22WS", "MARYVILLE" ]
+, [ "row-yxkk-ndaf_frzi", "00000000-0000-0000-A78C-81F636918BE1", 0, 1662125735, null, 1662125735, null, "{ }", "BALTIMORE BEND VINEYARD LLC", "640969153", "160413", "22WS", "WAVERLY" ]
+, [ "row-wgyk_734k_c4ua", "00000000-0000-0000-8005-44C3E5D8B034", 0, 1662125735, null, 1662125735, null, "{ }", "BANTER BREWING COMPANY LLC", "65810", "283488", "22WS", "SPRINGFIELD" ]
+, [ "row-dbet_q9gv_sxa9", "00000000-0000-0000-5F1D-57A3E44F3C63", 0, 1662125735, null, 1662125735, null, "{ }", "BEAR CREEK BED & BREAKFAST LLC", "65771", "252804", "22WS", "WALNUT SHADE" ]
+, [ "row-vti2~em9c.j6i5", "00000000-0000-0000-EF3B-4335999E571C", 0, 1662125735, null, 1662125735, null, "{ }", "BECKETTS LLC", "652541005", "274230", "22WS", "GLASGOW" ]
+, [ "row-gnc9~a4yh~sn6v", "00000000-0000-0000-43E1-779E558DE71F", 0, 1662125735, null, 1662125735, null, "{ }", "BKE LLC", "630314606", "256367", "22WS", "FLORISSANT" ]
+, [ "row-we6f_k2cp-cvrx", "00000000-0000-0000-070E-82B377F91C23", 0, 1662125735, null, 1662125735, null, "{ }", "BLACK BEAR CIDER COMPANY LLC", "63114", "274804", "22WS", "OVERLAND" ]
+, [ "row-xt45_jzh4_f62p", "00000000-0000-0000-4C55-101ECC6113DF", 0, 1662125735, null, 1662125735, null, "{ }", "BLACKSMITH ARTISANAL SPIRITS, LLC", "650539364", "260165", "LWS", "LOHMAN" ]
+, [ "row-k3ba_vi59~qcqa", "00000000-0000-0000-F900-1760AA5DE03B", 0, 1662125735, null, 1662125735, null, "{ }", "BLATTEL, JOAN M.", "633855308", "192568", "22WS", "WENTZVILLE" ]
+, [ "row-nbuj_nwq7_g3jh", "00000000-0000-0000-C3E8-6A0ABF1837B1", 0, 1662125735, null, 1662125735, null, "{ }", "BLUE CLOUD DISTRIBUTION OF MISSOURI INC", "63140", "280607", "5WS", "ST LOUIS" ]
+, [ "row-537x_46b8~6dbx", "00000000-0000-0000-A437-40E6B2408AD0", 0, 1662125735, null, 1662125735, null, "{ }", "BLUE CLOUD DISTRIBUTION OF MISSOURI INC.", "65301", "280579", "5WS", "SEDALIA" ]
+, [ "row-id4g~qyfv.gfh9", "00000000-0000-0000-CBAF-DDA24DBFF5AE", 0, 1662125735, null, 1662125735, null, "{ }", "BLUE CLOUD DISTRIBUTION OF MISSOURI INC.", "64504", "280597", "5WS", "ST. JOSEPH" ]
+, [ "row-zs3d~5wsp-i38u", "00000000-0000-0000-8935-BDD7D70433CC", 0, 1662125735, null, 1662125735, null, "{ }", "BLUE CLOUD DISTRIBUTION OF MISSOURI INC.", "64804", "280621", "5WS", "JOPLIN" ]
+, [ "row-gtn4~9ruc~4g4q", "00000000-0000-0000-04C0-4E41C77F9F73", 0, 1662125735, null, 1662125735, null, "{ }", "BLUEWOOD BREWING LLC", "63118", "280261", "22WS", "ST. LOUIS" ]
+, [ "row-iav2_jch7.eucx", "00000000-0000-0000-7BED-0156F0BB936C", 0, 1662125735, null, 1662125735, null, "{ }", "BOBBIE SUZANNE LLC", "63640", "268054", "LWS", "FARMINGTON" ]
+, [ "row-b6zm~6u3z.juzs", "00000000-0000-0000-632F-C49B295AE3DC", 0, 1662125735, null, 1662125735, null, "{ }", "BOMMARITO WINES & SPIRITS, INC.", "630433307", "63265", "LWS", "ST LOUIS" ]
+, [ "row-4yy2.rmx3~ypmb", "00000000-0000-0000-A923-160EB92CDB65", 0, 1662125735, null, 1662125735, null, "{ }", "BONDED BEVERAGE LLC", "641291387", "283349", "LWS", "KANSAS CITY" ]
+, [ "row-ttkt.jea8.v5pp", "00000000-0000-0000-3CCA-149B57C19DF6", 0, 1662125735, null, 1662125735, null, "{ }", "BOOTHEEL SPIRITS DISTILLERY LLC", "63845", "277793", "LWS", "EAST PRAIRIE" ]
+, [ "row-pbza-gggg_dt3w", "00000000-0000-0000-E4D1-C493D5A2B0AF", 0, 1662125735, null, 1662125735, null, "{ }", "BORDER BREWING COMPANY LLC", "64108", "274609", "22WS", "KANSAS CITY" ]
+, [ "row-rdrf.kayf_sr83", "00000000-0000-0000-1CB7-4BD9A81D5121", 0, 1662125735, null, 1662125735, null, "{ }", "BREAKTHRU BEVERAGE MISSOURI LLC", "64116", "282292", "LWS", "N. KANSAS CITY" ]
+, [ "row-ur6n_gp94~vt4j", "00000000-0000-0000-760A-838C1BFEAC57", 0, 1662125735, null, 1662125735, null, "{ }", "BREAKTHRU BEVERAGE MISSOURI LLC", "65202", "282293", "LWS", "COLUMBIA" ]
+, [ "row-b9zn-bsxn_mqcf", "00000000-0000-0000-6BAA-03940D8A0975", 0, 1662125735, null, 1662125735, null, "{ }", "BREAKTHRU BEVERAGE MISSOURI LLC", "63701", "282294", "LWS", "CAPE GIRARDEAU" ]
+, [ "row-bd6y~gvs5_7jry", "00000000-0000-0000-7954-3331B54B79F9", 0, 1662125735, null, 1662125735, null, "{ }", "BREAKTHRU BEVERAGE MISSOURI LLC", "65802", "282295", "LWS", "SPRINGFIELD" ]
+, [ "row-65hm~kefk-pmsd", "00000000-0000-0000-FB33-CC1CF91D47DB", 0, 1662125735, null, 1662125735, null, "{ }", "BUB'S DISTILLERY LLC", "657428357", "246370", "LWS", "ROGERSVILLE" ]
+, [ "row-smvd~tw6z.7jtq", "00000000-0000-0000-FFB2-39E41E405793", 0, 1662125735, null, 1662125735, null, "{ }", "BUSCH DISTRIBUTING COMPANY LLC", "633761078", "161870", "LWS", "ST. PETERS" ]
+, [ "row-fsva_3bd5~bwpj", "00000000-0000-0000-54EE-7D9DEB67EE14", 0, 1662125735, null, 1662125735, null, "{ }", "BUSCH FAMILY BREWING AND DISTILLING, LLC", "633411422", "272817", "LWS", "DEFIANCE" ]
+, [ "row-qkv5_vauh-amiv", "00000000-0000-0000-6964-1F22AA683527", 0, 1662125735, null, 1662125735, null, "{ }", "C.G.S. DISTRIBUTING & ASSOCIATES, INC.", "650410221", "219194", "LWS", "HERMANN" ]
+, [ "row-dfss.mvmi~kc5h", "00000000-0000-0000-90A8-ABADC3E8BFA8", 0, 1662125735, null, 1662125735, null, "{ }", "C.H. WITTENBERG DISTILLING COMPANY LLC", "63068", "261573", "LWS", "NEW HAVEN" ]
+, [ "row-rkj3.us35.96m6", "00000000-0000-0000-7384-91BE03632453", 0, 1662125735, null, 1662125735, null, "{ }", "CANTERBURY HILL WINERY & RESTAURANT LLC", "650432100", "223661", "22WS", "HOLTS SUMMIT" ]
+, [ "row-xu6i-8qpm-w37b", "00000000-0000-0000-DED4-C1E3DA8670FD", 0, 1662125735, null, 1662125735, null, "{ }", "CASUAL ANIMAL BREWING COMPANY LLC", "641081423", "250897", "22WS", "KANSAS CITY" ]
+, [ "row-pxtd~wy5y-2wrx", "00000000-0000-0000-43B3-36A67A25E3DD", 0, 1662125735, null, 1662125735, null, "{ }", "CAVE VINEYARD LLC", "636707931", "246863", "LWS", "STE. GENEVIEVE" ]
+, [ "row-5ezt_j7si.a2ve", "00000000-0000-0000-BF5A-D1CE9C67BB9C", 0, 1662125735, null, 1662125735, null, "{ }", "CHANDLER HILL VINEYARDS LLC", "633412708", "177977", "22WS", "DEFIANCE" ]
+, [ "row-xsmc_h3by_527h", "00000000-0000-0000-613D-9E30C1750830", 0, 1662125735, null, 1662125735, null, "{ }", "CHAUMETTE INC.", "636709022", "171659", "22WS", "STE. GENEVIEVE" ]
+, [ "row-khj3.jmbz_dgiq", "00000000-0000-0000-E116-652249ABA995", 0, 1662125735, null, 1662125735, null, "{ }", "CITY CIDER LLC", "63108", "250091", "22WS", "ST. LOUIS" ]
+, [ "row-kqsh.rcag-z2zz", "00000000-0000-0000-3A3E-38DEE8AFE569", 0, 1662125735, null, 1662125735, null, "{ }", "CITY CIDER LLC", "64108", "284390", "LWS", "KANSAS CITY" ]
+, [ "row-xsb7~cygt~r7ir", "00000000-0000-0000-ED0E-B620800DABE7", 0, 1662125735, null, 1662125735, null, "{ }", "CIVIC DUTY BREWING COMPANY LLC", "64110", "253120", "22WS", "KANSAS CITY" ]
+, [ "row-mhd3~3wew-mihc", "00000000-0000-0000-3912-D0F047568264", 0, 1662125735, null, 1662125735, null, "{ }", "CLASSIQUE LLC", "631442816", "129953", "LWS", "WEBSTER GROVES" ]
+, [ "row-dd8s-9sb7-27fp", "00000000-0000-0000-7AF5-920F304A35F0", 0, 1662125735, null, 1662125735, null, "{ }", "CLASSIQUE LLC", "633321563", "131947", "22WS", "AUGUSTA" ]
+, [ "row-sb79_saed_nhus", "00000000-0000-0000-8655-43D67622F64A", 0, 1662125735, null, 1662125735, null, "{ }", "CLASSIQUE LLC", "641083631", "219629", "LWS", "KANSAS CITY" ]
+, [ "row-wf86.47kk.2pcs", "00000000-0000-0000-1C1A-4983136A810C", 0, 1662125735, null, 1662125735, null, "{ }", "CLEAN WINE MISSOURI LLC", "65802", "271323", "22WS", "SPRINGFIELD" ]
+, [ "row-v3wa-fcqv.8r2q", "00000000-0000-0000-C27A-F19F5EE1C50A", 0, 1662125735, null, 1662125735, null, "{ }", "CONNER, MATT", "656168250", "246638", "LWS", "BRANSON" ]
+, [ "row-2a2u-tx5u-vkk7", "00000000-0000-0000-8D92-86F7E0929A94", 0, 1662125735, null, 1662125735, null, "{ }", "COOLSHIP HOLDING, LLC", "641081539", "259236", "22WS", "KANSAS CITY" ]
+, [ "row-6p5k-em4n.jxcw", "00000000-0000-0000-D5F0-3003F9CDE298", 0, 1662125735, null, 1662125735, null, "{ }", "COOPER'S OAK WINERY ASSOCIATES, LLC", "652572875", "245177", "LWS", "HIGBEE" ]
+, [ "row-drhk-uvsq_yrg3", "00000000-0000-0000-2594-397F467A0EC7", 0, 1662125735, null, 1662125735, null, "{ }", "COPPER RUN ENTERPRISES LLC", "657377505", "259477", "LWS", "BRANSON WEST" ]
+, [ "row-ejmh.7sfj_ebiv", "00000000-0000-0000-889F-B537379E99A6", 0, 1662125735, null, 1662125735, null, "{ }", "COUNTY BEVERAGE COMPANY INC.", "640810000", "264109", "LWS", "LEE'S SUMMIT" ]
+, [ "row-2ycg_amkk-6xwk", "00000000-0000-0000-CC8B-0F415F32DD16", 0, 1662125735, null, 1662125735, null, "{ }", "COUNTY DISTRIBUTING COMPANY INC.", "653012398", "166926", "LWS", "SEDALIA" ]
+, [ "row-krdv-xb2g-h4sh", "00000000-0000-0000-500D-97361B07DAB7", 0, 1662125735, null, 1662125735, null, "{ }", "CRAFT REPUBLIC LLC", "631044040", "245664", "LWS", "ST. LOUIS" ]
+, [ "row-nxza.hark.qv72", "00000000-0000-0000-473A-5245F78C194B", 0, 1662125735, null, 1662125735, null, "{ }", "CROWN VALLEY WINERY INC.", "636402002", "163520", "22WS", "FARMINGTON" ]
+, [ "row-fkw6~4jps.mwxs", "00000000-0000-0000-109C-17426AC288B6", 0, 1662125735, null, 1662125735, null, "{ }", "CROWN VALLEY WINERY INC.", "636709039", "175430", "LWS", "STE. GENEVIEVE" ]
+, [ "row-pt3p_gb3a-iw2x", "00000000-0000-0000-0C9C-1A9C6DA0356F", 0, 1662125735, null, 1662125735, null, "{ }", "CROWN VALLEY WINERY INC.", "63670", "281951", "LWS", "STE. GENEVIEVE" ]
+, [ "row-wknm~wjf4.nhpn", "00000000-0000-0000-EB9A-E1D1BD62B607", 0, 1662125735, null, 1662125735, null, "{ }", "CSM SALES AND MARKETING LLC", "64152", "257712", "LWS", "PARKVILLE" ]
+, [ "row-sckz_c4n4-izm7", "00000000-0000-0000-0A10-E0ECF718C888", 0, 1662125735, null, 1662125735, null, "{ }", "D & D DISTRIBUTORS LLLP", "63026", "153635", "LWS", "FENTON" ]
+, [ "row-8b74_vskj.nqg7", "00000000-0000-0000-1C01-9C4DF44389C1", 0, 1662125735, null, 1662125735, null, "{ }", "D & D DISTRIBUTORS LLLP", "64108", "269102", "LWS", "KANSAS CITY" ]
+, [ "row-87pg_mvyn-4h6x", "00000000-0000-0000-3A36-1CCA1A9DC5DB", 0, 1662125735, null, 1662125735, null, "{ }", "D & D DISTRIBUTORS LLLP", "63601", "269103", "LWS", "DESLOGE" ]
+, [ "row-jgfr_er32_9aiz", "00000000-0000-0000-336D-E48DF40FD97B", 0, 1662125735, null, 1662125735, null, "{ }", "D & D DISTRIBUTORS, LLLP", "654531612", "273869", "LWS", "CUBA" ]
+, [ "row-h5rv.z26y.ngcp", "00000000-0000-0000-2ADE-7445570F83C6", 0, 1662125735, null, 1662125735, null, "{ }", "DAVIS RALLY POINT LLC", "64701", "253588", "22WS", "HARRISONVILLE" ]
+, [ "row-zezm_ts7z~tq86", "00000000-0000-0000-1D9C-2A1201AB9594", 0, 1662125735, null, 1662125735, null, "{ }", "DEEP SLEEP BREWING COMPANY LLC", "630906076", "250354", "22WS", "WASHINGTON" ]
+, [ "row-fwk9-hb4y_4iun", "00000000-0000-0000-0D18-FFEA7871DF96", 0, 1662125735, null, 1662125735, null, "{ }", "DEFIANCE RIDGE VINEYARDS LLC", "633412803", "252451", "22WS", "DEFIANCE" ]
+, [ "row-uu9h~eq6b_9ggi", "00000000-0000-0000-6912-799E5DF1808F", 0, 1662125735, null, 1662125735, null, "{ }", "DEFIANT SPIRITS LLC", "631051841", "225830", "LWS", "CLAYTON" ]
+, [ "row-zfux_zc87~qktc", "00000000-0000-0000-27B8-59BEB1AEA657", 0, 1662125735, null, 1662125735, null, "{ }", "DIERBERG EDUCATIONAL FOUNDATION INC.", "650419650", "248755", "LWS", "HERMANN" ]
+, [ "row-6egc.3vws_6wu3", "00000000-0000-0000-4F11-0B0BA889D978", 0, 1662125735, null, 1662125735, null, "{ }", "DISTILLERY OF DEFIANCE LLC", "633413103", "235728", "LWS", "DEFIANCE" ]
+, [ "row-5ec3-9t9f-45gj", "00000000-0000-0000-2DBE-E47CCC8959F8", 0, 1662125735, null, 1662125735, null, "{ }", "DK54VINES LLC", "658020000", "237644", "22WS", "SPRINGFIELD" ]
+, [ "row-snn2_zecz.sv25", "00000000-0000-0000-E205-AA0EE042337B", 0, 1662125735, null, 1662125735, null, "{ }", "DOGMASTER DISTILLERY LLC", "652014954", "220446", "LWS", "COLUMBIA" ]
+, [ "row-3swf_me6u_5iqf", "00000000-0000-0000-E897-4C04DAAAC1D9", 0, 1662125735, null, 1662125735, null, "{ }", "DUBIOUS CLAIMS BREWING LLC", "64024", "260097", "22WS", "EXCELSIOR SPRINGS" ]
+, [ "row-dv9k~x6zv-x2qz", "00000000-0000-0000-F562-D68FFB9B51F7", 0, 1662125735, null, 1662125735, null, "{ }", "EAST FORTY BREWING LLC", "64015", "261549", "22WS", "BLUE SPRINGS" ]
+, [ "row-rhbz-4r6k~8hz6", "00000000-0000-0000-5AF2-94DED1B8FA17", 0, 1662125735, null, 1662125735, null, "{ }", "EDG-CLIF BREWERY LLC", "636640000", "227422", "22WS", "POTOSI" ]
+, [ "row-ncgg~nesy.zusp", "00000000-0000-0000-379B-F7B5AFEFEA15", 0, 1662125735, null, 1662125735, null, "{ }", "F & R WINE IMPORTS LLC", "631192945", "247895", "22WS", "WEBSTER GROVES" ]
+, [ "row-rukz_zzm9-2wuy", "00000000-0000-0000-F9CE-8B334A00D1B7", 0, 1662125735, null, 1662125735, null, "{ }", "FARM AND SPIRIT INC", "63090", "271482", "LWS", "WASHINGTON" ]
+, [ "row-h6xa-j9hy.te84", "00000000-0000-0000-63D8-76B99FDC9611", 0, 1662125735, null, 1662125735, null, "{ }", "FECHTEL BEVERAGE & SALES INC.", "651011648", "257723", "LWS", "JEFFERSON CITY" ]
+, [ "row-tp7z~6z8t_cnw8", "00000000-0000-0000-F7F9-CFAB3110F479", 0, 1662125735, null, 1662125735, null, "{ }", "FENCE STILE LLC", "64024", "277846", "LWS", "EXCELSIOR SPRINGS" ]
+, [ "row-n9xh_d82n~iqea", "00000000-0000-0000-B33C-D30A14BF91A2", 0, 1662125735, null, 1662125735, null, "{ }", "FERMENTED PROJECTS LLC", "63143", "269696", "22WS", "MAPLEWOOD" ]
+, [ "row-vptw_p9tr-nmba", "00000000-0000-0000-358F-056589A1DE53", 0, 1662125735, null, 1662125735, null, "{ }", "FLORIDA WINERY INC.", "652832177", "226974", "22WS", "FLORIDA" ]
+, [ "row-ryk9_znz8~mens", "00000000-0000-0000-08A1-C39F4EB32D20", 0, 1662125735, null, 1662125735, null, "{ }", "FORISTELL ENTERPRISES LLC", "633905123", "228077", "22WS", "WRIGHT CITY" ]
+, [ "row-95et_karf-a8j9", "00000000-0000-0000-6C40-C3F23CB28825", 0, 1662125735, null, 1662125735, null, "{ }", "FRONT ROW PROPERTY, LLC", "65806", "273002", "LWS", "SPRINGFIELD" ]
+, [ "row-nguz-igjr~4tk3", "00000000-0000-0000-E279-A4C5150CFA57", 0, 1662125735, null, 1662125735, null, "{ }", "GOAT BREWING COMPANY LLC, THE", "64086", "284433", "22WS", "LEES SUMMIT" ]
+, [ "row-e939_ikx9~nbq5", "00000000-0000-0000-FD40-BADAD36B39AD", 0, 1662125735, null, 1662125735, null, "{ }", "GOLDEN EAGLE DISTRIBUTING COMPANY", "634016545", "247130", "LWS", "HANNIBAL" ]
+, [ "row-st4c-mi5j-u7vf", "00000000-0000-0000-0616-1E32347298D4", 0, 1662125735, null, 1662125735, null, "{ }", "GOLDEN EAGLE DISTRIBUTING COMPANY", "635011736", "247131", "LWS", "KIRKSVILLE" ]
+, [ "row-bf3f-463a~skyx", "00000000-0000-0000-E08A-6743F462F69A", 0, 1662125735, null, 1662125735, null, "{ }", "GRAIN DISTRIBUTING LLC", "63143", "281534", "LWS", "MAPLEWOOD" ]
+, [ "row-c6k8_z4yn-m2nq", "00000000-0000-0000-5BCE-B97028D058AB", 0, 1662125735, null, 1662125735, null, "{ }", "GRAND PRIX BEVERAGE, LLC", "631113653", "198689", "LWS", "ST. LOUIS" ]
+, [ "row-p2cs-yp7p.5v9s", "00000000-0000-0000-528F-2C5AB0697107", 0, 1662125735, null, 1662125735, null, "{ }", "GREAT RIVERS DISTRIBUTING COMPANY INC", "657899606", "165545", "LWS", "POMONA" ]
+, [ "row-69f3-shp8~723z", "00000000-0000-0000-F45B-E7B587F97227", 0, 1662125735, null, 1662125735, null, "{ }", "GRELLNER SALES & SERVICE INC.", "65301", "280996", "LWS", "SEDALIA" ]
+, [ "row-dznr-ukyf~rtsi", "00000000-0000-0000-21C2-B5A17EDDAA60", 0, 1662125735, null, 1662125735, null, "{ }", "GRELLNER SALES & SERVICE INC.", "65401", "280999", "LWS", "ROLLA" ]
+, [ "row-ajr8_s3qy.q38c", "00000000-0000-0000-B06C-3B362A0E0579", 0, 1662125735, null, 1662125735, null, "{ }", "GRIESEDIECK BROTHERS BREWERY CORP.", "631471840", "230439", "LWS", "ST. LOUIS" ]
+, [ "row-uvr6_t5a4.mxz4", "00000000-0000-0000-C68A-2CC0AF99E94A", 0, 1662125735, null, 1662125735, null, "{ }", "GRIMM'S TREE BREWING LLC", "63055", "269534", "22WS", "LABADIE" ]
+, [ "row-f2qd_hx47.jxq8", "00000000-0000-0000-3D57-6E09383A2FA7", 0, 1662125735, null, 1662125735, null, "{ }", "GRINDSTONE VALLEY WINERY LLC", "644740000", "231303", "22WS", "OSBORN" ]
+, [ "row-2anb~iz5c~qwdv", "00000000-0000-0000-6741-AE9860273618", 0, 1662125735, null, 1662125735, null, "{ }", "H.W. HERRELL DISTRIBUTING CO.", "630522326", "270089", "LWS", "IMPERIAL" ]
+, [ "row-qciz.ydwr.6a5b", "00000000-0000-0000-073E-81433F731AED", 0, 1662125735, null, 1662125735, null, "{ }", "HANDCRAFTED WINES MISSOURI LLC", "64111", "250514", "LWS", "KANSAS CITY" ]
+, [ "row-dnpm~2khp.mhkt", "00000000-0000-0000-26F8-C9EC69A92302", 0, 1662125735, null, 1662125735, null, "{ }", "HEART OF AMERICA BEVERAGE COMPANY, LLC", "648048176", "152341", "22WS", "JOPLIN" ]
+, [ "row-yn87~duif-ww7c", "00000000-0000-0000-72C5-603017D5C1BA", 0, 1662125735, null, 1662125735, null, "{ }", "HEART OF AMERICA BEVERAGE COMPANY, LLC", "658024579", "166278", "LWS", "SPRINGFIELD" ]
+, [ "row-mrpg_g7gm_uz6u", "00000000-0000-0000-95E3-14215471398D", 0, 1662125735, null, 1662125735, null, "{ }", "HEAVY RIFF BREWING COMPANY LLC", "631393305", "269923", "22WS", "ST. LOUIS" ]
+, [ "row-rxi2~bcbn.vp76", "00000000-0000-0000-E1C6-7AA94F2F3121", 0, 1662125735, null, 1662125735, null, "{ }", "HEMMAN WINERY LLC", "63737", "270912", "22WS", "BRAZEAU" ]
+, [ "row-ryqz_ec2q-dwrx", "00000000-0000-0000-59B9-91C7F4D0397D", 0, 1662125735, null, 1662125735, null, "{ }", "HIGH ADVENTURE DISTRIBUTING COMPANY LLC", "64633", "280726", "LWS", "CARROLLTON" ]
+, [ "row-iugz.9kwf.xkkd", "00000000-0000-0000-DADE-D2675AAB857F", 0, 1662125735, null, 1662125735, null, "{ }", "HIGH LIFE SALES COMPANY", "641451526", "163884", "LWS", "KANSAS CITY" ]
+, [ "row-xmja.d64g_wgv3", "00000000-0000-0000-CCC9-1DC657E3C289", 0, 1662125735, null, 1662125735, null, "{ }", "HOFFMANN MT. PLEASANT WINERY LLC", "63332", "280348", "22WS", "AUGUSTA" ]
+, [ "row-m7gr.kh9s~f6kp", "00000000-0000-0000-04AE-B75E6FAD670B", 0, 1662125735, null, 1662125735, null, "{ }", "HOOVER VINTNERS LLC", "65041", "230390", "22WS", "HERMANN" ]
+, [ "row-ytx8.rgv8~fe7e", "00000000-0000-0000-69EE-67B5DFE1A027", 0, 1662125735, null, 1662125735, null, "{ }", "HOPEWELL BRIDGE WINERY LLC", "65785", "280244", "22WS", "STOCKTON" ]
+, [ "row-t9df.3e89-rnq3", "00000000-0000-0000-77AB-9DE31D44F5A0", 0, 1662125735, null, 1662125735, null, "{ }", "INDIAN SPRINGS BREWING COMPANY LLC", "648507936", "246665", "22WS", "NEOSHO" ]
+, [ "row-8bws_pfuw_49yz", "00000000-0000-0000-98F8-4146FCB04956", 0, 1662125735, null, 1662125735, null, "{ }", "IONIA ATLANTIC DISTRIBUTION LLC", "63043", "283270", "LWS", "MARYLAND HEIGHTS" ]
+, [ "row-3sak-bw4m-m3wz", "00000000-0000-0000-A647-07DF919C2E8B", 0, 1662125735, null, 1662125735, null, "{ }", "IRON HOPS BREWING COMPANY LLC", "63102", "285005", "22WS", "ST. LOUIS" ]
+, [ "row-7n3f_hu84-89db", "00000000-0000-0000-5356-96BF92E6BCFC", 0, 1662125735, null, 1662125735, null, "{ }", "ISHAMS ORDINARY LLC", "65201", "253685", "LWS", "COLUMBIA" ]
+, [ "row-5s7m_5bxc-22zk", "00000000-0000-0000-D15B-D8440400A0A2", 0, 1662125735, null, 1662125735, null, "{ }", "J CREEK, LLC", "64079", "267731", "22WS", "PLATTE CITY" ]
+, [ "row-xqji~e52g_iuri", "00000000-0000-0000-D0E2-ABB54BD1D39F", 0, 1662125735, null, 1662125735, null, "{ }", "JACOB RIEGER & COMPANY LLC", "641201501", "262924", "LWS", "KANSAS CITY" ]
+, [ "row-hv9r-f2z2-88sz", "00000000-0000-0000-3939-68E80B893638", 0, 1662125735, null, 1662125735, null, "{ }", "JALISCO US LLC", "631321023", "161793", "LWS", "ST. LOUIS" ]
+, [ "row-s9du~va33-jsr3", "00000000-0000-0000-0E1A-485E836112E5", 0, 1662125735, null, 1662125735, null, "{ }", "JC-ARANDAS INC.", "640298642", "176605", "LWS", "GRAIN VALLEY" ]
+, [ "row-66s6-52d3-kmtd", "00000000-0000-0000-F78B-E5EC20EF51CE", 0, 1662125735, null, 1662125735, null, "{ }", "KALEIDOSCOPE COFFEE ROASTERS LLC", "63703", "275657", "22WS", "CAPE GIRARDEAU" ]
+, [ "row-96yb~xsmq~sacu", "00000000-0000-0000-0D74-1CCD33395527", 0, 1662125735, null, 1662125735, null, "{ }", "KC BREWERS CO INC", "64506", "273366", "22WS", "ST. JOSEPH" ]
+, [ "row-266g-japx-cuwh", "00000000-0000-0000-8169-B6AF91B5D68D", 0, 1662125735, null, 1662125735, null, "{ }", "KEESAMAN FAMILY VINEYARDS LLC", "64474", "284653", "LWS", "OSBORN" ]
+, [ "row-wv5m.fgj5-4c3n", "00000000-0000-0000-67A9-CBBCA87380AF", 0, 1662125735, null, 1662125735, null, "{ }", "KELTOI VINEYARD LLC", "648559129", "254442", "22WS", "ORONOGO" ]
+, [ "row-xmkc~v2cy_j5qt", "00000000-0000-0000-E899-F3C11B391CC6", 0, 1662125735, null, 1662125735, null, "{ }", "KOHLFELD DISTRIBUTING INC.", "637553803", "164894", "LWS", "JACKSON" ]
+, [ "row-fdpi-iaeg-rmcp", "00000000-0000-0000-589B-BCFF6BC8B3D7", 0, 1662125735, null, 1662125735, null, "{ }", "KROOKED MOON DISTILLERY LLC", "65066", "265481", "LWS", "OWENSVILLE" ]
+, [ "row-msfn_dw6s-es9v", "00000000-0000-0000-FC72-DD1D9088E96E", 0, 1662125735, null, 1662125735, null, "{ }", "LADOGA RIDGE VINEYARD & WINERY LLC", "640898739", "197180", "22WS", "SMITHVILLE" ]
+, [ "row-aqci.6mrx~9gmr", "00000000-0000-0000-F512-5C6E7EFB5CD9", 0, 1662125735, null, 1662125735, null, "{ }", "LAKE CREEK WINERY LLC", "633572292", "283906", "22WS", "MARTHASVILLE" ]
+, [ "row-vzvv.yqru.jgv4", "00000000-0000-0000-14BF-3D8DF7E72E73", 0, 1662125735, null, 1662125735, null, "{ }", "LASZLO CORP.", "633047119", "141673", "22WS", "ST. PETERS" ]
+, [ "row-w8jd_z6gi~yw9k", "00000000-0000-0000-9E8B-9BD6BF0342D1", 0, 1662125735, null, 1662125735, null, "{ }", "LEAKY ROOF MEADERY LLC", "656224500", "251869", "22WS", "BUFFALO" ]
+, [ "row-hk6k-wmbp.qypx", "00000000-0000-0000-886C-A17F8C5DEFF5", 0, 1662125735, null, 1662125735, null, "{ }", "LES BOURGEOIS VINEYARDS INC.", "65279", "266724", "LWS", "ROCHEPORT" ]
+, [ "row-8vd6.67c6~nrkb", "00000000-0000-0000-9A0D-C36EAF288661", 0, 1662125735, null, 1662125735, null, "{ }", "LILE WINE LLC", "641113667", "220515", "LWS", "KANSAS CITY" ]
+, [ "row-exfu-pikj~krei", "00000000-0000-0000-ACEC-6A7CF6F01AAF", 0, 1662125735, null, 1662125735, null, "{ }", "LINDWEDEL WINE GARDEN LLC", "656166136", "190152", "22WS", "BRANSON" ]
+, [ "row-mggp_9ycf-ztbd", "00000000-0000-0000-C24F-ED96D991B841", 0, 1662125735, null, 1662125735, null, "{ }", "LIONHEART WHISKEY CO LLC", "65041", "283152", "LWS", "HERMANN" ]
+, [ "row-wpvj.k4gd.cszk", "00000000-0000-0000-9480-51F0B8A4F1E1", 0, 1662125735, null, 1662125735, null, "{ }", "LLOYD DISTRIBUTING CO INC", "635017709", "269745", "LWS", "KIRKSVILLE" ]
+, [ "row-ji59~k76x_nqtw", "00000000-0000-0000-AF4E-F0D839A92598", 0, 1662125735, null, 1662125735, null, "{ }", "LOHR DISTRIBUTING CO. INC.", "631293868", "226108", "LWS", "ST. LOUIS" ]
+, [ "row-s7mr-v5xe~rtwc", "00000000-0000-0000-FE92-CC255171C448", 0, 1662125735, null, 1662125735, null, "{ }", "LOHR DISTRIBUTING COMPANY INC.", "641201370", "194998", "LWS", "KANSAS CITY" ]
+, [ "row-kdzh-a279.44mh", "00000000-0000-0000-B9B3-1A0E1AAC819B", 0, 1662125735, null, 1662125735, null, "{ }", "LONG, KRISTY I. & KEVIN LEE", "653503622", "215472", "22WS", "SMITHTON" ]
+, [ "row-ukit_b98w~wysq", "00000000-0000-0000-FFF5-9F16A87A9E34", 0, 1662125735, null, 1662125735, null, "{ }", "LORBERT IMPORTS, LLC", "631321307", "265136", "LWS", "ST. LOUIS" ]
+, [ "row-sne5-ihr9.d56e", "00000000-0000-0000-F376-3E2FF5D3F59A", 0, 1662125735, null, 1662125735, null, "{ }", "MAIN & MILL BARRELWORKS LLC", "630281903", "267171", "22WS", "FESTUS" ]
+, [ "row-vdix.9xyc~eibz", "00000000-0000-0000-FAC6-B97B325F3313", 0, 1662125735, null, 1662125735, null, "{ }", "MANOS INC.", "641081714", "227640", "22WS", "KANSAS CITY" ]
+, [ "row-xwe3_eq4q_itcv", "00000000-0000-0000-596B-D5FAD660F4D0", 0, 1662125735, null, 1662125735, null, "{ }", "MARTIN BROTHERS VINEYARD & WINERY LLC", "65041", "256459", "22WS", "HERMANN" ]
+, [ "row-s2fa~34xe_wi9p", "00000000-0000-0000-F9E5-C0BBB0FFDECB", 0, 1662125735, null, 1662125735, null, "{ }", "MCCORMICK WINE IMPORTS, LLC", "630422319", "242082", "22WS", "HAZELWOOD" ]
+, [ "row-wye5_97fe-wb6f", "00000000-0000-0000-4A23-31226C02F7BA", 0, 1662125735, null, 1662125735, null, "{ }", "MCCRACKEN ANCESTRAL SPIRITS DISTILLERY", "65649", "268199", "LWS", "FAIR PLAY" ]
+, [ "row-nxbq-bwjy~8u9f", "00000000-0000-0000-C569-12CD049DD306", 0, 1662125735, null, 1662125735, null, "{ }", "MCINTOSH AGRICULTURAL CONSORTIUM LLC", "651019481", "258725", "LWS", "JEFFERSON CITY" ]
+, [ "row-buhp_5884_7fzf", "00000000-0000-0000-918F-6B4E61883BFF", 0, 1662125735, null, 1662125735, null, "{ }", "MEAD HALL LLC", "633014879", "274726", "22WS", "ST. CHARLES" ]
+, [ "row-g2ft.sxfr.ibp8", "00000000-0000-0000-A051-B13E3EF7844C", 0, 1662125735, null, 1662125735, null, "{ }", "MERAMEC VINEYARDS WINERY LLC", "655591000", "273956", "LWS", "ST. JAMES" ]
+, [ "row-w7za.ak89.vatz", "00000000-0000-0000-879C-8C4B5606CCFE", 0, 1662125735, null, 1662125735, null, "{ }", "MISSOURI BEER COMPANY LLC", "633661926", "247837", "22WS", "O'FALLON" ]
+, [ "row-ky8n~ky89~je3w", "00000000-0000-0000-09A7-3B388914E977", 0, 1662125735, null, 1662125735, null, "{ }", "MISSOURI EAGLE LLC", "655360010", "156889", "LWS", "LEBANON" ]
+, [ "row-qe56_tfz4.ju3x", "00000000-0000-0000-E93E-38452556E2F6", 0, 1662125735, null, 1662125735, null, "{ }", "MISSOURI EAGLE LLC", "648019781", "170916", "LWS", "JOPLIN" ]
+, [ "row-aun6-u9ww_nhx5", "00000000-0000-0000-B7DE-4027DB22CF30", 0, 1662125735, null, 1662125735, null, "{ }", "MISSOURI EAGLE LLC", "647720000", "196740", "LWS", "NEVADA" ]
+, [ "row-qyex-gbqt.857h", "00000000-0000-0000-1EB3-BA27886879BA", 0, 1662125735, null, 1662125735, null, "{ }", "MISSOURI RIDGE DISTILLERY LLC", "656160000", "238880", "LWS", "BRANSON" ]
+, [ "row-yf2s-2x39~uyk6", "00000000-0000-0000-18AE-A99DB0C37CF8", 0, 1662125735, null, 1662125735, null, "{ }", "MISSOURI STATE UNIVERSITY-MOUNTAIN GROVE", "657112999", "182293", "LWS", "MOUNTAIN GROVE" ]
+, [ "row-xwvq~phf6.w2g7", "00000000-0000-0000-D796-CE4B3BABB3B6", 0, 1662125735, null, 1662125735, null, "{ }", "MODERN BREWERY INC., THE", "631100000", "233796", "22WS", "ST. LOUIS COUNTY" ]
+, [ "row-h4d2.ic4t_qu53", "00000000-0000-0000-9427-3590F6885A87", 0, 1662125735, null, 1662125735, null, "{ }", "MORTENSEN NAATZ ENTERPRISES LLC", "644840000", "248479", "22WS", "RUSHVILLE" ]
+, [ "row-wb8d-2hnv-5xby", "00000000-0000-0000-2C53-12E1501AE22B", 0, 1662125735, null, 1662125735, null, "{ }", "MRMJ LLC", "65020", "279976", "22WS", "CAMDENTON" ]
+, [ "row-t86c_iy3c.itid", "00000000-0000-0000-C22D-813CCA34D7BB", 0, 1662125735, null, 1662125735, null, "{ }", "MYRTLE'S DISTILLED SPIRITS, LLC", "648502008", "261713", "LWS", "NEOSHO" ]
+, [ "row-kjgg-tx4b_777j", "00000000-0000-0000-D3D0-1AA37CEBE17D", 0, 1662125735, null, 1662125735, null, "{ }", "N.H. SCHEPPERS DIST. CO.", "652015553", "154685", "LWS", "COLUMBIA" ]
+, [ "row-fh4q-5kai-4svz", "00000000-0000-0000-85F2-CA229E62B8A0", 0, 1662125735, null, 1662125735, null, "{ }", "N.H. SCHEPPERS DISTRIBUTING COMPANY", "651091145", "264845", "LWS", "JEFFERSON CITY" ]
+, [ "row-m4zj-m2c7~2hme", "00000000-0000-0000-8DED-A42E22D31DE3", 0, 1662125735, null, 1662125735, null, "{ }", "NAUSER BEVERAGE COMPANY", "652029363", "164840", "LWS", "COLUMBIA" ]
+, [ "row-6s8w_rd84_3jnb", "00000000-0000-0000-9060-59293700CC62", 0, 1662125735, null, 1662125735, null, "{ }", "NAUSER BEVERAGE COMPANY", "63401", "271875", "LWS", "HANNIBAL" ]
+, [ "row-4zt7-exjw_uct8", "00000000-0000-0000-3E9E-B3984E112030", 0, 1662125735, null, 1662125735, null, "{ }", "NICOTRA VINEYARDS LLC", "64029", "275357", "22WS", "GRAIN VALLEY" ]
+, [ "row-2c2p-k9r5~sqdn", "00000000-0000-0000-261E-16B6B899CE4E", 0, 1662125735, null, 1662125735, null, "{ }", "NOBLETONS LLC", "63084", "256651", "LWS", "UNION" ]
+, [ "row-ddx6_yjqm-6qjf", "00000000-0000-0000-17B3-DD40E0A5B1E8", 0, 1662125735, null, 1662125735, null, "{ }", "NOBOLEIS VINEYARDS LLC", "633321333", "181550", "22WS", "AUGUSTA" ]
+, [ "row-xgam~4hay-mh22", "00000000-0000-0000-D901-7AF7A807EC60", 0, 1662125735, null, 1662125735, null, "{ }", "NORTH KANSAS CITY BEVERAGE CO., INC.", "641164136", "265522", "LWS", "NORTH KANSAS CITY" ]
+, [ "row-4ame-u3ch_2w62", "00000000-0000-0000-1A98-545A508726F9", 0, 1662125735, null, 1662125735, null, "{ }", "OAKGLENN WINERY LLC", "650410096", "201398", "22WS", "HERMANN" ]
+, [ "row-fiif~igrr.uy7x", "00000000-0000-0000-CDF3-54DCBE8E86BB", 0, 1662125735, null, 1662125735, null, "{ }", "OF THE EARTH FARM DISTILLERY LLC", "64085", "210591", "LWS", "RICHMOND" ]
+, [ "row-4f97-yyzb-eprm", "00000000-0000-0000-D217-7B4BD229743B", 0, 1662125735, null, 1662125735, null, "{ }", "OLD BRIDGE BREWING INC.", "630902537", "272311", "22WS", "WASHINGTON" ]
+, [ "row-jneq.mcv4_3ysn", "00000000-0000-0000-D941-68B5369F0C98", 0, 1662125735, null, 1662125735, null, "{ }", "OLD OZARKIAN DISTILLERY LLC", "63084", "262812", "LWS", "UNION" ]
+, [ "row-msp5-8ncb_cyt5", "00000000-0000-0000-856B-7A7AC7910337", 0, 1662125735, null, 1662125735, null, "{ }", "OLD ROAD CRAFT SPIRITS INC", "65441", "279952", "LWS", "BOURBON" ]
+, [ "row-hwe3-5ewe-dkin", "00000000-0000-0000-8119-E1F9F42E7FB6", 0, 1662125735, null, 1662125735, null, "{ }", "OLEA ESTATES LLC", "630432417", "266859", "22WS", "MARYLAND HEIGHTS" ]
+, [ "row-rm7x.q7qc_9wq6", "00000000-0000-0000-448E-83EC10FF1B47", 0, 1662125735, null, 1662125735, null, "{ }", "ORIGINATION BREWING COMPANY LLC", "640158013", "272569", "22WS", "BLUE SPRINGS" ]
+, [ "row-iezy.i8ix~b7eu", "00000000-0000-0000-E69E-12409D85AE57", 0, 1662125735, null, 1662125735, null, "{ }", "OUTLAW CIGAR COMPANY INC, THE", "64116", "272538", "22WS", "NORTH KANSAS CITY" ]
+, [ "row-8r84-89vy_wkhc", "00000000-0000-0000-7FFE-BB66CC8B260E", 0, 1662125735, null, 1662125735, null, "{ }", "OWL PARTNERS, LLC", "65109", "281147", "22WS", "JEFFERSON CITY" ]
+, [ "row-5vrg~mj4z~zzwr", "00000000-0000-0000-4D67-79578EFC6986", 0, 1662125735, null, 1662125735, null, "{ }", "OZARK DISTILLERY LLC", "650654815", "212765", "LWS", "OSAGE BEACH" ]
+, [ "row-53v9-qdx5~nbb8", "00000000-0000-0000-EA6F-E009160961FE", 0, 1662125735, null, 1662125735, null, "{ }", "PEACEFUL BEND VINEYARD LLC", "655655067", "253152", "22WS", "STEELVILLE" ]
+, [ "row-m75j~y5a4-nbfe", "00000000-0000-0000-B261-7DE442BE2107", 0, 1662125735, null, 1662125735, null, "{ }", "PECULIAR WINERY LLC, THE", "64078", "269765", "22WS", "PECULIAR" ]
+, [ "row-c6kt-igta~nbq5", "00000000-0000-0000-31DA-8367519A8CF7", 0, 1662125735, null, 1662125735, null, "{ }", "PENNINGTON WINES LLC", "64836", "282136", "22WS", "CARTHAGE" ]
+, [ "row-be9q~w3fp-vhjq", "00000000-0000-0000-B5C9-21EF4B6DA456", 0, 1662125735, null, 1662125735, null, "{ }", "PHANTOM V DISTILLING COMPANY LLC", "64093", "274582", "LWS", "WARRENSBURG" ]
+, [ "row-75g5.qqd3~dsqg", "00000000-0000-0000-72C3-3581A0D6773C", 0, 1662125735, null, 1662125735, null, "{ }", "PINNACLE IMPORTS LLC", "631146124", "178444", "LWS", "OVERLAND" ]
+, [ "row-zpp2~hp5s.s9wj", "00000000-0000-0000-C0B9-C031C48AACC6", 0, 1662125735, null, 1662125735, null, "{ }", "PINNACLE IMPORTS LLC", "641082136", "180175", "LWS", "KANSAS CITY" ]
+, [ "row-3mns-qttm-ebg9", "00000000-0000-0000-D530-7F1FBA80B0E7", 0, 1662125735, null, 1662125735, null, "{ }", "PISTOLAS FRITAS LLC", "63388", "275521", "LWS", "WILLIAMSBURG" ]
+, [ "row-vmhz_ed2a~sxca", "00000000-0000-0000-C531-04598D9A4052", 0, 1662125735, null, 1662125735, null, "{ }", "POWERPLAY BEVERAGE LLC", "630492684", "253934", "LWS", "HIGH RIDGE" ]
+, [ "row-649n_isng.tcc2", "00000000-0000-0000-EFA2-9F4B2DC28352", 0, 1662125735, null, 1662125735, null, "{ }", "PR&G INC.", "641163096", "256824", "5WS", "NORTH KANSAS CITY" ]
+, [ "row-33me~47cy~87wn", "00000000-0000-0000-BDED-670FA0C7EB3E", 0, 1662125735, null, 1662125735, null, "{ }", "PURPLE MOOSE DISTRIBUTING LLC", "630442616", "266660", "22WS", "BRIDGETON" ]
+, [ "row-mz58~vwbp-s2uz", "00000000-0000-0000-26D8-5210FCCE03A4", 0, 1662125735, null, 1662125735, null, "{ }", "RED FOX WINERY & VINEYARDS LLC", "647888149", "216309", "22WS", "URICH" ]
+, [ "row-7v2h_mjw6-8bpy", "00000000-0000-0000-B985-D132BD240BE8", 0, 1662125735, null, 1662125735, null, "{ }", "RESTLESS SPIRITS DISTILLING COMPANY LLC", "641160000", "235480", "LWS", "NORTH KANSAS CITY" ]
+, [ "row-qui6_8phw_azdq", "00000000-0000-0000-0470-4645A8427BAD", 0, 1662125735, null, 1662125735, null, "{ }", "RIGHTEOUS ROAD LLC", "63132", "260391", "LWS", "ST. LOUIS" ]
+, [ "row-p6hw-yjf6_gydw", "00000000-0000-0000-4BBD-1BA2F16EB71E", 0, 1662125735, null, 1662125735, null, "{ }", "ROCHESTER BREWING & ROASTING COMPANY LLC", "641082130", "284696", "22WS", "KANSAS CITY" ]
+, [ "row-qpa4.ea7c.wect", "00000000-0000-0000-E23B-7C4D6412572B", 0, 1662125735, null, 1662125735, null, "{ }", "ROCKWELL BEER COMPANY LLC", "631102325", "258423", "22WS", "ST. LOUIS" ]
+, [ "row-paa9_gpkn~a8xp", "00000000-0000-0000-1F15-5EBD9C541CD9", 0, 1662125735, null, 1662125735, null, "{ }", "ROCKY TOP ENTERPRISES LLC", "650414045", "261350", "LWS", "HERMANN" ]
+, [ "row-x7g4~2b9m-wk8c", "00000000-0000-0000-DFF3-0743A87C5C69", 0, 1662125735, null, 1662125735, null, "{ }", "ROSIER FARMS DISTILLING CO. LLC", "644708038", "273851", "LWS", "MOUND CITY" ]
+, [ "row-tycy~emnm.hxy2", "00000000-0000-0000-85F7-9F9D478EF414", 0, 1662125735, null, 1662125735, null, "{ }", "SAMUEL BERTON DISTILLING LLC", "630551223", "258402", "LWS", "LABADIE" ]
+, [ "row-t75r_6tvq.qbap", "00000000-0000-0000-F268-E29E0C8D9A62", 0, 1662125735, null, 1662125735, null, "{ }", "SCHOENWEID FARM LLC", "633571792", "228922", "LWS", "MARTHASVILLE" ]
+, [ "row-vqtj_kit8_e9m8", "00000000-0000-0000-FBC6-06BBEBC78155", 0, 1662125735, null, 1662125735, null, "{ }", "SEVEN SPRINGS WINERY LLC", "65052", "251941", "22WS", "LINN CREEK" ]
+, [ "row-rzfw-r96v~jms6", "00000000-0000-0000-6621-09C87DFB9701", 0, 1662125735, null, 1662125735, null, "{ }", "SHAWNEE BLUFF DISTILLERIES LLC", "65026", "258892", "LWS", "ELDON" ]
+, [ "row-cbbt~qgic-sukf", "00000000-0000-0000-30A8-2D54AEA333D5", 0, 1662125735, null, 1662125735, null, "{ }", "SHAWNEE BLUFF WINERY LLC", "65049", "258813", "22WS", "LAKE OZARK" ]
+, [ "row-q3b5_b2gm.6c8p", "00000000-0000-0000-4552-814FBE67A184", 0, 1662125735, null, 1662125735, null, "{ }", "SLBS MANAGEMENT INC.", "630451520", "77954", "LWS", "BRIDGETON" ]
+, [ "row-3php_vmdg-d65n", "00000000-0000-0000-5165-156F503806AE", 0, 1662125735, null, 1662125735, null, "{ }", "SMART DISTRIBUTORS LLC MIDWEST", "631321625", "227043", "LWS", "CREVE COEUR" ]
+, [ "row-mrz8_fm9m.yaj4", "00000000-0000-0000-25B2-B166B09527E2", 0, 1662125735, null, 1662125735, null, "{ }", "SNI VALLEY VINEYARDS & WINERY LLC", "640677143", "195907", "22WS", "LEXINGTON" ]
+, [ "row-wnvc_7ph5_fks7", "00000000-0000-0000-8B24-99C1C8ABFD20", 0, 1662125735, null, 1662125735, null, "{ }", "SOUTHERN GLAZER'S WINE & SPIRITS OF MO.", "641201273", "240752", "LWS", "KANSAS CITY" ]
+, [ "row-7qmm.twmm~x9qr", "00000000-0000-0000-070F-168B15E04457", 0, 1662125735, null, 1662125735, null, "{ }", "SOUTHERN GLAZER'S WINE & SPIRITS OF MO.", "652017468", "240754", "LWS", "COLUMBIA" ]
+, [ "row-rsu7~2eyd~n6n3", "00000000-0000-0000-7B6B-EA82B9BDFD9B", 0, 1662125735, null, 1662125735, null, "{ }", "SOUTHERN GLAZER'S WINE & SPIRITS OF MO.", "633014367", "240756", "LWS", "ST. CHARLES" ]
+, [ "row-gfc7.69an_i8vg", "00000000-0000-0000-1F5A-68125E1CDF9C", 0, 1662125735, null, 1662125735, null, "{ }", "SOUTHERN GLAZER'S WINE & SPIRITS OF MO.", "63780", "240757", "LWS", "SCOTT CITY" ]
+, [ "row-f4c7.jr9f.uqer", "00000000-0000-0000-6735-98B3C662D3A6", 0, 1662125735, null, 1662125735, null, "{ }", "SOUTHERN GLAZER'S WINE & SPIRITS OF MO.", "658026668", "240758", "LWS", "SPRINGFIELD" ]
+, [ "row-yiwv_77sc.pdwx", "00000000-0000-0000-D8BF-E4903189F70A", 0, 1662125735, null, 1662125735, null, "{ }", "SOUTHERN GLAZER'S WINE AND SPIRITS OF MO", "640830000", "279869", "LWS", "RAYMORE" ]
+, [ "row-72yy_wwfs_xcx2", "00000000-0000-0000-4A6D-FEFA8F71725F", 0, 1662125735, null, 1662125735, null, "{ }", "SPARTA BEVERAGE GROUP INC.", "63114", "267143", "LWS", "ST. LOUIS" ]
+, [ "row-yyrp.jwhu-5xn9", "00000000-0000-0000-1304-965FF5DE3F9D", 0, 1662125735, null, 1662125735, null, "{ }", "SPEAKEASY MISSOURI LLC", "64120", "274583", "LWS", "KANSAS CITY" ]
+, [ "row-iqwz-x7c3~szjm", "00000000-0000-0000-B9CF-FDD85665D8CA", 0, 1662125735, null, 1662125735, null, "{ }", "ST. FRANCOIS VINEYARD LLC", "636018226", "166037", "22WS", "PARK HILLS" ]
+, [ "row-9pzf.rxfy-rg3w", "00000000-0000-0000-FD06-7688110382BD", 0, 1662125735, null, 1662125735, null, "{ }", "ST. JAMES WINERY INC.", "65559", "282863", "22WS", "ST. JAMES" ]
+, [ "row-4f3g-s4n5_6a3m", "00000000-0000-0000-38BC-5740198576B9", 0, 1662125735, null, 1662125735, null, "{ }", "ST. JORDAN CREEK INC.", "63013", "280045", "22WS", "BEAUFORT" ]
+, [ "row-m7rq.8keb~m6ig", "00000000-0000-0000-29FF-F0C8BF5E041B", 0, 1662125735, null, 1662125735, null, "{ }", "ST. JOSEPH BEVERAGE LLC", "645077752", "157179", "22WS", "ST. JOSEPH" ]
+, [ "row-xkxw.yyiz.n497", "00000000-0000-0000-D356-814FF0A3EC98", 0, 1662125735, null, 1662125735, null, "{ }", "ST. LOUIS BREWERY LLC, THE", "631031616", "270932", "22WS", "ST. LOUIS" ]
+, [ "row-pk23_8kuf-xyr3", "00000000-0000-0000-B3FB-86E990E25152", 0, 1662125735, null, 1662125735, null, "{ }", "ST. LOUIS DISTILLERY LLC", "63303", "266039", "LWS", "ST. CHARLES" ]
+, [ "row-gcwv~45w7~h537", "00000000-0000-0000-A1E8-F0FB6C815C05", 0, 1662125735, null, 1662125735, null, "{ }", "STATE OF MISSOURI", "000000000", "999998", "LWS", null ]
+, [ "row-kh9v~ymss~9ycv", "00000000-0000-0000-7CCB-E22E7436E470", 0, 1662125735, null, 1662125735, null, "{ }", "STEEPLE VIEW MANOR LLC", "63068", "258229", "22WS", "NEW HAVEN" ]
+, [ "row-fnjg~pvm2.pwz8", "00000000-0000-0000-E940-2B476C732487", 0, 1662125735, null, 1662125735, null, "{ }", "STILL 630 LLC", "631043612", "211476", "LWS", "ST. LOUIS" ]
+, [ "row-xwby-v8iv~762y", "00000000-0000-0000-7B87-2D8099CF9BCE", 0, 1662125735, null, 1662125735, null, "{ }", "SUGAR CREEK ACQUISITION LLC", "63043", "271874", "LWS", "MARYLAND HEIGHTS" ]
+, [ "row-th3n~66ue_2a5q", "00000000-0000-0000-7B6B-FAF0B35882A1", 0, 1662125735, null, 1662125735, null, "{ }", "SUGARMILL DISTILLERY LLC", "638010000", "248912", "LWS", "SIKESTON" ]
+, [ "row-gmba_tz7b-yyi4", "00000000-0000-0000-129B-4CE9AF1F64FA", 0, 1662125735, null, 1662125735, null, "{ }", "SUPERIOR WINES & LIQUORS, INC.", "641200001", "240753", "LWS", "KANSAS CITY" ]
+, [ "row-ewk4~iq4k-jjnd", "00000000-0000-0000-36C7-A927B15FB5BF", 0, 1662125735, null, 1662125735, null, "{ }", "SVW, LLC", "652515166", "202910", "22WS", "FULTON" ]
+, [ "row-zg99.f4z2-48di", "00000000-0000-0000-0A03-5473F8900E9E", 0, 1662125735, null, 1662125735, null, "{ }", "SWEETWATER DISTILLERY LLC", "63456", "267366", "LWS", "MONROE CITY" ]
+, [ "row-348v.nza9-ew7j", "00000000-0000-0000-CD42-81D6CE67299A", 0, 1662125735, null, 1662125735, null, "{ }", "T'S REDNECK STEAKHOUSE INC.", "655367361", "212793", "LWS", "LEBANON" ]
+, [ "row-bvmv_55nc~svbr", "00000000-0000-0000-A698-4A834A0DFCC7", 0, 1662125735, null, 1662125735, null, "{ }", "TALL PINES DISTILLERY MO LLC", "64854", "273294", "LWS", "NOEL" ]
+, [ "row-7q6x.b3cp.nq9g", "00000000-0000-0000-9101-4C5EA54F893E", 0, 1662125735, null, 1662125735, null, "{ }", "TAVOLO VIGNETO LLC", "631236133", "217149", "LWS", "ST. LOUIS" ]
+, [ "row-c5gt.ht95~9kp7", "00000000-0000-0000-6554-B9157A849C10", 0, 1662125735, null, 1662125735, null, "{ }", "TERRA FIRMA USA INC", "633014332", "197953", "LWS", "ST. CHARLES" ]
+, [ "row-6dxt-x39v~nxeb", "00000000-0000-0000-8907-9995FD946C5C", 0, 1662125735, null, 1662125735, null, "{ }", "TERRA FIRMA USA INC.", "64108", "261153", "LWS", "KANSAS CITY" ]
+, [ "row-vwvd.cv3u.ninv", "00000000-0000-0000-E7B8-1D049A9A623C", 0, 1662125735, null, 1662125735, null, "{ }", "TIE & TIMBER BEER CO LLC", "658023356", "250984", "22WS", "SPRINGFIELD" ]
+, [ "row-3x9a_mxqd~jm4r", "00000000-0000-0000-8664-359CD572E0B5", 0, 1662125735, null, 1662125735, null, "{ }", "TUTTI INSIEME LLC", "63116", "260116", "LWS", "ST. LOUIS" ]
+, [ "row-edeq.686j-bdpf", "00000000-0000-0000-F74E-DFFC092DE176", 0, 1662125735, null, 1662125735, null, "{ }", "TWIN OAKS VINEYARD LLC", "636407340", "176473", "LWS", "FARMINGTON" ]
+, [ "row-cga2-t6ci~jhzq", "00000000-0000-0000-9CFB-3098ACD1BAF4", 0, 1662125735, null, 1662125735, null, "{ }", "TWO PLUMBERS BREWERY LLC", "63303", "276155", "22WS", "ST. CHARLES" ]
+, [ "row-pyyv.84nj.4vdy", "00000000-0000-0000-E44D-E0F1BB746E00", 0, 1662125735, null, 1662125735, null, "{ }", "UNCORKED BRANDS LLC", "641080000", "259962", "22WS", "KANSAS CITY" ]
+, [ "row-nw4q_m5hk-4ukh", "00000000-0000-0000-A458-BA1C5B0FE86E", 0, 1662125735, null, 1662125735, null, "{ }", "UNITED BEVERAGE COMPANY LLC", "641081634", "262126", "LWS", "KANSAS CITY" ]
+, [ "row-7bkc.sr3m.3twa", "00000000-0000-0000-B7FE-A4A80FD744BD", 0, 1662125735, null, 1662125735, null, "{ }", "URBAN CHESTNUT BREWING COMPANY INC.", "631031218", "196746", "22WS", "ST. LOUIS" ]
+, [ "row-3p7k.4xdj~xdd4", "00000000-0000-0000-CDA6-C82C8874CD8F", 0, 1662125735, null, 1662125735, null, "{ }", "VACILANDOS LLC", "65706", "281169", "22WS", "MARSHFIELD" ]
+, [ "row-mhe5-5sya_5q83", "00000000-0000-0000-56E1-68A3FEEAD3D8", 0, 1662125735, null, 1662125735, null, "{ }", "VAN TILL AGRI LANDS LLP", "64084", "280067", "22WS", "RAYVILLE" ]
+, [ "row-37jk_49yh~648y", "00000000-0000-0000-924D-F002D604063B", 0, 1662125735, null, 1662125735, null, "{ }", "VERITASI LIMITED COMPANY", "64063", "270243", "LWS", "LEE'S SUMMIT" ]
+, [ "row-48sy~3bkh-35ds", "00000000-0000-0000-A2D9-8A41219BA7E0", 0, 1662125735, null, 1662125735, null, "{ }", "VINOTECA, INC", "63043", "285003", "LWS", "MARYLAND HEIGHTS" ]
+, [ "row-xdqj~rv82-e233", "00000000-0000-0000-2F76-F25E4393228C", 0, 1662125735, null, 1662125735, null, "{ }", "VISION 29:11 INC.", "63050", "242644", "22WS", "HILLSBORO" ]
+, [ "row-qtey~wskn~ysyz", "00000000-0000-0000-1910-85A4C0F68629", 0, 1662125735, null, 1662125735, null, "{ }", "VWS MO LLC", "641113667", "267601", "LWS", "KANSAS CITY" ]
+, [ "row-gtau.rupp_pcsi", "00000000-0000-0000-1B05-E34FCFE14D53", 0, 1662125735, null, 1662125735, null, "{ }", "WALNUT CREEK VINEYARD AND WINERY LLC", "64048", "286206", "22WS", "HOLT" ]
+, [ "row-ngnu_7smr~w8yp", "00000000-0000-0000-B9A6-9E0EAF591D34", 0, 1662125735, null, 1662125735, null, "{ }", "WAYBAR INC.", "630712593", "265302", "22WS", "RICHWOODS" ]
+, [ "row-84mc~cbsj-ptaq", "00000000-0000-0000-7708-BB1CC120DA63", 0, 1662125735, null, 1662125735, null, "{ }", "WEEKSEND LLC", "647782663", "274536", "22WS", "RICHARDS" ]
+, [ "row-2975~45z8_k8up", "00000000-0000-0000-360B-49A3D0A93590", 0, 1662125735, null, 1662125735, null, "{ }", "WEISS HOLDINGS LLC", "650411148", "244242", "LWS", "HERMANN" ]
+, [ "row-ygas_zjhx~dqfk", "00000000-0000-0000-0BC1-539C91A5B853", 0, 1662125735, null, 1662125735, null, "{ }", "WELLSPENT BREWING OPERATIONS LLC", "63103", "280604", "22WS", "ST LOUIS" ]
+, [ "row-b9kf.cfsh-yf7w", "00000000-0000-0000-9A17-7069CC23F7EA", 0, 1662125735, null, 1662125735, null, "{ }", "WELPMAN SPRINGS BREWING COMPANY LLC", "650780000", "237586", "22WS", "STOVER" ]
+, [ "row-ixh5-nfdp-a5gm", "00000000-0000-0000-1567-D5C3FE37C199", 0, 1662125735, null, 1662125735, null, "{ }", "WENWOOD FARM WINERY LLC", "650142023", "165209", "22WS", "BLAND" ]
+, [ "row-9mms.7q9n~x8ns", "00000000-0000-0000-7653-7A7F800F21C1", 0, 1662125735, null, 1662125735, null, "{ }", "WEST PLAINS DISTRIBUTING COMPANY INC.", "657753341", "55654", "LWS", "WEST PLAINS" ]
+, [ "row-jbvs_u2m4_g2vr", "00000000-0000-0000-3BA9-2F772A182237", 0, 1662125735, null, 1662125735, null, "{ }", "WEST WINERY, LLC", "635521654", "170566", "22WS", "MACON" ]
+, [ "row-bqch~v8nr-s5cm", "00000000-0000-0000-F9EE-EF0E38F8BB50", 0, 1662125735, null, 1662125735, null, "{ }", "WIL FISCHER DISTRIBUTING COMPANY", "658070967", "161476", "LWS", "SPRINGFIELD" ]
+, [ "row-kgtc~xztj.xyn7", "00000000-0000-0000-9B46-EC6DAEEDAF9B", 0, 1662125735, null, 1662125735, null, "{ }", "WIL FISCHER DISTRIBUTING OF POPLAR BLUFF", "639016884", "253619", "LWS", "POPLAR BLUFF" ]
+, [ "row-q2nf~fikn.jhdn", "00000000-0000-0000-6641-35C70BD31D59", 0, 1662125735, null, 1662125735, null, "{ }", "WIL FISCHER DISTRIBUTING OF ST. JOSEPH", "64506", "272803", "LWS", "ST. JOSEPH" ]
+, [ "row-i99s_xfnc_3nuu", "00000000-0000-0000-8FEC-EE420A2925DC", 0, 1662125735, null, 1662125735, null, "{ }", "WOOD HAT SPIRITS LLC", "633632500", "214430", "LWS", "NEW FLORENCE" ]
+, [ "row-6dta-bpvu~56ru", "00000000-0000-0000-503E-C805996AEF80", 0, 1662125735, null, 1662125735, null, "{ }", "WOODSMEN LLC", "652572575", "239482", "LWS", "HIGBEE" ]
+, [ "row-quy6-jfrf~fe8t", "00000000-0000-0000-122D-62C1208D18FA", 0, 1662125735, null, 1662125735, null, "{ }", "3 EAGLES DISTRIBUTING LLC", "63801", "275187", "LWS", "SIKESTON" ]
+, [ "row-d3rk~dust_fzed", "00000000-0000-0000-D147-91AD0323CFC7", 0, 1662125735, null, 1662125735, null, "{ }", "3 EAGLES DISTRIBUTING LLC", "637037610", "275188", "LWS", "CAPE GIRARDEAU" ]
+, [ "row-eu2k.zqyb-nw9g", "00000000-0000-0000-2D34-019E2037314C", 0, 1662125735, null, 1662125735, null, "{ }", "3 EAGLES DISTRIBUTING LLC", "63857", "275189", "LWS", "KENNETT" ]
+, [ "row-m9fw-uzrs~bz2a", "00000000-0000-0000-5235-AA8D7CAC3B8D", 0, 1662125735, null, 1662125735, null, "{ }", "3 TRAILS BREWING LLC", "64050", "263497", "22WS", "INDEPENDENCE" ]
+, [ "row-tta7_df8q_puai", "00000000-0000-0000-FD1E-99323276A746", 0, 1662125735, null, 1662125735, null, "{ }", "3CM HOLDINGS LLC", "63113", "271410", "22WS", "ST LOUIS" ]
+, [ "row-ezja-x6ne-rgj6", "00000000-0000-0000-81D7-D0A25123B965", 0, 1662125735, null, 1662125735, null, "{ }", "3HALVES BREWING COMPANY LLC", "64068", "283678", "22WS", "LIBERTY" ]
+, [ "row-5irm.rubd~927v", "00000000-0000-0000-CC03-53348863C4B3", 0, 1662125735, null, 1662125735, null, "{ }", "4 HANDS BREWING COMPANY LLC", "631043610", "247118", "LWS", "ST. LOUIS" ]
+, [ "row-2ykv.uk6y.8xww", "00000000-0000-0000-86DA-9F349E68D232", 0, 1662125735, null, 1662125735, null, "{ }", "618SPIRITS LLC", "630051287", "242434", "LWS", "CHESTERFIELD" ]
+, [ "row-i2h4.79s2.jxkq", "00000000-0000-0000-D632-B65C08D46B04", 0, 1664456704, null, 1664456704, null, "{ }", "VINTEGRITY LLC", "64120", "287574", "LWS", "KANSAS CITY" ]
+, [ "row-u4xx_kqbv_kvjr", "00000000-0000-0000-9C84-F829E4A22B3D", 0, 1664456704, null, 1664456704, null, "{ }", "SPARTA BEVERAGE GROUP INC.", "64101", "287599", "LWS", "KANSAS CITY" ]
+, [ "row-b5y6_nem7.89bk", "00000000-0000-0000-F140-423C3FA9953C", 0, 1664975104, null, 1664975104, null, "{ }", "VINTEGRITY, LLC", "63026", "287699", "LWS", "FENTON" ]
+, [ "row-vzyk-93aq_wfct", "00000000-0000-0000-BA7B-57E052059013", 0, 1666962305, null, 1666962305, null, "{ }", "CALLSIGN BREWING COMPANY LLC", "64116", "288151", "22WS", "NORTH KANSAS CITY" ]
+, [ "row-6hfh~b476_n98y", "00000000-0000-0000-E6B7-87078C86CA4C", 0, 1668175504, null, 1668175504, null, "{ }", "MINGLEWOOD BREWERY LLC", "63701", "288387", "22WS", "CAPE GIRARDEAU" ]
+, [ "row-4peg~e3dr~erxr", "00000000-0000-0000-C8FA-B4C81039B556", 0, 1669125904, null, 1669125904, null, "{ }", "BREAKTHRU BEVERAGE MISSOURI LLC", "63143", "282297", "LWS", "ST. LOUIS" ]
+, [ "row-fa8n~9aym-5jps", "00000000-0000-0000-A90B-F6B2FD71D54D", 0, 1669125904, null, 1669125904, null, "{ }", "LOHR DISTRIBUTING COMPANY INC.", "631043511", "30097", "LWS", "ST. LOUIS" ]
+, [ "row-pvea_gjgq-qpkq", "00000000-0000-0000-7DBB-24B24D8CBECB", 0, 1669125904, null, 1669125904, null, "{ }", "BREAKTHRU BEVERAGE MISSOURI LLC", "63143", "282298", "LWS", "ST. LOUIS" ]
+, [ "row-dsmn_3p4n.u2hc", "00000000-0000-0000-3CEF-9256EB50DDD6", 0, 1669730704, null, 1669730704, null, "{ }", "FRIENDSHIP BREWING COMPANY LLC", "63385", "288553", "22WS", "WENTZVILLE" ]
+, [ "row-hfmg.qy7r_trqm", "00000000-0000-0000-6563-C4AA6DB1FC69", 0, 1669730704, null, 1669730704, null, "{ }", "SPIRITED BLUFFS LLC", "64150", "272969", "LWS", "RIVERSIDE" ]
+ ]
+}
