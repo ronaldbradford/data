@@ -1,0 +1,509 @@
+{
+  "meta" : {
+    "count" : 100,
+    "links" : {
+      "self" : "https://test.api.amadeus.com/v1/airline/destinations?airlineCode=QF&max=100"
+    }
+  },
+  "data" : [ {
+    "type" : "location",
+    "subtype" : "city",
+    "name" : "ALBUQUERQUE",
+    "iataCode" : "ABQ"
+  }, {
+    "type" : "location",
+    "subtype" : "city",
+    "name" : "ALBURY",
+    "iataCode" : "ABX"
+  }, {
+    "type" : "location",
+    "subtype" : "city",
+    "name" : "ABERDEEN",
+    "iataCode" : "ABZ"
+  }, {
+    "type" : "location",
+    "subtype" : "city",
+    "name" : "ACCRA",
+    "iataCode" : "ACC"
+  }, {
+    "type" : "location",
+    "subtype" : "city",
+    "name" : "WACO",
+    "iataCode" : "ACT"
+  }, {
+    "type" : "location",
+    "subtype" : "city",
+    "name" : "ADDIS ABABA",
+    "iataCode" : "ADD"
+  }, {
+    "type" : "location",
+    "subtype" : "city",
+    "name" : "ADELAIDE",
+    "iataCode" : "ADL"
+  }, {
+    "type" : "location",
+    "subtype" : "city",
+    "name" : "ALEXANDRIA",
+    "iataCode" : "AEX"
+  }, {
+    "type" : "location",
+    "subtype" : "city",
+    "name" : "AUCKLAND",
+    "iataCode" : "AKL"
+  }, {
+    "type" : "location",
+    "subtype" : "city",
+    "name" : "AMARILLO",
+    "iataCode" : "AMA"
+  }, {
+    "type" : "location",
+    "subtype" : "city",
+    "name" : "AMMAN",
+    "iataCode" : "AMM"
+  }, {
+    "type" : "location",
+    "subtype" : "city",
+    "name" : "AMSTERDAM",
+    "iataCode" : "AMS"
+  }, {
+    "type" : "location",
+    "subtype" : "city",
+    "name" : "ANCHORAGE",
+    "iataCode" : "ANC"
+  }, {
+    "type" : "location",
+    "subtype" : "city",
+    "name" : "ANTOFAGASTA",
+    "iataCode" : "ANF"
+  }, {
+    "type" : "location",
+    "subtype" : "city",
+    "name" : "ARMIDALE",
+    "iataCode" : "ARM"
+  }, {
+    "type" : "location",
+    "subtype" : "city",
+    "name" : "ASPEN",
+    "iataCode" : "ASE"
+  }, {
+    "type" : "location",
+    "subtype" : "city",
+    "name" : "ALICE SPRINGS",
+    "iataCode" : "ASP"
+  }, {
+    "type" : "location",
+    "subtype" : "city",
+    "name" : "ATHENS",
+    "iataCode" : "ATH"
+  }, {
+    "type" : "location",
+    "subtype" : "city",
+    "name" : "ATLANTA",
+    "iataCode" : "ATL"
+  }, {
+    "type" : "location",
+    "subtype" : "city",
+    "name" : "AUSTIN",
+    "iataCode" : "AUS"
+  }, {
+    "type" : "location",
+    "subtype" : "city",
+    "name" : "AYERS ROCK",
+    "iataCode" : "AYQ"
+  }, {
+    "type" : "location",
+    "subtype" : "city",
+    "name" : "BAHRAIN",
+    "iataCode" : "BAH"
+  }, {
+    "type" : "location",
+    "subtype" : "city",
+    "name" : "BARCALDINE",
+    "iataCode" : "BCI"
+  }, {
+    "type" : "location",
+    "subtype" : "city",
+    "name" : "BARCELONA",
+    "iataCode" : "BCN"
+  }, {
+    "type" : "location",
+    "subtype" : "city",
+    "name" : "BUNDABERG",
+    "iataCode" : "BDB"
+  }, {
+    "type" : "location",
+    "subtype" : "city",
+    "name" : "BERLIN",
+    "iataCode" : "BER"
+  }, {
+    "type" : "location",
+    "subtype" : "city",
+    "name" : "BEIRUT",
+    "iataCode" : "BEY"
+  }, {
+    "type" : "location",
+    "subtype" : "city",
+    "name" : "BELFAST",
+    "iataCode" : "BFS"
+  }, {
+    "type" : "location",
+    "subtype" : "city",
+    "name" : "BLENHEIM",
+    "iataCode" : "BHE"
+  }, {
+    "type" : "location",
+    "subtype" : "city",
+    "name" : "BIRMINGHAM",
+    "iataCode" : "BHM"
+  }, {
+    "type" : "location",
+    "subtype" : "city",
+    "name" : "BIRMINGHAM",
+    "iataCode" : "BHX"
+  }, {
+    "type" : "location",
+    "subtype" : "city",
+    "name" : "BELO HORIZONTE",
+    "iataCode" : "BHZ"
+  }, {
+    "type" : "location",
+    "subtype" : "city",
+    "name" : "BILLINGS",
+    "iataCode" : "BIL"
+  }, {
+    "type" : "location",
+    "subtype" : "city",
+    "name" : "BISMARCK",
+    "iataCode" : "BIS"
+  }, {
+    "type" : "location",
+    "subtype" : "city",
+    "name" : "BEIJING",
+    "iataCode" : "BJS"
+  }, {
+    "type" : "location",
+    "subtype" : "city",
+    "name" : "BANGKOK",
+    "iataCode" : "BKK"
+  }, {
+    "type" : "location",
+    "subtype" : "city",
+    "name" : "BLACKALL",
+    "iataCode" : "BKQ"
+  }, {
+    "type" : "location",
+    "subtype" : "city",
+    "name" : "BOLOGNA",
+    "iataCode" : "BLQ"
+  }, {
+    "type" : "location",
+    "subtype" : "city",
+    "name" : "BROOME",
+    "iataCode" : "BME"
+  }, {
+    "type" : "location",
+    "subtype" : "city",
+    "name" : "NASHVILLE",
+    "iataCode" : "BNA"
+  }, {
+    "type" : "location",
+    "subtype" : "city",
+    "name" : "BRISBANE",
+    "iataCode" : "BNE"
+  }, {
+    "type" : "location",
+    "subtype" : "city",
+    "name" : "BALLINA",
+    "iataCode" : "BNK"
+  }, {
+    "type" : "location",
+    "subtype" : "city",
+    "name" : "BOGOTA",
+    "iataCode" : "BOG"
+  }, {
+    "type" : "location",
+    "subtype" : "city",
+    "name" : "BOISE",
+    "iataCode" : "BOI"
+  }, {
+    "type" : "location",
+    "subtype" : "city",
+    "name" : "MUMBAI",
+    "iataCode" : "BOM"
+  }, {
+    "type" : "location",
+    "subtype" : "city",
+    "name" : "BOSTON",
+    "iataCode" : "BOS"
+  }, {
+    "type" : "location",
+    "subtype" : "city",
+    "name" : "BUSSELTON",
+    "iataCode" : "BQB"
+  }, {
+    "type" : "location",
+    "subtype" : "city",
+    "name" : "BROWNSVILLE",
+    "iataCode" : "BRO"
+  }, {
+    "type" : "location",
+    "subtype" : "city",
+    "name" : "BRUSSELS",
+    "iataCode" : "BRU"
+  }, {
+    "type" : "location",
+    "subtype" : "city",
+    "name" : "BRASILIA",
+    "iataCode" : "BSB"
+  }, {
+    "type" : "location",
+    "subtype" : "city",
+    "name" : "BATON ROUGE",
+    "iataCode" : "BTR"
+  }, {
+    "type" : "location",
+    "subtype" : "city",
+    "name" : "BUDAPEST",
+    "iataCode" : "BUD"
+  }, {
+    "type" : "location",
+    "subtype" : "city",
+    "name" : "BURNIE",
+    "iataCode" : "BWT"
+  }, {
+    "type" : "location",
+    "subtype" : "city",
+    "name" : "BENDIGO",
+    "iataCode" : "BXG"
+  }, {
+    "type" : "location",
+    "subtype" : "city",
+    "name" : "BOZEMAN",
+    "iataCode" : "BZN"
+  }, {
+    "type" : "location",
+    "subtype" : "city",
+    "name" : "COLUMBIA",
+    "iataCode" : "CAE"
+  }, {
+    "type" : "location",
+    "subtype" : "city",
+    "name" : "CAIRO",
+    "iataCode" : "CAI"
+  }, {
+    "type" : "location",
+    "subtype" : "city",
+    "name" : "GUANGZHOU",
+    "iataCode" : "CAN"
+  }, {
+    "type" : "location",
+    "subtype" : "city",
+    "name" : "CANBERRA",
+    "iataCode" : "CBR"
+  }, {
+    "type" : "location",
+    "subtype" : "city",
+    "name" : "COFFS HARBOUR",
+    "iataCode" : "CFS"
+  }, {
+    "type" : "location",
+    "subtype" : "city",
+    "name" : "CHANGCHUN",
+    "iataCode" : "CGQ"
+  }, {
+    "type" : "location",
+    "subtype" : "city",
+    "name" : "CHATTANOOGA",
+    "iataCode" : "CHA"
+  }, {
+    "type" : "location",
+    "subtype" : "city",
+    "name" : "CHRISTCHURCH",
+    "iataCode" : "CHC"
+  }, {
+    "type" : "location",
+    "subtype" : "city",
+    "name" : "CHICAGO",
+    "iataCode" : "CHI"
+  }, {
+    "type" : "location",
+    "subtype" : "city",
+    "name" : "CHARLESTON",
+    "iataCode" : "CHS"
+  }, {
+    "type" : "location",
+    "subtype" : "city",
+    "name" : "CEDAR RAPIDS",
+    "iataCode" : "CID"
+  }, {
+    "type" : "location",
+    "subtype" : "city",
+    "name" : "CHONGQING",
+    "iataCode" : "CKG"
+  }, {
+    "type" : "location",
+    "subtype" : "city",
+    "name" : "CLEVELAND",
+    "iataCode" : "CLE"
+  }, {
+    "type" : "location",
+    "subtype" : "city",
+    "name" : "COLLEGE STATION",
+    "iataCode" : "CLL"
+  }, {
+    "type" : "location",
+    "subtype" : "city",
+    "name" : "CHARLOTTE",
+    "iataCode" : "CLT"
+  }, {
+    "type" : "location",
+    "subtype" : "city",
+    "name" : "COLOMBO",
+    "iataCode" : "CMB"
+  }, {
+    "type" : "location",
+    "subtype" : "city",
+    "name" : "COLUMBUS",
+    "iataCode" : "CMH"
+  }, {
+    "type" : "location",
+    "subtype" : "city",
+    "name" : "CASABLANCA",
+    "iataCode" : "CMN"
+  }, {
+    "type" : "location",
+    "subtype" : "city",
+    "name" : "CLONCURRY",
+    "iataCode" : "CNJ"
+  }, {
+    "type" : "location",
+    "subtype" : "city",
+    "name" : "CAIRNS",
+    "iataCode" : "CNS"
+  }, {
+    "type" : "location",
+    "subtype" : "city",
+    "name" : "CHIANG MAI",
+    "iataCode" : "CNX"
+  }, {
+    "type" : "location",
+    "subtype" : "city",
+    "name" : "COLORADO SPRINGS",
+    "iataCode" : "COS"
+  }, {
+    "type" : "location",
+    "subtype" : "city",
+    "name" : "COLUMBIA",
+    "iataCode" : "COU"
+  }, {
+    "type" : "location",
+    "subtype" : "city",
+    "name" : "COPENHAGEN",
+    "iataCode" : "CPH"
+  }, {
+    "type" : "location",
+    "subtype" : "city",
+    "name" : "CORPUS CHRISTI",
+    "iataCode" : "CRP"
+  }, {
+    "type" : "location",
+    "subtype" : "city",
+    "name" : "CHANGSHA",
+    "iataCode" : "CSX"
+  }, {
+    "type" : "location",
+    "subtype" : "city",
+    "name" : "CHARLEVILLE",
+    "iataCode" : "CTL"
+  }, {
+    "type" : "location",
+    "subtype" : "city",
+    "name" : "CHENGDU",
+    "iataCode" : "CTU"
+  }, {
+    "type" : "location",
+    "subtype" : "city",
+    "name" : "CANCUN",
+    "iataCode" : "CUN"
+  }, {
+    "type" : "location",
+    "subtype" : "city",
+    "name" : "CINCINNATI",
+    "iataCode" : "CVG"
+  }, {
+    "type" : "location",
+    "subtype" : "city",
+    "name" : "CURITIBA",
+    "iataCode" : "CWB"
+  }, {
+    "type" : "location",
+    "subtype" : "city",
+    "name" : "KIRITIMATI",
+    "iataCode" : "CXI"
+  }, {
+    "type" : "location",
+    "subtype" : "city",
+    "name" : "DA NANG",
+    "iataCode" : "DAD"
+  }, {
+    "type" : "location",
+    "subtype" : "city",
+    "name" : "DAYTON",
+    "iataCode" : "DAY"
+  }, {
+    "type" : "location",
+    "subtype" : "city",
+    "name" : "DUBBO",
+    "iataCode" : "DBO"
+  }, {
+    "type" : "location",
+    "subtype" : "city",
+    "name" : "DELHI",
+    "iataCode" : "DEL"
+  }, {
+    "type" : "location",
+    "subtype" : "city",
+    "name" : "DENVER",
+    "iataCode" : "DEN"
+  }, {
+    "type" : "location",
+    "subtype" : "city",
+    "name" : "DALLAS",
+    "iataCode" : "DFW"
+  }, {
+    "type" : "location",
+    "subtype" : "city",
+    "name" : "DILI",
+    "iataCode" : "DIL"
+  }, {
+    "type" : "location",
+    "subtype" : "city",
+    "name" : "DALIAN",
+    "iataCode" : "DLC"
+  }, {
+    "type" : "location",
+    "subtype" : "city",
+    "name" : "DAMMAM",
+    "iataCode" : "DMM"
+  }, {
+    "type" : "location",
+    "subtype" : "city",
+    "name" : "DEVONPORT",
+    "iataCode" : "DPO"
+  }, {
+    "type" : "location",
+    "subtype" : "city",
+    "name" : "DENPASAR-BALI",
+    "iataCode" : "DPS"
+  }, {
+    "type" : "location",
+    "subtype" : "city",
+    "name" : "DURANGO",
+    "iataCode" : "DRO"
+  }, {
+    "type" : "location",
+    "subtype" : "city",
+    "name" : "DARWIN",
+    "iataCode" : "DRW"
+  } ]
+}
