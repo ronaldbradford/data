@@ -51,9 +51,11 @@ These APIs are accessible for free, generally after registering your email.
 - GCP BigQuery Data Sets - https://cloud.google.com/bigquery/public-data
 - GCP Data Sets- https://cloud.google.com/datasets
 - Google Public Data - https://www.google.com/publicdata/directory
+- HathiTrust Digital Library - https://babel.hathitrust.org/
 - International Monetary Fund (IMF) - https://data.imf.org/
 - Internet Movie Database (IMDB) Data - https://www.imdb.com/interfaces/
 - Ireland Open Data - https://data.cso.ie/
+- ISBN (books) Database - https://isbndb.com/
 - LibriSpeech ASR corpus (Audio data) - http://www.openslr.org/12/
 - Kaggle - https://www.kaggle.com/
 - Machine Learning Datasets - https://paperswithcode.com/datasets
@@ -61,6 +63,7 @@ These APIs are accessible for free, generally after registering your email.
 - NASA Data - https://data.nasa.gov/
 - NYC Citi Bike Ride History https://ride.citibikenyc.com/system-data
 - NYC Yellow Cab Ride History https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page
+- Open Library - https://openlibrary.org/, https://openlibrary.org/developers/dumps
 - Organisation for Economic Co-operation and Development (OECD) Data https://data.oecd.org/
 - Project Gutenberg (Free books) -  https://www.gutenberg.org/
 - World Bank - https://data.worldbank.org/
