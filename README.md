@@ -1,14 +1,7 @@
 # Data Sources
 
 ## My curated DataSets
-These datasets include load capabilities for databases. Attribution as noted.
-
-- [MySQL](mysql-data/README.md)
-  - [MySQL example databases](https://dev.mysql.com/doc/index-other.html) including employee, Sakila, world, airport DB and menagerie.
-  - [MySQL Sample database ecommerce](https://www.mysqltutorial.org/mysql-sample-database.aspx)
-  - [MySQL Datacharmer employee database](https://github.com/datacharmer/test_db)
-- [GeoNames Locations]()
-
+- [Postcodes](mysql-data/postcodes.md) (96 countries)
 
 
 ## Free Public APIs (no login required)
@@ -46,8 +39,6 @@ These APIs are accessible for free, generally after registering your email.
 - https://apipheny.io/free-api/
 - https://rapidapi.com/collection/list-of-free-apis
 
-
-## Free MySQL ready data sources
 
 ## Free Sites with aggregated Data
 
@@ -100,6 +91,17 @@ These APIs are accessible for free, generally after registering your email.
 ## Free GEO Data
 - Countries as Polygons - https://datahub.io/core/geo-countries
 - GeoNames - http://www.geonames.org/
+
+## MySQL DataSets
+
+These datasets include load capabilities for databases. Attribution as noted.
+
+- [MySQL](mysql-data/README.md)
+  - [MySQL example databases](https://dev.mysql.com/doc/index-other.html) including employee, Sakila, world, airport DB and menagerie.
+- [MySQL Sample database ecommerce](https://www.mysqltutorial.org/mysql-sample-database.aspx)
+- [MySQL Datacharmer employee database](https://github.com/datacharmer/test_db)
+
+
 
 ## Free Data Set Generators
 
