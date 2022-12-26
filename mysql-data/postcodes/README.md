@@ -1,8 +1,23 @@
-# Postcodes
+# Postcodes (96+ countries)
 
 This data from [GeoNames](https://geonames.org) \(available under the [Creative Commons Attribution 4.0 License](https://creativecommons.org/licenses/by/4.0/) )
 is provided "as is" without warranty or any representation of accuracy, timeliness or completeness.
 
+## Data Summary
+
+As at 2022-12-26 22:05:36
+
+- 96 Countries
+- 1,549,815 Postal Codes
+- 2 tables (postcode, postcode_geo)
+- Top Countries (Portugal, India, Japan, Mexico)
+- US Postcodes 41,483
+- Australia Postcodes 16,873
+- Great Britian Postcodes 27,430
+
+### Did you know
+
+[American Samoa](https://www.google.com/maps/place/American+Samoa/@-37.8265655,-164.1712804,4.27z/data=!4m5!3m4!1s0x71a684b79248fdc9:0xf3ee739e2dae4bdd!8m2!3d-14.270972!4d-170.132217), Vatican City and [Palau](https://www.google.com/maps/place/Palau/@-13.1335443,146.6204552,4.78z/data=!4m5!3m4!1s0x328445b4a2af0399:0x12ed1edd39a1ebbb!8m2!3d7.51498!4d134.58252) hold the record of containing just 1 postcode for the country (with this dataset).
 
 ## Get source data
 
@@ -32,7 +47,7 @@ this setup, however it can be easily configured for any local or cloud-based MyS
 - postcode
 - postcode_geo
 
-
+```
     CREATE TABLE postcode (
       postcode_id int unsigned NOT NULL AUTO_INCREMENT,
       country_code char(2) NOT NULL,
@@ -60,6 +75,7 @@ this setup, however it can be easily configured for any local or cloud-based MyS
       PRIMARY KEY (postcode_id),
       SPATIAL KEY location (location)
     ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+```
 
 ## Example Dataset
 
@@ -149,3 +165,24 @@ this setup, however it can be easily configured for any local or cloud-based MyS
     |     1505328 | US           | 90210       | Beverly Hills | California  | CA          | Los Angeles | 037         |             |             | 34.0901 | -118.407 |        4 |
     +-------------+--------------+-------------+---------------+-------------+-------------+-------------+-------------+-------------+-------------+---------+----------+----------+
     1 row in set (0.00 sec)
+
+    mysql> SELECT country_code, COUNT(*) AS country_count
+    -> FROM postcode
+    -> GROUP BY country_code
+    -> ORDER BY 2 DESC
+    -> LIMIT 10;
+    +--------------+---------------+
+    | country_code | country_count |
+    +--------------+---------------+
+    | PT           |        206942 |
+    | IN           |        155570 |
+    | JP           |        146916 |
+    | MX           |        144655 |
+    | SG           |        121154 |
+    | PE           |         96943 |
+    | PL           |         72900 |
+    | FR           |         51670 |
+    | RU           |         43538 |
+    | US           |         41483 |
+    +--------------+---------------+
+    10 rows in set (1.17 sec)
