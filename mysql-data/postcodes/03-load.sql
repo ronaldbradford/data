@@ -9,5 +9,5 @@ LOAD DATA
    lat, lng, @accuracy)
    SET accuracy = IF(@accuracy = '',NULL,@accuracy);
 
-SELECT COUNT(*) FROM postcode;
+SELECT NOW() AS now, COUNT(*) AS cnt FROM postcode;
 SELECT * FROM postcode LIMIT 10;
