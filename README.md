@@ -1,7 +1,7 @@
 # Data Sources
 
 ## My curated DataSets
-- [Postcodes](mysql-data/postcodes.md) (96 countries)
+- [Postcodes](mysql-data/postcodes/README.md) (96 countries)
 
 
 ## Free Public APIs (no login required)
