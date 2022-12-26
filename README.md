@@ -1,8 +1,21 @@
 # Data Sources
 
+## My curated DataSets
+These datasets include load capabilities for databases. Attribution as noted.
+
+- [MySQL](mysql-data/README.md)
+  - [MySQL example databases](https://dev.mysql.com/doc/index-other.html) including employee, Sakila, world, airport DB and menagerie.
+  - [MySQL Sample database ecommerce](https://www.mysqltutorial.org/mysql-sample-database.aspx)
+  - [MySQL Datacharmer employee database](https://github.com/datacharmer/test_db)
+- [GeoNames Locations]()
+
+
+
 ## Free Public APIs (no login required)
 
 These APIs are publicly accessible and require no login information.
+
+<i>Example curl and output provided</i>
 
 - [AWS regions](free-public-api/aws-regions/README.md)
 - [Beer styles](free-public-api/beerstyles/README.md)
@@ -24,9 +37,9 @@ These APIs are publicly accessible and require no login information.
 
 These APIs are accessible for free, generally after registering your email.
 
-- [Amadeus Flight Data](free-account-required/amadeus/README.md)
+- [Amadeus Flight Data](free-account-required/amadeus/README.md) (Free API Key Required)
 - Stocks - https://polygon.io/stocks
-- US Congress (ProPublica) - https://www.propublica.org/datastore/api/propublica-congress-api (API Required)
+- US Congress (ProPublica) - https://www.propublica.org/datastore/api/propublica-congress-api (Free API Key Required)
 
 ## Sites with links to free API Sites
 - https://mixedanalytics.com/blog/list-actually-free-open-no-auth-needed-apis/
@@ -35,9 +48,6 @@ These APIs are accessible for free, generally after registering your email.
 
 
 ## Free MySQL ready data sources
-- [MySQL example databases](https://dev.mysql.com/doc/index-other.html) including employee, sakila, world,airport DB and menagerie
-- [MySQL Sample database ecommerce](https://www.mysqltutorial.org/mysql-sample-database.aspx)
-- [MySQL Datacharmer employee database](https://github.com/datacharmer/test_db)
 
 ## Free Sites with aggregated Data
 
@@ -45,12 +55,17 @@ These APIs are accessible for free, generally after registering your email.
 - Austin Texas MetroBike Data - https://data.austintexas.gov/Transportation-and-Mobility/Austin-MetroBike-Trips/tyfh-5r8s
 - AWS Data Sets - https://registry.opendata.aws/
 - CIA Factbook - https://www.cia.gov/the-world-factbook/about/archives/
+- Data Hub - https://datahub.io/
+- EPA Air Quality Datasets - https://www.epa.gov/outdoor-air-quality-data
 - European Commission - https://data.europa.eu/en
 - Freebase N-Triples (Archived copy) - https://developers.google.com/freebas
+- Free GIS Data List - https://freegisdata.rtwilson.com/
 - Free Music Archive - https://github.com/mdeff/fma
 - GCP BigQuery Data Sets - https://cloud.google.com/bigquery/public-data
 - GCP Data Sets- https://cloud.google.com/datasets
+- GeoNames Data Sources - https://www.geonames.org/datasources/
 - Google Public Data - https://www.google.com/publicdata/directory
+- Google Dataset Search - https://datasetsearch.research.google.com/
 - HathiTrust Digital Library - https://babel.hathitrust.org/
 - International Monetary Fund (IMF) - https://data.imf.org/
 - Internet Movie Database (IMDB) Data - https://www.imdb.com/interfaces/
@@ -60,12 +75,15 @@ These APIs are accessible for free, generally after registering your email.
 - Kaggle - https://www.kaggle.com/
 - Machine Learning Datasets - https://paperswithcode.com/datasets
 - Million Songs Data - http://millionsongdataset.com/
+- MovieLens Datasets - https://grouplens.org/datasets/movielens/
 - NASA Data - https://data.nasa.gov/
+- Nations Online - https://www.nationsonline.org/oneworld/information_sources.html
 - NYC Citi Bike Ride History https://ride.citibikenyc.com/system-data
 - NYC Yellow Cab Ride History https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page
 - Open Library - https://openlibrary.org/, https://openlibrary.org/developers/dumps
 - Organisation for Economic Co-operation and Development (OECD) Data https://data.oecd.org/
 - Project Gutenberg (Free books) -  https://www.gutenberg.org/
+- Queensland Government DataSets - https://www.data.qld.gov.au/dataset/
 - World Bank - https://data.worldbank.org/
 - UK Open Data - https://www.data.gov.uk/
 - US Census Data - https://data.census.gov/
@@ -76,23 +94,31 @@ These APIs are accessible for free, generally after registering your email.
 - US Zip Codes - https://simplemaps.com/data/us-zips (Free & Paid), https://www.unitedstateszipcodes.org/zip-code-database/ (Free & Paid)
 - United Nations Data - https://data.un.org/
 - Yahoo Datasets - https://webscope.sandbox.yahoo.com/catalog.php?datatype=i&did=67
+- Wikipedia Statistics - https://en.wikipedia.org/wiki/Wikipedia:Statistics
 - World Bank - https://data.worldbank.org/
 
+## Free GEO Data
+- Countries as Polygons - https://datahub.io/core/geo-countries
+- GeoNames - http://www.geonames.org/
 
 ## Free Data Set Generators
 
-- https://www.mockaroo.com/ (Free Login Required)
-- https://generatedata.com/ (Free Login Required)
+- https://www.mockaroo.com/ (Free - Login Required)
+- https://generatedata.com/ (Free - Login Required)
 - https://www.onlinedatagenerator.com/
 - https://www.fakenamegenerator.com/
 - Test Data Generator https://smalldev.tools/test-data-generator-online
 
 ## Free Datasets (User Registration Required)
 - data.world - https://data.world/
-- Nasdag - https://data.nasdaq.com/search?filters=%5B%22Free%22%5D
+- Nasdaq - https://data.nasdaq.com/search?filters=%5B%22Free%22%5D
 
 
 ## Paid DataSets
 - Aviation Tracking - https://aviation-edge.com/
 - Crawl Feeds - https://crawlfeeds.com/datasets
 - World Weather - https://meteostat.net/en/
+
+
+## Data conversion tools
+- ESRI (gdb) to GeoJSON https://mygeodata.cloud/converter/gdb-to-geojson
