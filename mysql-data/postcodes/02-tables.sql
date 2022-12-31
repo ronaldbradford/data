@@ -1,3 +1,4 @@
+\! echo "Creating Tables"
 CREATE TABLE postcode (
   postcode_id INT UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY,
   country_code  CHAR(2) NOT NULL,

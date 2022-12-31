@@ -1,3 +1,4 @@
+\! echo "Showing summary stats of dataset"
 SELECT COUNT(DISTINCT country_code) AS country_count FROM postcode;
 SELECT COUNT(*) AS australia_count FROM postcode WHERE country_code='AU';
 SELECT COUNT(*) AS us_count FROM postcode WHERE country_code='US';

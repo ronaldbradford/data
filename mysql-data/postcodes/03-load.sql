@@ -1,3 +1,4 @@
+\! echo "Loading data into tables"
 LOAD DATA 
   LOCAL INFILE 'allCountries.tsv' 
   INTO TABLE postcode 
