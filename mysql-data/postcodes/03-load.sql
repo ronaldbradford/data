@@ -2,6 +2,7 @@ LOAD DATA
   LOCAL INFILE 'allCountries.tsv' 
   INTO TABLE postcode 
   FIELDS TERMINATED BY '\t'
+  IGNORE 0 LINES
   (country_code, postal_code, place_name, 
    admin_name1, admin_code1,
    admin_name2, admin_code2,

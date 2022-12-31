@@ -1,4 +1,4 @@
-# Postcodes (96+ countries)
+# Country Postcodes Dataset (96+ countries)
 
 This data from [GeoNames](https://geonames.org) \(available under the [Creative Commons Attribution 4.0 License](https://creativecommons.org/licenses/by/4.0/) )
 is provided "as is" without warranty or any representation of accuracy, timeliness or completeness.
@@ -19,30 +19,38 @@ As at 2022-12-26 22:05:36
 
 [American Samoa](https://www.google.com/maps/place/American+Samoa/@-37.8265655,-164.1712804,4.27z/data=!4m5!3m4!1s0x71a684b79248fdc9:0xf3ee739e2dae4bdd!8m2!3d-14.270972!4d-170.132217), Vatican City and [Palau](https://www.google.com/maps/place/Palau/@-13.1335443,146.6204552,4.78z/data=!4m5!3m4!1s0x328445b4a2af0399:0x12ed1edd39a1ebbb!8m2!3d7.51498!4d134.58252) hold the record of containing just 1 postcode for the country (with this dataset).
 
-## Get source data
+## Get source data used in this example
 
-    wget https://download.geonames.org/export/zip/allCountries.zip
-    wget https://download.geonames.org/export/zip/readme.txt
-    unzip allCountries.zip
-    mv allCountries.txt allCountries.tsv
+    ./get-data.sh
+
+A sample file `demo.tsv` contains a subset of data that can be used if you do not wish to download the full data. This has to renamed to `allCountries.tsv` to use.
 
 ## Define your Database Connectivity
 
 - See [../DOCKER.md](../DOCKER.md) for a standalone local environment. The following instructions will use
-this setup, however it can be easily configured for any local or cloud-based MySQL instance.
+this setup, however steps can be easily configured for any local or cloud-based MySQL instance.
 
-## Load Data into MySQL
+## Load Data into an existing MySQL instance
 
-    docker cp allCountries.tsv ${DB_CONTAINER}:/
-    SCHEMA="postcodes"
+When running a local mysql client connecting to an existing local MySQL instance and you have a configured `$HOME/.my.cnf`
 
-    docker exec -i ${DB_CONTAINER}  mysql -u${DBA_USER} -p${DBA_PASSWD} --local-infile --show-warnings < 01-schema.sql
-    docker exec -i ${DB_CONTAINER}  mysql -u${DBA_USER} -p${DBA_PASSWD} --local-infile --show-warnings ${SCHEMA} < 02-tables.sql
-    docker exec -i ${DB_CONTAINER}  mysql -u${DBA_USER} -p${DBA_PASSWD} --local-infile --show-warnings ${SCHEMA} < 03-load.sql
-    docker exec -i ${DB_CONTAINER}  mysql -u${DBA_USER} -p${DBA_PASSWD} --local-infile --show-warnings ${SCHEMA} < 04-data.sql
-    docker exec -i ${DB_CONTAINER}  mysql -u${DBA_USER} -p${DBA_PASSWD} --local-infile --show-warnings ${SCHEMA} < 05-alter.sql
+    mysql --local-infile --show-warnings < install.sql
 
-## Tables
+NOTE: SQL statements use the `LOAD DATA` command, so applicable load data configuration is necessary.
+
+### Loading data into local Docker container
+
+    ./load-docker-data.sh
+
+If you want to load a sample of 'N' rows (where 'N' is an integer):
+
+    SAMPLE=<n> ./load-docker-data.sh
+
+If you want verbose debugging of the SQL statements:
+
+    TRACE=Y ./load-docker-data.sh
+
+## Tables in this dataset
 
 - postcode
 - postcode_geo
@@ -77,7 +85,7 @@ this setup, however it can be easily configured for any local or cloud-based MyS
     ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 ```
 
-## Example Dataset
+## Example Queries of Dataset
 
 
     mysql> SELECT COUNT(DISTINCT country_code) AS country_count FROM postcode;
