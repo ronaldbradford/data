@@ -9,10 +9,10 @@ CONTAINER_SHELL=${CONTAINER_SHELL:-sh}
 # ------------------------------------------------------------------------------
 configure-docker() {
   export DBA_USER=${DBA_USER:-root}
-  DBA_PASSWD=$(date | md5sum | cut -c1-17)
+  export DBA_PASSWD=$(date | md5sum | cut -c1-17)
   export DB_CONTAINER=${DB_CONTAINER:-mysql}
   echo "
-export DBA_USER=$DBA_USER
+export DBA_USER=${DBA_USER}
 export DBA_PASSWD=${DBA_PASSWD}
 export DB_CONTAINER=${DB_CONTAINER}" > ${DB_CNF}
 
@@ -22,25 +22,39 @@ export DB_CONTAINER=${DB_CONTAINER}" > ${DB_CNF}
 
 # ------------------------------------------------------------------------------
 my() {
-  docker exec -it mysql ${DB_CONTAINER} -u${DBA_USER} -p${DBA_PASSWD} --local-infile --show-warnings "$@"
+  local DB_TRACE
+  [ -n "${TRACE}" ] && DB_TRACE='-vvv'
+  docker exec -it ${DB_CONTAINER} mysql -u${DBA_USER} -p${DBA_PASSWD} --local-infile --show-warnings ${DB_TRACE} "$@" ${SCHEMA}
 }
 
 # ------------------------------------------------------------------------------
 start-docker() {
+  local OPTIONS="$@"
 
   [ -z "${DB_CONTAINER}" ] && echo "ERROR: Unable to find DB_CONTANIER. Be sure you have set required environment variables" && return 1
 
-  docker run --name ${DB_CONTAINER} --rm -e MYSQL_ROOT_PASSWORD=${DBA_PASSWD} -v $(pwd)/etc/my.cnf:/etc/mysql/conf.d/load.cnf -d mysql:${CONTAINER_LABEL}
+  docker run --name ${DB_CONTAINER} ${OPTIONS} --rm -e MYSQL_ROOT_PASSWORD=${DBA_PASSWD} -v $(pwd)/etc/my.cnf:/etc/mysql/conf.d/load.cnf -d mysql:${CONTAINER_LABEL}
   local READY="ready for connections"
   echo "Waiting for MySQL container '${READY}'"
   sleep 3
   while : ; do
     READY=$(docker logs mysql 2>&1 | grep -c "${READY}") 
-    [[ ${READY} -gt 1 ]] && break
+    [[ ${READY} -gt 3 ]] && break
     sleep 1
   done
 
+  echo "[mysql]
+user=${DBA_USER}
+password=${DBA_PASSWD}
+prompt=\"\\u@\\h (\\d) [\\R:\\m:\\\\s] > \"
+local_infile=1
+show_warnings=1" > /tmp/.my.cnf
+
+  docker cp /tmp/.my.cnf ${DB_CONTAINER}:/root
+  rm /tmp/.my.cnf
+
   my  -e '"SELECT VERSION(), @@local_infile, @@secure_file_priv"'
+
 }
 
 # ------------------------------------------------------------------------------
