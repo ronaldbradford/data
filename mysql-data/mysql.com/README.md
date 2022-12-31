@@ -18,7 +18,18 @@ These are 4 example datasets available at [MySQL.com Example Datasets](https://d
 If you wish to use with a docker container, created for example with this repos [Docker Setup](../DOCKER.md).
 
   source .db.cnf
-  export DOCKERIZE=
+  export DOCKERIZE="docker exec -i ${DB_CONTAINER}"
   export AUTHENTICATION="-u<user> -p<password> -h<host>"
   ./load-data.sh
   
+
+## Data Distribution
+
+The airportdb is the largest dataset including
+- 113 airlines
+- 9,854 airports
+- 462,553 flights
+- 36,095 passengers
+- 54,304,619 bookings
+
+## Example DataSet

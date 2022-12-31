@@ -66,13 +66,19 @@ load-airport-db() {
   mysql ${AUTHENTICATION} < ${DATASET}.sql
   TABLE_ORDER="airport airline airplane_type airplane airport_geo airport_reachable weatherdata employee flightschedule flight flight_log passenger passengerdetails booking"
   for TABLE in ${TABLE_ORDER}; do
-    ${DOCKERIZE} mysql ${AUTHENTICATION} ${DATASET} < ${SOURCE}@${TABLE}.sql
+    ${DOCKERIZE} mysql ${AUTHENTICATION} ${DATASET} < ${DATASET}@${TABLE}.sql
   done
   echo "Preparing '${DATASET}' data"
   zstd -df *.tsv.zst
+  echo "Patching airline data that causes FK errors"
+  sed -e "s/813/6670/;s/1418/8759/;s/452/1984/" ${DATASET}@airline@@0.tsv > airline.tsv
+  echo "Consolidating all bookings to perform a single load"
   cat airportdb@booking@*.tsv > booking.tsv
-  sed -e "s/813/6670/;s/1418/8759/;s/452/1984/" airportdb@airline@@0.tsv > airline.tsv
+  ls -lh *.tsv
+  wc -l booking.tsv
   echo "Loading '${DATASET}' data"
+  cp ../03-load.sql .
+  ${DOCKERIZE} mysql ${AUTHENTICATION} ${MYSQL_OPTIONS} ${DATASET} < 03-load.sql
 
 }
 
