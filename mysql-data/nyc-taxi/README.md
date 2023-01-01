@@ -10,10 +10,18 @@ Data is now available after 2 months. Data starts in 2009.
 
 
 - Month: 2022-01
-- Rows: 2463931
+- Rows: 246,3931
 - Reasonable amount of bad data
 - 2022-01-21 was the busyist day, it was a Friday.
 - Monday's are the busyist weekday!!!
+
+## Pre-requisites
+- Python 3
+- Needed libraries installed with
+
+```
+   pip3 install -r requirements.txt
+```
 
 ## Get source data
 
