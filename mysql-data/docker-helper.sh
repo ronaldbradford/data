@@ -24,6 +24,7 @@ export DB_CONTAINER=${DB_CONTAINER}" > ${DB_CNF}
 my() {
   local DB_TRACE
   [ -n "${TRACE}" ] && DB_TRACE='-vvv'
+  [ -z "${DBA_USER}" ] && echo "Required environment variables are unset" && return 1
   docker exec -it ${DB_CONTAINER} mysql -u${DBA_USER} -p${DBA_PASSWD} --local-infile --show-warnings ${DB_TRACE} "$@" ${SCHEMA}
 }
 
