@@ -40,7 +40,7 @@ start-docker() {
   while : ; do
     READY=$(docker logs mysql 2>&1 | grep -c "${READY}") 
     [[ ${READY} -gt 3 ]] && break
-    sleep 1
+    sleep 3
   done
 
   echo "[mysql]
