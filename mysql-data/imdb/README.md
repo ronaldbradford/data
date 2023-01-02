@@ -38,73 +38,89 @@ If you want verbose debugging of the SQL statements:
 
 ## Load Data into an existing MySQL instance
 
-When running a local mysql client connecting to an existing local MySQL instance and you have a configured `$HOME/.my.cnf`
+When running a local mysql client connecting to an existing local MySQL instance and you have a configured $HOME/.my.cnf
 
     mysql --local-infile --show-warnings < install.sql
 
-NOTE: SQL statements use the `LOAD DATA` command, so applicable load data configuration is necessary.
+NOTE: SQL statements use the LOAD DATA command, so applicable load data configuration is necessary.
 
 
 
 ## Tables
 
-```
-CREATE TABLE name (
-  name_id int unsigned NOT NULL AUTO_INCREMENT,
-  nconst char(10) NOT NULL,
-  name varchar(120) NOT NULL,
-  birth_year year DEFAULT NULL,
-  death_year year DEFAULT NULL,
-  profession varchar(64) DEFAULT NULL,
-  known_for varchar(64) DEFAULT NULL,
-  PRIMARY KEY (name_id),
-  UNIQUE KEY nconst (nconst)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+    CREATE TABLE name (
+      name_id int unsigned NOT NULL AUTO_INCREMENT,
+      nconst char(10) NOT NULL,
+      name varchar(120) NOT NULL,
+      birth_year year DEFAULT NULL,
+      death_year year DEFAULT NULL,
+      profession varchar(64) DEFAULT NULL,
+      known_for varchar(64) DEFAULT NULL,
+      PRIMARY KEY (name_id),
+      UNIQUE KEY nconst (nconst)
+    ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
-CREATE TABLE title (
-  title_id int unsigned NOT NULL AUTO_INCREMENT,
-  tconst char(10) NOT NULL,
-  type varchar(10) NOT NULL,
-  title varchar(300) NOT NULL,
-  original_title varchar(300) NOT NULL,
-  is_adult tinyint(1) NOT NULL,
-  start_year year DEFAULT NULL,
-  end_year year DEFAULT NULL,
-  run_time_mins smallint DEFAULT NULL,
-  genres varchar(32) DEFAULT NULL,
-  PRIMARY KEY (title_id),
-  UNIQUE KEY tconst (tconst)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+    CREATE TABLE title (
+      title_id int unsigned NOT NULL AUTO_INCREMENT,
+      tconst char(10) NOT NULL,
+      type varchar(10) NOT NULL,
+      title varchar(300) NOT NULL,
+      original_title varchar(300) NOT NULL,
+      is_adult tinyint(1) NOT NULL,
+      start_year year DEFAULT NULL,
+      end_year year DEFAULT NULL,
+      run_time_mins smallint DEFAULT NULL,
+      genres varchar(32) DEFAULT NULL,
+      PRIMARY KEY (title_id),
+      UNIQUE KEY tconst (tconst)
+    ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
-CREATE TABLE title_crew (
-  crew_id int unsigned NOT NULL AUTO_INCREMENT,
-  tconst char(10) NOT NULL,
-  directors text,
-  writers text,
-  PRIMARY KEY (crew_id),
-  KEY tconst (tconst)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+    CREATE TABLE title_crew (
+      crew_id int unsigned NOT NULL AUTO_INCREMENT,
+      tconst char(10) NOT NULL,
+      directors text,
+      writers text,
+      PRIMARY KEY (crew_id),
+      KEY tconst (tconst)
+    ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
-CREATE TABLE title_genre (
-  title_id int unsigned NOT NULL,
-  genre varchar(30) NOT NULL,
-  KEY title_id (title_id)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+    CREATE TABLE title_episode (
+      tconst char(10) NOT NULL,
+      parent_tconst char(10) NOT NULL,
+      season smallint unsigned DEFAULT NULL,
+      episode smallint unsigned DEFAULT NULL,
+      PRIMARY KEY (tconst,parent_tconst),
+      KEY parent_tconst (parent_tconst)
+    ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci
 
-CREATE TABLE title_principals (
-  tconst char(10) NOT NULL,
-  ordering tinyint unsigned NOT NULL,
-  nconst char(10) NOT NULL,
-  category varchar(100) NOT NULL,
-  job varchar(100) DEFAULT NULL,
-  characters varchar(100) DEFAULT NULL,
-  PRIMARY KEY (tconst,ordering),
-  KEY nconst (nconst)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
-```
+    CREATE TABLE title_genre (
+      title_id int unsigned NOT NULL,
+      genre varchar(30) NOT NULL,
+      KEY title_id (title_id)
+    ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+    CREATE TABLE title_principal (
+      tconst char(10) NOT NULL,
+      ordering tinyint unsigned NOT NULL,
+      nconst char(10) NOT NULL,
+      category varchar(100) NOT NULL,
+      job varchar(100) DEFAULT NULL,
+      characters varchar(100) DEFAULT NULL,
+      PRIMARY KEY (tconst,ordering),
+      KEY nconst (nconst)
+    ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+    EATE TABLE title_rating (
+      tconst char(10) NOT NULL,
+      averageRating decimal(3,1) NOT NULL,
+      numVotes int unsigned NOT NULL,
+      PRIMARY KEY (tconst)
+    ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci
 
 ## Example Dataset
 
+
+ SELECT type, COUNT(*) AS cnt FROM title GROUP BY type ORDER BY 2 DESC;
 
 
 ## Data Format

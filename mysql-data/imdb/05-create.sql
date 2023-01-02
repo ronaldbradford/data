@@ -1,14 +1,17 @@
+SET SESSION  collation_connection='utf8mb4_0900_ai_ci';
+
 DROP FUNCTION IF EXISTS SPLITSTR;
-CREATE FUNCTION SPLITSTR (
-  st VARCHAR(255),
-  pos INT
-)
-RETURNS VARCHAR(255) NO SQL
+CREATE FUNCTION SPLITSTR ( st VARCHAR(255), pos INT)
+RETURNS VARCHAR(255) CHARSET utf8mb4
+NO SQL
+DETERMINISTIC
+    SQL SECURITY INVOKER
 RETURN REPLACE(SUBSTRING(SUBSTRING_INDEX(st, ',' , pos),
        LENGTH(SUBSTRING_INDEX(st, ',' , pos -1)) + 1),
        ',', '');
 
 
+\! echo "Creating title_genre table (CTE of CSV column)"
 CREATE TABLE title_genre(title_id INT UNSIGNED NOT NULL, genre VARCHAR(30) NOT NULL, INDEX(title_id)) AS
 WITH cte (title_id, genre) AS (
   SELECT t.title_id, SPLITSTR(t.genres,n.i)
@@ -18,4 +21,4 @@ WITH cte (title_id, genre) AS (
 )
 SELECT * FROM cte;
 
-SELECT 'title_genre' AS tbl, COUNT(*) from title_genre;
+SELECT 'title_genre' AS tbl, COUNT(*) FROM title_genre;
