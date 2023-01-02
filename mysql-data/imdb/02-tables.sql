@@ -67,3 +67,5 @@ CREATE TABLE title_principal(
   PRIMARY KEY (tconst, ordering),
   INDEX (nconst)
 );
+
+SHOW TABLES;

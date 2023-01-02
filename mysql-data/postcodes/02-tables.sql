@@ -24,3 +24,5 @@ CREATE TABLE postcode_geo (
 SPATIAL INDEX (location)
 );
   
+
+SHOW TABLES;

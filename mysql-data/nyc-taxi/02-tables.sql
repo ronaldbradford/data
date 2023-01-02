@@ -20,3 +20,5 @@ total_amount DECIMAL(7,2) NOT NULL,
 congestion_surcharge DECIMAL(7,2) NOT NULL, 
 airport_fee DECIMAL(7,2) NOT NULL
 );
+
+SHOW TABLES;

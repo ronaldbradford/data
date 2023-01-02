@@ -7,6 +7,7 @@ the ability to load data into different products for evaluation.  At this time M
 - [Postcodes](postcodes/README.md) (1,549,815 postal codes, 96 countries)
 - [NYC Yellow Taxi Rides](nyc-taxi/README.md) (246k rows - Jan 2022 example)
 - [IMDb](imdb/README.md) (12,188,623 names)
+- [Airports](mysql-data/airports/README.md)
 
 
 ## Other MySQL DataSets

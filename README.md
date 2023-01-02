@@ -4,6 +4,7 @@
 - [Postcodes](mysql-data/postcodes/README.md) (1,549,815 postal codes, 96 countries)
 - [NYC Yellow Taxi Rides](mysql-data/nyc-taxi/README.md) (246k rows - Jan 2022 example)
 - [IMDb](mysql-data/imdb/README.md) (12,188,623 names)
+- [Airports](mysql-data/airports/README.md)
 - [MySQL.com example datasets](mysql-data/mysql.com/README.md) (airportdb - 54,304,619 bookings)
 
 ## Free Public APIs (no login required)
