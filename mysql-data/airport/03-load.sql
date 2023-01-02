@@ -25,3 +25,11 @@ LOAD DATA
   IGNORE 1 LINES
   (region_id, region_code, local_code, name, continent_code, country_code, wikipedia_url, keywords);
 
+LOAD DATA
+  LOCAL INFILE 'airport-frequencies.csv'
+  INTO TABLE airport_frequency
+  COLUMNS TERMINATED BY ','
+          OPTIONALLY ENCLOSED BY '"'
+  IGNORE 1 LINES
+  (frequency_id, airport_id, ident, type, description, frequency_mhz);
+

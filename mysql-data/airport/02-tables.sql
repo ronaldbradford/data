@@ -25,6 +25,17 @@ CREATE TABLE airport (
   KEY (region_code)
 );
 
+CREATE TABLE airport_frequency(
+  frequency_id   INT UNSIGNED NOT NULL,
+  airport_id     INT UNSIGNED NOT NULL,
+  ident          VARCHAR(7) NOT NULL,
+  type           VARCHAR(20) NOT NULL,
+  description    VARCHAR(100) NOT NULL,
+  frequency_mhz  DECIMAL(7,3) NOT NULL,
+  PRIMARY KEY(frequency_id),
+  KEY (airport_id)
+);
+
 CREATE TABLE country(
   country_id     INT UNSIGNED NOT NULL,
   country_code   CHAR(2) NOT NULL,
