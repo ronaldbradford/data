@@ -75,6 +75,7 @@ These APIs are accessible for free, generally after registering your email.
 - NYC Citi Bike Ride History https://ride.citibikenyc.com/system-data
 - NYC Yellow Cab Ride History https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page
 - Open Library - https://openlibrary.org/, https://openlibrary.org/developers/dumps
+- Open Flights - https://openflights.org/data.html
 - Organisation for Economic Co-operation and Development (OECD) Data https://data.oecd.org/
 - Project Gutenberg (Free books) -  https://www.gutenberg.org/
 - Queensland Government DataSets - https://www.data.qld.gov.au/dataset/
@@ -123,6 +124,7 @@ These datasets include load capabilities for databases. Attribution as noted.
 - Aviation Tracking - https://aviation-edge.com/
 - Crawl Feeds - https://crawlfeeds.com/datasets
 - World Weather - https://meteostat.net/en/
+- OAG Flight Data - https://www.oag.com/flight-data-sets
 
 
 ## Data conversion tools
