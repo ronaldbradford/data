@@ -45,6 +45,10 @@ When running a local mysql client connecting to an existing local MySQL instance
 NOTE: SQL statements use the LOAD DATA command, so applicable load data configuration is necessary.
 
 
+## Limitations
+
+If you have Binary Logging enabled, then `log_bin_trust_function_creators` must be 1.  See https://dev.mysql.com/doc/refman/5.7/en/replication-options-binary-log.html#sysvar_log_bin_trust_function_creators
+
 
 ## Tables
 

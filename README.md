@@ -42,7 +42,7 @@ These APIs are accessible for free, generally after registering your email.
 ## Sites with links to free API Sites
 - https://mixedanalytics.com/blog/list-actually-free-open-no-auth-needed-apis/
 - https://apipheny.io/free-api/
-- https://rapidapi.com/collection/list-of-free-apis
+- https://rapidapi.com/collection/list-of-free-apis, https://rapidapi.com/blog/most-popular-api/
 
 
 ## Free Sites with aggregated Data

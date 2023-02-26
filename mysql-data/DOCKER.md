@@ -58,3 +58,7 @@ The default configuration for MySQL client access is also configured on the dock
 ## Stop Container
 
     stop-docker
+
+## Script internals
+
+`configure-docker` will drop a `.db.cnf` file in the working directory.
