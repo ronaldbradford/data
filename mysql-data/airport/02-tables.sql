@@ -8,7 +8,7 @@ CREATE TABLE airport (
   latitude      FLOAT NOT NULL,
   longitude     FLOAT NOT NULL,
   elevation_ft  SMALLINT NULL DEFAULT NULL,
-  continent     CHAR(2) NOT NULL,
+  continent_code CHAR(2) NOT NULL,
   country_code  CHAR(2) NOT NULL,
   region_code   CHAR(7) NOT NULL,
   municipality  VARCHAR(60) NOT NULL,
