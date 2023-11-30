@@ -10,8 +10,6 @@ the ability to load data into different products for evaluation.  At this time M
 - [High Accuracy Locations](mysql-data/location/README.md) (90k places from 216 countries)
 - [Airports](mysql-data/airports/README.md) (74,451 airports)
 
-git
-
 ## Other MySQL DataSets
 - [MySQL.com Example Datasets](https://dev.mysql.com/doc/index-other.html)
  - [Sakila](https://dev.mysql.com/doc/sakila/en/)
@@ -19,10 +17,11 @@ git
  - Menagerie
  - [Airport](https://dev.mysql.com/doc/airportdb/en/) (54,304,619 bookings)
 
-These MySQL sources are designed to all be loaded as one example. See [instructions](mysql.com/README.md)
+These MySQL sources are designed to all be loaded as one example using included scripts. See [instructions](mysql.com/README.md). The full data is not provided here, however a script that downloads the data is available.
 
 
 - DataCharmer
   - [Employees](https://dev.mysql.com/doc/airportdb/en/) [GitHub](https://github.com/datacharmer/test_db)
 
-  See [instructions](datacharmer/README.md) for installation.
+
+See [instructions](datacharmer/README.md) for installation.
