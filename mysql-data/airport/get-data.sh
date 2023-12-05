@@ -9,7 +9,7 @@ echo ""
 
 
 
-FILES="airports countries regions airport-freuqencies" # runways navaids airport-comments
+FILES="airports countries regions airport-frequencies runways navaids airport-comments"
 
 for FILE in ${FILES}; do
   CSV_FILE="${FILE}.csv"
