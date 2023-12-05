@@ -32,3 +32,18 @@ AND        f.departure BETWEEN '2015-06-01' AND '2015-06-30'
 GROUP BY   b.passenger_id, p.firstname, p.lastname
 ORDER BY 4 DESC
 LIMIT 25;
+
+\! echo "Flights per day"
+SELECT DATE(departure) AS date, count(*) FROM flight GROUP BY date(departure) ORDER BY 1;
+
+\! echo "Single Booking Lookup"
+SELECT * FROM booking WHERE flight_id=758655;
+SELECT * FROM flight WHERE flight_id=758655;
+SELECT * FROM airport WHERE airport_id IN (4167, 8033);
+SELECT * FROM airport_geo WHERE airport_id in (4167, 8033);
+SELECT * FROM airline WHERE airline_id=113;
+SELECT * FROM airplane WHERE airplane_id=3296;
+SELECT * FROM airplane_type WHERE type_id=232;
+SELECT * FROM passenger WHERE passenger_id=22514;
+SELECT * FROM flight_log WHERE flight_id=758655;
+SELECT * FROM flightschedule WHERE flightno='ZI8976';

@@ -93,6 +93,7 @@ These APIs are accessible for free, generally after registering your email.
 - Yahoo Datasets - https://webscope.sandbox.yahoo.com/catalog.php?datatype=i&did=67
 - Wikipedia Statistics - https://en.wikipedia.org/wiki/Wikipedia:Statistics
 - World Bank - https://data.worldbank.org/
+- OpenAIRE - https://explore.openaire.eu/
 
 ## Free GEO Data
 - Countries as Polygons - https://datahub.io/core/geo-countries

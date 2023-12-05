@@ -42,3 +42,6 @@ The DB structure via https://dev.mysql.com/doc/airportdb/en/airportdb-structure.
 
 
 ## Example SQL for datasets
+
+* [Airport DB Stats Queries](airport-db/20-stats.sql)
+* [Airport DB General Queries](airport-db/30-queries.sql)
