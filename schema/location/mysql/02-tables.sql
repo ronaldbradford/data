@@ -39,3 +39,5 @@ CREATE TABLE country_state (
   capital          VARCHAR(100) NULL,
   PRIMARY KEY(country_id, state_id)
 );
+
+SHOW TABLES;

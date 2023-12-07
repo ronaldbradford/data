@@ -3813,3 +3813,7 @@ INSERT INTO `country_subdivision` (`subdivision_id`, `country_id`, `name`) VALUE
 ('ZW-MV','ZW','Masvingo'),
 ('ZW-MW','ZW','Mashonaland West');
 SELECT COUNT(*) FROM country_subdivision;
+
+\! echo "Inserting unofficial 'country' data, part of airport dataset"
+INSERT INTO country (country_id, name, continent_id, iso_official, iso3, wikipedia_url, capital, region, sub_region) VALUES
+('XK','Kosovo','EU',0,NULL,'https://en.wikipedia.org/wiki/Kosovo','Pristina','Europe','Southern Europe');
