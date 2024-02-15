@@ -94,10 +94,16 @@ These APIs are accessible for free, generally after registering your email.
 - Wikipedia Statistics - https://en.wikipedia.org/wiki/Wikipedia:Statistics
 - World Bank - https://data.worldbank.org/
 - OpenAIRE - https://explore.openaire.eu/
+- AFL xScores - https://github.com/adamtunney/xScores/
+- Brewery Data - https://openbrewerydb.org/
+- Awesome Public Datasets -  https://github.com/awesomedata/awesome-public-datasets
+- Public Cloud Provider IP Ranges - https://github.com/tobilg/public-cloud-provider-ip-ranges
+- TPC-H Data Files - https://github.com/tripl-ai/tpch/
 
 ## Free GEO Data
 - Countries as Polygons - https://datahub.io/core/geo-countries
 - GeoNames - http://www.geonames.org/
+- AWS Edge Locatinos - https://github.com/tobilg/aws-edge-locations
 
 ## MySQL DataSets
 
@@ -117,6 +123,7 @@ These datasets include load capabilities for databases. Attribution as noted.
 - https://www.onlinedatagenerator.com/
 - https://www.fakenamegenerator.com/
 - Test Data Generator https://smalldev.tools/test-data-generator-online
+- FakerJS - https://fakerjs.dev/
 
 ## Free Datasets (User Registration Required)
 - data.world - https://data.world/
@@ -132,3 +139,7 @@ These datasets include load capabilities for databases. Attribution as noted.
 
 ## Data conversion tools
 - ESRI (gdb) to GeoJSON https://mygeodata.cloud/converter/gdb-to-geojson
+
+## Streaming Data
+- Public Real-time streaming datasets -  https://github.com/bytewax/awesome-public-real-time-datasets
+- Mock Data Generator - https://github.com/tinybirdco/mockingbird/
