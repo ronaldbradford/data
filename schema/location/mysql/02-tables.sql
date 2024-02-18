@@ -40,4 +40,16 @@ CREATE TABLE country_state (
   PRIMARY KEY(country_id, state_id)
 );
 
+\! echo "..osm_place"
+CREATE TABLE osm_place(
+  place_id   INT UNSIGNED NOT NULL,
+  name       VARCHAR(500) NOT NULL,
+  latitude   DECIMAL(14,10) NOT NULL,
+  longitude  DECIMAL(14,10) NOT NULL,
+  country_id CHAR(2) NULL,
+  osm_type   VARCHAR(10) NOT NULL,
+  address    JSON NOT NULL,
+PRIMARY KEY(place_id));
+
 SHOW TABLES;
+
