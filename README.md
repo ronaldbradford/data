@@ -75,6 +75,7 @@ These APIs are accessible for free, generally after registering your email.
 - NASA Data - https://data.nasa.gov/
 - Nations Online - https://www.nationsonline.org/oneworld/information_sources.html
 - NYC Citi Bike Ride History https://ride.citibikenyc.com/system-data
+- NYC MTA https://bustime.mta.info/wiki/Developers/Index
 - NYC Yellow Cab Ride History https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page
 - Open Library - https://openlibrary.org/, https://openlibrary.org/developers/dumps
 - Open Flights - https://openflights.org/data.html
@@ -99,6 +100,7 @@ These APIs are accessible for free, generally after registering your email.
 - Awesome Public Datasets -  https://github.com/awesomedata/awesome-public-datasets
 - Public Cloud Provider IP Ranges - https://github.com/tobilg/public-cloud-provider-ip-ranges
 - TPC-H Data Files - https://github.com/tripl-ai/tpch/
+- Open AQ Air Quality - https://openaq-data-archive.s3.amazonaws.com/
 
 ## Free GEO Data
 - Countries as Polygons - https://datahub.io/core/geo-countries
