@@ -12,7 +12,7 @@ RETURN REPLACE(SUBSTRING(SUBSTRING_INDEX(st, ',' , pos),
 
 
 \! echo "Creating title_genre table (CTE of CSV column)"
-CREATE TABLE title_genre(title_id INT UNSIGNED NOT NULL, genre VARCHAR(30) NOT NULL, INDEX(title_id)) AS
+CREATE TABLE title_genre(title_id INT UNSIGNED NOT NULL, genre VARCHAR(20) NOT NULL, INDEX(title_id)) AS
 WITH cte (title_id, genre) AS (
   SELECT t.title_id, SPLITSTR(t.genres,n.i)
   FROM title t, (SELECT 1 AS i UNION SELECT 2 UNION SELECT 3 UNION SELECT 4 UNION SELECT 5) n
@@ -21,4 +21,4 @@ WITH cte (title_id, genre) AS (
 )
 SELECT * FROM cte;
 
-SELECT 'title_genre' AS tbl, COUNT(*) FROM title_genre;
+SELECT 'title_genre' AS tbl, FORMAT(COUNT(*),0) FROM title_genre;

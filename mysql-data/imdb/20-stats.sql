@@ -34,7 +34,7 @@ ORDER BY 1;
 
 
 \! echo "Most voted on movies"
-SELECT t.title, tr.averageRating, tr.numVotes
+SELECT t.title, tr.average_rating, tr.num_votes
 FROM   title t
  INNER JOIN title_rating tr USING (tconst)
 WHERE t.type='Movie'

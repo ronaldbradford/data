@@ -12,7 +12,16 @@ Used with permission.
 Cite: [Non-Commercial Licensing](https://help.imdb.com/article/imdb/general-information/can-i-use-imdb-data-in-my-software/G5JTRESSHJBBHTGX#)
 
 ## Data Summary
-- TBD
+
+As at 3/24
+```
+name		13,316,226
+title_episode 	 8,108,264
+title_crew	10,606,348
+title_rating	 1,410,091
+title_principal	60,760,206
+title_genre     16,064,117
+```
 
 
 ## Get the source data
@@ -52,6 +61,9 @@ If you have Binary Logging enabled, then `log_bin_trust_function_creators` must 
 
 ## Tables
 
+See 02-tables.sql for most current structure.
+
+```
     CREATE TABLE name (
       name_id int unsigned NOT NULL AUTO_INCREMENT,
       nconst char(10) NOT NULL,
@@ -59,7 +71,7 @@ If you have Binary Logging enabled, then `log_bin_trust_function_creators` must 
       birth_year year DEFAULT NULL,
       death_year year DEFAULT NULL,
       profession varchar(64) DEFAULT NULL,
-      known_for varchar(64) DEFAULT NULL,
+      known_for varchar(80) DEFAULT NULL,
       PRIMARY KEY (name_id),
       UNIQUE KEY nconst (nconst)
     ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
@@ -92,7 +104,7 @@ If you have Binary Logging enabled, then `log_bin_trust_function_creators` must 
       tconst char(10) NOT NULL,
       parent_tconst char(10) NOT NULL,
       season smallint unsigned DEFAULT NULL,
-      episode smallint unsigned DEFAULT NULL,
+      episode mediumint unsigned DEFAULT NULL,
       PRIMARY KEY (tconst,parent_tconst),
       KEY parent_tconst (parent_tconst)
     ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci
@@ -114,17 +126,26 @@ If you have Binary Logging enabled, then `log_bin_trust_function_creators` must 
       KEY nconst (nconst)
     ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
-    EATE TABLE title_rating (
+    CEATE TABLE title_rating (
       tconst char(10) NOT NULL,
       averageRating decimal(3,1) NOT NULL,
       numVotes int unsigned NOT NULL,
       PRIMARY KEY (tconst)
     ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci
 
+    CREATE TABLE title_genre (
+      title_id int unsigned NOT NULL,
+      genre varchar(30) NOT NULL,
+      PRIMARY KEY title_id (title_id,genre)
+    ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci
+```
+
 ## Example Dataset
 
 
+```
  SELECT type, COUNT(*) AS cnt FROM title GROUP BY type ORDER BY 2 DESC;
+```
 
 
 ## Data Format

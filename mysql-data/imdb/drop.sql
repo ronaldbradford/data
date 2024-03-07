@@ -1,1 +1,1 @@
-DROP SCHEMA imdb;
+DROP SCHEMA IF EXISTS imdb;

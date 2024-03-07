@@ -30,7 +30,7 @@ LOAD DATA
   FIELDS TERMINATED BY '\t' 
   IGNORE 1 LINES;
 
-SELECT 'title_episode' AS tbl, COUNT(*) AS cnt FROM title_episode;
+SELECT 'title_episode' AS tbl, FORMAT(COUNT(*),0) AS cnt FROM title_episode;
 
 \! echo "Loading title crew for IMDb"
 LOAD DATA 
@@ -47,7 +47,8 @@ LOAD DATA
   LOCAL INFILE 'title.ratings.tsv'
   INTO TABLE title_rating
   FIELDS TERMINATED BY '\t'
-  IGNORE 1 LINES;
+  IGNORE 1 LINES
+  (tconst, average_rating, num_votes);
 
 SELECT 'title_rating' AS tbl, FORMAT(COUNT(*),0) AS cnt FROM title_rating;
 
