@@ -5,7 +5,7 @@ CREATE TABLE name (
   name           VARCHAR(120) NOT NULL,
   born           SMALLINT UNSIGNED NULL DEFAULT NULL,
   died           SMALLINT UNSIGNED NULL DEFAULT NULL,
-  profession     VARCHAR(64), # surprising these max out at 64.
+  professions    VARCHAR(80), # 66 3/24
   known_for      VARCHAR(80), # 71 3/24, has null 12/22
   PRIMARY KEY (name_id),
   UNIQUE KEY (nconst),

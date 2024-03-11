@@ -16,6 +16,7 @@ Cite: [Non-Commercial Licensing](https://help.imdb.com/article/imdb/general-info
 As at 3/24
 ```
 name		13,316,226
+name_profession 14,637,579
 title           10,266,398
 title_episode 	 8,108,264
 title_crew	10,606,348

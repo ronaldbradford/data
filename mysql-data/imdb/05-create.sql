@@ -22,3 +22,15 @@ WITH cte (title_id, genre) AS (
 SELECT * FROM cte;
 
 SELECT 'title_genre' AS tbl, FORMAT(COUNT(*),0) FROM title_genre;
+
+\! echo "Creating name_profession (CTE of CSV column)"
+CREATE TABLE name_profession(name_id INT UNSIGNED NOT NULL, profession VARCHAR(30) NOT NULL, INDEX(name_id)) AS
+WITH cte (name_id, profession) AS (
+  SELECT t.name_id, SPLITSTR(t.professions,n.i)
+  FROM name t, (SELECT 1 AS i UNION SELECT 2 UNION SELECT 3 UNION SELECT 4 UNION SELECT 5) n
+  WHERE SPLITSTR(t.professions,n.i) IS NOT NULL
+  AND SPLITSTR(t.professions,n.i) != ''
+)
+SELECT * FROM cte;
+
+SELECT 'name_profession' AS tbl, FORMAT(COUNT(*),0) FROM name_profession;

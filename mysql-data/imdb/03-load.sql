@@ -4,8 +4,10 @@ LOAD DATA
   INTO TABLE name 
   FIELDS TERMINATED BY '\t' 
   IGNORE 1 LINES
-  (nconst, name, birth_year, death_year, @profession, known_for)
-  SET profession = IF(profession = '',NULL,profession);
+  (nconst, name, born, died, @professions, known_for)
+  SET professions = IF(professions = '',NULL,@professions);
+
+SHOW WARNINGS;
 
 SELECT 'name' AS tbl, FORMAT(COUNT(*),0) AS cnt FROM name;
 
@@ -16,6 +18,8 @@ LOAD DATA
   FIELDS TERMINATED BY '\t' 
   IGNORE 1 LINES
   (tconst, type, title, original_title, is_adult, start_year, end_year, run_time_mins, genres);
+
+SHOW WARNINGS;
   
 SELECT 'title' AS tbl, FORMAT(COUNT(*),0) AS cnt FROM title;
 
@@ -30,6 +34,8 @@ LOAD DATA
   FIELDS TERMINATED BY '\t' 
   IGNORE 1 LINES;
 
+SHOW WARNINGS;
+
 SELECT 'title_episode' AS tbl, FORMAT(COUNT(*),0) AS cnt FROM title_episode;
 
 \! echo "Loading title crew for IMDb"
@@ -39,6 +45,8 @@ LOAD DATA
   FIELDS TERMINATED BY '\t' 
   IGNORE 1 LINES
   (tconst, directors, writers);
+
+SHOW WARNINGS;
 
 SELECT 'title_crew' AS tbl, FORMAT(COUNT(*),0) AS cnt FROM title_crew;
 
@@ -50,6 +58,8 @@ LOAD DATA
   IGNORE 1 LINES
   (tconst, average_rating, num_votes);
 
+SHOW WARNINGS;
+
 SELECT 'title_rating' AS tbl, FORMAT(COUNT(*),0) AS cnt FROM title_rating;
 
 \! echo "Loading title principals for IMDb"
@@ -58,5 +68,7 @@ LOAD DATA
   INTO TABLE title_principal
   FIELDS TERMINATED BY '\t' 
   IGNORE 1 LINES;
+
+SHOW WARNINGS;
 
 SELECT 'title_principal' AS tbl, FORMAT(COUNT(*),0) AS cnt FROM title_principal;
