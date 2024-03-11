@@ -25,7 +25,7 @@ CREATE TABLE title (
   genres         VARCHAR(32),
   PRIMARY KEY (title_id),
   UNIQUE KEY (tconst),
-  KEY (title),
+  KEY (title)
 );
 
 CREATE TABLE title_episode(
