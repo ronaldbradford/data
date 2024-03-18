@@ -1,15 +1,14 @@
 SET SESSION  collation_connection='utf8mb4_0900_ai_ci';
 
 DROP FUNCTION IF EXISTS SPLITSTR;
-CREATE FUNCTION SPLITSTR ( st VARCHAR(255), pos INT)
-RETURNS VARCHAR(255) CHARSET utf8mb4
+CREATE FUNCTION SPLITSTR ( st VARCHAR(16000), pos INT)
+RETURNS VARCHAR(16000) CHARSET utf8mb4
 NO SQL
 DETERMINISTIC
     SQL SECURITY INVOKER
 RETURN REPLACE(SUBSTRING(SUBSTRING_INDEX(st, ',' , pos),
        LENGTH(SUBSTRING_INDEX(st, ',' , pos -1)) + 1),
        ',', '');
-
 
 \! echo "Creating title_genre table (CTE of CSV column)"
 CREATE TABLE title_genre(title_id INT UNSIGNED NOT NULL, genre VARCHAR(20) NOT NULL, INDEX(title_id)) AS
@@ -34,3 +33,46 @@ WITH cte (name_id, profession) AS (
 SELECT * FROM cte;
 
 SELECT 'name_profession' AS tbl, FORMAT(COUNT(*),0) FROM name_profession;
+
+
+DROP TEMPORARY TABLE IF EXISTS n;
+CREATE TEMPORARY TABLE n(i SMALLINT UNSIGNED AUTO_INCREMENT, PRIMARY KEY(i));
+INSERT INTO n(i)
+WITH RECURSIVE i AS (
+  SELECT 1 AS value
+  UNION ALL
+  SELECT value + 1 FROM i WHERE value < 10
+)
+SELECT NULL FROM i;
+
+SELECT MAX(LENGTH(directors) - LENGTH(REPLACE(directors,',','')))+1 AS parts FROM title_crew;
+
+\! echo "Creating title_director (CTE of CSV column)"
+CREATE TABLE title_director(title_id INT UNSIGNED NOT NULL, nconst CHAR(10) NOT NULL, INDEX(title_id), INDEX(nconst)) AS
+WITH cte (title_id, nconst) AS (
+  SELECT t.title_id, SPLITSTR(tc.directors,n.i)
+  FROM n,
+       title_crew tc
+  INNER JOIN title t USING (tconst)
+  WHERE SPLITSTR(tc.directors,n.i) IS NOT NULL
+  AND   SPLITSTR(tc.directors,n.i) != ''
+)
+SELECT * FROM cte;
+/* 7,781,533 n=4,  7,870,520 n=10 10m, 7,906,588 n=10 25m*/
+
+SELECT 'title_director (<=10)' AS tbl, FORMAT(COUNT(*),0) FROM title_director;
+
+/* TODO: Create subset > 10, numbers and reapply.
+DEETE FROM n;
+INSERT INTO n(i)
+WITH RECURSIVE i AS (
+  SELECT 1 AS value
+  UNION ALL
+  SELECT value + 1 FROM i WHERE value < 10
+)
+SELECT NULL FROM i;
+
+CREATE TABLE tmp_title_directors
+SELECT  tc.tconst, tc.directors
+FROM    title_crew tc
+WHERE   (LENGTH(tc.directors) - LENGTH(REPLACE(tc.directors,',','')))+1 > 10;
