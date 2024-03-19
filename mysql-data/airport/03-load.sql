@@ -5,9 +5,11 @@ LOAD DATA
   COLUMNS TERMINATED BY ',' 
           OPTIONALLY ENCLOSED BY '"'
   IGNORE 1 LINES
-  (airport_id,ident,type,name,latitude,longitude,@elevation_ft,continent_code,country_code,region_code,municipality,@scheduled_service,gps_code,iata_code,local_code,home_url,wikipedia_url,keywords)
+  (airport_id,ident,type,name,latitude,longitude,@elevation_ft,continent_id,country_code,region_code,municipality,@scheduled_service,gps_code,iata_code,local_code,home_url,wikipedia_url,keywords)
   SET elevation_ft = IF(@elevation_ft='',NULL,@elevation_ft),
       scheduled_service = IF(@scheduled_service='yes',TRUE,FALSE);
+
+SHOW WARNINGS;
 
 LOAD DATA 
   LOCAL INFILE 'countries.csv'
@@ -15,7 +17,9 @@ LOAD DATA
   COLUMNS TERMINATED BY ',' 
           OPTIONALLY ENCLOSED BY '"'
   IGNORE 1 LINES
-  (country_id, country_code, name, continent_code, wikipedia_url, keywords);
+  (country_id, country_code, name, continent_id, wikipedia_url, keywords);
+
+SHOW WARNINGS;
 
 LOAD DATA 
   LOCAL INFILE 'regions.csv'
@@ -23,7 +27,9 @@ LOAD DATA
   COLUMNS TERMINATED BY ',' 
           OPTIONALLY ENCLOSED BY '"'
   IGNORE 1 LINES
-  (region_id, region_code, local_code, name, continent_code, country_code, wikipedia_url, keywords);
+  (region_id, region_code, local_code, name, continent_id, country_code, wikipedia_url, keywords);
+
+SHOW WARNINGS;
 
 LOAD DATA
   LOCAL INFILE 'airport-frequencies.csv'
@@ -32,6 +38,8 @@ LOAD DATA
           OPTIONALLY ENCLOSED BY '"'
   IGNORE 1 LINES
   (frequency_id, airport_id, ident, type, description, frequency_mhz);
+
+SHOW WARNINGS;
 
 LOAD DATA
   LOCAL INFILE 'runways.csv'
@@ -53,6 +61,8 @@ LOAD DATA
       le_displaced_threshold_ft= IF(@le_displaced_threshold_ft='',NULL,@le_displaced_threshold_ft),
       he_displaced_threshold_ft= IF(@he_displaced_threshold_ft='',NULL,@he_displaced_threshold_ft);
 
+SHOW WARNINGS;
+
 LOAD DATA
   LOCAL INFILE 'navaids.csv'
   INTO TABLE navaid
@@ -72,7 +82,10 @@ LOAD DATA
       power = IF(@power='',NULL,@power),
       usage_type = IF(@usage_type='',NULL,@usage_type),
       airport_ident = IF(@airport_ident='',NULL,@airport_ident);
-UPDATE navaid m,
+
+SHOW WARNINGS;
+
+UPDATE navaid n,
        airport a
-SET    m.airport_id = a.airport_id
-WHERE  m.airport_ident = a.ident;
+SET    n.airport_id = a.airport_id
+WHERE  n.airport_ident = a.ident;

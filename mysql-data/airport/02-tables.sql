@@ -8,7 +8,7 @@ CREATE TABLE airport (
   latitude      FLOAT NOT NULL,
   longitude     FLOAT NOT NULL,
   elevation_ft  SMALLINT NULL DEFAULT NULL,
-  continent_code CHAR(2) NOT NULL,
+  continent_id   CHAR(2) NOT NULL,
   country_code  CHAR(2) NOT NULL,
   region_code   CHAR(7) NOT NULL,
   municipality  VARCHAR(60) NOT NULL,
@@ -40,7 +40,7 @@ CREATE TABLE country(
   country_id     INT UNSIGNED NOT NULL,
   country_code   CHAR(2) NOT NULL,
   name           VARCHAR(50) NOT NULL,
-  continent_code CHAR(2) NOT NULL,
+  continent_id   CHAR(2) NOT NULL,
   wikipedia_url  VARCHAR(128) NULL,
   keywords       VARCHAR(300) NULL,
   PRIMARY KEY(country_code),
@@ -53,7 +53,7 @@ CREATE TABLE region(
   region_code    VARCHAR(7) NOT NULL,
   local_code     VARCHAR(4) NOT NULL,
   name           VARCHAR(100) NOT NULL,
-  continent_code CHAR(2) NOT NULL,
+  continent_id   CHAR(2) NOT NULL,
   country_code   CHAR(2) NOT NULL,
   wikipedia_url  VARCHAR(128) NULL,
   keywords       VARCHAR(300) NULL,
@@ -63,9 +63,9 @@ CREATE TABLE region(
 
 
 CREATE TABLE continent(
-  continent_code CHAR(2) NOT NULL,
+  continent_id   CHAR(2) NOT NULL,
   name VARCHAR(20) NOT NULL,
-  PRIMARY KEY(continent_code)
+  PRIMARY KEY(continent_id)
 );
 
 CREATE TABLE airport_runway (
@@ -74,7 +74,7 @@ CREATE TABLE airport_runway (
   airport_ident VARCHAR(7) NOT NULL,
   length_ft     SMALLINT NULL DEFAULT NULL,
   width_ft      SMALLINT NULL DEFAULT NULL,
-  surface       VARCHAR(5) NOT NULL,
+  surface       VARCHAR(30) NOT NULL,
   lighted       BOOLEAN NOT NULL,
   closed        BOOLEAN NOT NULL,
   le_ident      VARCHAR(7) NOT NULL,
@@ -114,8 +114,10 @@ CREATE TABLE navaid (
   usage_type    VARCHAR(10) NULL,
   power         VARCHAR(10) NULL,
   airport_ident VARCHAR(7) NULL,
+  airport_id    INT UNSIGNED NULL,
   PRIMARY KEY(navaid_id),
-  KEY (airport_ident)
+  KEY (airport_ident),
+  KEY (airport_id)
 );
 
 

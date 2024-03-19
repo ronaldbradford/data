@@ -17,4 +17,5 @@ AND type = 'large_airport';
 SELECT c.name, a.latitude, a.longitude
 FROM airport a
   INNER JOIN country c USING (country_code)
+WHERE c.country_code='NO'
 ORDER BY 1;
