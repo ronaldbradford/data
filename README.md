@@ -1,5 +1,7 @@
 # Data Sources
 
+[![we play GitTerra](https://github.com/REPO-OWNER/REPO/actions/workflows/gitterra.yml/badge.svg)](https://github.com/REPO-OWNER/REPO/actions/workflows/gitterra.yml)
+
 ## My curated DataSets
 - [Postcodes](mysql-data/postcodes/README.md) (1,549,815 postal codes, 96 countries)
 - [NYC Yellow Taxi Rides](mysql-data/nyc-taxi/README.md) (246k rows - Jan 2022 example)
