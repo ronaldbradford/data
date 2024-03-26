@@ -1,6 +1,6 @@
 # Data Sources
 
-[![we play GitTerra](https://github.com/REPO-OWNER/REPO/actions/workflows/gitterra.yml/badge.svg)](https://github.com/REPO-OWNER/REPO/actions/workflows/gitterra.yml)
+[![we play GitTerra](https://github.com/ronaldbradford/data/actions/workflows/gitterra.yml/badge.svg)](https://github.com/ronaldbradford/data/actions/workflows/gitterra.yml)
 
 ## My curated DataSets
 - [Postcodes](mysql-data/postcodes/README.md) (1,549,815 postal codes, 96 countries)
