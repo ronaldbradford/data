@@ -103,6 +103,7 @@ These APIs are accessible for free, generally after registering your email.
 - Public Cloud Provider IP Ranges - https://github.com/tobilg/public-cloud-provider-ip-ranges
 - TPC-H Data Files - https://github.com/tripl-ai/tpch/
 - Open AQ Air Quality - https://openaq-data-archive.s3.amazonaws.com/
+- Amazon Items and Reviews - https://amazon-reviews-2023.github.io/
 
 ## Free GEO Data
 - Countries as Polygons - https://datahub.io/core/geo-countries
