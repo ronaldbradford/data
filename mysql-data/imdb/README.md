@@ -72,8 +72,8 @@ See 02-tables.sql for most current structure.
       name varchar(120) NOT NULL,
       birth_year year DEFAULT NULL,
       death_year year DEFAULT NULL,
-      profession varchar(64) DEFAULT NULL,
-      known_for varchar(80) DEFAULT NULL,
+      profession varchar(64) DEFAULT NULL, //normalized to name_profession
+      known_for varchar(80) DEFAULT NULL, //TODO normalized
       PRIMARY KEY (name_id),
       UNIQUE KEY nconst (nconst)
     ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
@@ -88,7 +88,7 @@ See 02-tables.sql for most current structure.
       start_year year DEFAULT NULL,
       end_year year DEFAULT NULL,
       run_time_mins smallint DEFAULT NULL,
-      genres varchar(32) DEFAULT NULL,
+      genres varchar(32) DEFAULT NULL, // normalized title_genre
       PRIMARY KEY (title_id),
       UNIQUE KEY tconst (tconst)
     ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
@@ -96,7 +96,7 @@ See 02-tables.sql for most current structure.
     CREATE TABLE title_crew (
       crew_id int unsigned NOT NULL AUTO_INCREMENT,
       tconst char(10) NOT NULL,
-      directors text,
+      directors text,          // normalized to title_director
       writers text,
       PRIMARY KEY (crew_id),
       KEY tconst (tconst)
