@@ -1,0 +1,13 @@
+SELECT 'name' AS tbl, FORMAT(COUNT(*),0) AS row_count FROM name;
+SELECT 'title' AS tbl, FORMAT(COUNT(*),0) AS row_count FROM title;
+SELECT 'title_episode' AS tbl, FORMAT(COUNT(*),0) AS row_count FROM title_episode;
+SELECT 'title_crew' AS tbl, FORMAT(COUNT(*),0) AS row_count FROM title_crew;
+SELECT 'title_rating' AS tbl, FORMAT(COUNT(*),0) AS row_count FROM title_rating;
+SELECT 'title_principal' AS tbl, FORMAT(COUNT(*),0) AS row_count FROM title_principal;
+SELECT 'name_profession' AS tbl, FORMAT(COUNT(*),0) AS row_count FROM name_profession;
+SELECT 'name_known_for' AS tbl, FORMAT(COUNT(*),0) AS row_count FROM name_known_for;
+SELECT 'title_genre' AS tbl, FORMAT(COUNT(*),0) AS row_count FROM title_genre;
+SELECT 'title_director (<=10)' AS tbl, FORMAT(COUNT(*),0) AS row_count FROM title_director;
+SELECT 'title_name_character' AS tbl, FORMAT(COUNT(*),0) AS row_count FROM title_name_character;
+SELECT 'credit' AS tbl, FORMAT(COUNT(*),0) AS row_count FROM credit;
+SELECT 'genre' AS tbl, FORMAT(COUNT(*),0) AS row_count FROM genre;
