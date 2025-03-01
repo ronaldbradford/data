@@ -39,18 +39,6 @@ SHOW WARNINGS;
 
 SELECT 'title_episode' AS tbl, FORMAT(COUNT(*),0) AS row_count FROM title_episode;
 
-SELECT "Loading title crew for IMDb" AS msg;
-LOAD DATA 
-  LOCAL INFILE 'title.crew.tsv' 
-  INTO TABLE title_crew 
-  FIELDS TERMINATED BY '\t' 
-  IGNORE 1 LINES
-  (tconst, directors, writers);
-
-SHOW WARNINGS;
-
-SELECT 'title_crew' AS tbl, FORMAT(COUNT(*),0) AS row_count FROM title_crew;
-
 SELECT "Loading title ratings for IMDb" AS msg;
 LOAD DATA
   LOCAL INFILE 'title.ratings.tsv'

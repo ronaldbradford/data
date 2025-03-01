@@ -75,23 +75,6 @@ CREATE TABLE title_episode(
 CREATE UNIQUE INDEX idx_title_eposide_pk ON title_episode(parent_title_id, title_id);
 CREATE INDEX idx_title_eposide_title_id ON title_episode(title_id);
 
-CREATE TABLE title_crew(
-  crew_id        INT NOT NULL AUTO_INCREMENT,
-  tconst         CHAR(10) NOT NULL,
-  directors      TEXT NULL,
-  writers        TEXT NULL,
-  PRIMARY KEY (crew_id),
-  INDEX (tconst)
-);
-
-CREATE TABLE title_director(
-  title_id INT NOT NULL,
-  name_id  INT NOT NULL
-);
-CREATE UNIQUE INDEX idx_title_director ON title_director(title_id, name_id);
-CREATE INDEX idx_title_director_name_id ON title_director(name_id);
-
-
 CREATE TABLE tmp_title_rating(
   tconst         CHAR(10) NOT NULL PRIMARY KEY,
   average_rating DECIMAL(3,1) NOT NULL,
