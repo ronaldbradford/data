@@ -68,33 +68,46 @@ SELECT 'title_genre' AS tbl, FORMAT(COUNT(*),0) AS row_count FROM title_genre;
 ALTER TABLE title DROP column genres;
 ALTER TABLE title ENGINE=InnoDB;
 
+SELECT "Creating title_episode from tmp..." AS msg;
 INSERT INTO title_episode(parent_title_id, title_id, season, episode)
 SELECT p.title_id, t.title_id, te.season, te.episode
 FROM tmp_title_episode te
 INNER JOIN title t USING (tconst)
 INNER JOIN title p ON p.tconst = te.parent_tconst;
 DROP TABLE tmp_title_episode;
+SELECT 'title_episode' AS tbl, FORMAT(COUNT(*),0) AS row_count FROM title_episode;
 
+SELECT "Creating title_principal from tmp..." AS msg;
 INSERT INTO title_principal(title_id, name_id, ordering, category, job, characters)
 SELECT t.title_id, n.name_id, p.ordering, p.category, p.job, p.characters
 FROM tmp_title_principal p
 INNER JOIN name n USING (nconst)
 INNER JOIN title t USING (tconst);
 DROP TABLE tmp_title_principal;
+SELECT 'title_principal' AS tbl, FORMAT(COUNT(*),0) AS row_count FROM title_principal;
 
+SELECT "Creating title_rating from tmp..." AS msg;
 INSERT INTO title_rating(title_id, average_rating, num_votes)
 SELECT t.title_id, r.average_rating, r.num_votes
 FROM tmp_title_rating r
 INNER JOIN title t USING (tconst);
 DROP TABLE tmp_title_rating;
+SELECT 'title_rating' AS tbl, FORMAT(COUNT(*),0) AS row_count FROM title_rating;
 
+SELECT "Creating title_name_character" AS msg;
 INSERT INTO title_name_character(title_id, name_id,character_name)
 SELECT distinct tp.title_id, tp.name_id, jt.character_name
 FROM title_principal tp,
-     JSON_TABLE(tp.characters, '$[*]' COLUMNS (character_name VARCHAR(255) PATH '$')) jt;
+     JSON_TABLE(tp.characters, '$[*]' COLUMNS (character_name VARCHAR(255) PATH '$')) jt
+WHERE JSON_VALID(characters) = 1;
 
 SELECT 'title_name_character' AS tbl, FORMAT(COUNT(*),0) AS row_count FROM title_name_character;
 
+SELECT 'invalid title_name_character' AS tbl, FORMAT(COUNT(*),0) AS row_count
+FROM title_principal
+WHERE JSON_VALID(characters) = 0;
+
+SELECT "Creating credit summary table" AS msg;
 INSERT INTO credit(name, cnt)
 SELECT category, COUNT(*)
 FROM title_principal
@@ -102,6 +115,7 @@ GROUP BY category
 ORDER BY 2 DESC;
 SELECT 'credit' AS tbl, FORMAT(COUNT(*),0) AS row_count FROM credit;
 
+SELECT "Creating genre summary table" AS msg;
 INSERT INTO genre(genre, cnt)
 SELECT genre, COUNT(*)
 FROM title_genre
