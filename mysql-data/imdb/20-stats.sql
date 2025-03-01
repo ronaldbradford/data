@@ -1,102 +1,131 @@
-\! echo "Title with Star Wars in the name"
+SELECT "Title with Star Wars in the name" AS msg;
 SELECT type, COUNT(*) AS cnt
 FROM title
 WHERE title LIKE 'Star wars%'
 GROUP BY type
 ORDER BY 2 DESC;
 
-\! echo "Star Wars Movies"
+SELECT "Star Wars Movies" AS msg;
 SELECT *
 FROM title
 WHERE title LIKE 'Star Wars%'
 AND type = 'movie'
 ORDER BY start_year;
 
-\! echo "Perfect Movies (10.0 rating)"
+SELECT "Perfect Movies (10.0 rating)" AS msg;
 SELECT t.title, tr.average_rating, tr.num_votes
 FROM   title t
- INNER JOIN title_rating tr USING (tconst)
+ INNER JOIN title_rating tr USING (title_id)
 WHERE t.type='Movie'
 AND   tr.average_rating=10.0
 AND   tr.num_votes > 50
 ORDER BY 1;
 
 
-\! echo "Most voted on movies"
+SELECT "Most voted on movies" AS msg;
 SELECT t.title, tr.average_rating, tr.num_votes
 FROM   title t
- INNER JOIN title_rating tr USING (tconst)
+ INNER JOIN title_rating tr USING (title_id)
 WHERE t.type='Movie'
 ORDER BY 3 DESC
 LIMIT 10;
 
 
-\! echo "Top Rated Movies Query: Find the top 10 highest-rated movies with more than 10,000 votes."
-SELECT t.title, tr.average_rating
+SELECT "The top 10 highest-rated movies with more than 50,000 votes" AS msg;
+SELECT t.title, tr.num_votes, tr.average_rating
 FROM title t
-JOIN title_rating tr ON t.tconst = tr.tconst
-WHERE tr.num_votes > 10000
+JOIN title_rating tr USING (title_id)
+WHERE t.type='Movie'
+AND   tr.num_votes > 50000
 ORDER BY tr.average_rating DESC
 LIMIT 10;
 
-\! echo "Rating Distribution"
-SELECT FLOOR(average_rating) AS rating_range, COUNT(*) AS num_movies
+SELECT "Rating Distribution" AS msg;
+SELECT FLOOR(average_rating) AS rating_range, COUNT(*) AS num_titles
 FROM title_rating
 GROUP BY rating_range
 ORDER BY rating_range;
 
 
-\! echo "Release Year Trend Analysis"
-SELECT t.start_year, AVG(tr.average_rating) AS avg_rating
+SELECT "Release Year Trend Analysis for Movies" AS msg;
+SELECT t.start_year, COUNT(*) AS movie_count, AVG(tr.average_rating) AS avg_rating
 FROM title t
-JOIN title_rating tr ON t.tconst = tr.tconst
+JOIN title_rating tr USING (title_id)
+WHERE t.type='Movie'
 GROUP BY t.start_year
 ORDER BY t.start_year;
 
-\! echo "Genre Influence on Ratings"
+SELECT "Genre Influence on Ratings" AS msg;
 SELECT tg.genre, AVG(tr.average_rating) AS avg_rating
 FROM title_genre tg
-JOIN title t ON tg.title_id = t.title_id
-JOIN title_rating tr ON t.tconst = tr.tconst
+JOIN title t USING (title_id)
+JOIN title_rating tr  USING (title_id)
 GROUP BY tg.genre
 ORDER BY avg_rating DESC;
 
-\! echo "Average Ratings by Decade"
+SELECT "Average Ratings by Decade" AS msg;
 SELECT FLOOR(t.start_year / 10) * 10 AS decade, AVG(tr.average_rating) AS avg_rating, COUNT(*) as num_ratings
 FROM title t
-JOIN title_rating tr ON t.tconst = tr.tconst
+JOIN title_rating tr USING (title_id)
 GROUP BY decade
 ORDER BY decade;
 
-\! echo "Top Rated TV Series"
+SELECT "Top Rated TV Series" AS msg;
 SELECT t.title, tr.average_rating, num_votes
-FROM title t
-JOIN title_rating tr ON t.tconst = tr.tconst
-WHERE t.type = 'tvSeries' AND tr.num_votes > 5000
+FROM   title t
+JOIN   title_rating tr USING (title_id)
+WHERE  t.type = 'tvSeries'
+AND    tr.num_votes > 10000
 ORDER BY tr.average_rating DESC
 LIMIT 10;
 
-\! echo "Longest Running TV Shows"
+SELECT  "Longest Running TV Shows" AS msg;
 SELECT t.title, (t.end_year - t.start_year) AS years_running
-FROM title t
-WHERE t.type = 'tvSeries' AND t.end_year IS NOT NULL
+FROM   title t
+WHERE  t.type = 'tvSeries'
+AND    t.end_year IS NOT NULL
 ORDER BY years_running DESC
 LIMIT 10;
 
-\! echo "Bruce Willis Movies"
-SELECT t.title,t.start_year
-FROM title t
-INNER JOIN title_principal tp USING (tconst)
-WHERE t.type='movie'
-AND tp.ordering=1
-AND tp. category='actor'
-AND tp.nconst='nm0000246'
+SELECT *
+FROM   name
+WHERE  name = 'Bruce Willis';
+
+SELECT "Bruce Willis Movies" AS msg;
+SELECT  t.title,t.start_year
+FROM    title t
+INNER JOIN title_principal tp USING (title_id)
+WHERE   t.type='movie'
+AND     tp.name_id = 246
 ORDER BY 2;
 
-\! echo "Christopher Nolan Movies"
-SELECT t.title, t.start_year
-FROM title t
-INNER JOIN title_principal tp USING (tconst)
-WHERE tp.nconst = 'nm0634240'
-AND t.type='movie'
+SELECT *
+FROM   name
+WHERE  name = 'Christopher Nolan';
+
+SELECT "Christopher Nolan Movies" AS msg;
+SELECT DISTINCT t.title, t.start_year
+FROM   title t
+INNER JOIN title_principal tp USING (title_id)
+WHERE  tp.name_id = 597769
+AND    t.type='movie'
 ORDER BY 2;
+
+SELECT "Listed Professions" AS msg;
+SELECT profession, COUNT(*)
+FROM name_profession
+GROUP BY profession
+ORDER BY 2 DESC;
+
+SELECT "Types of Titles" AS msg;
+SELECT type, COUNT(*)
+FROM title
+GROUP BY type
+ORDER BY 2 DESC;
+
+SELECT "Top 100 with most titles";
+SELECT n.name, COUNT(tp.title_id) AS total_movies 
+FROM name n JOIN title_principal tp USING (name_id)
+WHERE tp.category IN ('actor', 'actress')
+GROUP BY n.name
+ORDER BY total_movies DESC LIMIT 100;
