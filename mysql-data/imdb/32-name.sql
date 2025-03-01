@@ -122,6 +122,7 @@ ORDER BY te.season, te.episode;
 SELECT t.title, t.start_year
 FROM name n
 JOIN name_known_for kf ON n.name_id = kf.name_id
+JOIN title t ON kf.title_id = t.title_id
 WHERE n.name = @name;
 
 -- 14. Find the most recent movie a person has worked on
@@ -136,7 +137,7 @@ LIMIT 1;
 -- 15. Find movies where a person played a specific character
 SELECT t.title, t.start_year
 FROM name n
-JOIN title_name_character tnc ON n.name_id = tc.name_id
+JOIN title_name_character tnc ON n.name_id = tnc.name_id
 JOIN title t ON tnc.title_id = t.title_id
-WHERE n.name = @name
-AND tnc.character_name = 'James Bond';
+WHERE tnc.character_name = 'James Bond'
+AND n.name = @name;
