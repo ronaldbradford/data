@@ -1,7 +1,6 @@
 # NYC Yellow Taxi Trips
 
-This data from [NYC Open Data](https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page) is a citywide platform where all agencies share data for free, with everyone, to
-increase transparency and foster civic innovation.
+This data from [NYC Open Data](https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page) is a citywide platform where all agencies share data for free, with everyone, to increase transparency and foster civic innovation.
 
 ## Data Summary
 
