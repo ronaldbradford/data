@@ -1,4 +1,4 @@
-# IMDB Data
+# IMDb Data
 
 This [IMDb Datasets](https://www.imdb.com/interfaces/) are Subsets of IMDb data are available for access to customers for personal and non-commercial use. You can hold local copies of this data, and it is subject to our terms and conditions.
 
@@ -13,16 +13,54 @@ Cite: [Non-Commercial Licensing](https://help.imdb.com/article/imdb/general-info
 
 ## Data Summary
 
-As at 3/24
+This is an enhanced dataset of the source IMDb Data.
+
+Table Rows as at 3/25
 ```
-name		13,316,226
-name_profession 14,637,579
-title           10,266,398
-title_episode 	 8,108,264
-title_crew	10,606,348
-title_rating	 1,410,091
-title_principal	60,760,206
-title_genre     16,064,117
++----------------------+------------+
+| tbl                  | row_count  |
++----------------------+------------+
+| credit               | 13         |
+| genre                | 28         |
+| name                 | 14,217,591 |
+| name_known_for       | 22,879,498 |
+| name_profession      | 15,836,216 |
+| title                | 11,114,744 |
+| title_episode        | 8,586,454  |
+| title_genre          | 17,379,973 |
+| title_name_character | 43,542,978 |
+| title_principal      | 89,597,253 |
+| title_rating         | 1,515,368  |
++----------------------+------------+
+```
+
+Schema size via Information Schema
+```
++-------------------+----------------+----------------+---------------+--------+------------+
+| TABLE_SCHEMA      | total_mb       | data_mb        | index_mb      | tables | today      |
++-------------------+----------------+----------------+---------------+--------+------------+
+| imdb              | 21421.31250000 | 12945.53125000 | 8475.78125000 |     13 | 2025-03-01 |
+```
+
+Table sizes via Information Schema. NOTE: TABLE_ROWS is an estimate.
+```
++----------------------+--------+---------+------------+---------+----------+---------+----------+
+| table_name           | ENGINE | format  | TABLE_ROWS | avg_row | total_mb | data_mb | index_mb |
++----------------------+--------+---------+------------+---------+----------+---------+----------+
+| title_principal      | InnoDB | Dynamic |   88728950 |      74 |  8728.00 | 6267.00 |  2461.00 |
+| title_name_character | InnoDB | Dynamic |   42324654 |      45 |  5012.00 | 1838.00 |  3174.00 |
+| title                | InnoDB | Dynamic |   10849309 |     117 |  1834.83 | 1211.98 |   622.84 |
+| name                 | InnoDB | Dynamic |   14122805 |      66 |  1591.92 |  890.98 |   700.94 |
+| name_known_for       | InnoDB | Dynamic |   23406367 |      32 |  1265.00 |  719.00 |   546.00 |
+| title_episode        | InnoDB | Dynamic |    8618171 |      94 |  1130.97 |  773.97 |   357.00 |
+| name_profession      | InnoDB | Dynamic |   15723311 |      39 |   918.00 |  598.00 |   320.00 |
+| title_genre          | InnoDB | Dynamic |   17002325 |      37 |   896.00 |  602.00 |   294.00 |
+| title_rating         | InnoDB | Dynamic |    1513187 |      30 |    44.56 |   44.56 |     0.00 |
+| credit               | InnoDB | Dynamic |         13 |    1260 |     0.02 |    0.02 |     0.00 |
+| genre                | InnoDB | Dynamic |         28 |     585 |     0.02 |    0.02 |     0.00 |
+| characters           | NULL   | NULL    |       NULL |    NULL |     NULL |    NULL |     NULL |
+| popular_titles       | NULL   | NULL    |       NULL |    NULL |     NULL |    NULL |     NULL |
++----------------------+--------+---------+------------+---------+----------+---------+----------+
 ```
 
 
