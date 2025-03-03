@@ -7,7 +7,7 @@
 - [NYC Yellow Taxi Rides](mysql-data/nyc-taxi/README.md) (246k rows - Jan 2022 example)
 - [IMDb](mysql-data/imdb/README.md) (12,188,623 names)
 - [High Accuracy Locations](mysql-data/location/README.md) (90k places from 216 countries)
-- [Airports](mysql-data/airports/README.md) (74,451 airports)
+- [Airports](mysql-data/airport/README.md) (74,451 airports)
 
 - [MySQL.com example datasets](mysql-data/mysql.com/README.md) (airportdb - 54,304,619 bookings)
 
@@ -81,6 +81,7 @@ These APIs are accessible for free, generally after registering your email.
 - NYC Yellow Cab Ride History https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page
 - Open Library - https://openlibrary.org/, https://openlibrary.org/developers/dumps
 - Open Flights - https://openflights.org/data.html
+- Open Source Insights - https://ossinsight.io/docs/api
 - Organisation for Economic Co-operation and Development (OECD) Data https://data.oecd.org/
 - Project Gutenberg (Free books) -  https://www.gutenberg.org/
 - Queensland Government DataSets - https://www.data.qld.gov.au/dataset/
