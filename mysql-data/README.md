@@ -8,7 +8,7 @@ the ability to load data into different products for evaluation.  At this time M
 - [NYC Yellow Taxi Rides](nyc-taxi/README.md) (246k rows - Jan 2022 example)
 - [IMDb](imdb/README.md) (12,188,623 names)
 - [High Accuracy Locations](location/README.md) (90k places from 216 countries)
-- [Airports](mysql-data/airport/README.md) (74,451 airports)
+- [Airports](airport/README.md) (74,451 airports)
 
 ## Other MySQL DataSets
 
