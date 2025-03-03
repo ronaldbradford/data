@@ -1,6 +1,6 @@
 # Airport Data
 
-This [Our Airports](https://ourairports.com/) dataset.
+This is the [Our Airports](https://ourairports.com/) dataset.
 
 ## Acknowledgement
 
