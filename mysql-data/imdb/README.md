@@ -1,19 +1,9 @@
 # IMDb Data
 
-This [IMDb Datasets](https://www.imdb.com/interfaces/) are Subsets of IMDb data are available for access to customers for personal and non-commercial use. You can hold local copies of this data, and it is subject to our terms and conditions.
-
-## Acknowledgement
-
-Information courtesy of
-IMDb
-(https://www.imdb.com).
-Used with permission.
-
-Cite: [Non-Commercial Licensing](https://help.imdb.com/article/imdb/general-information/can-i-use-imdb-data-in-my-software/G5JTRESSHJBBHTGX#)
 
 ## Data Summary
 
-This is an enhanced dataset of the source IMDb Data.
+This is an enhanced dataset of the source [IMDb Datasets](https://www.imdb.com/interfaces/) which are Subsets of IMDb data are available for access to customers for personal and non-commercial use. You can hold local copies of this data, and it is subject to our terms and conditions.
 
 Table Rows as at 3/25
 ```
@@ -101,94 +91,21 @@ If you have Binary Logging enabled, then `log_bin_trust_function_creators` must 
 
 ## Tables
 
-See 02-tables.sql for most current structure.
+See [02-tables.sql](02-tables.sql) for most current structure.
 
-```
-    CREATE TABLE name (
-      name_id int unsigned NOT NULL AUTO_INCREMENT,
-      nconst char(10) NOT NULL,
-      name varchar(120) NOT NULL,
-      birth_year year DEFAULT NULL,
-      death_year year DEFAULT NULL,
-      profession varchar(64) DEFAULT NULL, //normalized to name_profession
-      known_for varchar(80) DEFAULT NULL, //TODO normalized
-      PRIMARY KEY (name_id),
-      UNIQUE KEY nconst (nconst)
-    ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+## Acknowledgement
 
-    CREATE TABLE title (
-      title_id int unsigned NOT NULL AUTO_INCREMENT,
-      tconst char(10) NOT NULL,
-      type varchar(10) NOT NULL,
-      title varchar(300) NOT NULL,
-      original_title varchar(300) NOT NULL,
-      is_adult tinyint(1) NOT NULL,
-      start_year year DEFAULT NULL,
-      end_year year DEFAULT NULL,
-      run_time_mins smallint DEFAULT NULL,
-      genres varchar(32) DEFAULT NULL, // normalized title_genre
-      PRIMARY KEY (title_id),
-      UNIQUE KEY tconst (tconst)
-    ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+Information courtesy of
+IMDb
+(https://www.imdb.com).
+Used with permission.
 
-    CREATE TABLE title_crew (
-      crew_id int unsigned NOT NULL AUTO_INCREMENT,
-      tconst char(10) NOT NULL,
-      directors text,          // normalized to title_director
-      writers text,
-      PRIMARY KEY (crew_id),
-      KEY tconst (tconst)
-    ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
-
-    CREATE TABLE title_episode (
-      tconst char(10) NOT NULL,
-      parent_tconst char(10) NOT NULL,
-      season smallint unsigned DEFAULT NULL,
-      episode mediumint unsigned DEFAULT NULL,
-      PRIMARY KEY (tconst,parent_tconst),
-      KEY parent_tconst (parent_tconst)
-    ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci
-
-    CREATE TABLE title_genre (
-      title_id int unsigned NOT NULL,
-      genre varchar(30) NOT NULL,
-      KEY title_id (title_id)
-    ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
-
-    CREATE TABLE title_principal (
-      tconst char(10) NOT NULL,
-      ordering tinyint unsigned NOT NULL,
-      nconst char(10) NOT NULL,
-      category varchar(100) NOT NULL,
-      job varchar(100) DEFAULT NULL,
-      characters varchar(100) DEFAULT NULL,
-      PRIMARY KEY (tconst,ordering),
-      KEY nconst (nconst)
-    ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
-
-    CEATE TABLE title_rating (
-      tconst char(10) NOT NULL,
-      averageRating decimal(3,1) NOT NULL,
-      numVotes int unsigned NOT NULL,
-      PRIMARY KEY (tconst)
-    ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci
-
-    CREATE TABLE title_genre (
-      title_id int unsigned NOT NULL,
-      genre varchar(30) NOT NULL,
-      PRIMARY KEY title_id (title_id,genre)
-    ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci
-```
-
-## Example Dataset
-
-
-```
- SELECT type, COUNT(*) AS cnt FROM title GROUP BY type ORDER BY 2 DESC;
-```
+Cite: [Non-Commercial Licensing](https://help.imdb.com/article/imdb/general-information/can-i-use-imdb-data-in-my-software/G5JTRESSHJBBHTGX#)
 
 
 ## Data Format
+
+This is from the source IMDb Datasets site.
 
 Each dataset is contained in a gzipped, tab-separated-values (TSV) formatted file in the UTF-8 character set. The first line in each file contains headers that describe what is in each column. A ‘\N’ is used to denote that a particular field is missing or null for that title/name. The available datasets are as follows:
 
