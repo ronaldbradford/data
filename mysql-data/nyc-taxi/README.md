@@ -28,10 +28,19 @@ Data is now available after 2 months. Data starts in 2009.
     MONTH=2022-01
     wget https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_${MONTH}.parquet
     wget https://d37ci6vzurychx.cloudfront.net/misc/taxi+_zone_lookup.csv
+    dos2unix taxi+_zone_lookup.csv
     ./convert.py yellow_tripdata_${MONTH}.parquet
     wc -l yellow_tripdata_${MONTH}.tsv
     head yellow_tripdata_${MONTH}.tsv
+
+    # Local server
+    mysql < install.sql
+    pigz yellow_tripdata_${MONTH}.tsv
+
+    # For docker usage
     docker cp yellow_tripdata_${MONTH}.tsv $DB_CONTAINER:.
+
+NOTE: There is no way to stream a file into MySQL `INFILE` or `mysqlimport` command.
 
 ## Data Format
 
