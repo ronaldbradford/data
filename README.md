@@ -50,8 +50,12 @@ These APIs are accessible for free, generally after registering your email.
 ## Free Sites with aggregated Data
 
 - Airports - https://ourairports.com/data/
+- AFL xScores - https://github.com/adamtunney/xScores/
+- Amazon Items and Reviews - https://amazon-reviews-2023.github.io/
 - Austin Texas MetroBike Data - https://data.austintexas.gov/Transportation-and-Mobility/Austin-MetroBike-Trips/tyfh-5r8s
+- Awesome Public Datasets -  https://github.com/awesomedata/awesome-public-datasets
 - AWS Data Sets - https://registry.opendata.aws/
+- Brewery Data - https://openbrewerydb.org/
 - CIA Factbook - https://www.cia.gov/the-world-factbook/about/archives/
 - Data Hub - https://datahub.io/
 - EPA Air Quality Datasets - https://www.epa.gov/outdoor-air-quality-data
@@ -79,13 +83,16 @@ These APIs are accessible for free, generally after registering your email.
 - NYC Citi Bike Ride History https://ride.citibikenyc.com/system-data
 - NYC MTA https://bustime.mta.info/wiki/Developers/Index
 - NYC Yellow Cab Ride History https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page
+- OpenAIRE - https://explore.openaire.eu/
+- Open AQ Air Quality - https://openaq-data-archive.s3.amazonaws.com/
 - Open Library - https://openlibrary.org/, https://openlibrary.org/developers/dumps
 - Open Flights - https://openflights.org/data.html
 - Open Source Insights - https://ossinsight.io/docs/api
 - Organisation for Economic Co-operation and Development (OECD) Data https://data.oecd.org/
 - Project Gutenberg (Free books) -  https://www.gutenberg.org/
+- Public Cloud Provider IP Ranges - https://github.com/tobilg/public-cloud-provider-ip-ranges
 - Queensland Government DataSets - https://www.data.qld.gov.au/dataset/
-- World Bank - https://data.worldbank.org/
+- TPC-H Data Files - https://github.com/tripl-ai/tpch/
 - UK Open Data - https://www.data.gov.uk/
 - US Census Data - https://data.census.gov/
 - US Department of Transportation - https://www.transtats.bts.gov/DataIndex.asp
@@ -95,16 +102,9 @@ These APIs are accessible for free, generally after registering your email.
 - US Zip Codes - https://simplemaps.com/data/us-zips (Free & Paid), https://www.unitedstateszipcodes.org/zip-code-database/ (Free & Paid)
 - United Nations Data - https://data.un.org/
 - Yahoo Datasets - https://webscope.sandbox.yahoo.com/catalog.php?datatype=i&did=67
+- Weather - https://open-meteo.com/
 - Wikipedia Statistics - https://en.wikipedia.org/wiki/Wikipedia:Statistics
 - World Bank - https://data.worldbank.org/
-- OpenAIRE - https://explore.openaire.eu/
-- AFL xScores - https://github.com/adamtunney/xScores/
-- Brewery Data - https://openbrewerydb.org/
-- Awesome Public Datasets -  https://github.com/awesomedata/awesome-public-datasets
-- Public Cloud Provider IP Ranges - https://github.com/tobilg/public-cloud-provider-ip-ranges
-- TPC-H Data Files - https://github.com/tripl-ai/tpch/
-- Open AQ Air Quality - https://openaq-data-archive.s3.amazonaws.com/
-- Amazon Items and Reviews - https://amazon-reviews-2023.github.io/
 
 ## Free GEO Data
 - Countries as Polygons - https://datahub.io/core/geo-countries
