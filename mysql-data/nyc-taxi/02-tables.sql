@@ -1,5 +1,6 @@
-CREATE TABLE yellow_tripdata_2022_01(
-trip_id INT UNSIGNED NOT NULL PRIMARY KEY,
+CREATE TABLE yellow_taxi(
+id      INT UNSIGNED NOT NULL PRIMARY KEY AUTO_INCREMENT,
+trip_id INT UNSIGNED NOT NULL,
 VendorID INT UNSIGNED NOT NULL, 
 tpep_pickup_datetime DATETIME NOT NULL, 
 tpep_dropoff_datetime DATETIME NOT NULL,
@@ -18,7 +19,9 @@ tolls_amount DECIMAL(7,2) NOT NULL,
 improvement_surcharge DECIMAL(7,2) NOT NULL,
 total_amount DECIMAL(7,2) NOT NULL, 
 congestion_surcharge DECIMAL(7,2) NOT NULL, 
-airport_fee DECIMAL(7,2) NOT NULL
+airport_fee DECIMAL(7,2) NOT NULL,
+INDEX (tpep_pickup_datetime),
+INDEX (PULocationID)
 );
 
 SHOW TABLES;
