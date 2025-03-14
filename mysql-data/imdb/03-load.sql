@@ -1,13 +1,13 @@
 SELECT "Loading names for IMDb" AS msg;
 LOAD DATA 
   LOCAL INFILE 'name.basics.tsv' 
-  INTO TABLE name 
+  INTO TABLE name
   FIELDS TERMINATED BY '\t' 
   IGNORE 1 LINES
   (nconst, @name, born, died, @professions, @known_for)
-  SET name        = IF(name = '', 'Unknown', @name),
-      professions = IF(professions = '', NULL, @professions),
-      known_for   = IF(known_for = '',   NULL, @known_for);
+  SET name        = IF(ISNULL(@name), 'Unknown', @name),
+      professions = IF(@professions = '', NULL, @professions),
+      known_for   = IF(@known_for = '',   NULL, @known_for);
 
 SHOW WARNINGS;
 
