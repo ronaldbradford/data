@@ -36,7 +36,7 @@ INNER JOIN name n USING (nconst);
 SELECT 'name_profession' AS tbl, FORMAT(COUNT(*),0) AS row_count FROM name_profession;
 ALTER TABLE name DROP COLUMN professions;
 
-SELECT "Creating name_knonw_for (CTE of CSV column)" AS msg;
+SELECT "Creating name_known_for (CTE of CSV column)" AS msg;
 INSERT INTO name_known_for (name_id, title_id)
 WITH cte (name_id, tconst) AS (
   SELECT t.name_id, SPLITSTR(t.known_for,n.i)
