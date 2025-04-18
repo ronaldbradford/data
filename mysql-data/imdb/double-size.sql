@@ -1,9 +1,14 @@
-insert into name select 100000000+name_id, REVERSE(nconst), REVERSE(name), born, died, NOW() FROM name;
-insert into name_profession select 100000000+name_id, profession from name_profession;
-insert into name_known_for select 100000000+name_id, 100000000+title_id from name_known_for;
-insert into title select 100000000+title_id, REVERSE(tconst), type, REVERSE(title), REVERSE(original_title), is_adult, start_year, end_year, run_time_mins, NOW() FROM title;
-insert into title_genre select 100000000+title_id,genre from title_genre;
-insert into title_rating select 100000000+title_id,average_rating, num_votes from title_rating;
-insert into title_principal select 100000000+title_id,100000000+name_id,ordering, category, job, characters from title_principal;
-insert into title_name_character SELECT NULL,100000000+title_id,100000000+name_id,character_name from title_name_character;
-insert into title_episode SELECT 100000000+parent_title_id,100000000+title_id,season,episode from title_episode;
+SELECT MAX(name_id) INTO @last_name_id FROM name;
+SELECT MAX(title_id) INTO @last_title_id FROM title;
+SELECT @last_name_id, @last_title_id;
+INSERT INTO name SELECT @last_name_id+name_id, REVERSE(nconst), REVERSE(name), born, died, NOW() FROM name;
+INSERT INTO name_profession SELECT @last_name_id+name_id, profession FROM name_profession;
+INSERT INTO name_known_for SELECT @last_name_id+name_id, @last_title_id+title_id FROM name_known_for;
+INSERT INTO title_name_character SELECT NULL,@last_title_id+title_id,@last_name_id+name_id,character_name FROM title_name_character;
+
+INSERT INTO title SELECT @last_title_id+title_id, REVERSE(tconst), type, REVERSE(title), REVERSE(original_title), is_adult, start_year, end_year, run_time_mins, NOW() FROM title;
+INSERT INTO title_genre SELECT @last_title_id+title_id,genre FROM title_genre;
+INSERT INTO title_rating SELECT @last_title_id+title_id,average_rating, num_votes FROM title_rating;
+INSERT INTO title_principal SELECT @last_title_id+title_id,@last_name_id+name_id,ordering, category, job, characters FROM title_principal;
+INSERT INTO title_episode SELECT @last_title_id+parent_title_id,@last_title_id+title_id,season,episode FROM title_episode;
+
