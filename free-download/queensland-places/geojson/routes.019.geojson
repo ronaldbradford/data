@@ -1,0 +1,542 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 1",
+        "iteration": 1,
+        "point_count": 3,
+        "order": [
+          "Blythdale",
+          "Washpool",
+          "Yaamba"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            149.00111,
+            -26.52611
+          ],
+          [
+            152.7675,
+            -27.83722
+          ],
+          [
+            150.35,
+            -23.14
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "49162",
+        "place_name": "Blythdale",
+        "lga_name": "Maranoa Regional",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.00111,
+          -26.52611
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "45205",
+        "place_name": "Washpool",
+        "lga_name": "Scenic Rim Regional",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.7675,
+          -27.83722
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "48951",
+        "place_name": "Yaamba",
+        "lga_name": "Livingstone Shire",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.35,
+          -23.14
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 2",
+        "iteration": 2,
+        "point_count": 4,
+        "order": [
+          "Texas",
+          "Birnam (Toowoomba Regional)",
+          "Boynewood",
+          "Andergrove"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            151.18056,
+            -28.84306
+          ],
+          [
+            151.92417,
+            -27.49278
+          ],
+          [
+            151.27056,
+            -25.63583
+          ],
+          [
+            149.18556,
+            -21.09306
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "47832",
+        "place_name": "Texas",
+        "lga_name": "Goondiwindi Regional",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.18056,
+          -28.84306
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "49203",
+        "place_name": "Birnam (Toowoomba Regional)",
+        "lga_name": "Toowoomba Regional",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.92417,
+          -27.49278
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "47365",
+        "place_name": "Boynewood",
+        "lga_name": "North Burnett Regional",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.27056,
+          -25.63583
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "46754",
+        "place_name": "Andergrove",
+        "lga_name": "Mackay Regional",
+        "sequence": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.18556,
+          -21.09306
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 3",
+        "iteration": 3,
+        "point_count": 4,
+        "order": [
+          "Dalby",
+          "Fassifern",
+          "Deepwater",
+          "Captain Creek"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            151.26361,
+            -27.14111
+          ],
+          [
+            152.58806,
+            -27.95611
+          ],
+          [
+            151.94861,
+            -24.39583
+          ],
+          [
+            151.77917,
+            -24.28611
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "49866",
+        "place_name": "Dalby",
+        "lga_name": "Western Downs Regional",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.26361,
+          -27.14111
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "45137",
+        "place_name": "Fassifern",
+        "lga_name": "Scenic Rim Regional",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.58806,
+          -27.95611
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "46602",
+        "place_name": "Deepwater",
+        "lga_name": "Gladstone Regional",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.94861,
+          -24.39583
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "46598",
+        "place_name": "Captain Creek",
+        "lga_name": "Gladstone Regional",
+        "sequence": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.77917,
+          -24.28611
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 4",
+        "iteration": 4,
+        "point_count": 6,
+        "order": [
+          "Rewan",
+          "Mimosa",
+          "Booral",
+          "Dugandan",
+          "Myrtlevale",
+          "Albion (Richmond Shire)"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            148.38556,
+            -24.9675
+          ],
+          [
+            149.59194,
+            -24.28139
+          ],
+          [
+            152.89,
+            -25.35389
+          ],
+          [
+            152.67778,
+            -28.02139
+          ],
+          [
+            148.55028,
+            -20.33083
+          ],
+          [
+            142.62528,
+            -21.33722
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "46973",
+        "place_name": "Rewan",
+        "lga_name": "Central Highlands Regional",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.38556,
+          -24.9675
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "46965",
+        "place_name": "Mimosa",
+        "lga_name": "Central Highlands Regional",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.59194,
+          -24.28139
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "46633",
+        "place_name": "Booral",
+        "lga_name": "Fraser Coast Regional",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.89,
+          -25.35389
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "45136",
+        "place_name": "Dugandan",
+        "lga_name": "Scenic Rim Regional",
+        "sequence": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.67778,
+          -28.02139
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "46890",
+        "place_name": "Myrtlevale",
+        "lga_name": "Whitsunday Regional",
+        "sequence": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.55028,
+          -20.33083
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "42351",
+        "place_name": "Albion (Richmond Shire)",
+        "lga_name": "Richmond Shire",
+        "sequence": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.62528,
+          -21.33722
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 5",
+        "iteration": 5,
+        "point_count": 4,
+        "order": [
+          "Brightview (Somerset Regional)",
+          "Yangan",
+          "Mount Barney",
+          "Jimbour East"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            152.50944,
+            -27.49
+          ],
+          [
+            152.20583,
+            -28.20111
+          ],
+          [
+            152.70778,
+            -28.27778
+          ],
+          [
+            151.28917,
+            -26.92917
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "44838",
+        "place_name": "Brightview (Somerset Regional)",
+        "lga_name": "Somerset Regional",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.50944,
+          -27.49
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "46008",
+        "place_name": "Yangan",
+        "lga_name": "Southern Downs Regional",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.20583,
+          -28.20111
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "45169",
+        "place_name": "Mount Barney",
+        "lga_name": "Scenic Rim Regional",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.70778,
+          -28.27778
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "49278",
+        "place_name": "Jimbour East",
+        "lga_name": "Western Downs Regional",
+        "sequence": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.28917,
+          -26.92917
+        ]
+      }
+    }
+  ]
+}

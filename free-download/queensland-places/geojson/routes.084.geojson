@@ -1,0 +1,586 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 1",
+        "iteration": 1,
+        "point_count": 5,
+        "order": [
+          "Augathella",
+          "Noorindoo",
+          "Mount Kynoch",
+          "Karana Downs",
+          "Mungalli"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            146.58417,
+            -25.80722
+          ],
+          [
+            149.215,
+            -27.08444
+          ],
+          [
+            151.94805715,
+            -27.51028072
+          ],
+          [
+            152.8225,
+            -27.5425
+          ],
+          [
+            145.68833,
+            -17.54556
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "42920",
+        "place_name": "Augathella",
+        "lga_name": "Murweh Shire",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.58417,
+          -25.80722
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "49167",
+        "place_name": "Noorindoo",
+        "lga_name": "Maranoa Regional",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.215,
+          -27.08444
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "52629",
+        "place_name": "Mount Kynoch",
+        "lga_name": "Toowoomba Regional",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.94805715,
+          -27.51028072
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "41385",
+        "place_name": "Karana Downs",
+        "lga_name": "Brisbane City",
+        "sequence": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.8225,
+          -27.5425
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "48797",
+        "place_name": "Mungalli",
+        "lga_name": "Tablelands Regional",
+        "sequence": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.68833,
+          -17.54556
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 2",
+        "iteration": 2,
+        "point_count": 5,
+        "order": [
+          "Rodgers Creek",
+          "Deuchar",
+          "Doonan (Sunshine Coast Regional)",
+          "Rossmoya",
+          "Sarina"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            151.83389,
+            -28.22528
+          ],
+          [
+            151.94722,
+            -28.09861
+          ],
+          [
+            153.00528,
+            -26.45222
+          ],
+          [
+            150.49167,
+            -23.05
+          ],
+          [
+            149.16389,
+            -21.44056
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "45970",
+        "place_name": "Rodgers Creek",
+        "lga_name": "Southern Downs Regional",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.83389,
+          -28.22528
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "47649",
+        "place_name": "Deuchar",
+        "lga_name": "Southern Downs Regional",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.94722,
+          -28.09861
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "48611",
+        "place_name": "Doonan (Sunshine Coast Regional)",
+        "lga_name": "Sunshine Coast Regional",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.00528,
+          -26.45222
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "48863",
+        "place_name": "Rossmoya",
+        "lga_name": "Livingstone Shire",
+        "sequence": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.49167,
+          -23.05
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "49372",
+        "place_name": "Sarina",
+        "lga_name": "Mackay Regional",
+        "sequence": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.16389,
+          -21.44056
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 3",
+        "iteration": 3,
+        "point_count": 4,
+        "order": [
+          "Wallaroo (Woorabinda Shire)",
+          "Diglum",
+          "West Prairie",
+          "Glen Ruth"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            149.51417,
+            -23.54306
+          ],
+          [
+            151.08583,
+            -24.25694
+          ],
+          [
+            151.40889,
+            -27.44333
+          ],
+          [
+            145.41139,
+            -18.00639
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "49306",
+        "place_name": "Wallaroo (Woorabinda Shire)",
+        "lga_name": "Woorabinda Aboriginal Shire",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.51417,
+          -23.54306
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "46603",
+        "place_name": "Diglum",
+        "lga_name": "Gladstone Regional",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.08583,
+          -24.25694
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "49185",
+        "place_name": "West Prairie",
+        "lga_name": "Toowoomba Regional",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.40889,
+          -27.44333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "48652",
+        "place_name": "Glen Ruth",
+        "lga_name": "Tablelands Regional",
+        "sequence": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.41139,
+          -18.00639
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 4",
+        "iteration": 4,
+        "point_count": 6,
+        "order": [
+          "Belyando",
+          "Julatten",
+          "Bullcamp",
+          "Chevallum",
+          "South Ripley",
+          "Woodhill"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            146.60611,
+            -21.85056
+          ],
+          [
+            145.35806,
+            -16.57889
+          ],
+          [
+            152.10111,
+            -26.59556
+          ],
+          [
+            152.99278,
+            -26.69833
+          ],
+          [
+            152.82389,
+            -27.72167
+          ],
+          [
+            152.97333,
+            -27.88528
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "47003",
+        "place_name": "Belyando",
+        "lga_name": "Isaac Regional",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.60611,
+          -21.85056
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "48686",
+        "place_name": "Julatten",
+        "lga_name": "Mareeba Shire",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.35806,
+          -16.57889
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "46200",
+        "place_name": "Bullcamp",
+        "lga_name": "South Burnett Regional",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.10111,
+          -26.59556
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "50061",
+        "place_name": "Chevallum",
+        "lga_name": "Sunshine Coast Regional",
+        "sequence": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.99278,
+          -26.69833
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "52505",
+        "place_name": "South Ripley",
+        "lga_name": "Ipswich City",
+        "sequence": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.82389,
+          -27.72167
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "45298",
+        "place_name": "Woodhill",
+        "lga_name": "Logan City",
+        "sequence": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.97333,
+          -27.88528
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 5",
+        "iteration": 5,
+        "point_count": 3,
+        "order": [
+          "Boyland",
+          "Victoria Point",
+          "Mount Samson"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            153.13,
+            -27.93917
+          ],
+          [
+            153.28889,
+            -27.58917
+          ],
+          [
+            152.84056,
+            -27.30056
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "48961",
+        "place_name": "Boyland",
+        "lga_name": "Scenic Rim Regional",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.13,
+          -27.93917
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "43637",
+        "place_name": "Victoria Point",
+        "lga_name": "Redland City",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.28889,
+          -27.58917
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "45456",
+        "place_name": "Mount Samson",
+        "lga_name": "Moreton Bay City",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.84056,
+          -27.30056
+        ]
+      }
+    }
+  ]
+}

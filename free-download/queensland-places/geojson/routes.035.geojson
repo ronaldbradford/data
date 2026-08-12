@@ -1,0 +1,542 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 1",
+        "iteration": 1,
+        "point_count": 5,
+        "order": [
+          "Coringa",
+          "Eureka",
+          "Tinana",
+          "Jollys Lookout",
+          "Wyreema"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            151.965,
+            -25.3775
+          ],
+          [
+            152.16917,
+            -25.2775
+          ],
+          [
+            152.66944,
+            -25.55556
+          ],
+          [
+            152.82694,
+            -27.41028
+          ],
+          [
+            151.83056,
+            -27.65694
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "45336",
+        "place_name": "Coringa",
+        "lga_name": "North Burnett Regional",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.965,
+          -25.3775
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "47133",
+        "place_name": "Eureka",
+        "lga_name": "Bundaberg Regional",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.16917,
+          -25.2775
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "46736",
+        "place_name": "Tinana",
+        "lga_name": "Fraser Coast Regional",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.66944,
+          -25.55556
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "45501",
+        "place_name": "Jollys Lookout",
+        "lga_name": "Moreton Bay City",
+        "sequence": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.82694,
+          -27.41028
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "48101",
+        "place_name": "Wyreema",
+        "lga_name": "Toowoomba Regional",
+        "sequence": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.83056,
+          -27.65694
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 2",
+        "iteration": 2,
+        "point_count": 5,
+        "order": [
+          "Glenmoral",
+          "Horton",
+          "Maryborough West",
+          "Cedar Creek (Moreton Bay City)",
+          "Cunnamulla"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            149.87806,
+            -24.955
+          ],
+          [
+            152.33861,
+            -25.2275
+          ],
+          [
+            152.67056,
+            -25.5025
+          ],
+          [
+            152.815,
+            -27.33417
+          ],
+          [
+            145.72722,
+            -28.11333
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "49554",
+        "place_name": "Glenmoral",
+        "lga_name": "Banana Shire",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.87806,
+          -24.955
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "44728",
+        "place_name": "Horton",
+        "lga_name": "Bundaberg Regional",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.33861,
+          -25.2275
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "46661",
+        "place_name": "Maryborough West",
+        "lga_name": "Fraser Coast Regional",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.67056,
+          -25.5025
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "52320",
+        "place_name": "Cedar Creek (Moreton Bay City)",
+        "lga_name": "Moreton Bay City",
+        "sequence": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.815,
+          -27.33417
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "49186",
+        "place_name": "Cunnamulla",
+        "lga_name": "Paroo Shire",
+        "sequence": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.72722,
+          -28.11333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 3",
+        "iteration": 3,
+        "point_count": 5,
+        "order": [
+          "Valley Of Lagoons",
+          "Aurukun",
+          "Elliott",
+          "Lockyer",
+          "Preston (Lockyer Valley Regional)"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            145.41306,
+            -18.75889
+          ],
+          [
+            141.81472,
+            -13.60278
+          ],
+          [
+            152.27806,
+            -25.00472
+          ],
+          [
+            152.06917,
+            -27.50639
+          ],
+          [
+            151.97444,
+            -27.6425
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "49760",
+        "place_name": "Valley Of Lagoons",
+        "lga_name": "Charters Towers Regional",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.41306,
+          -18.75889
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "41768",
+        "place_name": "Aurukun",
+        "lga_name": "Aurukun Shire",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          141.81472,
+          -13.60278
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "48971",
+        "place_name": "Elliott",
+        "lga_name": "Bundaberg Regional",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.27806,
+          -25.00472
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "45010",
+        "place_name": "Lockyer",
+        "lga_name": "Lockyer Valley Regional",
+        "sequence": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.06917,
+          -27.50639
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "47618",
+        "place_name": "Preston (Lockyer Valley Regional)",
+        "lga_name": "Lockyer Valley Regional",
+        "sequence": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.97444,
+          -27.6425
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 4",
+        "iteration": 4,
+        "point_count": 3,
+        "order": [
+          "Derrymore",
+          "Fairyland",
+          "Pink Lily"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            152.05972,
+            -27.5825
+          ],
+          [
+            150.93361,
+            -26.52806
+          ],
+          [
+            150.45944,
+            -23.35194
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "45008",
+        "place_name": "Derrymore",
+        "lga_name": "Lockyer Valley Regional",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.05972,
+          -27.5825
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "47698",
+        "place_name": "Fairyland",
+        "lga_name": "Western Downs Regional",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.93361,
+          -26.52806
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "48842",
+        "place_name": "Pink Lily",
+        "lga_name": "Rockhampton Regional",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.45944,
+          -23.35194
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 5",
+        "iteration": 5,
+        "point_count": 3,
+        "order": [
+          "Isis Central",
+          "Majors Creek (Townsville City)",
+          "Ravensworth"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            152.18306,
+            -25.19556
+          ],
+          [
+            146.95778,
+            -19.62667
+          ],
+          [
+            143.63722,
+            -17.29139
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "47136",
+        "place_name": "Isis Central",
+        "lga_name": "Bundaberg Regional",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.18306,
+          -25.19556
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "44608",
+        "place_name": "Majors Creek (Townsville City)",
+        "lga_name": "Townsville City",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.95778,
+          -19.62667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "48850",
+        "place_name": "Ravensworth",
+        "lga_name": "Mareeba Shire",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.63722,
+          -17.29139
+        ]
+      }
+    }
+  ]
+}

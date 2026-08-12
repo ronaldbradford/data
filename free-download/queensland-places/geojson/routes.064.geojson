@@ -1,0 +1,520 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 1",
+        "iteration": 1,
+        "point_count": 6,
+        "order": [
+          "Stockleigh",
+          "Coochin",
+          "Greenmount (Toowoomba Regional)",
+          "Darling Heights",
+          "Goomboorian",
+          "Wangaratta"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            153.05722,
+            -27.77194
+          ],
+          [
+            152.64722,
+            -28.12167
+          ],
+          [
+            151.89611,
+            -27.77611
+          ],
+          [
+            151.92306,
+            -27.60556
+          ],
+          [
+            152.78333,
+            -26.075
+          ],
+          [
+            147.46139,
+            -19.82861
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "45290",
+        "place_name": "Stockleigh",
+        "lga_name": "Logan City",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.05722,
+          -27.77194
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "49240",
+        "place_name": "Coochin",
+        "lga_name": "Scenic Rim Regional",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.64722,
+          -28.12167
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "50181",
+        "place_name": "Greenmount (Toowoomba Regional)",
+        "lga_name": "Toowoomba Regional",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.89611,
+          -27.77611
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "47925",
+        "place_name": "Darling Heights",
+        "lga_name": "Toowoomba Regional",
+        "sequence": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.92306,
+          -27.60556
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "50509",
+        "place_name": "Goomboorian",
+        "lga_name": "Gympie Regional",
+        "sequence": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.78333,
+          -26.075
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "42304",
+        "place_name": "Wangaratta",
+        "lga_name": "Burdekin Shire",
+        "sequence": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.46139,
+          -19.82861
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 2",
+        "iteration": 2,
+        "point_count": 4,
+        "order": [
+          "Burgowan",
+          "Burnside",
+          "Cedar Creek (Moreton Bay City)",
+          "Toolburra"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            152.65111,
+            -25.34972
+          ],
+          [
+            152.93444,
+            -26.63167
+          ],
+          [
+            152.815,
+            -27.33417
+          ],
+          [
+            151.965,
+            -28.16583
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "46636",
+        "place_name": "Burgowan",
+        "lga_name": "Fraser Coast Regional",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.65111,
+          -25.34972
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "50527",
+        "place_name": "Burnside",
+        "lga_name": "Sunshine Coast Regional",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.93444,
+          -26.63167
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "52320",
+        "place_name": "Cedar Creek (Moreton Bay City)",
+        "lga_name": "Moreton Bay City",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.815,
+          -27.33417
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "45995",
+        "place_name": "Toolburra",
+        "lga_name": "Southern Downs Regional",
+        "sequence": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.965,
+          -28.16583
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 3",
+        "iteration": 3,
+        "point_count": 4,
+        "order": [
+          "Rifle Range",
+          "Mountain Camp",
+          "Sundown (Southern Downs Regional)",
+          "Woongarra"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            152.53444,
+            -27.45667
+          ],
+          [
+            152.03639,
+            -27.20306
+          ],
+          [
+            151.66583,
+            -28.85278
+          ],
+          [
+            152.41333,
+            -24.89444
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "44911",
+        "place_name": "Rifle Range",
+        "lga_name": "Somerset Regional",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.53444,
+          -27.45667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "48018",
+        "place_name": "Mountain Camp",
+        "lga_name": "Toowoomba Regional",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.03639,
+          -27.20306
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "45981",
+        "place_name": "Sundown (Southern Downs Regional)",
+        "lga_name": "Southern Downs Regional",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.66583,
+          -28.85278
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "48366",
+        "place_name": "Woongarra",
+        "lga_name": "Bundaberg Regional",
+        "sequence": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.41333,
+          -24.89444
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 4",
+        "iteration": 4,
+        "point_count": 3,
+        "order": [
+          "Buaraba South",
+          "Cooyar",
+          "Bedourie"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            152.24278,
+            -27.42028
+          ],
+          [
+            151.83778,
+            -26.9625
+          ],
+          [
+            139.43889,
+            -24.43167
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "44946",
+        "place_name": "Buaraba South",
+        "lga_name": "Lockyer Valley Regional",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.24278,
+          -27.42028
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "47918",
+        "place_name": "Cooyar",
+        "lga_name": "Toowoomba Regional",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.83778,
+          -26.9625
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "41498",
+        "place_name": "Bedourie",
+        "lga_name": "Diamantina Shire",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.43889,
+          -24.43167
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 5",
+        "iteration": 5,
+        "point_count": 3,
+        "order": [
+          "Mount Mackay",
+          "Ulogie",
+          "Cainbable"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            145.99889,
+            -17.93722
+          ],
+          [
+            150.51528,
+            -23.94278
+          ],
+          [
+            153.09694,
+            -28.14667
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "45734",
+        "place_name": "Mount Mackay",
+        "lga_name": "Cassowary Coast Regional",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.99889,
+          -17.93722
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "49787",
+        "place_name": "Ulogie",
+        "lga_name": "Banana Shire",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.51528,
+          -23.94278
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "45122",
+        "place_name": "Cainbable",
+        "lga_name": "Scenic Rim Regional",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.09694,
+          -28.14667
+        ]
+      }
+    }
+  ]
+}

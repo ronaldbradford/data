@@ -1,0 +1,476 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 1",
+        "iteration": 1,
+        "point_count": 5,
+        "order": [
+          "Normanton",
+          "Midgee",
+          "Zilzie",
+          "Cadarga",
+          "Goombungee"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            140.89611,
+            -17.88639
+          ],
+          [
+            150.58583,
+            -23.49944
+          ],
+          [
+            150.80972,
+            -23.29611
+          ],
+          [
+            151.03306,
+            -26.10083
+          ],
+          [
+            151.85222,
+            -27.30278
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "44655",
+        "place_name": "Normanton",
+        "lga_name": "Carpentaria Shire",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.89611,
+          -17.88639
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "48756",
+        "place_name": "Midgee",
+        "lga_name": "Rockhampton Regional",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.58583,
+          -23.49944
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "48958",
+        "place_name": "Zilzie",
+        "lga_name": "Livingstone Shire",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.80972,
+          -23.29611
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "47676",
+        "place_name": "Cadarga",
+        "lga_name": "Western Downs Regional",
+        "sequence": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.03306,
+          -26.10083
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "47952",
+        "place_name": "Goombungee",
+        "lga_name": "Toowoomba Regional",
+        "sequence": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.85222,
+          -27.30278
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 2",
+        "iteration": 2,
+        "point_count": 3,
+        "order": [
+          "Mount Debateable",
+          "Maclagan",
+          "Djiru"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            151.55667,
+            -25.63167
+          ],
+          [
+            151.67722,
+            -27.05889
+          ],
+          [
+            146.07639,
+            -17.85583
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "45393",
+        "place_name": "Mount Debateable",
+        "lga_name": "North Burnett Regional",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.55667,
+          -25.63167
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "47993",
+        "place_name": "Maclagan",
+        "lga_name": "Toowoomba Regional",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.67722,
+          -27.05889
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "45667",
+        "place_name": "Djiru",
+        "lga_name": "Cassowary Coast Regional",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.07639,
+          -17.85583
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 3",
+        "iteration": 3,
+        "point_count": 4,
+        "order": [
+          "The Narrows",
+          "Meandarra",
+          "North Maclean",
+          "Lannercost"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            150.965,
+            -23.61306
+          ],
+          [
+            149.86444,
+            -27.30556
+          ],
+          [
+            152.99778,
+            -27.76639
+          ],
+          [
+            145.97222,
+            -18.61306
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "47290",
+        "place_name": "The Narrows",
+        "lga_name": "Gladstone Regional",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.965,
+          -23.61306
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "50513",
+        "place_name": "Meandarra",
+        "lga_name": "Western Downs Regional",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.86444,
+          -27.30556
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "48339",
+        "place_name": "North Maclean",
+        "lga_name": "Logan City",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.99778,
+          -27.76639
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "18983",
+        "place_name": "Lannercost",
+        "lga_name": "Hinchinbrook Shire",
+        "sequence": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.97222,
+          -18.61306
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 4",
+        "iteration": 4,
+        "point_count": 3,
+        "order": [
+          "Balcomba (Woorabinda Shire)",
+          "Beebo",
+          "New Mapoon (Torres Shire)"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            149.68528,
+            -23.47833
+          ],
+          [
+            150.99306,
+            -28.68278
+          ],
+          [
+            142.38694,
+            -10.79639
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "49301",
+        "place_name": "Balcomba (Woorabinda Shire)",
+        "lga_name": "Woorabinda Aboriginal Shire",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.68528,
+          -23.47833
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "47795",
+        "place_name": "Beebo",
+        "lga_name": "Goondiwindi Regional",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.99306,
+          -28.68278
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "48329",
+        "place_name": "New Mapoon (Torres Shire)",
+        "lga_name": "Torres Shire",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.38694,
+          -10.79639
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 5",
+        "iteration": 5,
+        "point_count": 3,
+        "order": [
+          "Wooroonden",
+          "Yandaran",
+          "Djiru"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            151.75972,
+            -26.11306
+          ],
+          [
+            152.09444,
+            -24.70111
+          ],
+          [
+            146.07639,
+            -17.85583
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "46284",
+        "place_name": "Wooroonden",
+        "lga_name": "South Burnett Regional",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.75972,
+          -26.11306
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "44815",
+        "place_name": "Yandaran",
+        "lga_name": "Bundaberg Regional",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.09444,
+          -24.70111
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "45667",
+        "place_name": "Djiru",
+        "lga_name": "Cassowary Coast Regional",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.07639,
+          -17.85583
+        ]
+      }
+    }
+  ]
+}

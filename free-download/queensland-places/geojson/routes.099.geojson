@@ -1,0 +1,586 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 1",
+        "iteration": 1,
+        "point_count": 6,
+        "order": [
+          "Nandi",
+          "Mount McEuen",
+          "Marys Creek",
+          "Summerholm",
+          "The Glen",
+          "Silky Oak"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            151.16,
+            -27.28667
+          ],
+          [
+            151.71917,
+            -26.235
+          ],
+          [
+            152.5875,
+            -26.25
+          ],
+          [
+            152.45972,
+            -27.61
+          ],
+          [
+            151.91694,
+            -28.33611
+          ],
+          [
+            145.94944,
+            -17.97472
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "47734",
+        "place_name": "Nandi",
+        "lga_name": "Western Downs Regional",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.16,
+          -27.28667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "46248",
+        "place_name": "Mount McEuen",
+        "lga_name": "South Burnett Regional",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.71917,
+          -26.235
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "46358",
+        "place_name": "Marys Creek",
+        "lga_name": "Gympie Regional",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.5875,
+          -26.25
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "50040",
+        "place_name": "Summerholm",
+        "lga_name": "Lockyer Valley Regional",
+        "sequence": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.45972,
+          -27.61
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "45989",
+        "place_name": "The Glen",
+        "lga_name": "Southern Downs Regional",
+        "sequence": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.91694,
+          -28.33611
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "45752",
+        "place_name": "Silky Oak",
+        "lga_name": "Cassowary Coast Regional",
+        "sequence": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.94944,
+          -17.97472
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 2",
+        "iteration": 2,
+        "point_count": 4,
+        "order": [
+          "Helidon",
+          "Bringalily",
+          "Pie Creek",
+          "Sujeewong"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            152.12972,
+            -27.52694
+          ],
+          [
+            151.15,
+            -28.08333
+          ],
+          [
+            152.61944,
+            -26.24167
+          ],
+          [
+            150.54278,
+            -25.7325
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "44959",
+        "place_name": "Helidon",
+        "lga_name": "Lockyer Valley Regional",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.12972,
+          -27.52694
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "49214",
+        "place_name": "Bringalily",
+        "lga_name": "Toowoomba Regional",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.15,
+          -28.08333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "46373",
+        "place_name": "Pie Creek",
+        "lga_name": "Gympie Regional",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.61944,
+          -26.24167
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "47747",
+        "place_name": "Sujeewong",
+        "lga_name": "Western Downs Regional",
+        "sequence": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.54278,
+          -25.7325
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 3",
+        "iteration": 3,
+        "point_count": 3,
+        "order": [
+          "Sandringham",
+          "Thane",
+          "Mutchilba"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            150.53833,
+            -23.22417
+          ],
+          [
+            151.70333,
+            -28.15972
+          ],
+          [
+            145.26278,
+            -17.18167
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "50326",
+        "place_name": "Sandringham",
+        "lga_name": "Livingstone Shire",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.53833,
+          -23.22417
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "45986",
+        "place_name": "Thane",
+        "lga_name": "Southern Downs Regional",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.70333,
+          -28.15972
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "48798",
+        "place_name": "Mutchilba",
+        "lga_name": "Mareeba Shire",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.26278,
+          -17.18167
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 4",
+        "iteration": 4,
+        "point_count": 6,
+        "order": [
+          "Nobby",
+          "Brush Creek",
+          "Dulacca",
+          "Abbeywood",
+          "Forty Mile",
+          "Lakeland"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            151.88444,
+            -27.81528
+          ],
+          [
+            151.13667,
+            -28.58722
+          ],
+          [
+            149.76639,
+            -26.69667
+          ],
+          [
+            151.64556,
+            -26.10389
+          ],
+          [
+            144.73667,
+            -17.98528
+          ],
+          [
+            144.79889,
+            -15.89472
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "50182",
+        "place_name": "Nobby",
+        "lga_name": "Toowoomba Regional",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.88444,
+          -27.81528
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "47799",
+        "place_name": "Brush Creek",
+        "lga_name": "Goondiwindi Regional",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.13667,
+          -28.58722
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "47695",
+        "place_name": "Dulacca",
+        "lga_name": "Western Downs Regional",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.76639,
+          -26.69667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "46185",
+        "place_name": "Abbeywood",
+        "lga_name": "South Burnett Regional",
+        "sequence": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.64556,
+          -26.10389
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "49798",
+        "place_name": "Forty Mile",
+        "lga_name": "Mareeba Shire",
+        "sequence": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.73667,
+          -17.98528
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "46131",
+        "place_name": "Lakeland",
+        "lga_name": "Cook Shire",
+        "sequence": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.79889,
+          -15.89472
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 5",
+        "iteration": 5,
+        "point_count": 4,
+        "order": [
+          "Eerwah Vale (Noosa Shire)",
+          "White Rock (Ipswich City)",
+          "Gwambegwine",
+          "South Innisfail"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            152.88389,
+            -26.46833
+          ],
+          [
+            152.84889,
+            -27.695
+          ],
+          [
+            149.57389,
+            -25.32944
+          ],
+          [
+            146.04583,
+            -17.54722
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "48619",
+        "place_name": "Eerwah Vale (Noosa Shire)",
+        "lga_name": "Noosa Shire",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.88389,
+          -26.46833
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "52506",
+        "place_name": "White Rock (Ipswich City)",
+        "lga_name": "Ipswich City",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.84889,
+          -27.695
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "49557",
+        "place_name": "Gwambegwine",
+        "lga_name": "Banana Shire",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.57389,
+          -25.32944
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "45753",
+        "place_name": "South Innisfail",
+        "lga_name": "Cassowary Coast Regional",
+        "sequence": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.04583,
+          -17.54722
+        ]
+      }
+    }
+  ]
+}

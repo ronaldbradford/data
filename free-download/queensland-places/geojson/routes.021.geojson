@@ -1,0 +1,608 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 1",
+        "iteration": 1,
+        "point_count": 4,
+        "order": [
+          "North Maclagan",
+          "Diamond Valley",
+          "Lake Eacham",
+          "Keriri Island"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            151.68306,
+            -27.02972
+          ],
+          [
+            152.92639,
+            -26.75611
+          ],
+          [
+            145.64528,
+            -17.30278
+          ],
+          [
+            142.20583,
+            -10.54806
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "48027",
+        "place_name": "North Maclagan",
+        "lga_name": "Toowoomba Regional",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.68306,
+          -27.02972
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "50949",
+        "place_name": "Diamond Valley",
+        "lga_name": "Sunshine Coast Regional",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.92639,
+          -26.75611
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "48718",
+        "place_name": "Lake Eacham",
+        "lga_name": "Tablelands Regional",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.64528,
+          -17.30278
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "46707",
+        "place_name": "Keriri Island",
+        "lga_name": "Torres Strait Island Regional",
+        "sequence": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.20583,
+          -10.54806
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 2",
+        "iteration": 2,
+        "point_count": 4,
+        "order": [
+          "Kalunga",
+          "Topaz",
+          "Tully Heads",
+          "Zilzie"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            145.36667,
+            -17.43917
+          ],
+          [
+            145.70722,
+            -17.42444
+          ],
+          [
+            146.05556,
+            -18.01583
+          ],
+          [
+            150.80972,
+            -23.29611
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "48691",
+        "place_name": "Kalunga",
+        "lga_name": "Tablelands Regional",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.36667,
+          -17.43917
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "48904",
+        "place_name": "Topaz",
+        "lga_name": "Tablelands Regional",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.70722,
+          -17.42444
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "45773",
+        "place_name": "Tully Heads",
+        "lga_name": "Cassowary Coast Regional",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.05556,
+          -18.01583
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "48958",
+        "place_name": "Zilzie",
+        "lga_name": "Livingstone Shire",
+        "sequence": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.80972,
+          -23.29611
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 3",
+        "iteration": 3,
+        "point_count": 4,
+        "order": [
+          "Banks Creek (Brisbane City)",
+          "Cadarga",
+          "Home Hill",
+          "Valley Of Lagoons"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            152.75111,
+            -27.38194
+          ],
+          [
+            151.03306,
+            -26.10083
+          ],
+          [
+            147.41361,
+            -19.65917
+          ],
+          [
+            145.41306,
+            -18.75889
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "41381",
+        "place_name": "Banks Creek (Brisbane City)",
+        "lga_name": "Brisbane City",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.75111,
+          -27.38194
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "47676",
+        "place_name": "Cadarga",
+        "lga_name": "Western Downs Regional",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.03306,
+          -26.10083
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "42288",
+        "place_name": "Home Hill",
+        "lga_name": "Burdekin Shire",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.41361,
+          -19.65917
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "49760",
+        "place_name": "Valley Of Lagoons",
+        "lga_name": "Charters Towers Regional",
+        "sequence": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.41306,
+          -18.75889
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 4",
+        "iteration": 4,
+        "point_count": 6,
+        "order": [
+          "Woodgate",
+          "Silverleaf",
+          "Toondahra",
+          "Runnymede",
+          "Cleveland",
+          "Forrest Beach"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            152.51667,
+            -25.08333
+          ],
+          [
+            151.8025,
+            -26.16806
+          ],
+          [
+            151.4275,
+            -25.93722
+          ],
+          [
+            152.08861,
+            -26.55389
+          ],
+          [
+            153.26444,
+            -27.53361
+          ],
+          [
+            146.28528,
+            -18.71778
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "44813",
+        "place_name": "Woodgate",
+        "lga_name": "Bundaberg Regional",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.51667,
+          -25.08333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "46261",
+        "place_name": "Silverleaf",
+        "lga_name": "South Burnett Regional",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.8025,
+          -26.16806
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "45420",
+        "place_name": "Toondahra",
+        "lga_name": "North Burnett Regional",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.4275,
+          -25.93722
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "46259",
+        "place_name": "Runnymede",
+        "lga_name": "South Burnett Regional",
+        "sequence": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.08861,
+          -26.55389
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "43629",
+        "place_name": "Cleveland",
+        "lga_name": "Redland City",
+        "sequence": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.26444,
+          -27.53361
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "48287",
+        "place_name": "Forrest Beach",
+        "lga_name": "Hinchinbrook Shire",
+        "sequence": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.28528,
+          -18.71778
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 5",
+        "iteration": 5,
+        "point_count": 6,
+        "order": [
+          "Gympie",
+          "Ringtail Creek",
+          "Cabarlah",
+          "Wallaroo (Central Highlands Regional)",
+          "Erakala",
+          "Yowah"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            152.66806,
+            -26.18611
+          ],
+          [
+            152.95111,
+            -26.34
+          ],
+          [
+            151.99556,
+            -27.43611
+          ],
+          [
+            149.54556,
+            -23.67444
+          ],
+          [
+            149.11556,
+            -21.13222
+          ],
+          [
+            144.58806,
+            -27.78222
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "50208",
+        "place_name": "Gympie",
+        "lga_name": "Gympie Regional",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.66806,
+          -26.18611
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "48856",
+        "place_name": "Ringtail Creek",
+        "lga_name": "Noosa Shire",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.95111,
+          -26.34
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "49267",
+        "place_name": "Cabarlah",
+        "lga_name": "Toowoomba Regional",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.99556,
+          -27.43611
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "46982",
+        "place_name": "Wallaroo (Central Highlands Regional)",
+        "lga_name": "Central Highlands Regional",
+        "sequence": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.54556,
+          -23.67444
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "48432",
+        "place_name": "Erakala",
+        "lga_name": "Mackay Regional",
+        "sequence": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11556,
+          -21.13222
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "42664",
+        "place_name": "Yowah",
+        "lga_name": "Paroo Shire",
+        "sequence": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.58806,
+          -27.78222
+        ]
+      }
+    }
+  ]
+}

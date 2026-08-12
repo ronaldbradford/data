@@ -1,0 +1,520 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 1",
+        "iteration": 1,
+        "point_count": 5,
+        "order": [
+          "Booyal",
+          "Coral Cove",
+          "North Maclagan",
+          "Redland Bay",
+          "Bindebango"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            152.08583,
+            -25.21083
+          ],
+          [
+            152.47833,
+            -24.88194
+          ],
+          [
+            151.68306,
+            -27.02972
+          ],
+          [
+            153.28556,
+            -27.645
+          ],
+          [
+            147.38806,
+            -27.63944
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "49605",
+        "place_name": "Booyal",
+        "lga_name": "Bundaberg Regional",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.08583,
+          -25.21083
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "44703",
+        "place_name": "Coral Cove",
+        "lga_name": "Bundaberg Regional",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.47833,
+          -24.88194
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "48027",
+        "place_name": "North Maclagan",
+        "lga_name": "Toowoomba Regional",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.68306,
+          -27.02972
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "43632",
+        "place_name": "Redland Bay",
+        "lga_name": "Redland City",
+        "sequence": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.28556,
+          -27.645
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "47412",
+        "place_name": "Bindebango",
+        "lga_name": "Maranoa Regional",
+        "sequence": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.38806,
+          -27.63944
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 2",
+        "iteration": 2,
+        "point_count": 6,
+        "order": [
+          "Warraber Islet",
+          "Northhead",
+          "Ridgelands",
+          "Tungamull",
+          "Moorland",
+          "Pikes Creek"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            142.82444,
+            -10.2075
+          ],
+          [
+            143.14361,
+            -18.72833
+          ],
+          [
+            150.25972,
+            -23.27889
+          ],
+          [
+            150.69694,
+            -23.3325
+          ],
+          [
+            152.2075,
+            -24.76361
+          ],
+          [
+            151.54167,
+            -28.72278
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "46709",
+        "place_name": "Warraber Islet",
+        "lga_name": "Torres Strait Island Regional",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.82444,
+          -10.2075
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "47873",
+        "place_name": "Northhead",
+        "lga_name": "Etheridge Shire",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.14361,
+          -18.72833
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "48854",
+        "place_name": "Ridgelands",
+        "lga_name": "Rockhampton Regional",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.25972,
+          -23.27889
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "49426",
+        "place_name": "Tungamull",
+        "lga_name": "Livingstone Shire",
+        "sequence": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.69694,
+          -23.3325
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "44750",
+        "place_name": "Moorland",
+        "lga_name": "Bundaberg Regional",
+        "sequence": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.2075,
+          -24.76361
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "45967",
+        "place_name": "Pikes Creek",
+        "lga_name": "Southern Downs Regional",
+        "sequence": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.54167,
+          -28.72278
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 3",
+        "iteration": 3,
+        "point_count": 3,
+        "order": [
+          "Mount Lofty",
+          "Lake Manchester (Brisbane City)",
+          "V Gate"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            151.98389,
+            -27.53694
+          ],
+          [
+            152.78306,
+            -27.43694
+          ],
+          [
+            147.81611,
+            -26.85139
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "52410",
+        "place_name": "Mount Lofty",
+        "lga_name": "Toowoomba Regional",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.98389,
+          -27.53694
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "41384",
+        "place_name": "Lake Manchester (Brisbane City)",
+        "lga_name": "Brisbane City",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.78306,
+          -27.43694
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "47460",
+        "place_name": "V Gate",
+        "lga_name": "Maranoa Regional",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.81611,
+          -26.85139
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 4",
+        "iteration": 4,
+        "point_count": 3,
+        "order": [
+          "Tara",
+          "Strathfield",
+          "Cape Gloucester"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            150.4475,
+            -27.24917
+          ],
+          [
+            148.54111,
+            -21.745
+          ],
+          [
+            148.52861,
+            -20.16222
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "47749",
+        "place_name": "Tara",
+        "lga_name": "Western Downs Regional",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.4475,
+          -27.24917
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "47036",
+        "place_name": "Strathfield",
+        "lga_name": "Isaac Regional",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.54111,
+          -21.745
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "46858",
+        "place_name": "Cape Gloucester",
+        "lga_name": "Whitsunday Regional",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.52861,
+          -20.16222
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 5",
+        "iteration": 5,
+        "point_count": 3,
+        "order": [
+          "Winya",
+          "Maryvale (Southern Downs Regional)",
+          "Moongan"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            152.57472,
+            -26.95556
+          ],
+          [
+            152.27417,
+            -28.06889
+          ],
+          [
+            150.39917,
+            -23.60694
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "52209",
+        "place_name": "Winya",
+        "lga_name": "Somerset Regional",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.57472,
+          -26.95556
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "45950",
+        "place_name": "Maryvale (Southern Downs Regional)",
+        "lga_name": "Southern Downs Regional",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.27417,
+          -28.06889
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "48771",
+        "place_name": "Moongan",
+        "lga_name": "Rockhampton Regional",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.39917,
+          -23.60694
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,608 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 1",
+        "iteration": 1,
+        "point_count": 3,
+        "order": [
+          "Helidon Spa",
+          "Skyring Reserve",
+          "Goondi"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            152.08944,
+            -27.54361
+          ],
+          [
+            151.96361,
+            -25.04278
+          ],
+          [
+            146.00556,
+            -17.50417
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "45004",
+        "place_name": "Helidon Spa",
+        "lga_name": "Lockyer Valley Regional",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.08944,
+          -27.54361
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "44767",
+        "place_name": "Skyring Reserve",
+        "lga_name": "Bundaberg Regional",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.96361,
+          -25.04278
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "45702",
+        "place_name": "Goondi",
+        "lga_name": "Cassowary Coast Regional",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.00556,
+          -17.50417
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 2",
+        "iteration": 2,
+        "point_count": 5,
+        "order": [
+          "Springsure",
+          "Fletcher Creek",
+          "Palmyra",
+          "Vale View",
+          "Millmerran Downs"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            148.06806,
+            -24.08778
+          ],
+          [
+            150.4175,
+            -23.79278
+          ],
+          [
+            149.08306,
+            -21.20333
+          ],
+          [
+            151.90389,
+            -27.66083
+          ],
+          [
+            151.06667,
+            -27.98333
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "46976",
+        "place_name": "Springsure",
+        "lga_name": "Central Highlands Regional",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.06806,
+          -24.08778
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "48637",
+        "place_name": "Fletcher Creek",
+        "lga_name": "Rockhampton Regional",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.4175,
+          -23.79278
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "49362",
+        "place_name": "Palmyra",
+        "lga_name": "Mackay Regional",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.08306,
+          -21.20333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "48085",
+        "place_name": "Vale View",
+        "lga_name": "Toowoomba Regional",
+        "sequence": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.90389,
+          -27.66083
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "48002",
+        "place_name": "Millmerran Downs",
+        "lga_name": "Toowoomba Regional",
+        "sequence": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.06667,
+          -27.98333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 3",
+        "iteration": 3,
+        "point_count": 6,
+        "order": [
+          "Farrars Creek",
+          "Winton",
+          "Victoria Plantation",
+          "Coorumbene",
+          "Penwhaupell",
+          "Alloway"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            141.53556,
+            -25.24194
+          ],
+          [
+            143.03833,
+            -22.38222
+          ],
+          [
+            146.20833,
+            -18.64417
+          ],
+          [
+            148.74861,
+            -24.55944
+          ],
+          [
+            151.72611,
+            -25.74
+          ],
+          [
+            152.36361,
+            -24.95333
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "49157",
+        "place_name": "Farrars Creek",
+        "lga_name": "Barcoo Shire",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          141.53556,
+          -25.24194
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "49358",
+        "place_name": "Winton",
+        "lga_name": "Winton Shire",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.03833,
+          -22.38222
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "49501",
+        "place_name": "Victoria Plantation",
+        "lga_name": "Hinchinbrook Shire",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.20833,
+          -18.64417
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "46943",
+        "place_name": "Coorumbene",
+        "lga_name": "Central Highlands Regional",
+        "sequence": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.74861,
+          -24.55944
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "45404",
+        "place_name": "Penwhaupell",
+        "lga_name": "North Burnett Regional",
+        "sequence": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.72611,
+          -25.74
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "48367",
+        "place_name": "Alloway",
+        "lga_name": "Bundaberg Regional",
+        "sequence": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.36361,
+          -24.95333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 4",
+        "iteration": 4,
+        "point_count": 6,
+        "order": [
+          "Mungindi (Goondiwindi Regional)",
+          "Millmerran Downs",
+          "Pikes Creek",
+          "Draper",
+          "Gigoomgan",
+          "Moore Park Beach"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            149.08583,
+            -28.81111
+          ],
+          [
+            151.06667,
+            -27.98333
+          ],
+          [
+            151.54167,
+            -28.72278
+          ],
+          [
+            152.91694,
+            -27.35806
+          ],
+          [
+            152.24694,
+            -25.765
+          ],
+          [
+            152.23889,
+            -24.71083
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "47822",
+        "place_name": "Mungindi (Goondiwindi Regional)",
+        "lga_name": "Goondiwindi Regional",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.08583,
+          -28.81111
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "48002",
+        "place_name": "Millmerran Downs",
+        "lga_name": "Toowoomba Regional",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.06667,
+          -27.98333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "45967",
+        "place_name": "Pikes Creek",
+        "lga_name": "Southern Downs Regional",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.54167,
+          -28.72278
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "45431",
+        "place_name": "Draper",
+        "lga_name": "Moreton Bay City",
+        "sequence": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.91694,
+          -27.35806
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "46737",
+        "place_name": "Gigoomgan",
+        "lga_name": "Fraser Coast Regional",
+        "sequence": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.24694,
+          -25.765
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "44749",
+        "place_name": "Moore Park Beach",
+        "lga_name": "Bundaberg Regional",
+        "sequence": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.23889,
+          -24.71083
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 5",
+        "iteration": 5,
+        "point_count": 4,
+        "order": [
+          "Mount Marlow",
+          "The Keppels",
+          "Yarrabilba",
+          "Coen"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            148.62972,
+            -20.35278
+          ],
+          [
+            150.94417,
+            -23.19778
+          ],
+          [
+            153.12388889,
+            -27.82333333
+          ],
+          [
+            143.21444,
+            -13.80722
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "46886",
+        "place_name": "Mount Marlow",
+        "lga_name": "Whitsunday Regional",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.62972,
+          -20.35278
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "48895",
+        "place_name": "The Keppels",
+        "lga_name": "Livingstone Shire",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.94417,
+          -23.19778
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "52509",
+        "place_name": "Yarrabilba",
+        "lga_name": "Logan City",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.12388889,
+          -27.82333333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "46123",
+        "place_name": "Coen",
+        "lga_name": "Cook Shire",
+        "sequence": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.21444,
+          -13.80722
+        ]
+      }
+    }
+  ]
+}

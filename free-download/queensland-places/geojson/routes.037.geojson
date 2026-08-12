@@ -1,0 +1,476 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 1",
+        "iteration": 1,
+        "point_count": 3,
+        "order": [
+          "Barmoya",
+          "Cedar Creek (Logan City)",
+          "Lockhart River (Cook Shire)"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            150.53972,
+            -23.12778
+          ],
+          [
+            153.16028,
+            -27.82028
+          ],
+          [
+            143.58833,
+            -13.07972
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "50244",
+        "place_name": "Barmoya",
+        "lga_name": "Livingstone Shire",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.53972,
+          -23.12778
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "48975",
+        "place_name": "Cedar Creek (Logan City)",
+        "lga_name": "Logan City",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.16028,
+          -27.82028
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "50590",
+        "place_name": "Lockhart River (Cook Shire)",
+        "lga_name": "Cook Shire",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.58833,
+          -13.07972
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 2",
+        "iteration": 2,
+        "point_count": 3,
+        "order": [
+          "Condamine",
+          "Blaxland",
+          "Somerset (Torres Shire)"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            150.10194,
+            -26.95167
+          ],
+          [
+            151.40028,
+            -27.21861
+          ],
+          [
+            142.5175,
+            -10.82028
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "50514",
+        "place_name": "Condamine",
+        "lga_name": "Western Downs Regional",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.10194,
+          -26.95167
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "47667",
+        "place_name": "Blaxland",
+        "lga_name": "Western Downs Regional",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.40028,
+          -27.21861
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "48328",
+        "place_name": "Somerset (Torres Shire)",
+        "lga_name": "Torres Shire",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.5175,
+          -10.82028
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 3",
+        "iteration": 3,
+        "point_count": 3,
+        "order": [
+          "Craiglie",
+          "Warraber Islet",
+          "Gaeta"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            145.46361,
+            -16.53944
+          ],
+          [
+            142.82444,
+            -10.2075
+          ],
+          [
+            151.59278,
+            -24.835
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "48591",
+        "place_name": "Craiglie",
+        "lga_name": "Douglas Shire",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.46361,
+          -16.53944
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "46709",
+        "place_name": "Warraber Islet",
+        "lga_name": "Torres Strait Island Regional",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.82444,
+          -10.2075
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "50045",
+        "place_name": "Gaeta",
+        "lga_name": "Bundaberg Regional",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.59278,
+          -24.835
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 4",
+        "iteration": 4,
+        "point_count": 6,
+        "order": [
+          "Ryeford",
+          "Mount Sylvia",
+          "Malling",
+          "The Limits",
+          "Bajool",
+          "Cape Cleveland"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            151.81778,
+            -27.93194
+          ],
+          [
+            152.22639,
+            -27.73806
+          ],
+          [
+            151.60583,
+            -27.06139
+          ],
+          [
+            151.66778,
+            -25.67472
+          ],
+          [
+            150.58083,
+            -23.69694
+          ],
+          [
+            147.00972,
+            -19.31556
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "48056",
+        "place_name": "Ryeford",
+        "lga_name": "Toowoomba Regional",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.81778,
+          -27.93194
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "44980",
+        "place_name": "Mount Sylvia",
+        "lga_name": "Lockyer Valley Regional",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.22639,
+          -27.73806
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "47994",
+        "place_name": "Malling",
+        "lga_name": "Toowoomba Regional",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.60583,
+          -27.06139
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "45418",
+        "place_name": "The Limits",
+        "lga_name": "North Burnett Regional",
+        "sequence": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.66778,
+          -25.67472
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "48503",
+        "place_name": "Bajool",
+        "lga_name": "Rockhampton Regional",
+        "sequence": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.58083,
+          -23.69694
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "44581",
+        "place_name": "Cape Cleveland",
+        "lga_name": "Townsville City",
+        "sequence": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.00972,
+          -19.31556
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 5",
+        "iteration": 5,
+        "point_count": 3,
+        "order": [
+          "Bogie",
+          "Walhallow",
+          "Yerra"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            147.87944,
+            -20.30944
+          ],
+          [
+            148.25139,
+            -26.34861
+          ],
+          [
+            152.54361,
+            -25.59167
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "49298",
+        "place_name": "Bogie",
+        "lga_name": "Whitsunday Regional",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.87944,
+          -20.30944
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "47461",
+        "place_name": "Walhallow",
+        "lga_name": "Maranoa Regional",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.25139,
+          -26.34861
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "46747",
+        "place_name": "Yerra",
+        "lga_name": "Fraser Coast Regional",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.54361,
+          -25.59167
+        ]
+      }
+    }
+  ]
+}

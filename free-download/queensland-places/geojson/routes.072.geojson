@@ -1,0 +1,652 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 1",
+        "iteration": 1,
+        "point_count": 3,
+        "order": [
+          "Tarzali",
+          "Glamorgan Vale",
+          "Allan"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            145.57917,
+            -17.43361
+          ],
+          [
+            152.63444,
+            -27.51528
+          ],
+          [
+            151.95028,
+            -28.19722
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "49860",
+        "place_name": "Tarzali",
+        "lga_name": "Tablelands Regional",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.57917,
+          -17.43361
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "47273",
+        "place_name": "Glamorgan Vale",
+        "lga_name": "Somerset Regional",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.63444,
+          -27.51528
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "45903",
+        "place_name": "Allan",
+        "lga_name": "Southern Downs Regional",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.95028,
+          -28.19722
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 2",
+        "iteration": 2,
+        "point_count": 5,
+        "order": [
+          "Foxdale",
+          "Brovinia",
+          "Sandy Ridges",
+          "Townson",
+          "Hungerford (Paroo Shire)"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            148.50444,
+            -20.33778
+          ],
+          [
+            151.14833,
+            -25.89
+          ],
+          [
+            152.03167,
+            -26.51361
+          ],
+          [
+            152.37639,
+            -27.89972
+          ],
+          [
+            144.84917,
+            -28.84944
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "46869",
+        "place_name": "Foxdale",
+        "lga_name": "Whitsunday Regional",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.50444,
+          -20.33778
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "45323",
+        "place_name": "Brovinia",
+        "lga_name": "North Burnett Regional",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.14833,
+          -25.89
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "46260",
+        "place_name": "Sandy Ridges",
+        "lga_name": "South Burnett Regional",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.03167,
+          -26.51361
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "47148",
+        "place_name": "Townson",
+        "lga_name": "Lockyer Valley Regional",
+        "sequence": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.37639,
+          -27.89972
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "50025",
+        "place_name": "Hungerford (Paroo Shire)",
+        "lga_name": "Paroo Shire",
+        "sequence": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.84917,
+          -28.84944
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 3",
+        "iteration": 3,
+        "point_count": 6,
+        "order": [
+          "Riverleigh",
+          "Crawford",
+          "Cooroy",
+          "Rockside",
+          "Carstairs",
+          "Halifax"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            151.22333,
+            -25.58444
+          ],
+          [
+            151.81083,
+            -26.49861
+          ],
+          [
+            152.905,
+            -26.43306
+          ],
+          [
+            152.28472,
+            -27.7025
+          ],
+          [
+            147.4525,
+            -19.65056
+          ],
+          [
+            146.31778,
+            -18.58278
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "45413",
+        "place_name": "Riverleigh",
+        "lga_name": "North Burnett Regional",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.22333,
+          -25.58444
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "46211",
+        "place_name": "Crawford",
+        "lga_name": "South Burnett Regional",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.81083,
+          -26.49861
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "48584",
+        "place_name": "Cooroy",
+        "lga_name": "Noosa Shire",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.905,
+          -26.43306
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "50580",
+        "place_name": "Rockside",
+        "lga_name": "Lockyer Valley Regional",
+        "sequence": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.28472,
+          -27.7025
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "42282",
+        "place_name": "Carstairs",
+        "lga_name": "Burdekin Shire",
+        "sequence": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.4525,
+          -19.65056
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "42518",
+        "place_name": "Halifax",
+        "lga_name": "Hinchinbrook Shire",
+        "sequence": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.31778,
+          -18.58278
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 4",
+        "iteration": 4,
+        "point_count": 6,
+        "order": [
+          "Winfield",
+          "Bluff",
+          "Grasstree Beach",
+          "Giru",
+          "Tumoulin",
+          "Mount Whitestone"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            152.00194,
+            -24.56389
+          ],
+          [
+            149.05667,
+            -23.49444
+          ],
+          [
+            149.2675,
+            -21.345
+          ],
+          [
+            147.12472,
+            -19.48194
+          ],
+          [
+            145.43278,
+            -17.56278
+          ],
+          [
+            152.15806,
+            -27.7
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "44812",
+        "place_name": "Winfield",
+        "lga_name": "Bundaberg Regional",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.00194,
+          -24.56389
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "46919",
+        "place_name": "Bluff",
+        "lga_name": "Central Highlands Regional",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.05667,
+          -23.49444
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "46790",
+        "place_name": "Grasstree Beach",
+        "lga_name": "Mackay Regional",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.2675,
+          -21.345
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "42307",
+        "place_name": "Giru",
+        "lga_name": "Burdekin Shire",
+        "sequence": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.12472,
+          -19.48194
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "48909",
+        "place_name": "Tumoulin",
+        "lga_name": "Tablelands Regional",
+        "sequence": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.43278,
+          -17.56278
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "44981",
+        "place_name": "Mount Whitestone",
+        "lga_name": "Lockyer Valley Regional",
+        "sequence": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.15806,
+          -27.7
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 5",
+        "iteration": 5,
+        "point_count": 6,
+        "order": [
+          "Tuan Forest (Gympie Regional)",
+          "Burrum Town",
+          "Chelmsford",
+          "Bunya Mountains (Western Downs Regional)",
+          "Ducklo",
+          "Tablelands (Gladstone Regional)"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            152.74583,
+            -25.85833
+          ],
+          [
+            152.58722,
+            -25.32889
+          ],
+          [
+            151.82611,
+            -26.26361
+          ],
+          [
+            151.55,
+            -26.87806
+          ],
+          [
+            151.04,
+            -27.27028
+          ],
+          [
+            150.91278,
+            -24.33139
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "46389",
+        "place_name": "Tuan Forest (Gympie Regional)",
+        "lga_name": "Gympie Regional",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.74583,
+          -25.85833
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "46639",
+        "place_name": "Burrum Town",
+        "lga_name": "Fraser Coast Regional",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.58722,
+          -25.32889
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "46205",
+        "place_name": "Chelmsford",
+        "lga_name": "South Burnett Regional",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.82611,
+          -26.26361
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "47673",
+        "place_name": "Bunya Mountains (Western Downs Regional)",
+        "lga_name": "Western Downs Regional",
+        "sequence": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.55,
+          -26.87806
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "47694",
+        "place_name": "Ducklo",
+        "lga_name": "Western Downs Regional",
+        "sequence": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.04,
+          -27.27028
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "47308",
+        "place_name": "Tablelands (Gladstone Regional)",
+        "lga_name": "Gladstone Regional",
+        "sequence": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.91278,
+          -24.33139
+        ]
+      }
+    }
+  ]
+}

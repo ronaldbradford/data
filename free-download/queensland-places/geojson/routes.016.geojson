@@ -1,0 +1,608 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 1",
+        "iteration": 1,
+        "point_count": 5,
+        "order": [
+          "Gracemere",
+          "Owanyilla",
+          "Kingaroy",
+          "Muldu",
+          "Little Mulgrave"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            150.45611,
+            -23.45917
+          ],
+          [
+            152.625,
+            -25.66944
+          ],
+          [
+            151.84778,
+            -26.53722
+          ],
+          [
+            151.68056,
+            -27.27028
+          ],
+          [
+            145.71528,
+            -17.13611
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "48661",
+        "place_name": "Gracemere",
+        "lga_name": "Rockhampton Regional",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.45611,
+          -23.45917
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "46732",
+        "place_name": "Owanyilla",
+        "lga_name": "Fraser Coast Regional",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.625,
+          -25.66944
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "46232",
+        "place_name": "Kingaroy",
+        "lga_name": "South Burnett Regional",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.84778,
+          -26.53722
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "48019",
+        "place_name": "Muldu",
+        "lga_name": "Toowoomba Regional",
+        "sequence": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.68056,
+          -27.27028
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "48732",
+        "place_name": "Little Mulgrave",
+        "lga_name": "Cairns Regional",
+        "sequence": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.71528,
+          -17.13611
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 2",
+        "iteration": 2,
+        "point_count": 6,
+        "order": [
+          "Diamantina Lakes",
+          "Peak Vale (Isaac Regional)",
+          "Beecher",
+          "Boondooma",
+          "Diamond Valley",
+          "Hodgson Vale"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            141.24472,
+            -23.94139
+          ],
+          [
+            147.38833,
+            -23.07
+          ],
+          [
+            151.20472,
+            -23.91111
+          ],
+          [
+            151.21778,
+            -26.15667
+          ],
+          [
+            152.92639,
+            -26.75611
+          ],
+          [
+            151.95111,
+            -27.66528
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "41500",
+        "place_name": "Diamantina Lakes",
+        "lga_name": "Diamantina Shire",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          141.24472,
+          -23.94139
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "52418",
+        "place_name": "Peak Vale (Isaac Regional)",
+        "lga_name": "Isaac Regional",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.38833,
+          -23.07
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "46588",
+        "place_name": "Beecher",
+        "lga_name": "Gladstone Regional",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.20472,
+          -23.91111
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "46287",
+        "place_name": "Boondooma",
+        "lga_name": "South Burnett Regional",
+        "sequence": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.21778,
+          -26.15667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "50949",
+        "place_name": "Diamond Valley",
+        "lga_name": "Sunshine Coast Regional",
+        "sequence": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.92639,
+          -26.75611
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "47971",
+        "place_name": "Hodgson Vale",
+        "lga_name": "Toowoomba Regional",
+        "sequence": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.95111,
+          -27.66528
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 3",
+        "iteration": 3,
+        "point_count": 4,
+        "order": [
+          "Claraville",
+          "Turrawulla",
+          "St Helens Beach",
+          "Hazledean"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            141.76611,
+            -18.55
+          ],
+          [
+            148.11889,
+            -21.11722
+          ],
+          [
+            148.78778,
+            -20.85361
+          ],
+          [
+            148.95194,
+            -21.37
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "41775",
+        "place_name": "Claraville",
+        "lga_name": "Croydon Shire",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          141.76611,
+          -18.55
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "47039",
+        "place_name": "Turrawulla",
+        "lga_name": "Isaac Regional",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.11889,
+          -21.11722
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "46841",
+        "place_name": "St Helens Beach",
+        "lga_name": "Mackay Regional",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.78778,
+          -20.85361
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "46796",
+        "place_name": "Hazledean",
+        "lga_name": "Mackay Regional",
+        "sequence": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.95194,
+          -21.37
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 4",
+        "iteration": 4,
+        "point_count": 4,
+        "order": [
+          "Yarrol",
+          "Charlestown",
+          "Mount Marlow",
+          "Warenda"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            151.42611,
+            -25.01917
+          ],
+          [
+            151.91667,
+            -26.36667
+          ],
+          [
+            148.62972,
+            -20.35278
+          ],
+          [
+            140.27194,
+            -22.47417
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "50052",
+        "place_name": "Yarrol",
+        "lga_name": "North Burnett Regional",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.42611,
+          -25.01917
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "46204",
+        "place_name": "Charlestown",
+        "lga_name": "South Burnett Regional",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.91667,
+          -26.36667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "46886",
+        "place_name": "Mount Marlow",
+        "lga_name": "Whitsunday Regional",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.62972,
+          -20.35278
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "42347",
+        "place_name": "Warenda",
+        "lga_name": "Boulia Shire",
+        "sequence": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.27194,
+          -22.47417
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 5",
+        "iteration": 5,
+        "point_count": 5,
+        "order": [
+          "Buckingham",
+          "Lucinda",
+          "Condamine",
+          "Back Plains",
+          "Jollys Lookout"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            139.43889,
+            -22.27583
+          ],
+          [
+            146.32944,
+            -18.53167
+          ],
+          [
+            150.10194,
+            -26.95167
+          ],
+          [
+            151.78333,
+            -27.9
+          ],
+          [
+            152.82694,
+            -27.41028
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "42340",
+        "place_name": "Buckingham",
+        "lga_name": "Boulia Shire",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.43889,
+          -22.27583
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "42521",
+        "place_name": "Lucinda",
+        "lga_name": "Hinchinbrook Shire",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.32944,
+          -18.53167
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "50514",
+        "place_name": "Condamine",
+        "lga_name": "Western Downs Regional",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.10194,
+          -26.95167
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "50089",
+        "place_name": "Back Plains",
+        "lga_name": "Toowoomba Regional",
+        "sequence": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.78333,
+          -27.9
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "45501",
+        "place_name": "Jollys Lookout",
+        "lga_name": "Moreton Bay City",
+        "sequence": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.82694,
+          -27.41028
+        ]
+      }
+    }
+  ]
+}

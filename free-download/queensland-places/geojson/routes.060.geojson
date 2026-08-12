@@ -1,0 +1,608 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 1",
+        "iteration": 1,
+        "point_count": 5,
+        "order": [
+          "Erub Island",
+          "Kowanyama",
+          "Antigua",
+          "Moffatdale",
+          "Cement Mills"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            143.77,
+            -9.585
+          ],
+          [
+            141.78694,
+            -15.33472
+          ],
+          [
+            152.59361,
+            -25.63028
+          ],
+          [
+            152.01833,
+            -26.30806
+          ],
+          [
+            151.57472,
+            -28.37889
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "46716",
+        "place_name": "Erub Island",
+        "lga_name": "Torres Strait Island Regional",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.77,
+          -9.585
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "45504",
+        "place_name": "Kowanyama",
+        "lga_name": "Kowanyama Aboriginal Shire",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          141.78694,
+          -15.33472
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "46623",
+        "place_name": "Antigua",
+        "lga_name": "Fraser Coast Regional",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.59361,
+          -25.63028
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "46245",
+        "place_name": "Moffatdale",
+        "lga_name": "South Burnett Regional",
+        "sequence": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.01833,
+          -26.30806
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "49640",
+        "place_name": "Cement Mills",
+        "lga_name": "Goondiwindi Regional",
+        "sequence": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.57472,
+          -28.37889
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 2",
+        "iteration": 2,
+        "point_count": 6,
+        "order": [
+          "Glen Russell",
+          "Yagoonya",
+          "Mapoon (Mapoon Shire)",
+          "Kemmis",
+          "Regency Downs",
+          "Jollys Lookout"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            145.17667,
+            -16.90417
+          ],
+          [
+            141.57056,
+            -16.47083
+          ],
+          [
+            141.84167,
+            -12.09778
+          ],
+          [
+            148.33111,
+            -21.62389
+          ],
+          [
+            152.43944,
+            -27.5325
+          ],
+          [
+            152.82694,
+            -27.41028
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "48651",
+        "place_name": "Glen Russell",
+        "lga_name": "Mareeba Shire",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.17667,
+          -16.90417
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "42976",
+        "place_name": "Yagoonya",
+        "lga_name": "Carpentaria Shire",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          141.57056,
+          -16.47083
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "45896",
+        "place_name": "Mapoon (Mapoon Shire)",
+        "lga_name": "Mapoon Aboriginal Shire",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          141.84167,
+          -12.09778
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "47021",
+        "place_name": "Kemmis",
+        "lga_name": "Isaac Regional",
+        "sequence": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.33111,
+          -21.62389
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "44985",
+        "place_name": "Regency Downs",
+        "lga_name": "Lockyer Valley Regional",
+        "sequence": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.43944,
+          -27.5325
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "45501",
+        "place_name": "Jollys Lookout",
+        "lga_name": "Moreton Bay City",
+        "sequence": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.82694,
+          -27.41028
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 3",
+        "iteration": 3,
+        "point_count": 6,
+        "order": [
+          "Peel Island",
+          "Bells Bridge",
+          "Leyburn (Toowoomba Regional)",
+          "Marian",
+          "Goondi",
+          "Blackbull"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            153.35389,
+            -27.49806
+          ],
+          [
+            152.53611,
+            -26.11944
+          ],
+          [
+            151.61778,
+            -27.96528
+          ],
+          [
+            148.95139,
+            -21.17028
+          ],
+          [
+            146.00556,
+            -17.50417
+          ],
+          [
+            141.74472,
+            -17.80583
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "43647",
+        "place_name": "Peel Island",
+        "lga_name": "Redland City",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.35389,
+          -27.49806
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "46305",
+        "place_name": "Bells Bridge",
+        "lga_name": "Gympie Regional",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.53611,
+          -26.11944
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "47990",
+        "place_name": "Leyburn (Toowoomba Regional)",
+        "lga_name": "Toowoomba Regional",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.61778,
+          -27.96528
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "52137",
+        "place_name": "Marian",
+        "lga_name": "Mackay Regional",
+        "sequence": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.95139,
+          -21.17028
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "45702",
+        "place_name": "Goondi",
+        "lga_name": "Cassowary Coast Regional",
+        "sequence": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.00556,
+          -17.50417
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "41770",
+        "place_name": "Blackbull",
+        "lga_name": "Croydon Shire",
+        "sequence": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          141.74472,
+          -17.80583
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 4",
+        "iteration": 4,
+        "point_count": 4,
+        "order": [
+          "Flametree",
+          "Gindie",
+          "Meridan Plains",
+          "Mount Nebo"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            148.74833,
+            -20.27083
+          ],
+          [
+            148.11028,
+            -23.76417
+          ],
+          [
+            153.07889,
+            -26.76333
+          ],
+          [
+            152.78111,
+            -27.37556
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "46865",
+        "place_name": "Flametree",
+        "lga_name": "Whitsunday Regional",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.74833,
+          -20.27083
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "50501",
+        "place_name": "Gindie",
+        "lga_name": "Central Highlands Regional",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.11028,
+          -23.76417
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "50398",
+        "place_name": "Meridan Plains",
+        "lga_name": "Sunshine Coast Regional",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.07889,
+          -26.76333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "45454",
+        "place_name": "Mount Nebo",
+        "lga_name": "Moreton Bay City",
+        "sequence": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.78111,
+          -27.37556
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 5",
+        "iteration": 5,
+        "point_count": 3,
+        "order": [
+          "Abbotsford",
+          "Biloela",
+          "Ferny Glen"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            152.00472,
+            -24.83222
+          ],
+          [
+            150.51583,
+            -24.40056
+          ],
+          [
+            153.15667,
+            -28.07528
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "50043",
+        "place_name": "Abbotsford",
+        "lga_name": "Bundaberg Regional",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.00472,
+          -24.83222
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "49537",
+        "place_name": "Biloela",
+        "lga_name": "Banana Shire",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.51583,
+          -24.40056
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "45139",
+        "place_name": "Ferny Glen",
+        "lga_name": "Scenic Rim Regional",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.15667,
+          -28.07528
+        ]
+      }
+    }
+  ]
+}

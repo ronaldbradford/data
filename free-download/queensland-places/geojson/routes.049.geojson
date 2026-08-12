@@ -1,0 +1,564 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 1",
+        "iteration": 1,
+        "point_count": 3,
+        "order": [
+          "O'Briens Hill",
+          "Malling",
+          "Kalbar"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            145.98722,
+            -17.5175
+          ],
+          [
+            151.60583,
+            -27.06139
+          ],
+          [
+            152.61111,
+            -27.93861
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "47281",
+        "place_name": "O'Briens Hill",
+        "lga_name": "Cassowary Coast Regional",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.98722,
+          -17.5175
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "47994",
+        "place_name": "Malling",
+        "lga_name": "Toowoomba Regional",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.60583,
+          -27.06139
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "45151",
+        "place_name": "Kalbar",
+        "lga_name": "Scenic Rim Regional",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.61111,
+          -27.93861
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 2",
+        "iteration": 2,
+        "point_count": 5,
+        "order": [
+          "Winchester",
+          "Wycarbah",
+          "Sunshine Acres",
+          "Coochiemudlo Island",
+          "Clemant"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            148.04472,
+            -22.27722
+          ],
+          [
+            150.09556,
+            -23.495
+          ],
+          [
+            152.79139,
+            -25.35667
+          ],
+          [
+            153.33028,
+            -27.5725
+          ],
+          [
+            146.4325,
+            -19.11917
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "49387",
+        "place_name": "Winchester",
+        "lga_name": "Isaac Regional",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.04472,
+          -22.27722
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "48950",
+        "place_name": "Wycarbah",
+        "lga_name": "Rockhampton Regional",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.09556,
+          -23.495
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "46672",
+        "place_name": "Sunshine Acres",
+        "lga_name": "Fraser Coast Regional",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.79139,
+          -25.35667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "43640",
+        "place_name": "Coochiemudlo Island",
+        "lga_name": "Redland City",
+        "sequence": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.33028,
+          -27.5725
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "44583",
+        "place_name": "Clemant",
+        "lga_name": "Townsville City",
+        "sequence": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.4325,
+          -19.11917
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 3",
+        "iteration": 3,
+        "point_count": 4,
+        "order": [
+          "Cooroibah",
+          "Wilsons Pocket",
+          "Karragarra Island",
+          "Cawarral"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            153.00111,
+            -26.33194
+          ],
+          [
+            152.80389,
+            -26.12472
+          ],
+          [
+            153.36917,
+            -27.63861
+          ],
+          [
+            150.67306,
+            -23.25222
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "48582",
+        "place_name": "Cooroibah",
+        "lga_name": "Noosa Shire",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.00111,
+          -26.33194
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "50510",
+        "place_name": "Wilsons Pocket",
+        "lga_name": "Gympie Regional",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.80389,
+          -26.12472
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "43642",
+        "place_name": "Karragarra Island",
+        "lga_name": "Redland City",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.36917,
+          -27.63861
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "49338",
+        "place_name": "Cawarral",
+        "lga_name": "Livingstone Shire",
+        "sequence": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.67306,
+          -23.25222
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 4",
+        "iteration": 4,
+        "point_count": 4,
+        "order": [
+          "Split Yard Creek",
+          "Passchendaele",
+          "Chances Plain",
+          "Tinana"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            152.65944,
+            -27.37333
+          ],
+          [
+            151.84361,
+            -28.51083
+          ],
+          [
+            150.74611,
+            -26.73528
+          ],
+          [
+            152.66944,
+            -25.55556
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "50058",
+        "place_name": "Split Yard Creek",
+        "lga_name": "Somerset Regional",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.65944,
+          -27.37333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "49591",
+        "place_name": "Passchendaele",
+        "lga_name": "Southern Downs Regional",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.84361,
+          -28.51083
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "47679",
+        "place_name": "Chances Plain",
+        "lga_name": "Western Downs Regional",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.74611,
+          -26.73528
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "46736",
+        "place_name": "Tinana",
+        "lga_name": "Fraser Coast Regional",
+        "sequence": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.66944,
+          -25.55556
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 5",
+        "iteration": 5,
+        "point_count": 6,
+        "order": [
+          "South Wellesley Islands",
+          "Guluguba",
+          "Helidon Spa",
+          "Ryeford",
+          "Clear Mountain",
+          "McIntosh Creek"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            139.36333,
+            -17.00389
+          ],
+          [
+            150.0825,
+            -26.27278
+          ],
+          [
+            152.08944,
+            -27.54361
+          ],
+          [
+            151.81778,
+            -27.93194
+          ],
+          [
+            152.89083,
+            -27.31861
+          ],
+          [
+            152.63889,
+            -26.25972
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "42537",
+        "place_name": "South Wellesley Islands",
+        "lga_name": "",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.36333,
+          -17.00389
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "47706",
+        "place_name": "Guluguba",
+        "lga_name": "Western Downs Regional",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.0825,
+          -26.27278
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "45004",
+        "place_name": "Helidon Spa",
+        "lga_name": "Lockyer Valley Regional",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.08944,
+          -27.54361
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "48056",
+        "place_name": "Ryeford",
+        "lga_name": "Toowoomba Regional",
+        "sequence": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.81778,
+          -27.93194
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "45382",
+        "place_name": "Clear Mountain",
+        "lga_name": "Moreton Bay City",
+        "sequence": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.89083,
+          -27.31861
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "46359",
+        "place_name": "McIntosh Creek",
+        "lga_name": "Gympie Regional",
+        "sequence": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.63889,
+          -26.25972
+        ]
+      }
+    }
+  ]
+}

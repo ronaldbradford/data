@@ -1,0 +1,564 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 1",
+        "iteration": 1,
+        "point_count": 6,
+        "order": [
+          "Eurombah (Banana Shire)",
+          "Injune",
+          "Dargal Road",
+          "Plainland",
+          "Morwincha",
+          "King Scrub"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            149.49,
+            -25.84167
+          ],
+          [
+            148.57056,
+            -25.84167
+          ],
+          [
+            148.72639,
+            -26.55833
+          ],
+          [
+            152.41639,
+            -27.58167
+          ],
+          [
+            152.57806,
+            -27.97
+          ],
+          [
+            152.82333,
+            -27.16806
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "49550",
+        "place_name": "Eurombah (Banana Shire)",
+        "lga_name": "Banana Shire",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.49,
+          -25.84167
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "47430",
+        "place_name": "Injune",
+        "lga_name": "Maranoa Regional",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.57056,
+          -25.84167
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "47418",
+        "place_name": "Dargal Road",
+        "lga_name": "Maranoa Regional",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.72639,
+          -26.55833
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "44984",
+        "place_name": "Plainland",
+        "lga_name": "Lockyer Valley Regional",
+        "sequence": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.41639,
+          -27.58167
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "45167",
+        "place_name": "Morwincha",
+        "lga_name": "Scenic Rim Regional",
+        "sequence": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.57806,
+          -27.97
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "45442",
+        "place_name": "King Scrub",
+        "lga_name": "Moreton Bay City",
+        "sequence": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.82333,
+          -27.16806
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 2",
+        "iteration": 2,
+        "point_count": 4,
+        "order": [
+          "Limevale",
+          "Mutdapilly (Scenic Rim Regional)",
+          "Monarch Glen",
+          "Garners Beach"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            151.17556,
+            -28.74056
+          ],
+          [
+            152.64222,
+            -27.76528
+          ],
+          [
+            152.9175,
+            -27.81444
+          ],
+          [
+            146.0975,
+            -17.81583
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "47817",
+        "place_name": "Limevale",
+        "lga_name": "Goondiwindi Regional",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.17556,
+          -28.74056
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "45212",
+        "place_name": "Mutdapilly (Scenic Rim Regional)",
+        "lga_name": "Scenic Rim Regional",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.64222,
+          -27.76528
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "49727",
+        "place_name": "Monarch Glen",
+        "lga_name": "Logan City",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.9175,
+          -27.81444
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "45675",
+        "place_name": "Garners Beach",
+        "lga_name": "Cassowary Coast Regional",
+        "sequence": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.0975,
+          -17.81583
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 3",
+        "iteration": 3,
+        "point_count": 3,
+        "order": [
+          "Sommariva",
+          "Burton",
+          "Tarome"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            146.70917,
+            -26.40944
+          ],
+          [
+            148.0725,
+            -21.59
+          ],
+          [
+            152.445,
+            -28.00611
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "50253",
+        "place_name": "Sommariva",
+        "lga_name": "Murweh Shire",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.70917,
+          -26.40944
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "49383",
+        "place_name": "Burton",
+        "lga_name": "Isaac Regional",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.0725,
+          -21.59
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "45195",
+        "place_name": "Tarome",
+        "lga_name": "Scenic Rim Regional",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.445,
+          -28.00611
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 4",
+        "iteration": 4,
+        "point_count": 5,
+        "order": [
+          "Aubigny",
+          "Mount Lofty",
+          "Brightview (Somerset Regional)",
+          "Chambers Flat",
+          "Cheltenham"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            151.66583,
+            -27.50944
+          ],
+          [
+            151.98389,
+            -27.53694
+          ],
+          [
+            152.50944,
+            -27.49
+          ],
+          [
+            153.07944,
+            -27.74667
+          ],
+          [
+            150.77194,
+            -25.62611
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "47886",
+        "place_name": "Aubigny",
+        "lga_name": "Toowoomba Regional",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.66583,
+          -27.50944
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "52410",
+        "place_name": "Mount Lofty",
+        "lga_name": "Toowoomba Regional",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.98389,
+          -27.53694
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "44838",
+        "place_name": "Brightview (Somerset Regional)",
+        "lga_name": "Somerset Regional",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.50944,
+          -27.49
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "45259",
+        "place_name": "Chambers Flat",
+        "lga_name": "Logan City",
+        "sequence": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.07944,
+          -27.74667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "52273",
+        "place_name": "Cheltenham",
+        "lga_name": "North Burnett Regional",
+        "sequence": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.77194,
+          -25.62611
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 5",
+        "iteration": 5,
+        "point_count": 4,
+        "order": [
+          "Dangore",
+          "Ramsay",
+          "Marlborough",
+          "Bombeeta"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            151.58806,
+            -26.46278
+          ],
+          [
+            151.98333,
+            -27.73333
+          ],
+          [
+            149.81028,
+            -22.78722
+          ],
+          [
+            145.96139,
+            -17.69306
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "46214",
+        "place_name": "Dangore",
+        "lga_name": "South Burnett Regional",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.58806,
+          -26.46278
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "52411",
+        "place_name": "Ramsay",
+        "lga_name": "Toowoomba Regional",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.98333,
+          -27.73333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "48747",
+        "place_name": "Marlborough",
+        "lga_name": "Livingstone Shire",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.81028,
+          -22.78722
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "45679",
+        "place_name": "Bombeeta",
+        "lga_name": "Cassowary Coast Regional",
+        "sequence": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.96139,
+          -17.69306
+        ]
+      }
+    }
+  ]
+}

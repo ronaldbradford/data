@@ -1,0 +1,564 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 1",
+        "iteration": 1,
+        "point_count": 6,
+        "order": [
+          "Fleurbaix",
+          "Traveston",
+          "Lotus Creek",
+          "Jarvisfield",
+          "Yarrabah",
+          "Humeburn"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            151.91361,
+            -28.52778
+          ],
+          [
+            152.76667,
+            -26.31944
+          ],
+          [
+            149.05194,
+            -22.255
+          ],
+          [
+            147.49111,
+            -19.57528
+          ],
+          [
+            145.87278,
+            -17.01833
+          ],
+          [
+            145.27806,
+            -27.41222
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "45928",
+        "place_name": "Fleurbaix",
+        "lga_name": "Southern Downs Regional",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.91361,
+          -28.52778
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "50479",
+        "place_name": "Traveston",
+        "lga_name": "Gympie Regional",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.76667,
+          -26.31944
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "47024",
+        "place_name": "Lotus Creek",
+        "lga_name": "Isaac Regional",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.05194,
+          -22.255
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "42291",
+        "place_name": "Jarvisfield",
+        "lga_name": "Burdekin Shire",
+        "sequence": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.49111,
+          -19.57528
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "45792",
+        "place_name": "Yarrabah",
+        "lga_name": "Yarrabah Aboriginal Shire",
+        "sequence": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.87278,
+          -17.01833
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "49191",
+        "place_name": "Humeburn",
+        "lga_name": "Paroo Shire",
+        "sequence": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.27806,
+          -27.41222
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 2",
+        "iteration": 2,
+        "point_count": 3,
+        "order": [
+          "Kullogum",
+          "Good Night (North Burnett Regional)",
+          "Fishery Falls"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            152.26778,
+            -25.33306
+          ],
+          [
+            151.86222,
+            -25.21917
+          ],
+          [
+            145.89083,
+            -17.18639
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "47139",
+        "place_name": "Kullogum",
+        "lga_name": "Bundaberg Regional",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.26778,
+          -25.33306
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "45354",
+        "place_name": "Good Night (North Burnett Regional)",
+        "lga_name": "North Burnett Regional",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.86222,
+          -25.21917
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "48634",
+        "place_name": "Fishery Falls",
+        "lga_name": "Cairns Regional",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.89083,
+          -17.18639
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 3",
+        "iteration": 3,
+        "point_count": 4,
+        "order": [
+          "Merryvale",
+          "Witta",
+          "Mount Lawless",
+          "Merryburn"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            152.48389,
+            -27.79722
+          ],
+          [
+            152.82694,
+            -26.70944
+          ],
+          [
+            151.64417,
+            -25.54833
+          ],
+          [
+            145.97472,
+            -17.91667
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "45214",
+        "place_name": "Merryvale",
+        "lga_name": "Scenic Rim Regional",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.48389,
+          -27.79722
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "50050",
+        "place_name": "Witta",
+        "lga_name": "Sunshine Coast Regional",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.82694,
+          -26.70944
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "45394",
+        "place_name": "Mount Lawless",
+        "lga_name": "North Burnett Regional",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.64417,
+          -25.54833
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "45728",
+        "place_name": "Merryburn",
+        "lga_name": "Cassowary Coast Regional",
+        "sequence": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.97472,
+          -17.91667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 4",
+        "iteration": 4,
+        "point_count": 6,
+        "order": [
+          "Kearneys Spring",
+          "Hazeldean",
+          "Monogorilby",
+          "Hibernia",
+          "Crystal Brook (Whitsunday Regional)",
+          "Cowley Beach"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            151.94083,
+            -27.60361
+          ],
+          [
+            152.54639,
+            -27.02361
+          ],
+          [
+            151.04833,
+            -25.99694
+          ],
+          [
+            147.88611,
+            -23.09306
+          ],
+          [
+            148.48083,
+            -20.37833
+          ],
+          [
+            146.12639,
+            -17.65556
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "47976",
+        "place_name": "Kearneys Spring",
+        "lga_name": "Toowoomba Regional",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.94083,
+          -27.60361
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "48227",
+        "place_name": "Hazeldean",
+        "lga_name": "Somerset Regional",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.54639,
+          -27.02361
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "45390",
+        "place_name": "Monogorilby",
+        "lga_name": "North Burnett Regional",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.04833,
+          -25.99694
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "46956",
+        "place_name": "Hibernia",
+        "lga_name": "Central Highlands Regional",
+        "sequence": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.88611,
+          -23.09306
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "46862",
+        "place_name": "Crystal Brook (Whitsunday Regional)",
+        "lga_name": "Whitsunday Regional",
+        "sequence": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.48083,
+          -20.37833
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "45688",
+        "place_name": "Cowley Beach",
+        "lga_name": "Cassowary Coast Regional",
+        "sequence": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.12639,
+          -17.65556
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 5",
+        "iteration": 5,
+        "point_count": 3,
+        "order": [
+          "Flaxton",
+          "Electra",
+          "Mount Enniskillen"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            152.86917,
+            -26.65944
+          ],
+          [
+            152.11528,
+            -25.00361
+          ],
+          [
+            146.05611,
+            -24.67139
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "48636",
+        "place_name": "Flaxton",
+        "lga_name": "Sunshine Coast Regional",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.86917,
+          -26.65944
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "44713",
+        "place_name": "Electra",
+        "lga_name": "Bundaberg Regional",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.11528,
+          -25.00361
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "47064",
+        "place_name": "Mount Enniskillen",
+        "lga_name": "Blackall-Tambo Regional",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.05611,
+          -24.67139
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,520 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 1",
+        "iteration": 1,
+        "point_count": 4,
+        "order": [
+          "Dimbulah",
+          "Mount Mackay",
+          "Coorooman",
+          "Silver Spur"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            145.05778,
+            -17.18111
+          ],
+          [
+            145.99889,
+            -17.93722
+          ],
+          [
+            150.74306,
+            -23.28583
+          ],
+          [
+            151.34,
+            -28.83278
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "48608",
+        "place_name": "Dimbulah",
+        "lga_name": "Mareeba Shire",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.05778,
+          -17.18111
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "45734",
+        "place_name": "Mount Mackay",
+        "lga_name": "Cassowary Coast Regional",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.99889,
+          -17.93722
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "48583",
+        "place_name": "Coorooman",
+        "lga_name": "Livingstone Shire",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.74306,
+          -23.28583
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "47827",
+        "place_name": "Silver Spur",
+        "lga_name": "Goondiwindi Regional",
+        "sequence": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.34,
+          -28.83278
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 2",
+        "iteration": 2,
+        "point_count": 5,
+        "order": [
+          "Breddan",
+          "Walmul",
+          "Emu Creek",
+          "Wonglepong",
+          "Innisplain"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            146.26806,
+            -19.97194
+          ],
+          [
+            150.36583,
+            -23.72111
+          ],
+          [
+            151.99306,
+            -27.07389
+          ],
+          [
+            153.1575,
+            -27.97028
+          ],
+          [
+            152.90556,
+            -28.17861
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "48128",
+        "place_name": "Breddan",
+        "lga_name": "Charters Towers Regional",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.26806,
+          -19.97194
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "48918",
+        "place_name": "Walmul",
+        "lga_name": "Rockhampton Regional",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.36583,
+          -23.72111
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "49223",
+        "place_name": "Emu Creek",
+        "lga_name": "Toowoomba Regional",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.99306,
+          -27.07389
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "45208",
+        "place_name": "Wonglepong",
+        "lga_name": "Scenic Rim Regional",
+        "sequence": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.1575,
+          -27.97028
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "45148",
+        "place_name": "Innisplain",
+        "lga_name": "Scenic Rim Regional",
+        "sequence": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.90556,
+          -28.17861
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 3",
+        "iteration": 3,
+        "point_count": 3,
+        "order": [
+          "Coowonga",
+          "Mount Alma",
+          "Paluma (Charters Towers Regional)"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            150.72472,
+            -23.31167
+          ],
+          [
+            150.87556,
+            -24.09056
+          ],
+          [
+            146.0675,
+            -19.13972
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "48587",
+        "place_name": "Coowonga",
+        "lga_name": "Livingstone Shire",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.72472,
+          -23.31167
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "46613",
+        "place_name": "Mount Alma",
+        "lga_name": "Gladstone Regional",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.87556,
+          -24.09056
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "44550",
+        "place_name": "Paluma (Charters Towers Regional)",
+        "lga_name": "Charters Towers Regional",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.0675,
+          -19.13972
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 4",
+        "iteration": 4,
+        "point_count": 4,
+        "order": [
+          "Valkyrie",
+          "Mandalay",
+          "Moffatdale",
+          "Cedar Creek (Gold Coast City)"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            148.665,
+            -22.19389
+          ],
+          [
+            148.73611,
+            -20.27306
+          ],
+          [
+            152.01833,
+            -26.30806
+          ],
+          [
+            153.1975,
+            -27.84944
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "47040",
+        "place_name": "Valkyrie",
+        "lga_name": "Isaac Regional",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.665,
+          -22.19389
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "46883",
+        "place_name": "Mandalay",
+        "lga_name": "Whitsunday Regional",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.73611,
+          -20.27306
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "46245",
+        "place_name": "Moffatdale",
+        "lga_name": "South Burnett Regional",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.01833,
+          -26.30806
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "46037",
+        "place_name": "Cedar Creek (Gold Coast City)",
+        "lga_name": "Gold Coast City",
+        "sequence": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.1975,
+          -27.84944
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 5",
+        "iteration": 5,
+        "point_count": 4,
+        "order": [
+          "Mount Perry",
+          "Biggenden",
+          "Bungaban",
+          "Diamondvale"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            151.64556,
+            -25.18167
+          ],
+          [
+            152.00944,
+            -25.56083
+          ],
+          [
+            150.18556,
+            -25.92333
+          ],
+          [
+            151.96167,
+            -28.66361
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "45395",
+        "place_name": "Mount Perry",
+        "lga_name": "North Burnett Regional",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.64556,
+          -25.18167
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "47364",
+        "place_name": "Biggenden",
+        "lga_name": "North Burnett Regional",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.00944,
+          -25.56083
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "47672",
+        "place_name": "Bungaban",
+        "lga_name": "Western Downs Regional",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.18556,
+          -25.92333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "45922",
+        "place_name": "Diamondvale",
+        "lga_name": "Southern Downs Regional",
+        "sequence": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.96167,
+          -28.66361
+        ]
+      }
+    }
+  ]
+}

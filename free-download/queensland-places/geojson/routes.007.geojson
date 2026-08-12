@@ -1,0 +1,542 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 1",
+        "iteration": 1,
+        "point_count": 5,
+        "order": [
+          "Toorbul",
+          "Cooeeimbardi",
+          "Yelarbon",
+          "Clermont",
+          "Seventy Mile"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            153.06722,
+            -27.0425
+          ],
+          [
+            152.51778,
+            -27.11528
+          ],
+          [
+            150.68361,
+            -28.5775
+          ],
+          [
+            147.195,
+            -22.80556
+          ],
+          [
+            146.58333,
+            -20.61889
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "45472",
+        "place_name": "Toorbul",
+        "lga_name": "Moreton Bay City",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.06722,
+          -27.0425
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "44857",
+        "place_name": "Cooeeimbardi",
+        "lga_name": "Somerset Regional",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.51778,
+          -27.11528
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "47841",
+        "place_name": "Yelarbon",
+        "lga_name": "Goondiwindi Regional",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.68361,
+          -28.5775
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "52310",
+        "place_name": "Clermont",
+        "lga_name": "Isaac Regional",
+        "sequence": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.195,
+          -22.80556
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "44555",
+        "place_name": "Seventy Mile",
+        "lga_name": "Charters Towers Regional",
+        "sequence": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.58333,
+          -20.61889
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 2",
+        "iteration": 2,
+        "point_count": 3,
+        "order": [
+          "Monsildale",
+          "Buxton",
+          "Ravenswood"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            152.30944,
+            -26.77333
+          ],
+          [
+            152.49556,
+            -25.18583
+          ],
+          [
+            146.88917,
+            -20.21889
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "47623",
+        "place_name": "Monsildale",
+        "lga_name": "Somerset Regional",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.30944,
+          -26.77333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "44699",
+        "place_name": "Buxton",
+        "lga_name": "Bundaberg Regional",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.49556,
+          -25.18583
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "49747",
+        "place_name": "Ravenswood",
+        "lga_name": "Charters Towers Regional",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.88917,
+          -20.21889
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 3",
+        "iteration": 3,
+        "point_count": 4,
+        "order": [
+          "Boatman",
+          "North Maclagan",
+          "Grantham",
+          "Advancetown"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            146.84611,
+            -27.11333
+          ],
+          [
+            151.68306,
+            -27.02972
+          ],
+          [
+            152.19194,
+            -27.54194
+          ],
+          [
+            153.27917,
+            -28.07194
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "42922",
+        "place_name": "Boatman",
+        "lga_name": "Murweh Shire",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.84611,
+          -27.11333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "48027",
+        "place_name": "North Maclagan",
+        "lga_name": "Toowoomba Regional",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.68306,
+          -27.02972
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "44957",
+        "place_name": "Grantham",
+        "lga_name": "Lockyer Valley Regional",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.19194,
+          -27.54194
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "48132",
+        "place_name": "Advancetown",
+        "lga_name": "Gold Coast City",
+        "sequence": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.27917,
+          -28.07194
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 4",
+        "iteration": 4,
+        "point_count": 3,
+        "order": [
+          "Brooloo",
+          "Mount Berryman",
+          "Tipton"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            152.70556,
+            -26.50833
+          ],
+          [
+            152.325,
+            -27.71917
+          ],
+          [
+            151.25833,
+            -27.46361
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "46310",
+        "place_name": "Brooloo",
+        "lga_name": "Gympie Regional",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.70556,
+          -26.50833
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "44979",
+        "place_name": "Mount Berryman",
+        "lga_name": "Lockyer Valley Regional",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.325,
+          -27.71917
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "49371",
+        "place_name": "Tipton",
+        "lga_name": "Toowoomba Regional",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.25833,
+          -27.46361
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 5",
+        "iteration": 5,
+        "point_count": 6,
+        "order": [
+          "Dalga",
+          "Dumpy Creek",
+          "Fairdale",
+          "Cedar Vale",
+          "Meandarra",
+          "Thargomindah"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            151.47611,
+            -24.61389
+          ],
+          [
+            150.04389,
+            -23.98944
+          ],
+          [
+            151.77056,
+            -26.26778
+          ],
+          [
+            153.015,
+            -27.87972
+          ],
+          [
+            149.86444,
+            -27.30556
+          ],
+          [
+            143.85861,
+            -28.00333
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "44705",
+        "place_name": "Dalga",
+        "lga_name": "Bundaberg Regional",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.47611,
+          -24.61389
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "49549",
+        "place_name": "Dumpy Creek",
+        "lga_name": "Banana Shire",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.04389,
+          -23.98944
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "46217",
+        "place_name": "Fairdale",
+        "lga_name": "South Burnett Regional",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.77056,
+          -26.26778
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "45258",
+        "place_name": "Cedar Vale",
+        "lga_name": "Logan City",
+        "sequence": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.015,
+          -27.87972
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "50513",
+        "place_name": "Meandarra",
+        "lga_name": "Western Downs Regional",
+        "sequence": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.86444,
+          -27.30556
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "50494",
+        "place_name": "Thargomindah",
+        "lga_name": "Bulloo Shire",
+        "sequence": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.85861,
+          -28.00333
+        ]
+      }
+    }
+  ]
+}

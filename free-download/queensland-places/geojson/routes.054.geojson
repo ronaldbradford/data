@@ -1,0 +1,652 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 1",
+        "iteration": 1,
+        "point_count": 4,
+        "order": [
+          "Blantyre",
+          "Mount Chalmers",
+          "Meikleville Hill",
+          "Midge Point"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            152.6775,
+            -27.90139
+          ],
+          [
+            150.6325,
+            -23.31361
+          ],
+          [
+            150.74444,
+            -23.11639
+          ],
+          [
+            148.68556,
+            -20.6625
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "48334",
+        "place_name": "Blantyre",
+        "lga_name": "Scenic Rim Regional",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.6775,
+          -27.90139
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "49425",
+        "place_name": "Mount Chalmers",
+        "lga_name": "Livingstone Shire",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.6325,
+          -23.31361
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "48752",
+        "place_name": "Meikleville Hill",
+        "lga_name": "Livingstone Shire",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.74444,
+          -23.11639
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "46807",
+        "place_name": "Midge Point",
+        "lga_name": "Mackay Regional",
+        "sequence": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.68556,
+          -20.6625
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 2",
+        "iteration": 2,
+        "point_count": 6,
+        "order": [
+          "Myall Park",
+          "Red Hill (Western Downs Regional)",
+          "Brooklands",
+          "Wyuna",
+          "Barwidgi",
+          "Lower Daintree"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            150.1875,
+            -26.57972
+          ],
+          [
+            150.64806,
+            -26.63861
+          ],
+          [
+            151.82944,
+            -26.7275
+          ],
+          [
+            148.34583,
+            -23.36722
+          ],
+          [
+            144.64833,
+            -17.66556
+          ],
+          [
+            145.39111,
+            -16.28
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "47733",
+        "place_name": "Myall Park",
+        "lga_name": "Western Downs Regional",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.1875,
+          -26.57972
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "47741",
+        "place_name": "Red Hill (Western Downs Regional)",
+        "lga_name": "Western Downs Regional",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.64806,
+          -26.63861
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "46199",
+        "place_name": "Brooklands",
+        "lga_name": "South Burnett Regional",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.82944,
+          -26.7275
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "46989",
+        "place_name": "Wyuna",
+        "lga_name": "Central Highlands Regional",
+        "sequence": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.34583,
+          -23.36722
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "48516",
+        "place_name": "Barwidgi",
+        "lga_name": "Mareeba Shire",
+        "sequence": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.64833,
+          -17.66556
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "49616",
+        "place_name": "Lower Daintree",
+        "lga_name": "Douglas Shire",
+        "sequence": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.39111,
+          -16.28
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 3",
+        "iteration": 3,
+        "point_count": 4,
+        "order": [
+          "The Glen",
+          "Greenmount (Mackay Regional)",
+          "Mount Kelly",
+          "Port Douglas"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            151.91694,
+            -28.33611
+          ],
+          [
+            149.03278,
+            -21.18222
+          ],
+          [
+            147.315,
+            -19.66722
+          ],
+          [
+            145.46083,
+            -16.49944
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "45989",
+        "place_name": "The Glen",
+        "lga_name": "Southern Downs Regional",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.91694,
+          -28.33611
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "49361",
+        "place_name": "Greenmount (Mackay Regional)",
+        "lga_name": "Mackay Regional",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.03278,
+          -21.18222
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "44669",
+        "place_name": "Mount Kelly",
+        "lga_name": "Burdekin Shire",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.315,
+          -19.66722
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "48847",
+        "place_name": "Port Douglas",
+        "lga_name": "Douglas Shire",
+        "sequence": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.46083,
+          -16.49944
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 4",
+        "iteration": 4,
+        "point_count": 6,
+        "order": [
+          "Jundah",
+          "Dumbleton",
+          "Bungadoo",
+          "Bell",
+          "Mount Sylvia",
+          "Iron Range"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            143.16694,
+            -25.07472
+          ],
+          [
+            149.07639,
+            -21.135
+          ],
+          [
+            152.08444,
+            -24.99556
+          ],
+          [
+            151.43806,
+            -26.91639
+          ],
+          [
+            152.22639,
+            -27.73806
+          ],
+          [
+            143.32806,
+            -12.65444
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "50019",
+        "place_name": "Jundah",
+        "lga_name": "Barcoo Shire",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.16694,
+          -25.07472
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "46777",
+        "place_name": "Dumbleton",
+        "lga_name": "Mackay Regional",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.07639,
+          -21.135
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "47130",
+        "place_name": "Bungadoo",
+        "lga_name": "Bundaberg Regional",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.08444,
+          -24.99556
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "49277",
+        "place_name": "Bell",
+        "lga_name": "Western Downs Regional",
+        "sequence": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.43806,
+          -26.91639
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "44980",
+        "place_name": "Mount Sylvia",
+        "lga_name": "Lockyer Valley Regional",
+        "sequence": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.22639,
+          -27.73806
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "49102",
+        "place_name": "Iron Range",
+        "lga_name": "Cook Shire",
+        "sequence": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.32806,
+          -12.65444
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 5",
+        "iteration": 5,
+        "point_count": 6,
+        "order": [
+          "Maaroom",
+          "Delaneys Creek",
+          "Corymbia",
+          "Lockyer",
+          "Deepwater",
+          "Balcomba (Woorabinda Shire)"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            152.87333,
+            -25.59417
+          ],
+          [
+            152.77611,
+            -27.01056
+          ],
+          [
+            152.86667,
+            -27.09472
+          ],
+          [
+            152.06917,
+            -27.50639
+          ],
+          [
+            151.94861,
+            -24.39583
+          ],
+          [
+            149.68528,
+            -23.47833
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "46657",
+        "place_name": "Maaroom",
+        "lga_name": "Fraser Coast Regional",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.87333,
+          -25.59417
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "45409",
+        "place_name": "Delaneys Creek",
+        "lga_name": "Moreton Bay City",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.77611,
+          -27.01056
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "52235",
+        "place_name": "Corymbia",
+        "lga_name": "Moreton Bay City",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.86667,
+          -27.09472
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "45010",
+        "place_name": "Lockyer",
+        "lga_name": "Lockyer Valley Regional",
+        "sequence": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.06917,
+          -27.50639
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "46602",
+        "place_name": "Deepwater",
+        "lga_name": "Gladstone Regional",
+        "sequence": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.94861,
+          -24.39583
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "49301",
+        "place_name": "Balcomba (Woorabinda Shire)",
+        "lga_name": "Woorabinda Aboriginal Shire",
+        "sequence": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.68528,
+          -23.47833
+        ]
+      }
+    }
+  ]
+}

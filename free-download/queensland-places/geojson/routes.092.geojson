@@ -1,0 +1,520 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 1",
+        "iteration": 1,
+        "point_count": 6,
+        "order": [
+          "Aldoga",
+          "Dakenba",
+          "Bauple",
+          "Bulwer",
+          "Branchview",
+          "Munderra"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            151.05861,
+            -23.8425
+          ],
+          [
+            150.505,
+            -24.34111
+          ],
+          [
+            152.62222,
+            -25.81444
+          ],
+          [
+            153.36972,
+            -27.07861
+          ],
+          [
+            151.35111,
+            -27.61917
+          ],
+          [
+            144.86056,
+            -17.68917
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "49113",
+        "place_name": "Aldoga",
+        "lga_name": "Gladstone Regional",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.05861,
+          -23.8425
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "49545",
+        "place_name": "Dakenba",
+        "lga_name": "Banana Shire",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.505,
+          -24.34111
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "46625",
+        "place_name": "Bauple",
+        "lga_name": "Fraser Coast Regional",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.62222,
+          -25.81444
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "49458",
+        "place_name": "Bulwer",
+        "lga_name": "Brisbane City",
+        "sequence": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.36972,
+          -27.07861
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "49367",
+        "place_name": "Branchview",
+        "lga_name": "Toowoomba Regional",
+        "sequence": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.35111,
+          -27.61917
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "49799",
+        "place_name": "Munderra",
+        "lga_name": "Mareeba Shire",
+        "sequence": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.86056,
+          -17.68917
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 2",
+        "iteration": 2,
+        "point_count": 3,
+        "order": [
+          "Spring Creek (Banana Shire)",
+          "Highland Plains (Maranoa Regional)",
+          "Image Flat"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            150.04889,
+            -25.3925
+          ],
+          [
+            148.7575,
+            -25.86944
+          ],
+          [
+            152.93444,
+            -26.59861
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "49571",
+        "place_name": "Spring Creek (Banana Shire)",
+        "lga_name": "Banana Shire",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.04889,
+          -25.3925
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "49171",
+        "place_name": "Highland Plains (Maranoa Regional)",
+        "lga_name": "Maranoa Regional",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.7575,
+          -25.86944
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "48677",
+        "place_name": "Image Flat",
+        "lga_name": "Sunshine Coast Regional",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.93444,
+          -26.59861
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 3",
+        "iteration": 3,
+        "point_count": 4,
+        "order": [
+          "Mount Kilcoy",
+          "Glanmire",
+          "Condamine",
+          "Inkerman"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            152.5725,
+            -26.84222
+          ],
+          [
+            152.69583,
+            -26.22639
+          ],
+          [
+            150.10194,
+            -26.95167
+          ],
+          [
+            147.49111,
+            -19.71083
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "44902",
+        "place_name": "Mount Kilcoy",
+        "lga_name": "Somerset Regional",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.5725,
+          -26.84222
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "47105",
+        "place_name": "Glanmire",
+        "lga_name": "Gympie Regional",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.69583,
+          -26.22639
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "50514",
+        "place_name": "Condamine",
+        "lga_name": "Western Downs Regional",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.10194,
+          -26.95167
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "49586",
+        "place_name": "Inkerman",
+        "lga_name": "Burdekin Shire",
+        "sequence": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.49111,
+          -19.71083
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 4",
+        "iteration": 4,
+        "point_count": 3,
+        "order": [
+          "Thornlands",
+          "Kilcoy",
+          "Cordelia"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            153.25806,
+            -27.56778
+          ],
+          [
+            152.56139,
+            -26.94361
+          ],
+          [
+            146.24611,
+            -18.60528
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "43635",
+        "place_name": "Thornlands",
+        "lga_name": "Redland City",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.25806,
+          -27.56778
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "52208",
+        "place_name": "Kilcoy",
+        "lga_name": "Somerset Regional",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.56139,
+          -26.94361
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "42513",
+        "place_name": "Cordelia",
+        "lga_name": "Hinchinbrook Shire",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.24611,
+          -18.60528
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 5",
+        "iteration": 5,
+        "point_count": 4,
+        "order": [
+          "Flinders Lakes",
+          "Bunjurgen",
+          "Tiaro",
+          "Dunk"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            152.88889,
+            -27.82917
+          ],
+          [
+            152.61722,
+            -28.03972
+          ],
+          [
+            152.60583,
+            -25.73306
+          ],
+          [
+            146.15361,
+            -17.98889
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "49725",
+        "place_name": "Flinders Lakes",
+        "lga_name": "Logan City",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.88889,
+          -27.82917
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "50202",
+        "place_name": "Bunjurgen",
+        "lga_name": "Scenic Rim Regional",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.61722,
+          -28.03972
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "50086",
+        "place_name": "Tiaro",
+        "lga_name": "Fraser Coast Regional",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.60583,
+          -25.73306
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "45668",
+        "place_name": "Dunk",
+        "lga_name": "Cassowary Coast Regional",
+        "sequence": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.15361,
+          -17.98889
+        ]
+      }
+    }
+  ]
+}

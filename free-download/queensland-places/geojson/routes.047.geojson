@@ -1,0 +1,498 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 1",
+        "iteration": 1,
+        "point_count": 5,
+        "order": [
+          "Lake Monduran",
+          "Tarramba",
+          "Como",
+          "Whichello",
+          "Moranbah"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            151.80389,
+            -24.81083
+          ],
+          [
+            150.27278,
+            -24.61722
+          ],
+          [
+            153.00944,
+            -26.24833
+          ],
+          [
+            151.99806,
+            -27.29417
+          ],
+          [
+            147.87972,
+            -21.94194
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "44739",
+        "place_name": "Lake Monduran",
+        "lga_name": "Bundaberg Regional",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.80389,
+          -24.81083
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "49573",
+        "place_name": "Tarramba",
+        "lga_name": "Banana Shire",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.27278,
+          -24.61722
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "48574",
+        "place_name": "Como",
+        "lga_name": "Noosa Shire",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.00944,
+          -26.24833
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "48094",
+        "place_name": "Whichello",
+        "lga_name": "Toowoomba Regional",
+        "sequence": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.99806,
+          -27.29417
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "49384",
+        "place_name": "Moranbah",
+        "lga_name": "Isaac Regional",
+        "sequence": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.87972,
+          -21.94194
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 2",
+        "iteration": 2,
+        "point_count": 5,
+        "order": [
+          "Kanigan (Gympie Regional)",
+          "Glen Echo",
+          "Springdale",
+          "North Bungunya",
+          "Yungaburra"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            152.585,
+            -25.95722
+          ],
+          [
+            152.40389,
+            -25.91389
+          ],
+          [
+            151.61194,
+            -28.80083
+          ],
+          [
+            149.50861,
+            -28.20611
+          ],
+          [
+            145.59917,
+            -17.2725
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "46412",
+        "place_name": "Kanigan (Gympie Regional)",
+        "lga_name": "Gympie Regional",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.585,
+          -25.95722
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "47775",
+        "place_name": "Glen Echo",
+        "lga_name": "Gympie Regional",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.40389,
+          -25.91389
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "50205",
+        "place_name": "Springdale",
+        "lga_name": "Southern Downs Regional",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.61194,
+          -28.80083
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "47823",
+        "place_name": "North Bungunya",
+        "lga_name": "Goondiwindi Regional",
+        "sequence": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.50861,
+          -28.20611
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "48957",
+        "place_name": "Yungaburra",
+        "lga_name": "Tablelands Regional",
+        "sequence": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.59917,
+          -17.2725
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 3",
+        "iteration": 3,
+        "point_count": 3,
+        "order": [
+          "Norwin",
+          "Lilywood",
+          "Maxwelton"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            151.38028,
+            -27.51222
+          ],
+          [
+            152.89861,
+            -27.10167
+          ],
+          [
+            142.62167,
+            -20.85806
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "48029",
+        "place_name": "Norwin",
+        "lga_name": "Toowoomba Regional",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.38028,
+          -27.51222
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "52455",
+        "place_name": "Lilywood",
+        "lga_name": "Moreton Bay City",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.89861,
+          -27.10167
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "42354",
+        "place_name": "Maxwelton",
+        "lga_name": "Richmond Shire",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.62167,
+          -20.85806
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 4",
+        "iteration": 4,
+        "point_count": 3,
+        "order": [
+          "Hawkins Creek",
+          "Malanda",
+          "Mount Tom"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            146.11694,
+            -18.57861
+          ],
+          [
+            145.58167,
+            -17.37694
+          ],
+          [
+            151.68056,
+            -24.33333
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "15528",
+        "place_name": "Hawkins Creek",
+        "lga_name": "Hinchinbrook Shire",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.11694,
+          -18.57861
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "48739",
+        "place_name": "Malanda",
+        "lga_name": "Tablelands Regional",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.58167,
+          -17.37694
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "46616",
+        "place_name": "Mount Tom",
+        "lga_name": "Gladstone Regional",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.68056,
+          -24.33333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 5",
+        "iteration": 5,
+        "point_count": 3,
+        "order": [
+          "Arcadia Valley",
+          "Kianga",
+          "Umbiram"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            148.79556,
+            -25.01528
+          ],
+          [
+            150.02639,
+            -24.69028
+          ],
+          [
+            151.77,
+            -27.65944
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "46909",
+        "place_name": "Arcadia Valley",
+        "lga_name": "Central Highlands Regional",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.79556,
+          -25.01528
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "49559",
+        "place_name": "Kianga",
+        "lga_name": "Banana Shire",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.02639,
+          -24.69028
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "48080",
+        "place_name": "Umbiram",
+        "lga_name": "Toowoomba Regional",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.77,
+          -27.65944
+        ]
+      }
+    }
+  ]
+}

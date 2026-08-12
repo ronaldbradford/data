@@ -1,0 +1,498 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 1",
+        "iteration": 1,
+        "point_count": 3,
+        "order": [
+          "Placid Hills",
+          "East Haldon",
+          "V Gate"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            152.23472,
+            -27.56139
+          ],
+          [
+            152.2875,
+            -27.8925
+          ],
+          [
+            147.81611,
+            -26.85139
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "44983",
+        "place_name": "Placid Hills",
+        "lga_name": "Lockyer Valley Regional",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.23472,
+          -27.56139
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "44952",
+        "place_name": "East Haldon",
+        "lga_name": "Lockyer Valley Regional",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.2875,
+          -27.8925
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "47460",
+        "place_name": "V Gate",
+        "lga_name": "Maranoa Regional",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.81611,
+          -26.85139
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 2",
+        "iteration": 2,
+        "point_count": 4,
+        "order": [
+          "Hamilton Plains",
+          "Tiaro",
+          "Scotchy Pocket",
+          "Lakefield"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            148.57889,
+            -20.38417
+          ],
+          [
+            152.60583,
+            -25.73306
+          ],
+          [
+            152.52611,
+            -26.00611
+          ],
+          [
+            144.22889,
+            -14.775
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "46877",
+        "place_name": "Hamilton Plains",
+        "lga_name": "Whitsunday Regional",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.57889,
+          -20.38417
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "50086",
+        "place_name": "Tiaro",
+        "lga_name": "Fraser Coast Regional",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.60583,
+          -25.73306
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "46376",
+        "place_name": "Scotchy Pocket",
+        "lga_name": "Gympie Regional",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.52611,
+          -26.00611
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "46130",
+        "place_name": "Lakefield",
+        "lga_name": "Cook Shire",
+        "sequence": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.22889,
+          -14.775
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 3",
+        "iteration": 3,
+        "point_count": 3,
+        "order": [
+          "Palmview",
+          "Wilsonton Heights",
+          "Daveson"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            153.06556,
+            -26.74861
+          ],
+          [
+            151.92667,
+            -27.53222
+          ],
+          [
+            146.0375,
+            -17.78083
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "49695",
+        "place_name": "Palmview",
+        "lga_name": "Sunshine Coast Regional",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.06556,
+          -26.74861
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "48096",
+        "place_name": "Wilsonton Heights",
+        "lga_name": "Toowoomba Regional",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.92667,
+          -27.53222
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "45664",
+        "place_name": "Daveson",
+        "lga_name": "Cassowary Coast Regional",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.0375,
+          -17.78083
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 4",
+        "iteration": 4,
+        "point_count": 6,
+        "order": [
+          "Wondecla",
+          "Strathmore (Mareeba Shire)",
+          "Balcomba (Woorabinda Shire)",
+          "Bangalee",
+          "Brooweena",
+          "Cooranga"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            145.42889,
+            -17.43639
+          ],
+          [
+            142.73472,
+            -17.19556
+          ],
+          [
+            149.68528,
+            -23.47833
+          ],
+          [
+            150.78361,
+            -23.07833
+          ],
+          [
+            152.26639,
+            -25.59833
+          ],
+          [
+            151.32194,
+            -26.80028
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "48936",
+        "place_name": "Wondecla",
+        "lga_name": "Tablelands Regional",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.42889,
+          -17.43639
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "48882",
+        "place_name": "Strathmore (Mareeba Shire)",
+        "lga_name": "Mareeba Shire",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.73472,
+          -17.19556
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "49301",
+        "place_name": "Balcomba (Woorabinda Shire)",
+        "lga_name": "Woorabinda Aboriginal Shire",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.68528,
+          -23.47833
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "48507",
+        "place_name": "Bangalee",
+        "lga_name": "Livingstone Shire",
+        "sequence": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.78361,
+          -23.07833
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "46634",
+        "place_name": "Brooweena",
+        "lga_name": "Fraser Coast Regional",
+        "sequence": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.26639,
+          -25.59833
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "47685",
+        "place_name": "Cooranga",
+        "lga_name": "Western Downs Regional",
+        "sequence": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.32194,
+          -26.80028
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 5",
+        "iteration": 5,
+        "point_count": 3,
+        "order": [
+          "Lucinda",
+          "Forest Creek",
+          "Rainbow Beach"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            146.32944,
+            -18.53167
+          ],
+          [
+            145.36667,
+            -16.24111
+          ],
+          [
+            153.07917,
+            -25.90556
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "42521",
+        "place_name": "Lucinda",
+        "lga_name": "Hinchinbrook Shire",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.32944,
+          -18.53167
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "48638",
+        "place_name": "Forest Creek",
+        "lga_name": "Douglas Shire",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.36667,
+          -16.24111
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "47617",
+        "place_name": "Rainbow Beach",
+        "lga_name": "Gympie Regional",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.07917,
+          -25.90556
+        ]
+      }
+    }
+  ]
+}

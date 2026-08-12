@@ -1,0 +1,608 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 1",
+        "iteration": 1,
+        "point_count": 4,
+        "order": [
+          "Wattle Ridge",
+          "Domville",
+          "Cooranga",
+          "Hervey Range (Townsville City)"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            150.98333,
+            -28.0
+          ],
+          [
+            151.28056,
+            -27.93611
+          ],
+          [
+            151.32194,
+            -26.80028
+          ],
+          [
+            146.525,
+            -19.37833
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "48088",
+        "place_name": "Wattle Ridge",
+        "lga_name": "Toowoomba Regional",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.98333,
+          -28.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "49602",
+        "place_name": "Domville",
+        "lga_name": "Toowoomba Regional",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.28056,
+          -27.93611
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "47685",
+        "place_name": "Cooranga",
+        "lga_name": "Western Downs Regional",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.32194,
+          -26.80028
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "44600",
+        "place_name": "Hervey Range (Townsville City)",
+        "lga_name": "Townsville City",
+        "sequence": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.525,
+          -19.37833
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 2",
+        "iteration": 2,
+        "point_count": 3,
+        "order": [
+          "Groper Creek",
+          "Rita Island",
+          "Bellfield"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            147.57111,
+            -19.69667
+          ],
+          [
+            147.53472,
+            -19.63194
+          ],
+          [
+            143.185,
+            -19.30583
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "49457",
+        "place_name": "Groper Creek",
+        "lga_name": "Burdekin Shire",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.57111,
+          -19.69667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "42301",
+        "place_name": "Rita Island",
+        "lga_name": "Burdekin Shire",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.53472,
+          -19.63194
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "43183",
+        "place_name": "Bellfield",
+        "lga_name": "Croydon Shire",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.185,
+          -19.30583
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 3",
+        "iteration": 3,
+        "point_count": 5,
+        "order": [
+          "Auburn",
+          "Bryden",
+          "Prairie",
+          "Cordelia",
+          "New Mapoon (Torres Shire)"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            150.4975,
+            -25.9875
+          ],
+          [
+            152.60111,
+            -27.23194
+          ],
+          [
+            144.68972,
+            -21.32056
+          ],
+          [
+            146.24611,
+            -18.60528
+          ],
+          [
+            142.38694,
+            -10.79639
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "47660",
+        "place_name": "Auburn",
+        "lga_name": "Western Downs Regional",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.4975,
+          -25.9875
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "44847",
+        "place_name": "Bryden",
+        "lga_name": "Somerset Regional",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.60111,
+          -27.23194
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "52088",
+        "place_name": "Prairie",
+        "lga_name": "Flinders Shire",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.68972,
+          -21.32056
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "42513",
+        "place_name": "Cordelia",
+        "lga_name": "Hinchinbrook Shire",
+        "sequence": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.24611,
+          -18.60528
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "48329",
+        "place_name": "New Mapoon (Torres Shire)",
+        "lga_name": "Torres Shire",
+        "sequence": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.38694,
+          -10.79639
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 4",
+        "iteration": 4,
+        "point_count": 6,
+        "order": [
+          "Milora",
+          "Southside",
+          "Coondoo",
+          "Alsace",
+          "Crystal Brook (Whitsunday Regional)",
+          "Wongaling Beach"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            152.68417,
+            -27.8475
+          ],
+          [
+            152.64583,
+            -26.21111
+          ],
+          [
+            152.91111,
+            -26.19167
+          ],
+          [
+            149.27472,
+            -23.28917
+          ],
+          [
+            148.48083,
+            -20.37833
+          ],
+          [
+            146.0925,
+            -17.90028
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "45164",
+        "place_name": "Milora",
+        "lga_name": "Scenic Rim Regional",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.68417,
+          -27.8475
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "46379",
+        "place_name": "Southside",
+        "lga_name": "Gympie Regional",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.64583,
+          -26.21111
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "46320",
+        "place_name": "Coondoo",
+        "lga_name": "Gympie Regional",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.91111,
+          -26.19167
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "46908",
+        "place_name": "Alsace",
+        "lga_name": "Central Highlands Regional",
+        "sequence": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.27472,
+          -23.28917
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "46862",
+        "place_name": "Crystal Brook (Whitsunday Regional)",
+        "lga_name": "Whitsunday Regional",
+        "sequence": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.48083,
+          -20.37833
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "45770",
+        "place_name": "Wongaling Beach",
+        "lga_name": "Cassowary Coast Regional",
+        "sequence": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.0925,
+          -17.90028
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 5",
+        "iteration": 5,
+        "point_count": 6,
+        "order": [
+          "Tanawha",
+          "Taromeo",
+          "Darlington",
+          "Cottonvale",
+          "Lawgi Dawes",
+          "Nerada"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            153.03444,
+            -26.71528
+          ],
+          [
+            152.13306,
+            -26.81778
+          ],
+          [
+            153.06639,
+            -28.23333
+          ],
+          [
+            151.93917,
+            -28.51861
+          ],
+          [
+            150.76194,
+            -24.59
+          ],
+          [
+            145.87139,
+            -17.54917
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "49239",
+        "place_name": "Tanawha",
+        "lga_name": "Sunshine Coast Regional",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.03444,
+          -26.71528
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "46270",
+        "place_name": "Taromeo",
+        "lga_name": "South Burnett Regional",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.13306,
+          -26.81778
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "45135",
+        "place_name": "Darlington",
+        "lga_name": "Scenic Rim Regional",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.06639,
+          -28.23333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "45916",
+        "place_name": "Cottonvale",
+        "lga_name": "Southern Downs Regional",
+        "sequence": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.93917,
+          -28.51861
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "49563",
+        "place_name": "Lawgi Dawes",
+        "lga_name": "Banana Shire",
+        "sequence": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.76194,
+          -24.59
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "45741",
+        "place_name": "Nerada",
+        "lga_name": "Cassowary Coast Regional",
+        "sequence": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.87139,
+          -17.54917
+        ]
+      }
+    }
+  ]
+}

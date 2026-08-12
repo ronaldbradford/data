@@ -1,0 +1,542 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 1",
+        "iteration": 1,
+        "point_count": 3,
+        "order": [
+          "Taunton",
+          "Tiaro",
+          "Hungerford (Bulloo Shire)"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            151.79306,
+            -24.42222
+          ],
+          [
+            152.60583,
+            -25.73306
+          ],
+          [
+            144.125,
+            -28.86944
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "47289",
+        "place_name": "Taunton",
+        "lga_name": "Gladstone Regional",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.79306,
+          -24.42222
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "50086",
+        "place_name": "Tiaro",
+        "lga_name": "Fraser Coast Regional",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.60583,
+          -25.73306
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "50024",
+        "place_name": "Hungerford (Bulloo Shire)",
+        "lga_name": "Bulloo Shire",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.125,
+          -28.86944
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 2",
+        "iteration": 2,
+        "point_count": 5,
+        "order": [
+          "Ingoldsby",
+          "Glamorgan Vale",
+          "Wootha",
+          "Motley",
+          "Silver Spur"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            152.26639,
+            -27.73667
+          ],
+          [
+            152.63444,
+            -27.51528
+          ],
+          [
+            152.80028,
+            -26.7875
+          ],
+          [
+            151.61444,
+            -27.54361
+          ],
+          [
+            151.34,
+            -28.83278
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "44960",
+        "place_name": "Ingoldsby",
+        "lga_name": "Lockyer Valley Regional",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.26639,
+          -27.73667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "47273",
+        "place_name": "Glamorgan Vale",
+        "lga_name": "Somerset Regional",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.63444,
+          -27.51528
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "48944",
+        "place_name": "Wootha",
+        "lga_name": "Sunshine Coast Regional",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.80028,
+          -26.7875
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "48006",
+        "place_name": "Motley",
+        "lga_name": "Toowoomba Regional",
+        "sequence": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.61444,
+          -27.54361
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "47827",
+        "place_name": "Silver Spur",
+        "lga_name": "Goondiwindi Regional",
+        "sequence": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.34,
+          -28.83278
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 3",
+        "iteration": 3,
+        "point_count": 3,
+        "order": [
+          "Cuttaburra",
+          "Beaudesert",
+          "Bamboo"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            145.375,
+            -28.74722
+          ],
+          [
+            152.98917,
+            -27.98917
+          ],
+          [
+            145.39167,
+            -16.35472
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "42653",
+        "place_name": "Cuttaburra",
+        "lga_name": "Paroo Shire",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.375,
+          -28.74722
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "45109",
+        "place_name": "Beaudesert",
+        "lga_name": "Scenic Rim Regional",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.98917,
+          -27.98917
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "48506",
+        "place_name": "Bamboo",
+        "lga_name": "Douglas Shire",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.39167,
+          -16.35472
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 4",
+        "iteration": 4,
+        "point_count": 4,
+        "order": [
+          "Foresthome",
+          "Rookwood",
+          "Wealwandangie",
+          "Glen Cairn"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            146.20528,
+            -18.61139
+          ],
+          [
+            144.22028,
+            -17.03167
+          ],
+          [
+            148.02083,
+            -24.49194
+          ],
+          [
+            152.33,
+            -27.61472
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "47382",
+        "place_name": "Foresthome",
+        "lga_name": "Hinchinbrook Shire",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.20528,
+          -18.61139
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "48860",
+        "place_name": "Rookwood",
+        "lga_name": "Mareeba Shire",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.22028,
+          -17.03167
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "46983",
+        "place_name": "Wealwandangie",
+        "lga_name": "Central Highlands Regional",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.02083,
+          -24.49194
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "44955",
+        "place_name": "Glen Cairn",
+        "lga_name": "Lockyer Valley Regional",
+        "sequence": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.33,
+          -27.61472
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 5",
+        "iteration": 5,
+        "point_count": 6,
+        "order": [
+          "Tannymorel",
+          "Gilston",
+          "Greenwood",
+          "Bullcamp",
+          "Kooroomool",
+          "Bellenden Ker"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            152.24,
+            -28.29833
+          ],
+          [
+            153.30972,
+            -28.03
+          ],
+          [
+            151.73972,
+            -27.33667
+          ],
+          [
+            152.10111,
+            -26.59556
+          ],
+          [
+            145.71639,
+            -17.93083
+          ],
+          [
+            145.92722,
+            -17.27556
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "45985",
+        "place_name": "Tannymorel",
+        "lga_name": "Southern Downs Regional",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.24,
+          -28.29833
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "48133",
+        "place_name": "Gilston",
+        "lga_name": "Gold Coast City",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.30972,
+          -28.03
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "47960",
+        "place_name": "Greenwood",
+        "lga_name": "Toowoomba Regional",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.73972,
+          -27.33667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "46200",
+        "place_name": "Bullcamp",
+        "lga_name": "South Burnett Regional",
+        "sequence": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.10111,
+          -26.59556
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "45717",
+        "place_name": "Kooroomool",
+        "lga_name": "Cassowary Coast Regional",
+        "sequence": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.71639,
+          -17.93083
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "48522",
+        "place_name": "Bellenden Ker",
+        "lga_name": "Cairns Regional",
+        "sequence": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.92722,
+          -17.27556
+        ]
+      }
+    }
+  ]
+}

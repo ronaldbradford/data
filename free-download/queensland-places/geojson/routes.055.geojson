@@ -1,0 +1,564 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 1",
+        "iteration": 1,
+        "point_count": 3,
+        "order": [
+          "Pozieres",
+          "Samford Valley",
+          "Te Kowai"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            151.86583,
+            -28.5275
+          ],
+          [
+            152.86917,
+            -27.37056
+          ],
+          [
+            149.11139,
+            -21.1875
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "45968",
+        "place_name": "Pozieres",
+        "lga_name": "Southern Downs Regional",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.86583,
+          -28.5275
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "45468",
+        "place_name": "Samford Valley",
+        "lga_name": "Moreton Bay City",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.86917,
+          -27.37056
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "46843",
+        "place_name": "Te Kowai",
+        "lga_name": "Mackay Regional",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11139,
+          -21.1875
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 2",
+        "iteration": 2,
+        "point_count": 3,
+        "order": [
+          "Rockingham",
+          "Septimus",
+          "Lake Clarendon"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            145.99722,
+            -18.04806
+          ],
+          [
+            148.76278,
+            -21.27694
+          ],
+          [
+            152.3325,
+            -27.52639
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "45774",
+        "place_name": "Rockingham",
+        "lga_name": "Cassowary Coast Regional",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.99722,
+          -18.04806
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "46837",
+        "place_name": "Septimus",
+        "lga_name": "Mackay Regional",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.76278,
+          -21.27694
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "44969",
+        "place_name": "Lake Clarendon",
+        "lga_name": "Lockyer Valley Regional",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.3325,
+          -27.52639
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 3",
+        "iteration": 3,
+        "point_count": 5,
+        "order": [
+          "Canungra",
+          "Boondandilla",
+          "Westmar",
+          "Canaga",
+          "Inverness"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            153.13583,
+            -28.03806
+          ],
+          [
+            150.61111,
+            -27.90889
+          ],
+          [
+            149.75722,
+            -27.8825
+          ],
+          [
+            150.91306,
+            -26.64722
+          ],
+          [
+            150.72444,
+            -23.1175
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "52643",
+        "place_name": "Canungra",
+        "lga_name": "Scenic Rim Regional",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.13583,
+          -28.03806
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "47798",
+        "place_name": "Boondandilla",
+        "lga_name": "Goondiwindi Regional",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.61111,
+          -27.90889
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "47758",
+        "place_name": "Westmar",
+        "lga_name": "Western Downs Regional",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.75722,
+          -27.8825
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "49271",
+        "place_name": "Canaga",
+        "lga_name": "Western Downs Regional",
+        "sequence": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.91306,
+          -26.64722
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "48679",
+        "place_name": "Inverness",
+        "lga_name": "Livingstone Shire",
+        "sequence": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.72444,
+          -23.1175
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 4",
+        "iteration": 4,
+        "point_count": 6,
+        "order": [
+          "Bundoora",
+          "Dalbeg",
+          "Condamine",
+          "Wainui",
+          "Plainby",
+          "Burnside"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            148.46333,
+            -22.97528
+          ],
+          [
+            147.29528,
+            -20.22639
+          ],
+          [
+            150.10194,
+            -26.95167
+          ],
+          [
+            151.46056,
+            -27.32944
+          ],
+          [
+            151.97139,
+            -27.27
+          ],
+          [
+            152.93444,
+            -26.63167
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "46922",
+        "place_name": "Bundoora",
+        "lga_name": "Central Highlands Regional",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.46333,
+          -22.97528
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "42973",
+        "place_name": "Dalbeg",
+        "lga_name": "Burdekin Shire",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.29528,
+          -20.22639
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "50514",
+        "place_name": "Condamine",
+        "lga_name": "Western Downs Regional",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.10194,
+          -26.95167
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "48087",
+        "place_name": "Wainui",
+        "lga_name": "Toowoomba Regional",
+        "sequence": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.46056,
+          -27.32944
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "49231",
+        "place_name": "Plainby",
+        "lga_name": "Toowoomba Regional",
+        "sequence": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.97139,
+          -27.27
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "50527",
+        "place_name": "Burnside",
+        "lga_name": "Sunshine Coast Regional",
+        "sequence": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.93444,
+          -26.63167
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 5",
+        "iteration": 5,
+        "point_count": 5,
+        "order": [
+          "Yagoonya",
+          "Jarvisfield",
+          "Taroom (Banana Shire)",
+          "MP Creek",
+          "Tamborine Mountain"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            141.57056,
+            -16.47083
+          ],
+          [
+            147.49111,
+            -19.57528
+          ],
+          [
+            149.85,
+            -25.63333
+          ],
+          [
+            151.7275,
+            -26.28583
+          ],
+          [
+            153.19944,
+            -27.96972
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "42976",
+        "place_name": "Yagoonya",
+        "lga_name": "Carpentaria Shire",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          141.57056,
+          -16.47083
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "42291",
+        "place_name": "Jarvisfield",
+        "lga_name": "Burdekin Shire",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.49111,
+          -19.57528
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "49572",
+        "place_name": "Taroom (Banana Shire)",
+        "lga_name": "Banana Shire",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.85,
+          -25.63333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "46249",
+        "place_name": "MP Creek",
+        "lga_name": "South Burnett Regional",
+        "sequence": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.7275,
+          -26.28583
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "48962",
+        "place_name": "Tamborine Mountain",
+        "lga_name": "Scenic Rim Regional",
+        "sequence": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.19944,
+          -27.96972
+        ]
+      }
+    }
+  ]
+}

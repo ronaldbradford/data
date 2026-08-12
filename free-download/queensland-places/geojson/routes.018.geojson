@@ -1,0 +1,520 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 1",
+        "iteration": 1,
+        "point_count": 4,
+        "order": [
+          "Mount Walker",
+          "Mount Kynoch",
+          "Boreen Point",
+          "Suttor"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            152.55028,
+            -27.77722
+          ],
+          [
+            151.94805715,
+            -27.51028072
+          ],
+          [
+            152.98472,
+            -26.28167
+          ],
+          [
+            147.89667,
+            -21.34056
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "45216",
+        "place_name": "Mount Walker",
+        "lga_name": "Scenic Rim Regional",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.55028,
+          -27.77722
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "52629",
+        "place_name": "Mount Kynoch",
+        "lga_name": "Toowoomba Regional",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.94805715,
+          -27.51028072
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "48538",
+        "place_name": "Boreen Point",
+        "lga_name": "Noosa Shire",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.98472,
+          -26.28167
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "47037",
+        "place_name": "Suttor",
+        "lga_name": "Isaac Regional",
+        "sequence": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.89667,
+          -21.34056
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 2",
+        "iteration": 2,
+        "point_count": 4,
+        "order": [
+          "Stanthorpe",
+          "Parklands",
+          "Nerimbera",
+          "Argyll"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            151.93556,
+            -28.66222
+          ],
+          [
+            152.96778,
+            -26.59861
+          ],
+          [
+            150.595,
+            -23.41361
+          ],
+          [
+            147.52444,
+            -23.26917
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "45978",
+        "place_name": "Stanthorpe",
+        "lga_name": "Southern Downs Regional",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.93556,
+          -28.66222
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "48830",
+        "place_name": "Parklands",
+        "lga_name": "Sunshine Coast Regional",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.96778,
+          -26.59861
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "48801",
+        "place_name": "Nerimbera",
+        "lga_name": "Livingstone Shire",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.595,
+          -23.41361
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "50499",
+        "place_name": "Argyll",
+        "lga_name": "Central Highlands Regional",
+        "sequence": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.52444,
+          -23.26917
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 3",
+        "iteration": 3,
+        "point_count": 4,
+        "order": [
+          "Lamb Range",
+          "Dedin",
+          "Habana",
+          "River Ranch"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            145.68861,
+            -17.04778
+          ],
+          [
+            145.16861,
+            -16.27361
+          ],
+          [
+            149.07444,
+            -21.02028
+          ],
+          [
+            151.1575,
+            -23.97583
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "48724",
+        "place_name": "Lamb Range",
+        "lga_name": "Cairns Regional",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.68861,
+          -17.04778
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "48600",
+        "place_name": "Dedin",
+        "lga_name": "Douglas Shire",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.16861,
+          -16.27361
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "46792",
+        "place_name": "Habana",
+        "lga_name": "Mackay Regional",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.07444,
+          -21.02028
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "46619",
+        "place_name": "River Ranch",
+        "lga_name": "Gladstone Regional",
+        "sequence": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.1575,
+          -23.97583
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 4",
+        "iteration": 4,
+        "point_count": 4,
+        "order": [
+          "Toolara Forest (Gympie Regional)",
+          "Tabooba",
+          "Parknook",
+          "Khosh Bulduk"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            152.85,
+            -25.99167
+          ],
+          [
+            152.96694,
+            -28.13583
+          ],
+          [
+            149.16722,
+            -27.39333
+          ],
+          [
+            148.02667,
+            -23.00083
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "46387",
+        "place_name": "Toolara Forest (Gympie Regional)",
+        "lga_name": "Gympie Regional",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.85,
+          -25.99167
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "45189",
+        "place_name": "Tabooba",
+        "lga_name": "Scenic Rim Regional",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.96694,
+          -28.13583
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "49169",
+        "place_name": "Parknook",
+        "lga_name": "Maranoa Regional",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.16722,
+          -27.39333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "46959",
+        "place_name": "Khosh Bulduk",
+        "lga_name": "Central Highlands Regional",
+        "sequence": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.02667,
+          -23.00083
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 5",
+        "iteration": 5,
+        "point_count": 4,
+        "order": [
+          "Taromeo",
+          "Wyalla",
+          "The Hermitage",
+          "Innisfail Estate"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            152.13306,
+            -26.81778
+          ],
+          [
+            152.07611,
+            -26.46222
+          ],
+          [
+            152.10806,
+            -28.20694
+          ],
+          [
+            146.04444,
+            -17.51722
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "46270",
+        "place_name": "Taromeo",
+        "lga_name": "South Burnett Regional",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.13306,
+          -26.81778
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "46285",
+        "place_name": "Wyalla",
+        "lga_name": "South Burnett Regional",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.07611,
+          -26.46222
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "45991",
+        "place_name": "The Hermitage",
+        "lga_name": "Southern Downs Regional",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.10806,
+          -28.20694
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "45711",
+        "place_name": "Innisfail Estate",
+        "lga_name": "Cassowary Coast Regional",
+        "sequence": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.04444,
+          -17.51722
+        ]
+      }
+    }
+  ]
+}

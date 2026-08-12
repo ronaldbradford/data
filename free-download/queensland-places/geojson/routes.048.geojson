@@ -1,0 +1,564 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 1",
+        "iteration": 1,
+        "point_count": 5,
+        "order": [
+          "Cynthia",
+          "Glenaven",
+          "Landers Shoot",
+          "Towen Mountain",
+          "Sunnyside"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            151.12333,
+            -25.20528
+          ],
+          [
+            151.9725,
+            -27.17667
+          ],
+          [
+            152.92611,
+            -26.715
+          ],
+          [
+            152.92611,
+            -26.64833
+          ],
+          [
+            149.09417,
+            -21.34917
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "45337",
+        "place_name": "Cynthia",
+        "lga_name": "North Burnett Regional",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.12333,
+          -25.20528
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "49233",
+        "place_name": "Glenaven",
+        "lga_name": "Toowoomba Regional",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.9725,
+          -27.17667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "49432",
+        "place_name": "Landers Shoot",
+        "lga_name": "Sunshine Coast Regional",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.92611,
+          -26.715
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "48905",
+        "place_name": "Towen Mountain",
+        "lga_name": "Sunshine Coast Regional",
+        "sequence": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.92611,
+          -26.64833
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "46842",
+        "place_name": "Sunnyside",
+        "lga_name": "Mackay Regional",
+        "sequence": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.09417,
+          -21.34917
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 2",
+        "iteration": 2,
+        "point_count": 4,
+        "order": [
+          "Hazeldean",
+          "Frankfield",
+          "Palm Island (Palm Island Shire)",
+          "Fitzgerald Creek"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            152.54639,
+            -27.02361
+          ],
+          [
+            147.11806,
+            -22.25722
+          ],
+          [
+            146.58806,
+            -18.75
+          ],
+          [
+            145.97417,
+            -17.495
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "48227",
+        "place_name": "Hazeldean",
+        "lga_name": "Somerset Regional",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.54639,
+          -27.02361
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "52417",
+        "place_name": "Frankfield",
+        "lga_name": "Isaac Regional",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.11806,
+          -22.25722
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "45506",
+        "place_name": "Palm Island (Palm Island Shire)",
+        "lga_name": "Palm Island Aboriginal Shire",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.58806,
+          -18.75
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "45697",
+        "place_name": "Fitzgerald Creek",
+        "lga_name": "Cassowary Coast Regional",
+        "sequence": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.97417,
+          -17.495
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 3",
+        "iteration": 3,
+        "point_count": 3,
+        "order": [
+          "Packers Camp",
+          "Alpha",
+          "Charlestown"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            145.79917,
+            -17.02583
+          ],
+          [
+            146.71111,
+            -23.60528
+          ],
+          [
+            151.91667,
+            -26.36667
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "48822",
+        "place_name": "Packers Camp",
+        "lga_name": "Cairns Regional",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.79917,
+          -17.02583
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "52303",
+        "place_name": "Alpha",
+        "lga_name": "Barcaldine Regional",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.71111,
+          -23.60528
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "46204",
+        "place_name": "Charlestown",
+        "lga_name": "South Burnett Regional",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.91667,
+          -26.36667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 4",
+        "iteration": 4,
+        "point_count": 4,
+        "order": [
+          "Yaamba",
+          "Milman",
+          "New Moonta",
+          "Weyba Downs"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            150.35,
+            -23.14
+          ],
+          [
+            150.42222,
+            -23.10972
+          ],
+          [
+            151.72889,
+            -25.02472
+          ],
+          [
+            153.04583,
+            -26.44861
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "48951",
+        "place_name": "Yaamba",
+        "lga_name": "Livingstone Shire",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.35,
+          -23.14
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "49427",
+        "place_name": "Milman",
+        "lga_name": "Livingstone Shire",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.42222,
+          -23.10972
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "45512",
+        "place_name": "New Moonta",
+        "lga_name": "Bundaberg Regional",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.72889,
+          -25.02472
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "48931",
+        "place_name": "Weyba Downs",
+        "lga_name": "Sunshine Coast Regional",
+        "sequence": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.04583,
+          -26.44861
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 5",
+        "iteration": 5,
+        "point_count": 6,
+        "order": [
+          "Ballogie",
+          "Deep Creek",
+          "Molangul",
+          "Crossdale",
+          "Sandy Camp",
+          "Mount Fox"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            151.53861,
+            -26.33722
+          ],
+          [
+            151.47611,
+            -25.65389
+          ],
+          [
+            151.53861,
+            -24.76722
+          ],
+          [
+            152.55111,
+            -27.18194
+          ],
+          [
+            151.81778,
+            -27.98194
+          ],
+          [
+            145.85444,
+            -18.81972
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "46187",
+        "place_name": "Ballogie",
+        "lga_name": "South Burnett Regional",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.53861,
+          -26.33722
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "45339",
+        "place_name": "Deep Creek",
+        "lga_name": "North Burnett Regional",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.47611,
+          -25.65389
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "44745",
+        "place_name": "Molangul",
+        "lga_name": "Bundaberg Regional",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.53861,
+          -24.76722
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "44861",
+        "place_name": "Crossdale",
+        "lga_name": "Somerset Regional",
+        "sequence": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.55111,
+          -27.18194
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "48058",
+        "place_name": "Sandy Camp",
+        "lga_name": "Toowoomba Regional",
+        "sequence": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.81778,
+          -27.98194
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "42523",
+        "place_name": "Mount Fox",
+        "lga_name": "Hinchinbrook Shire",
+        "sequence": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.85444,
+          -18.81972
+        ]
+      }
+    }
+  ]
+}

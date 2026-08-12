@@ -1,0 +1,564 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 1",
+        "iteration": 1,
+        "point_count": 3,
+        "order": [
+          "Rollingstone",
+          "Martyville",
+          "Bamboo Creek"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            146.38389,
+            -19.04472
+          ],
+          [
+            146.03694,
+            -17.615
+          ],
+          [
+            145.98917,
+            -17.55278
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "49830",
+        "place_name": "Rollingstone",
+        "lga_name": "Townsville City",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.38389,
+          -19.04472
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "45725",
+        "place_name": "Martyville",
+        "lga_name": "Cassowary Coast Regional",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.03694,
+          -17.615
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "45676",
+        "place_name": "Bamboo Creek",
+        "lga_name": "Cassowary Coast Regional",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.98917,
+          -17.55278
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 2",
+        "iteration": 2,
+        "point_count": 6,
+        "order": [
+          "Degarra",
+          "Gadgarra",
+          "Dalma",
+          "Woongarra",
+          "Widgee",
+          "Elgin Vale"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            145.32778,
+            -15.95167
+          ],
+          [
+            145.73056,
+            -17.2575
+          ],
+          [
+            150.22667,
+            -23.35806
+          ],
+          [
+            152.41333,
+            -24.89444
+          ],
+          [
+            152.42,
+            -26.21639
+          ],
+          [
+            152.20944,
+            -26.43167
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "48602",
+        "place_name": "Degarra",
+        "lga_name": "Douglas Shire",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.32778,
+          -15.95167
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "48644",
+        "place_name": "Gadgarra",
+        "lga_name": "Tablelands Regional",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.73056,
+          -17.2575
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "48598",
+        "place_name": "Dalma",
+        "lga_name": "Rockhampton Regional",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.22667,
+          -23.35806
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "48366",
+        "place_name": "Woongarra",
+        "lga_name": "Bundaberg Regional",
+        "sequence": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.41333,
+          -24.89444
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "46397",
+        "place_name": "Widgee",
+        "lga_name": "Gympie Regional",
+        "sequence": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.42,
+          -26.21639
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "46327",
+        "place_name": "Elgin Vale",
+        "lga_name": "Gympie Regional",
+        "sequence": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.20944,
+          -26.43167
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 3",
+        "iteration": 3,
+        "point_count": 4,
+        "order": [
+          "Ilkley",
+          "Ninderry",
+          "Benair",
+          "Burncluith"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            152.99278,
+            -26.73167
+          ],
+          [
+            152.97611,
+            -26.54
+          ],
+          [
+            151.69833,
+            -26.62333
+          ],
+          [
+            150.72917,
+            -26.58056
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "50062",
+        "place_name": "Ilkley",
+        "lga_name": "Sunshine Coast Regional",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.99278,
+          -26.73167
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "48804",
+        "place_name": "Ninderry",
+        "lga_name": "Sunshine Coast Regional",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.97611,
+          -26.54
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "46190",
+        "place_name": "Benair",
+        "lga_name": "South Burnett Regional",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.69833,
+          -26.62333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "47674",
+        "place_name": "Burncluith",
+        "lga_name": "Western Downs Regional",
+        "sequence": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.72917,
+          -26.58056
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 4",
+        "iteration": 4,
+        "point_count": 4,
+        "order": [
+          "Glen Echo",
+          "Booroobin (Sunshine Coast Regional)",
+          "Kentville",
+          "Mount Berryman"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            152.40389,
+            -25.91389
+          ],
+          [
+            152.80028,
+            -26.8125
+          ],
+          [
+            152.42528,
+            -27.47472
+          ],
+          [
+            152.325,
+            -27.71917
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "47775",
+        "place_name": "Glen Echo",
+        "lga_name": "Gympie Regional",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.40389,
+          -25.91389
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "48537",
+        "place_name": "Booroobin (Sunshine Coast Regional)",
+        "lga_name": "Sunshine Coast Regional",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.80028,
+          -26.8125
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "44963",
+        "place_name": "Kentville",
+        "lga_name": "Lockyer Valley Regional",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.42528,
+          -27.47472
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "44979",
+        "place_name": "Mount Berryman",
+        "lga_name": "Lockyer Valley Regional",
+        "sequence": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.325,
+          -27.71917
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 5",
+        "iteration": 5,
+        "point_count": 5,
+        "order": [
+          "Wychie",
+          "Grosmont (Western Downs Regional)",
+          "Selene",
+          "Pomona",
+          "Cedar Creek (Moreton Bay City)"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            150.8575,
+            -26.78028
+          ],
+          [
+            149.76833,
+            -25.96528
+          ],
+          [
+            151.14,
+            -25.00667
+          ],
+          [
+            152.86806,
+            -26.365
+          ],
+          [
+            152.815,
+            -27.33417
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "47761",
+        "place_name": "Wychie",
+        "lga_name": "Western Downs Regional",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.8575,
+          -26.78028
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "47705",
+        "place_name": "Grosmont (Western Downs Regional)",
+        "lga_name": "Western Downs Regional",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.76833,
+          -25.96528
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "47374",
+        "place_name": "Selene",
+        "lga_name": "North Burnett Regional",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.14,
+          -25.00667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "49434",
+        "place_name": "Pomona",
+        "lga_name": "Noosa Shire",
+        "sequence": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.86806,
+          -26.365
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "52320",
+        "place_name": "Cedar Creek (Moreton Bay City)",
+        "lga_name": "Moreton Bay City",
+        "sequence": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.815,
+          -27.33417
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,608 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 1",
+        "iteration": 1,
+        "point_count": 4,
+        "order": [
+          "Nambour",
+          "South Nanango",
+          "Teebar",
+          "Lake Barrine"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            152.95944,
+            -26.62333
+          ],
+          [
+            151.97333,
+            -26.74
+          ],
+          [
+            152.20722,
+            -25.65944
+          ],
+          [
+            145.64083,
+            -17.24611
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "50525",
+        "place_name": "Nambour",
+        "lga_name": "Sunshine Coast Regional",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.95944,
+          -26.62333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "46263",
+        "place_name": "South Nanango",
+        "lga_name": "South Burnett Regional",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.97333,
+          -26.74
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "46677",
+        "place_name": "Teebar",
+        "lga_name": "Fraser Coast Regional",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.20722,
+          -25.65944
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "48717",
+        "place_name": "Lake Barrine",
+        "lga_name": "Tablelands Regional",
+        "sequence": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.64083,
+          -17.24611
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 2",
+        "iteration": 2,
+        "point_count": 4,
+        "order": [
+          "Barcaldine",
+          "Coomoo",
+          "The Keppels",
+          "Wights Mountain"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            145.32167,
+            -23.64667
+          ],
+          [
+            149.51528,
+            -23.86056
+          ],
+          [
+            150.94417,
+            -23.19778
+          ],
+          [
+            152.8475,
+            -27.39639
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "52313",
+        "place_name": "Barcaldine",
+        "lga_name": "Barcaldine Regional",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.32167,
+          -23.64667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "46942",
+        "place_name": "Coomoo",
+        "lga_name": "Central Highlands Regional",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.51528,
+          -23.86056
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "48895",
+        "place_name": "The Keppels",
+        "lga_name": "Livingstone Shire",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.94417,
+          -23.19778
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "50233",
+        "place_name": "Wights Mountain",
+        "lga_name": "Moreton Bay City",
+        "sequence": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.8475,
+          -27.39639
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 3",
+        "iteration": 3,
+        "point_count": 6,
+        "order": [
+          "Baree",
+          "Sarina Range",
+          "Montville",
+          "Brightview (Somerset Regional)",
+          "Manapouri",
+          "Guijar Islet"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            150.38972,
+            -23.62111
+          ],
+          [
+            149.10833,
+            -21.55139
+          ],
+          [
+            152.89278,
+            -26.69
+          ],
+          [
+            152.50944,
+            -27.49
+          ],
+          [
+            151.98444,
+            -27.86528
+          ],
+          [
+            142.83056,
+            -10.25472
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "48508",
+        "place_name": "Baree",
+        "lga_name": "Rockhampton Regional",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.38972,
+          -23.62111
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "46835",
+        "place_name": "Sarina Range",
+        "lga_name": "Mackay Regional",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.10833,
+          -21.55139
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "51313",
+        "place_name": "Montville",
+        "lga_name": "Sunshine Coast Regional",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.89278,
+          -26.69
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "44838",
+        "place_name": "Brightview (Somerset Regional)",
+        "lga_name": "Somerset Regional",
+        "sequence": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.50944,
+          -27.49
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "47996",
+        "place_name": "Manapouri",
+        "lga_name": "Toowoomba Regional",
+        "sequence": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.98444,
+          -27.86528
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "46711",
+        "place_name": "Guijar Islet",
+        "lga_name": "Torres Strait Island Regional",
+        "sequence": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.83056,
+          -10.25472
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 4",
+        "iteration": 4,
+        "point_count": 5,
+        "order": [
+          "Victoria Plains",
+          "Nome",
+          "Ravensworth",
+          "Coalstoun Lakes",
+          "Stoneleigh"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            149.01667,
+            -21.22
+          ],
+          [
+            146.95083,
+            -19.35944
+          ],
+          [
+            143.63722,
+            -17.29139
+          ],
+          [
+            151.89278,
+            -25.6275
+          ],
+          [
+            151.62333,
+            -27.665
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "49125",
+        "place_name": "Victoria Plains",
+        "lga_name": "Mackay Regional",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.01667,
+          -21.22
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "44619",
+        "place_name": "Nome",
+        "lga_name": "Townsville City",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.95083,
+          -19.35944
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "48850",
+        "place_name": "Ravensworth",
+        "lga_name": "Mareeba Shire",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.63722,
+          -17.29139
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "50095",
+        "place_name": "Coalstoun Lakes",
+        "lga_name": "North Burnett Regional",
+        "sequence": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.89278,
+          -25.6275
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "48070",
+        "place_name": "Stoneleigh",
+        "lga_name": "Toowoomba Regional",
+        "sequence": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.62333,
+          -27.665
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 5",
+        "iteration": 5,
+        "point_count": 5,
+        "order": [
+          "Pinnacle",
+          "Mount Kelly",
+          "Airdmillan",
+          "Jones Hill",
+          "Sarabah"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            148.68694,
+            -21.21194
+          ],
+          [
+            147.315,
+            -19.66722
+          ],
+          [
+            147.47528,
+            -19.52306
+          ],
+          [
+            152.66944,
+            -26.23056
+          ],
+          [
+            153.12028,
+            -28.11889
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "46931",
+        "place_name": "Pinnacle",
+        "lga_name": "Mackay Regional",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.68694,
+          -21.21194
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "44669",
+        "place_name": "Mount Kelly",
+        "lga_name": "Burdekin Shire",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.315,
+          -19.66722
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "49422",
+        "place_name": "Airdmillan",
+        "lga_name": "Burdekin Shire",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.47528,
+          -19.52306
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "46343",
+        "place_name": "Jones Hill",
+        "lga_name": "Gympie Regional",
+        "sequence": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.66944,
+          -26.23056
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "45186",
+        "place_name": "Sarabah",
+        "lga_name": "Scenic Rim Regional",
+        "sequence": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.12028,
+          -28.11889
+        ]
+      }
+    }
+  ]
+}

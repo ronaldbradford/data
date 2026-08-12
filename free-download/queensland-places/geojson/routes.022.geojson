@@ -1,0 +1,498 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 1",
+        "iteration": 1,
+        "point_count": 4,
+        "order": [
+          "Corella",
+          "Nobby",
+          "Maxwelton",
+          "Bellenden Ker"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            152.64167,
+            -26.1125
+          ],
+          [
+            151.88444,
+            -27.81528
+          ],
+          [
+            142.62167,
+            -20.85806
+          ],
+          [
+            145.92722,
+            -17.27556
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "46321",
+        "place_name": "Corella",
+        "lga_name": "Gympie Regional",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.64167,
+          -26.1125
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "50182",
+        "place_name": "Nobby",
+        "lga_name": "Toowoomba Regional",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.88444,
+          -27.81528
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "42354",
+        "place_name": "Maxwelton",
+        "lga_name": "Richmond Shire",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.62167,
+          -20.85806
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "48522",
+        "place_name": "Bellenden Ker",
+        "lga_name": "Cairns Regional",
+        "sequence": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.92722,
+          -17.27556
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 2",
+        "iteration": 2,
+        "point_count": 4,
+        "order": [
+          "Warrill View",
+          "Rifle Range",
+          "Taragoola",
+          "Longreach"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            152.60639,
+            -27.83083
+          ],
+          [
+            152.53444,
+            -27.45667
+          ],
+          [
+            151.23278,
+            -24.10806
+          ],
+          [
+            143.70167,
+            -23.34944
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "45204",
+        "place_name": "Warrill View",
+        "lga_name": "Scenic Rim Regional",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.60639,
+          -27.83083
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "44911",
+        "place_name": "Rifle Range",
+        "lga_name": "Somerset Regional",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.53444,
+          -27.45667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "47288",
+        "place_name": "Taragoola",
+        "lga_name": "Gladstone Regional",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.23278,
+          -24.10806
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "52312",
+        "place_name": "Longreach",
+        "lga_name": "Longreach Regional",
+        "sequence": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.70167,
+          -23.34944
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 3",
+        "iteration": 3,
+        "point_count": 4,
+        "order": [
+          "Burrum River",
+          "Goondiwindi",
+          "Pinnacle",
+          "Clemant"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            152.59,
+            -25.27056
+          ],
+          [
+            150.35444,
+            -28.41806
+          ],
+          [
+            148.68694,
+            -21.21194
+          ],
+          [
+            146.4325,
+            -19.11917
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "46638",
+        "place_name": "Burrum River",
+        "lga_name": "Fraser Coast Regional",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.59,
+          -25.27056
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "50047",
+        "place_name": "Goondiwindi",
+        "lga_name": "Goondiwindi Regional",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.35444,
+          -28.41806
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "46931",
+        "place_name": "Pinnacle",
+        "lga_name": "Mackay Regional",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.68694,
+          -21.21194
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "44583",
+        "place_name": "Clemant",
+        "lga_name": "Townsville City",
+        "sequence": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.4325,
+          -19.11917
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 4",
+        "iteration": 4,
+        "point_count": 4,
+        "order": [
+          "Goorganga Creek",
+          "Alligator Creek (Townsville City)",
+          "Wonga Beach",
+          "Western Creek"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            148.50694,
+            -20.51917
+          ],
+          [
+            146.94583,
+            -19.42417
+          ],
+          [
+            145.41611,
+            -16.33389
+          ],
+          [
+            150.95,
+            -27.85
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "49376",
+        "place_name": "Goorganga Creek",
+        "lga_name": "Whitsunday Regional",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.50694,
+          -20.51917
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "44564",
+        "place_name": "Alligator Creek (Townsville City)",
+        "lga_name": "Townsville City",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.94583,
+          -19.42417
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "49615",
+        "place_name": "Wonga Beach",
+        "lga_name": "Douglas Shire",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.41611,
+          -16.33389
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "48093",
+        "place_name": "Western Creek",
+        "lga_name": "Toowoomba Regional",
+        "sequence": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.95,
+          -27.85
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 5",
+        "iteration": 5,
+        "point_count": 3,
+        "order": [
+          "Dayboro",
+          "Oyster Creek",
+          "Mount Rooper"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            152.82528,
+            -27.20167
+          ],
+          [
+            151.86111,
+            -24.42778
+          ],
+          [
+            148.76778,
+            -20.27111
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "49807",
+        "place_name": "Dayboro",
+        "lga_name": "Moreton Bay City",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.82528,
+          -27.20167
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "46617",
+        "place_name": "Oyster Creek",
+        "lga_name": "Gladstone Regional",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.86111,
+          -24.42778
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "46888",
+        "place_name": "Mount Rooper",
+        "lga_name": "Whitsunday Regional",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.76778,
+          -20.27111
+        ]
+      }
+    }
+  ]
+}

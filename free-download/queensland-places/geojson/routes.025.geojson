@@ -1,0 +1,564 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 1",
+        "iteration": 1,
+        "point_count": 6,
+        "order": [
+          "McDesme",
+          "Collinsville",
+          "Julatten",
+          "Rossville",
+          "Yaraka",
+          "Cleveland"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            147.39861,
+            -19.62
+          ],
+          [
+            147.82611,
+            -20.55083
+          ],
+          [
+            145.35806,
+            -16.57889
+          ],
+          [
+            145.26639,
+            -15.79556
+          ],
+          [
+            144.19389,
+            -24.89306
+          ],
+          [
+            153.26444,
+            -27.53361
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "42294",
+        "place_name": "McDesme",
+        "lga_name": "Burdekin Shire",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.39861,
+          -19.62
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "46859",
+        "place_name": "Collinsville",
+        "lga_name": "Whitsunday Regional",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.82611,
+          -20.55083
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "48686",
+        "place_name": "Julatten",
+        "lga_name": "Mareeba Shire",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.35806,
+          -16.57889
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "46138",
+        "place_name": "Rossville",
+        "lga_name": "Cook Shire",
+        "sequence": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.26639,
+          -15.79556
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "52077",
+        "place_name": "Yaraka",
+        "lga_name": "Longreach Regional",
+        "sequence": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.19389,
+          -24.89306
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "43629",
+        "place_name": "Cleveland",
+        "lga_name": "Redland City",
+        "sequence": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.26444,
+          -27.53361
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 2",
+        "iteration": 2,
+        "point_count": 5,
+        "order": [
+          "Hebel",
+          "Silverleigh",
+          "Kensington Grove",
+          "Dakenba",
+          "Dingo Beach"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            147.44611,
+            -28.90444
+          ],
+          [
+            151.78083,
+            -27.33333
+          ],
+          [
+            152.47167,
+            -27.53194
+          ],
+          [
+            150.505,
+            -24.34111
+          ],
+          [
+            148.49861,
+            -20.09361
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "42681",
+        "place_name": "Hebel",
+        "lga_name": "Balonne Shire",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.44611,
+          -28.90444
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "48060",
+        "place_name": "Silverleigh",
+        "lga_name": "Toowoomba Regional",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.78083,
+          -27.33333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "45005",
+        "place_name": "Kensington Grove",
+        "lga_name": "Lockyer Valley Regional",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.47167,
+          -27.53194
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "49545",
+        "place_name": "Dakenba",
+        "lga_name": "Banana Shire",
+        "sequence": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.505,
+          -24.34111
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "46863",
+        "place_name": "Dingo Beach",
+        "lga_name": "Whitsunday Regional",
+        "sequence": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.49861,
+          -20.09361
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 3",
+        "iteration": 3,
+        "point_count": 3,
+        "order": [
+          "Nanango",
+          "Severnlea",
+          "Yungaburra"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            151.99278,
+            -26.67194
+          ],
+          [
+            151.91583,
+            -28.70417
+          ],
+          [
+            145.59917,
+            -17.2725
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "49608",
+        "place_name": "Nanango",
+        "lga_name": "South Burnett Regional",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.99278,
+          -26.67194
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "45973",
+        "place_name": "Severnlea",
+        "lga_name": "Southern Downs Regional",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.91583,
+          -28.70417
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "48957",
+        "place_name": "Yungaburra",
+        "lga_name": "Tablelands Regional",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.59917,
+          -17.2725
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 4",
+        "iteration": 4,
+        "point_count": 5,
+        "order": [
+          "Utchee Creek",
+          "Green Hill",
+          "Balnagowan",
+          "Oberina",
+          "Muirlea"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            145.92361,
+            -17.63111
+          ],
+          [
+            145.83333,
+            -17.02306
+          ],
+          [
+            149.01806,
+            -21.11806
+          ],
+          [
+            148.88611,
+            -27.01333
+          ],
+          [
+            152.73306,
+            -27.56861
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "45762",
+        "place_name": "Utchee Creek",
+        "lga_name": "Cassowary Coast Regional",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.92361,
+          -17.63111
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "48662",
+        "place_name": "Green Hill",
+        "lga_name": "Cairns Regional",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.83333,
+          -17.02306
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "49360",
+        "place_name": "Balnagowan",
+        "lga_name": "Mackay Regional",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.01806,
+          -21.11806
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "47446",
+        "place_name": "Oberina",
+        "lga_name": "Maranoa Regional",
+        "sequence": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.88611,
+          -27.01333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "48968",
+        "place_name": "Muirlea",
+        "lga_name": "Ipswich City",
+        "sequence": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.73306,
+          -27.56861
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 5",
+        "iteration": 5,
+        "point_count": 3,
+        "order": [
+          "Isisford",
+          "Monduran",
+          "Blacksoil"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            144.16389,
+            -24.57167
+          ],
+          [
+            151.90944,
+            -24.84361
+          ],
+          [
+            152.70639,
+            -27.57778
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "52076",
+        "place_name": "Isisford",
+        "lga_name": "Longreach Regional",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.16389,
+          -24.57167
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "50044",
+        "place_name": "Monduran",
+        "lga_name": "Bundaberg Regional",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.90944,
+          -24.84361
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "45028",
+        "place_name": "Blacksoil",
+        "lga_name": "Ipswich City",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.70639,
+          -27.57778
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,586 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 1",
+        "iteration": 1,
+        "point_count": 6,
+        "order": [
+          "Nobby",
+          "Allan",
+          "Closeburn",
+          "Boompa",
+          "Drillham South",
+          "Gilbert River"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            151.88444,
+            -27.81528
+          ],
+          [
+            151.95028,
+            -28.19722
+          ],
+          [
+            152.8675,
+            -27.32778
+          ],
+          [
+            152.14278,
+            -25.635
+          ],
+          [
+            149.99083,
+            -26.79167
+          ],
+          [
+            142.75306,
+            -18.25611
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "50182",
+        "place_name": "Nobby",
+        "lga_name": "Toowoomba Regional",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.88444,
+          -27.81528
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "45903",
+        "place_name": "Allan",
+        "lga_name": "Southern Downs Regional",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.95028,
+          -28.19722
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "45384",
+        "place_name": "Closeburn",
+        "lga_name": "Moreton Bay City",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.8675,
+          -27.32778
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "46630",
+        "place_name": "Boompa",
+        "lga_name": "Fraser Coast Regional",
+        "sequence": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.14278,
+          -25.635
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "47693",
+        "place_name": "Drillham South",
+        "lga_name": "Western Downs Regional",
+        "sequence": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.99083,
+          -26.79167
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "41664",
+        "place_name": "Gilbert River",
+        "lga_name": "Etheridge Shire",
+        "sequence": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.75306,
+          -18.25611
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 2",
+        "iteration": 2,
+        "point_count": 5,
+        "order": [
+          "Taranganba",
+          "St Lawrence",
+          "Beachmere",
+          "Vernor",
+          "Finlayvale"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            150.75306,
+            -23.15028
+          ],
+          [
+            149.51611,
+            -22.34611
+          ],
+          [
+            153.04861,
+            -27.10833
+          ],
+          [
+            152.61778,
+            -27.47333
+          ],
+          [
+            145.34778,
+            -16.46028
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "48889",
+        "place_name": "Taranganba",
+        "lga_name": "Livingstone Shire",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.75306,
+          -23.15028
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "47035",
+        "place_name": "St Lawrence",
+        "lga_name": "Isaac Regional",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.51611,
+          -22.34611
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "50067",
+        "place_name": "Beachmere",
+        "lga_name": "Moreton Bay City",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.04861,
+          -27.10833
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "44927",
+        "place_name": "Vernor",
+        "lga_name": "Somerset Regional",
+        "sequence": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.61778,
+          -27.47333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "48633",
+        "place_name": "Finlayvale",
+        "lga_name": "Douglas Shire",
+        "sequence": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.34778,
+          -16.46028
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 3",
+        "iteration": 3,
+        "point_count": 3,
+        "order": [
+          "Kumbarilla",
+          "Jaffa",
+          "Carrington"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            150.8925,
+            -27.26556
+          ],
+          [
+            145.99306,
+            -17.78556
+          ],
+          [
+            145.45222,
+            -17.29722
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "47722",
+        "place_name": "Kumbarilla",
+        "lga_name": "Western Downs Regional",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.8925,
+          -27.26556
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "45712",
+        "place_name": "Jaffa",
+        "lga_name": "Cassowary Coast Regional",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.99306,
+          -17.78556
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "48563",
+        "place_name": "Carrington",
+        "lga_name": "Tablelands Regional",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.45222,
+          -17.29722
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 4",
+        "iteration": 4,
+        "point_count": 6,
+        "order": [
+          "Cardstone",
+          "Hudson",
+          "Lynam",
+          "Deep Creek",
+          "Boondooma",
+          "Kents Pocket"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            145.71444,
+            -17.8425
+          ],
+          [
+            145.9975,
+            -17.52639
+          ],
+          [
+            146.54722,
+            -19.24889
+          ],
+          [
+            151.47611,
+            -25.65389
+          ],
+          [
+            151.21778,
+            -26.15667
+          ],
+          [
+            152.65639,
+            -27.98778
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "45659",
+        "place_name": "Cardstone",
+        "lga_name": "Cassowary Coast Regional",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.71444,
+          -17.8425
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "45708",
+        "place_name": "Hudson",
+        "lga_name": "Cassowary Coast Regional",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.9975,
+          -17.52639
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "44607",
+        "place_name": "Lynam",
+        "lga_name": "Townsville City",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.54722,
+          -19.24889
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "45339",
+        "place_name": "Deep Creek",
+        "lga_name": "North Burnett Regional",
+        "sequence": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.47611,
+          -25.65389
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "46287",
+        "place_name": "Boondooma",
+        "lga_name": "South Burnett Regional",
+        "sequence": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.21778,
+          -26.15667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "45153",
+        "place_name": "Kents Pocket",
+        "lga_name": "Scenic Rim Regional",
+        "sequence": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.65639,
+          -27.98778
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 5",
+        "iteration": 5,
+        "point_count": 3,
+        "order": [
+          "Taroom (Western Downs Regional)",
+          "Rosewood",
+          "Calen"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            149.89667,
+            -25.82667
+          ],
+          [
+            152.59917,
+            -27.64028
+          ],
+          [
+            148.72444,
+            -20.895
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "47750",
+        "place_name": "Taroom (Western Downs Regional)",
+        "lga_name": "Western Downs Regional",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.89667,
+          -25.82667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "45100",
+        "place_name": "Rosewood",
+        "lga_name": "Ipswich City",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.59917,
+          -27.64028
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "46767",
+        "place_name": "Calen",
+        "lga_name": "Mackay Regional",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.72444,
+          -20.895
+        ]
+      }
+    }
+  ]
+}

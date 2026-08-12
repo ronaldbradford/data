@@ -1,0 +1,586 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 1",
+        "iteration": 1,
+        "point_count": 5,
+        "order": [
+          "Buaraba South",
+          "Sandy Camp",
+          "Laravale",
+          "Eungella Hinterland",
+          "Wangaratta"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            152.24278,
+            -27.42028
+          ],
+          [
+            151.81778,
+            -27.98194
+          ],
+          [
+            152.93306,
+            -28.09
+          ],
+          [
+            148.4225,
+            -20.9225
+          ],
+          [
+            147.46139,
+            -19.82861
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "44946",
+        "place_name": "Buaraba South",
+        "lga_name": "Lockyer Valley Regional",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.24278,
+          -27.42028
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "48058",
+        "place_name": "Sandy Camp",
+        "lga_name": "Toowoomba Regional",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.81778,
+          -27.98194
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "49843",
+        "place_name": "Laravale",
+        "lga_name": "Scenic Rim Regional",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.93306,
+          -28.09
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "46868",
+        "place_name": "Eungella Hinterland",
+        "lga_name": "Mackay Regional",
+        "sequence": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.4225,
+          -20.9225
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "42304",
+        "place_name": "Wangaratta",
+        "lga_name": "Burdekin Shire",
+        "sequence": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.46139,
+          -19.82861
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 2",
+        "iteration": 2,
+        "point_count": 6,
+        "order": [
+          "Kooroongarra",
+          "Loch Lomond",
+          "Balmoral Ridge",
+          "Boonooroo",
+          "Cannindah",
+          "Muckadilla"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            151.26778,
+            -28.08167
+          ],
+          [
+            152.19333,
+            -28.33056
+          ],
+          [
+            152.89167,
+            -26.74361
+          ],
+          [
+            152.89694,
+            -25.65528
+          ],
+          [
+            151.21361,
+            -24.87472
+          ],
+          [
+            148.36806,
+            -26.64583
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "49211",
+        "place_name": "Kooroongarra",
+        "lga_name": "Toowoomba Regional",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.26778,
+          -28.08167
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "45948",
+        "place_name": "Loch Lomond",
+        "lga_name": "Southern Downs Regional",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.19333,
+          -28.33056
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "48505",
+        "place_name": "Balmoral Ridge",
+        "lga_name": "Sunshine Coast Regional",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.89167,
+          -26.74361
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "46631",
+        "place_name": "Boonooroo",
+        "lga_name": "Fraser Coast Regional",
+        "sequence": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.89694,
+          -25.65528
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "45328",
+        "place_name": "Cannindah",
+        "lga_name": "North Burnett Regional",
+        "sequence": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.21361,
+          -24.87472
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "47442",
+        "place_name": "Muckadilla",
+        "lga_name": "Maranoa Regional",
+        "sequence": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.36806,
+          -26.64583
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 3",
+        "iteration": 3,
+        "point_count": 3,
+        "order": [
+          "Cobbs Hill",
+          "Coorooman",
+          "Quilpie"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            151.91083,
+            -26.05694
+          ],
+          [
+            150.74306,
+            -23.28583
+          ],
+          [
+            144.19611,
+            -26.87944
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "46207",
+        "place_name": "Cobbs Hill",
+        "lga_name": "South Burnett Regional",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.91083,
+          -26.05694
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "48583",
+        "place_name": "Coorooman",
+        "lga_name": "Livingstone Shire",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.74306,
+          -23.28583
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "50254",
+        "place_name": "Quilpie",
+        "lga_name": "Quilpie Shire",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.19611,
+          -26.87944
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 4",
+        "iteration": 4,
+        "point_count": 3,
+        "order": [
+          "Charlwood",
+          "Glenore Grove",
+          "Rosemount"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            152.57722,
+            -28.01083
+          ],
+          [
+            152.40889,
+            -27.52167
+          ],
+          [
+            153.00111,
+            -26.62333
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "45126",
+        "place_name": "Charlwood",
+        "lga_name": "Scenic Rim Regional",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.57722,
+          -28.01083
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "44956",
+        "place_name": "Glenore Grove",
+        "lga_name": "Lockyer Valley Regional",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.40889,
+          -27.52167
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "48861",
+        "place_name": "Rosemount",
+        "lga_name": "Sunshine Coast Regional",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.00111,
+          -26.62333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 5",
+        "iteration": 5,
+        "point_count": 6,
+        "order": [
+          "Sturt (Boulia Shire)",
+          "Anakie Siding",
+          "Zilzie",
+          "Avondale",
+          "Woondul",
+          "Orallo"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            138.25306,
+            -23.30361
+          ],
+          [
+            147.8075,
+            -23.575
+          ],
+          [
+            150.80972,
+            -23.29611
+          ],
+          [
+            152.14694,
+            -24.765
+          ],
+          [
+            151.05,
+            -28.08333
+          ],
+          [
+            148.51194,
+            -26.28917
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "42337",
+        "place_name": "Sturt (Boulia Shire)",
+        "lga_name": "Boulia Shire",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.25306,
+          -23.30361
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "50495",
+        "place_name": "Anakie Siding",
+        "lga_name": "Central Highlands Regional",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.8075,
+          -23.575
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "48958",
+        "place_name": "Zilzie",
+        "lga_name": "Livingstone Shire",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.80972,
+          -23.29611
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "44683",
+        "place_name": "Avondale",
+        "lga_name": "Bundaberg Regional",
+        "sequence": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.14694,
+          -24.765
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "48099",
+        "place_name": "Woondul",
+        "lga_name": "Toowoomba Regional",
+        "sequence": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.05,
+          -28.08333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "47447",
+        "place_name": "Orallo",
+        "lga_name": "Maranoa Regional",
+        "sequence": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.51194,
+          -26.28917
+        ]
+      }
+    }
+  ]
+}

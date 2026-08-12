@@ -1,0 +1,608 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 1",
+        "iteration": 1,
+        "point_count": 4,
+        "order": [
+          "Ropeley",
+          "Grays Gate",
+          "Coochin Creek",
+          "Lyndside"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            152.26389,
+            -27.65639
+          ],
+          [
+            151.31944,
+            -27.96944
+          ],
+          [
+            153.05555725,
+            -26.88944435
+          ],
+          [
+            143.6275,
+            -16.91667
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "44988",
+        "place_name": "Ropeley",
+        "lga_name": "Lockyer Valley Regional",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.26389,
+          -27.65639
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "49603",
+        "place_name": "Grays Gate",
+        "lga_name": "Toowoomba Regional",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.31944,
+          -27.96944
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "52497",
+        "place_name": "Coochin Creek",
+        "lga_name": "Sunshine Coast Regional",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.05555725,
+          -26.88944435
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "48735",
+        "place_name": "Lyndside",
+        "lga_name": "Mareeba Shire",
+        "sequence": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.6275,
+          -16.91667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 2",
+        "iteration": 2,
+        "point_count": 5,
+        "order": [
+          "Lockhart River (Cook Shire)",
+          "Eungella Hinterland",
+          "Canal Creek",
+          "Gunnewin",
+          "Wilsons Plains"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            143.58833,
+            -13.07972
+          ],
+          [
+            148.4225,
+            -20.9225
+          ],
+          [
+            150.39528,
+            -22.945
+          ],
+          [
+            148.60389,
+            -25.97167
+          ],
+          [
+            152.65111,
+            -27.84167
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "50590",
+        "place_name": "Lockhart River (Cook Shire)",
+        "lga_name": "Cook Shire",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.58833,
+          -13.07972
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "46868",
+        "place_name": "Eungella Hinterland",
+        "lga_name": "Mackay Regional",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.4225,
+          -20.9225
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "48559",
+        "place_name": "Canal Creek",
+        "lga_name": "Livingstone Shire",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.39528,
+          -22.945
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "47426",
+        "place_name": "Gunnewin",
+        "lga_name": "Maranoa Regional",
+        "sequence": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.60389,
+          -25.97167
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "49610",
+        "place_name": "Wilsons Plains",
+        "lga_name": "Scenic Rim Regional",
+        "sequence": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.65111,
+          -27.84167
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 3",
+        "iteration": 3,
+        "point_count": 5,
+        "order": [
+          "Mount Mulligan",
+          "Bungundarra",
+          "Island Plantation",
+          "Fernvale",
+          "Brigalow"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            144.86833,
+            -16.77417
+          ],
+          [
+            150.64028,
+            -23.04583
+          ],
+          [
+            152.73028,
+            -25.49139
+          ],
+          [
+            152.65111,
+            -27.44861
+          ],
+          [
+            150.81639,
+            -26.88167
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "48788",
+        "place_name": "Mount Mulligan",
+        "lga_name": "Mareeba Shire",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.86833,
+          -16.77417
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "49341",
+        "place_name": "Bungundarra",
+        "lga_name": "Livingstone Shire",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.64028,
+          -23.04583
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "46656",
+        "place_name": "Island Plantation",
+        "lga_name": "Fraser Coast Regional",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.73028,
+          -25.49139
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "44867",
+        "place_name": "Fernvale",
+        "lga_name": "Somerset Regional",
+        "sequence": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.65111,
+          -27.44861
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "47670",
+        "place_name": "Brigalow",
+        "lga_name": "Western Downs Regional",
+        "sequence": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.81639,
+          -26.88167
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 4",
+        "iteration": 4,
+        "point_count": 4,
+        "order": [
+          "Yagoonya",
+          "Pelham",
+          "Darr Creek",
+          "Diamond Valley"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            141.57056,
+            -16.47083
+          ],
+          [
+            150.28944,
+            -26.27917
+          ],
+          [
+            151.15722,
+            -26.52194
+          ],
+          [
+            152.92639,
+            -26.75611
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "42976",
+        "place_name": "Yagoonya",
+        "lga_name": "Carpentaria Shire",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          141.57056,
+          -16.47083
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "47736",
+        "place_name": "Pelham",
+        "lga_name": "Western Downs Regional",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.28944,
+          -26.27917
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "47690",
+        "place_name": "Darr Creek",
+        "lga_name": "Western Downs Regional",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.15722,
+          -26.52194
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "50949",
+        "place_name": "Diamond Valley",
+        "lga_name": "Sunshine Coast Regional",
+        "sequence": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.92639,
+          -26.75611
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 5",
+        "iteration": 5,
+        "point_count": 6,
+        "order": [
+          "Charlwood",
+          "Coonambula",
+          "Boyne Island",
+          "Toonpan",
+          "Tully",
+          "Humeburn"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            152.57722,
+            -28.01083
+          ],
+          [
+            151.09278,
+            -25.54278
+          ],
+          [
+            151.32139,
+            -23.93361
+          ],
+          [
+            146.87194,
+            -19.50389
+          ],
+          [
+            145.92972,
+            -17.94333
+          ],
+          [
+            145.27806,
+            -27.41222
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "45126",
+        "place_name": "Charlwood",
+        "lga_name": "Scenic Rim Regional",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.57722,
+          -28.01083
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "45335",
+        "place_name": "Coonambula",
+        "lga_name": "North Burnett Regional",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.09278,
+          -25.54278
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "49334",
+        "place_name": "Boyne Island",
+        "lga_name": "Gladstone Regional",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.32139,
+          -23.93361
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "44646",
+        "place_name": "Toonpan",
+        "lga_name": "Townsville City",
+        "sequence": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.87194,
+          -19.50389
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "45760",
+        "place_name": "Tully",
+        "lga_name": "Cassowary Coast Regional",
+        "sequence": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.92972,
+          -17.94333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "49191",
+        "place_name": "Humeburn",
+        "lga_name": "Paroo Shire",
+        "sequence": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.27806,
+          -27.41222
+        ]
+      }
+    }
+  ]
+}

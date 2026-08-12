@@ -1,0 +1,564 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 1",
+        "iteration": 1,
+        "point_count": 4,
+        "order": [
+          "Horn",
+          "Karumba",
+          "Damper Creek",
+          "Hutton Creek"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            142.31194,
+            -10.61528
+          ],
+          [
+            140.87722,
+            -17.48778
+          ],
+          [
+            146.10056,
+            -18.36972
+          ],
+          [
+            148.42667,
+            -25.68528
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "41960",
+        "place_name": "Horn",
+        "lga_name": "Torres Shire",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.31194,
+          -10.61528
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "42910",
+        "place_name": "Karumba",
+        "lga_name": "Carpentaria Shire",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.87722,
+          -17.48778
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "45663",
+        "place_name": "Damper Creek",
+        "lga_name": "Cassowary Coast Regional",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.10056,
+          -18.36972
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "49166",
+        "place_name": "Hutton Creek",
+        "lga_name": "Maranoa Regional",
+        "sequence": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.42667,
+          -25.68528
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 2",
+        "iteration": 2,
+        "point_count": 4,
+        "order": [
+          "Wangaratta",
+          "Alva",
+          "Campbells Pocket",
+          "Sugarloaf (Southern Downs Regional)"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            147.46139,
+            -19.82861
+          ],
+          [
+            147.44389,
+            -19.44528
+          ],
+          [
+            152.80472,
+            -27.07806
+          ],
+          [
+            152.03583,
+            -28.71056
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "42304",
+        "place_name": "Wangaratta",
+        "lga_name": "Burdekin Shire",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.46139,
+          -19.82861
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "44664",
+        "place_name": "Alva",
+        "lga_name": "Burdekin Shire",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.44389,
+          -19.44528
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "45433",
+        "place_name": "Campbells Pocket",
+        "lga_name": "Moreton Bay City",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.80472,
+          -27.07806
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "47652",
+        "place_name": "Sugarloaf (Southern Downs Regional)",
+        "lga_name": "Southern Downs Regional",
+        "sequence": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.03583,
+          -28.71056
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 3",
+        "iteration": 3,
+        "point_count": 4,
+        "order": [
+          "Running Creek",
+          "Glass House Mountains",
+          "Jackson North",
+          "Windeyer"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            152.90889,
+            -28.27194
+          ],
+          [
+            152.93111,
+            -26.90278
+          ],
+          [
+            149.64722,
+            -26.46111
+          ],
+          [
+            146.49389,
+            -24.56722
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "45185",
+        "place_name": "Running Creek",
+        "lga_name": "Scenic Rim Regional",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.90889,
+          -28.27194
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "48648",
+        "place_name": "Glass House Mountains",
+        "lga_name": "Sunshine Coast Regional",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.93111,
+          -26.90278
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "47432",
+        "place_name": "Jackson North",
+        "lga_name": "Maranoa Regional",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.64722,
+          -26.46111
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "47067",
+        "place_name": "Windeyer",
+        "lga_name": "Blackall-Tambo Regional",
+        "sequence": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.49389,
+          -24.56722
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 4",
+        "iteration": 4,
+        "point_count": 5,
+        "order": [
+          "Mungindi (Goondiwindi Regional)",
+          "Manyung (South Burnett Regional)",
+          "Norwell",
+          "Mount Alma",
+          "O'Briens Hill"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            149.08583,
+            -28.81111
+          ],
+          [
+            151.99222,
+            -26.19889
+          ],
+          [
+            153.3125,
+            -27.77694
+          ],
+          [
+            150.87556,
+            -24.09056
+          ],
+          [
+            145.98722,
+            -17.5175
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "47822",
+        "place_name": "Mungindi (Goondiwindi Regional)",
+        "lga_name": "Goondiwindi Regional",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.08583,
+          -28.81111
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "46240",
+        "place_name": "Manyung (South Burnett Regional)",
+        "lga_name": "South Burnett Regional",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.99222,
+          -26.19889
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "46071",
+        "place_name": "Norwell",
+        "lga_name": "Gold Coast City",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.3125,
+          -27.77694
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "46613",
+        "place_name": "Mount Alma",
+        "lga_name": "Gladstone Regional",
+        "sequence": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.87556,
+          -24.09056
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "47281",
+        "place_name": "O'Briens Hill",
+        "lga_name": "Cassowary Coast Regional",
+        "sequence": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.98722,
+          -17.5175
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 5",
+        "iteration": 5,
+        "point_count": 5,
+        "order": [
+          "Silver Creek",
+          "Crystal Brook (Whitsunday Regional)",
+          "Wycarbah",
+          "Ficks Crossing",
+          "Prince Henry Heights"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            148.47667,
+            -20.47472
+          ],
+          [
+            148.48083,
+            -20.37833
+          ],
+          [
+            150.09556,
+            -23.495
+          ],
+          [
+            151.89278,
+            -26.265
+          ],
+          [
+            151.99389,
+            -27.55278
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "46899",
+        "place_name": "Silver Creek",
+        "lga_name": "Whitsunday Regional",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.47667,
+          -20.47472
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "46862",
+        "place_name": "Crystal Brook (Whitsunday Regional)",
+        "lga_name": "Whitsunday Regional",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.48083,
+          -20.37833
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "48950",
+        "place_name": "Wycarbah",
+        "lga_name": "Rockhampton Regional",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.09556,
+          -23.495
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "46218",
+        "place_name": "Ficks Crossing",
+        "lga_name": "South Burnett Regional",
+        "sequence": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.89278,
+          -26.265
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "48043",
+        "place_name": "Prince Henry Heights",
+        "lga_name": "Toowoomba Regional",
+        "sequence": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.99389,
+          -27.55278
+        ]
+      }
+    }
+  ]
+}

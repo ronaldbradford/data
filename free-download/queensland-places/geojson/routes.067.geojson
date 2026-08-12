@@ -1,0 +1,498 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 1",
+        "iteration": 1,
+        "point_count": 3,
+        "order": [
+          "Obum Obum",
+          "Harristown",
+          "Glendale"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            152.65444,
+            -27.92306
+          ],
+          [
+            151.92611,
+            -27.57778
+          ],
+          [
+            150.45444,
+            -23.24583
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "45179",
+        "place_name": "Obum Obum",
+        "lga_name": "Scenic Rim Regional",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.65444,
+          -27.92306
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "47965",
+        "place_name": "Harristown",
+        "lga_name": "Toowoomba Regional",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.92611,
+          -27.57778
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "48653",
+        "place_name": "Glendale",
+        "lga_name": "Livingstone Shire",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.45444,
+          -23.24583
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 2",
+        "iteration": 2,
+        "point_count": 6,
+        "order": [
+          "Bidwill",
+          "Tinnanbar",
+          "West Haldon (Toowoomba Regional)",
+          "Fletcher",
+          "Durham Downs",
+          "Mount Molloy"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            152.71944,
+            -25.58583
+          ],
+          [
+            152.96222,
+            -25.775
+          ],
+          [
+            152.08556,
+            -27.78306
+          ],
+          [
+            151.86972,
+            -28.76861
+          ],
+          [
+            149.07333,
+            -26.11667
+          ],
+          [
+            145.385,
+            -16.70639
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "46629",
+        "place_name": "Bidwill",
+        "lga_name": "Fraser Coast Regional",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.71944,
+          -25.58583
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "46681",
+        "place_name": "Tinnanbar",
+        "lga_name": "Fraser Coast Regional",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.96222,
+          -25.775
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "48090",
+        "place_name": "West Haldon (Toowoomba Regional)",
+        "lga_name": "Toowoomba Regional",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.08556,
+          -27.78306
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "50287",
+        "place_name": "Fletcher",
+        "lga_name": "Southern Downs Regional",
+        "sequence": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.86972,
+          -28.76861
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "50008",
+        "place_name": "Durham Downs",
+        "lga_name": "Maranoa Regional",
+        "sequence": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.07333,
+          -26.11667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "48785",
+        "place_name": "Mount Molloy",
+        "lga_name": "Mareeba Shire",
+        "sequence": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.385,
+          -16.70639
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 3",
+        "iteration": 3,
+        "point_count": 4,
+        "order": [
+          "Quinalow",
+          "St Helens (Fraser Coast Regional)",
+          "Tyrconnel (Murweh Shire)",
+          "No. 4 Branch"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            151.61889,
+            -27.13194
+          ],
+          [
+            152.70528,
+            -25.48306
+          ],
+          [
+            147.31806,
+            -26.33639
+          ],
+          [
+            145.96972,
+            -17.77333
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "52222",
+        "place_name": "Quinalow",
+        "lga_name": "Toowoomba Regional",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.61889,
+          -27.13194
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "46744",
+        "place_name": "St Helens (Fraser Coast Regional)",
+        "lga_name": "Fraser Coast Regional",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.70528,
+          -25.48306
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "42934",
+        "place_name": "Tyrconnel (Murweh Shire)",
+        "lga_name": "Murweh Shire",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.31806,
+          -26.33639
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "45743",
+        "place_name": "No. 4 Branch",
+        "lga_name": "Cassowary Coast Regional",
+        "sequence": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.96972,
+          -17.77333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 4",
+        "iteration": 4,
+        "point_count": 3,
+        "order": [
+          "Damper Creek",
+          "Utchee Creek",
+          "North Maclean"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            146.10056,
+            -18.36972
+          ],
+          [
+            145.92361,
+            -17.63111
+          ],
+          [
+            152.99778,
+            -27.76639
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "45663",
+        "place_name": "Damper Creek",
+        "lga_name": "Cassowary Coast Regional",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.10056,
+          -18.36972
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "45762",
+        "place_name": "Utchee Creek",
+        "lga_name": "Cassowary Coast Regional",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.92361,
+          -17.63111
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "48339",
+        "place_name": "North Maclean",
+        "lga_name": "Logan City",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.99778,
+          -27.76639
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 5",
+        "iteration": 5,
+        "point_count": 3,
+        "order": [
+          "Flagstone Creek",
+          "Noosa North Shore",
+          "Hamilton Plains"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            152.09472,
+            -27.62861
+          ],
+          [
+            153.05111,
+            -26.27333
+          ],
+          [
+            148.57889,
+            -20.38417
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "45003",
+        "place_name": "Flagstone Creek",
+        "lga_name": "Lockyer Valley Regional",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.09472,
+          -27.62861
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "48809",
+        "place_name": "Noosa North Shore",
+        "lga_name": "Noosa Shire",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.05111,
+          -26.27333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "46877",
+        "place_name": "Hamilton Plains",
+        "lga_name": "Whitsunday Regional",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.57889,
+          -20.38417
+        ]
+      }
+    }
+  ]
+}

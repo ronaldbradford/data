@@ -1,0 +1,608 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 1",
+        "iteration": 1,
+        "point_count": 4,
+        "order": [
+          "Nearum",
+          "Amamoor Creek",
+          "Fletcher Creek",
+          "Mount Julian"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            151.81444,
+            -25.06639
+          ],
+          [
+            152.50694,
+            -26.38611
+          ],
+          [
+            150.4175,
+            -23.79278
+          ],
+          [
+            148.605,
+            -20.37722
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "44753",
+        "place_name": "Nearum",
+        "lga_name": "Bundaberg Regional",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.81444,
+          -25.06639
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "46298",
+        "place_name": "Amamoor Creek",
+        "lga_name": "Gympie Regional",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.50694,
+          -26.38611
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "48637",
+        "place_name": "Fletcher Creek",
+        "lga_name": "Rockhampton Regional",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.4175,
+          -23.79278
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "46885",
+        "place_name": "Mount Julian",
+        "lga_name": "Whitsunday Regional",
+        "sequence": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.605,
+          -20.37722
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 2",
+        "iteration": 2,
+        "point_count": 5,
+        "order": [
+          "Lower Cowley",
+          "Basilisk",
+          "Waugh Pocket",
+          "Conjuboy",
+          "Broadwater"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            146.07472,
+            -17.69639
+          ],
+          [
+            145.995,
+            -17.67083
+          ],
+          [
+            145.93167,
+            -17.44083
+          ],
+          [
+            144.60194,
+            -18.71944
+          ],
+          [
+            151.87889,
+            -28.66111
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "45719",
+        "place_name": "Lower Cowley",
+        "lga_name": "Cassowary Coast Regional",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.07472,
+          -17.69639
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "45677",
+        "place_name": "Basilisk",
+        "lga_name": "Cassowary Coast Regional",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.995,
+          -17.67083
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "48925",
+        "place_name": "Waugh Pocket",
+        "lga_name": "Cairns Regional",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.93167,
+          -17.44083
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "41669",
+        "place_name": "Conjuboy",
+        "lga_name": "Etheridge Shire",
+        "sequence": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.60194,
+          -18.71944
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "45911",
+        "place_name": "Broadwater",
+        "lga_name": "Southern Downs Regional",
+        "sequence": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.87889,
+          -28.66111
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 3",
+        "iteration": 3,
+        "point_count": 5,
+        "order": [
+          "Hughenden",
+          "Maadi",
+          "Jaggan",
+          "Wellesley Islands",
+          "Mount Forbes (Scenic Rim Regional)"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            144.19667,
+            -20.86333
+          ],
+          [
+            145.99111,
+            -17.83306
+          ],
+          [
+            145.57278,
+            -17.40889
+          ],
+          [
+            139.38806,
+            -16.53306
+          ],
+          [
+            152.60972,
+            -27.74667
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "52091",
+        "place_name": "Hughenden",
+        "lga_name": "Flinders Shire",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.19667,
+          -20.86333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "45722",
+        "place_name": "Maadi",
+        "lga_name": "Cassowary Coast Regional",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.99111,
+          -17.83306
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "48682",
+        "place_name": "Jaggan",
+        "lga_name": "Tablelands Regional",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.57278,
+          -17.40889
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "42536",
+        "place_name": "Wellesley Islands",
+        "lga_name": "Mornington Shire",
+        "sequence": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.38806,
+          -16.53306
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "45215",
+        "place_name": "Mount Forbes (Scenic Rim Regional)",
+        "lga_name": "Scenic Rim Regional",
+        "sequence": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.60972,
+          -27.74667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 4",
+        "iteration": 4,
+        "point_count": 6,
+        "order": [
+          "Bororen",
+          "Watalgan",
+          "Yandina Creek",
+          "Euramo",
+          "East Palmerston",
+          "Gunpowder"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            151.51667,
+            -24.275
+          ],
+          [
+            152.01389,
+            -24.64778
+          ],
+          [
+            153.02639,
+            -26.52639
+          ],
+          [
+            145.89611,
+            -18.00444
+          ],
+          [
+            145.84056,
+            -17.59444
+          ],
+          [
+            139.285,
+            -19.80444
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "49131",
+        "place_name": "Bororen",
+        "lga_name": "Gladstone Regional",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.51667,
+          -24.275
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "47146",
+        "place_name": "Watalgan",
+        "lga_name": "Bundaberg Regional",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.01389,
+          -24.64778
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "52242",
+        "place_name": "Yandina Creek",
+        "lga_name": "Sunshine Coast Regional",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.02639,
+          -26.52639
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "45672",
+        "place_name": "Euramo",
+        "lga_name": "Cassowary Coast Regional",
+        "sequence": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.89611,
+          -18.00444
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "49824",
+        "place_name": "East Palmerston",
+        "lga_name": "Cassowary Coast Regional",
+        "sequence": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.84056,
+          -17.59444
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "42313",
+        "place_name": "Gunpowder",
+        "lga_name": "Mount Isa City",
+        "sequence": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.285,
+          -19.80444
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 5",
+        "iteration": 5,
+        "point_count": 4,
+        "order": [
+          "Ottaba",
+          "Boyne Island",
+          "Nandowrie",
+          "Bloomfield (Douglas Shire)"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            152.38444,
+            -27.15667
+          ],
+          [
+            151.32139,
+            -23.93361
+          ],
+          [
+            147.51778,
+            -24.32444
+          ],
+          [
+            145.24694,
+            -16.02778
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "44906",
+        "place_name": "Ottaba",
+        "lga_name": "Somerset Regional",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.38444,
+          -27.15667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "49334",
+        "place_name": "Boyne Island",
+        "lga_name": "Gladstone Regional",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.32139,
+          -23.93361
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "46969",
+        "place_name": "Nandowrie",
+        "lga_name": "Central Highlands Regional",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.51778,
+          -24.32444
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "48532",
+        "place_name": "Bloomfield (Douglas Shire)",
+        "lga_name": "Douglas Shire",
+        "sequence": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.24694,
+          -16.02778
+        ]
+      }
+    }
+  ]
+}

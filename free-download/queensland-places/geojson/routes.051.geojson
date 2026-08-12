@@ -1,0 +1,564 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 1",
+        "iteration": 1,
+        "point_count": 4,
+        "order": [
+          "Struck Oil",
+          "Kandanga Creek",
+          "Thoopara",
+          "Bombeeta"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            150.44639,
+            -23.6125
+          ],
+          [
+            152.62639,
+            -26.40139
+          ],
+          [
+            148.57472,
+            -20.55278
+          ],
+          [
+            145.96139,
+            -17.69306
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "48883",
+        "place_name": "Struck Oil",
+        "lga_name": "Rockhampton Regional",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.44639,
+          -23.6125
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "46345",
+        "place_name": "Kandanga Creek",
+        "lga_name": "Gympie Regional",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.62639,
+          -26.40139
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "49378",
+        "place_name": "Thoopara",
+        "lga_name": "Whitsunday Regional",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.57472,
+          -20.55278
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "45679",
+        "place_name": "Bombeeta",
+        "lga_name": "Cassowary Coast Regional",
+        "sequence": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.96139,
+          -17.69306
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 2",
+        "iteration": 2,
+        "point_count": 4,
+        "order": [
+          "Thoopara",
+          "Georgetown",
+          "Winton",
+          "Widgee Crossing North"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            148.57472,
+            -20.55278
+          ],
+          [
+            143.345,
+            -18.24194
+          ],
+          [
+            143.03833,
+            -22.38222
+          ],
+          [
+            152.62472,
+            -26.18444
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "49378",
+        "place_name": "Thoopara",
+        "lga_name": "Whitsunday Regional",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.57472,
+          -20.55278
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "47872",
+        "place_name": "Georgetown",
+        "lga_name": "Etheridge Shire",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.345,
+          -18.24194
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "49358",
+        "place_name": "Winton",
+        "lga_name": "Winton Shire",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.03833,
+          -22.38222
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "46398",
+        "place_name": "Widgee Crossing North",
+        "lga_name": "Gympie Regional",
+        "sequence": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.62472,
+          -26.18444
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 3",
+        "iteration": 3,
+        "point_count": 6,
+        "order": [
+          "Winton",
+          "Minerva",
+          "Dumgree",
+          "South Kolan",
+          "White Rock (Ipswich City)",
+          "Wellesley"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            143.03833,
+            -22.38222
+          ],
+          [
+            147.93333,
+            -23.97167
+          ],
+          [
+            150.63889,
+            -24.17139
+          ],
+          [
+            152.1775,
+            -24.92806
+          ],
+          [
+            152.84889,
+            -27.695
+          ],
+          [
+            148.90417,
+            -27.39722
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "49358",
+        "place_name": "Winton",
+        "lga_name": "Winton Shire",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.03833,
+          -22.38222
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "50503",
+        "place_name": "Minerva",
+        "lga_name": "Central Highlands Regional",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.93333,
+          -23.97167
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "49784",
+        "place_name": "Dumgree",
+        "lga_name": "Banana Shire",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.63889,
+          -24.17139
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "47145",
+        "place_name": "South Kolan",
+        "lga_name": "Bundaberg Regional",
+        "sequence": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.1775,
+          -24.92806
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "52506",
+        "place_name": "White Rock (Ipswich City)",
+        "lga_name": "Ipswich City",
+        "sequence": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.84889,
+          -27.695
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "49175",
+        "place_name": "Wellesley",
+        "lga_name": "Maranoa Regional",
+        "sequence": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.90417,
+          -27.39722
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 4",
+        "iteration": 4,
+        "point_count": 5,
+        "order": [
+          "Kerry",
+          "Mount Barney",
+          "Darling Heights",
+          "Tinana South",
+          "Conjuboy"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            153.03361,
+            -28.10389
+          ],
+          [
+            152.70778,
+            -28.27778
+          ],
+          [
+            151.92306,
+            -27.60556
+          ],
+          [
+            152.66972,
+            -25.58722
+          ],
+          [
+            144.60194,
+            -18.71944
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "47778",
+        "place_name": "Kerry",
+        "lga_name": "Scenic Rim Regional",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.03361,
+          -28.10389
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "45169",
+        "place_name": "Mount Barney",
+        "lga_name": "Scenic Rim Regional",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.70778,
+          -28.27778
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "47925",
+        "place_name": "Darling Heights",
+        "lga_name": "Toowoomba Regional",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.92306,
+          -27.60556
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "46680",
+        "place_name": "Tinana South",
+        "lga_name": "Fraser Coast Regional",
+        "sequence": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.66972,
+          -25.58722
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "41669",
+        "place_name": "Conjuboy",
+        "lga_name": "Etheridge Shire",
+        "sequence": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.60194,
+          -18.71944
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 5",
+        "iteration": 5,
+        "point_count": 3,
+        "order": [
+          "East Greenmount",
+          "Agnes Water",
+          "Eulo"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            151.95083,
+            -27.76528
+          ],
+          [
+            151.89583,
+            -24.22361
+          ],
+          [
+            145.045,
+            -28.26028
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "49259",
+        "place_name": "East Greenmount",
+        "lga_name": "Toowoomba Regional",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.95083,
+          -27.76528
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "46584",
+        "place_name": "Agnes Water",
+        "lga_name": "Gladstone Regional",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.89583,
+          -24.22361
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "42654",
+        "place_name": "Eulo",
+        "lga_name": "Paroo Shire",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.045,
+          -28.26028
+        ]
+      }
+    }
+  ]
+}

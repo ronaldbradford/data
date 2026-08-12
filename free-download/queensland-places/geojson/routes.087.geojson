@@ -1,0 +1,542 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 1",
+        "iteration": 1,
+        "point_count": 4,
+        "order": [
+          "Emu Vale",
+          "Woolshed",
+          "Canaga",
+          "Badu Island"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            152.34139,
+            -28.19361
+          ],
+          [
+            152.50194,
+            -27.59806
+          ],
+          [
+            150.91306,
+            -26.64722
+          ],
+          [
+            142.13944,
+            -10.12028
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "45925",
+        "place_name": "Emu Vale",
+        "lga_name": "Southern Downs Regional",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.34139,
+          -28.19361
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "45103",
+        "place_name": "Woolshed",
+        "lga_name": "Ipswich City",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.50194,
+          -27.59806
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "49271",
+        "place_name": "Canaga",
+        "lga_name": "Western Downs Regional",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.91306,
+          -26.64722
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "46705",
+        "place_name": "Badu Island",
+        "lga_name": "Torres Strait Island Regional",
+        "sequence": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.13944,
+          -10.12028
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 2",
+        "iteration": 2,
+        "point_count": 5,
+        "order": [
+          "Bellmere",
+          "Merryvale",
+          "Mosquito Creek",
+          "Miva (Gympie Regional)",
+          "Rolleston"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            152.89944,
+            -27.07667
+          ],
+          [
+            152.48389,
+            -27.79722
+          ],
+          [
+            151.25694,
+            -28.26333
+          ],
+          [
+            152.47056,
+            -25.95722
+          ],
+          [
+            148.61,
+            -24.47083
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "52230",
+        "place_name": "Bellmere",
+        "lga_name": "Moreton Bay City",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.89944,
+          -27.07667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "45214",
+        "place_name": "Merryvale",
+        "lga_name": "Scenic Rim Regional",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.48389,
+          -27.79722
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "49285",
+        "place_name": "Mosquito Creek",
+        "lga_name": "Goondiwindi Regional",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.25694,
+          -28.26333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "47615",
+        "place_name": "Miva (Gympie Regional)",
+        "lga_name": "Gympie Regional",
+        "sequence": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.47056,
+          -25.95722
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "46975",
+        "place_name": "Rolleston",
+        "lga_name": "Central Highlands Regional",
+        "sequence": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.61,
+          -24.47083
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 3",
+        "iteration": 3,
+        "point_count": 3,
+        "order": [
+          "Sunshine Acres",
+          "Lockyer Waters",
+          "Westmar"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            152.79139,
+            -25.35667
+          ],
+          [
+            152.40472,
+            -27.45389
+          ],
+          [
+            149.75722,
+            -27.8825
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "46672",
+        "place_name": "Sunshine Acres",
+        "lga_name": "Fraser Coast Regional",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.79139,
+          -25.35667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "44974",
+        "place_name": "Lockyer Waters",
+        "lga_name": "Lockyer Valley Regional",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.40472,
+          -27.45389
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "47758",
+        "place_name": "Westmar",
+        "lga_name": "Western Downs Regional",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.75722,
+          -27.8825
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 4",
+        "iteration": 4,
+        "point_count": 6,
+        "order": [
+          "Elliott",
+          "Gympie",
+          "Neusa Vale",
+          "Atkinsons Dam",
+          "Thulimbah",
+          "Cannon Creek (Southern Downs Regional)"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            152.27806,
+            -25.00472
+          ],
+          [
+            152.66806,
+            -26.18611
+          ],
+          [
+            152.84167,
+            -26.19861
+          ],
+          [
+            152.45111,
+            -27.43194
+          ],
+          [
+            151.93389,
+            -28.55444
+          ],
+          [
+            151.87694,
+            -28.60806
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "48971",
+        "place_name": "Elliott",
+        "lga_name": "Bundaberg Regional",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.27806,
+          -25.00472
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "50208",
+        "place_name": "Gympie",
+        "lga_name": "Gympie Regional",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.66806,
+          -26.18611
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "46370",
+        "place_name": "Neusa Vale",
+        "lga_name": "Gympie Regional",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.84167,
+          -26.19861
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "44832",
+        "place_name": "Atkinsons Dam",
+        "lga_name": "Somerset Regional",
+        "sequence": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.45111,
+          -27.43194
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "45994",
+        "place_name": "Thulimbah",
+        "lga_name": "Southern Downs Regional",
+        "sequence": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.93389,
+          -28.55444
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "45913",
+        "place_name": "Cannon Creek (Southern Downs Regional)",
+        "lga_name": "Southern Downs Regional",
+        "sequence": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.87694,
+          -28.60806
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 5",
+        "iteration": 5,
+        "point_count": 3,
+        "order": [
+          "Dingo Beach",
+          "Peacock Siding",
+          "Tuan"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            148.49861,
+            -20.09361
+          ],
+          [
+            146.00611,
+            -18.69194
+          ],
+          [
+            152.87667,
+            -25.67889
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "46863",
+        "place_name": "Dingo Beach",
+        "lga_name": "Whitsunday Regional",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.49861,
+          -20.09361
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "42526",
+        "place_name": "Peacock Siding",
+        "lga_name": "Hinchinbrook Shire",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.00611,
+          -18.69194
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "46685",
+        "place_name": "Tuan",
+        "lga_name": "Fraser Coast Regional",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.87667,
+          -25.67889
+        ]
+      }
+    }
+  ]
+}

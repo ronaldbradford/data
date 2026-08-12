@@ -1,0 +1,586 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 1",
+        "iteration": 1,
+        "point_count": 6,
+        "order": [
+          "Woodstock",
+          "Waugh Pocket",
+          "Cape Tribulation",
+          "Gamboola",
+          "Edward River",
+          "Forest Springs"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            146.87,
+            -19.63528
+          ],
+          [
+            145.93167,
+            -17.44083
+          ],
+          [
+            145.41917,
+            -16.03472
+          ],
+          [
+            143.40139,
+            -16.42639
+          ],
+          [
+            142.50806,
+            -14.90833
+          ],
+          [
+            152.06667,
+            -27.99111
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "49500",
+        "place_name": "Woodstock",
+        "lga_name": "Townsville City",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.87,
+          -19.63528
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "48925",
+        "place_name": "Waugh Pocket",
+        "lga_name": "Cairns Regional",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.93167,
+          -17.44083
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "48561",
+        "place_name": "Cape Tribulation",
+        "lga_name": "Douglas Shire",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.41917,
+          -16.03472
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "48645",
+        "place_name": "Gamboola",
+        "lga_name": "Mareeba Shire",
+        "sequence": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.40139,
+          -16.42639
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "49791",
+        "place_name": "Edward River",
+        "lga_name": "Cook Shire",
+        "sequence": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.50806,
+          -14.90833
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "45929",
+        "place_name": "Forest Springs",
+        "lga_name": "Southern Downs Regional",
+        "sequence": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.06667,
+          -27.99111
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 2",
+        "iteration": 2,
+        "point_count": 4,
+        "order": [
+          "Yandina",
+          "Kidaman Creek",
+          "Doolbi",
+          "Cameby"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            152.95944,
+            -26.565
+          ],
+          [
+            152.77222,
+            -26.64583
+          ],
+          [
+            152.30389,
+            -25.23028
+          ],
+          [
+            150.46889,
+            -26.63472
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "48952",
+        "place_name": "Yandina",
+        "lga_name": "Sunshine Coast Regional",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.95944,
+          -26.565
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "48699",
+        "place_name": "Kidaman Creek",
+        "lga_name": "Sunshine Coast Regional",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.77222,
+          -26.64583
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "50193",
+        "place_name": "Doolbi",
+        "lga_name": "Bundaberg Regional",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.30389,
+          -25.23028
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "50507",
+        "place_name": "Cameby",
+        "lga_name": "Western Downs Regional",
+        "sequence": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.46889,
+          -26.63472
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 3",
+        "iteration": 3,
+        "point_count": 4,
+        "order": [
+          "Vinegar Hill",
+          "Old Cooranga",
+          "Yalboroo",
+          "Beatrice"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            152.26,
+            -27.46611
+          ],
+          [
+            151.40111,
+            -25.79278
+          ],
+          [
+            148.66333,
+            -20.82889
+          ],
+          [
+            145.58444,
+            -17.56222
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "44996",
+        "place_name": "Vinegar Hill",
+        "lga_name": "Lockyer Valley Regional",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.26,
+          -27.46611
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "45403",
+        "place_name": "Old Cooranga",
+        "lga_name": "North Burnett Regional",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.40111,
+          -25.79278
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "46848",
+        "place_name": "Yalboroo",
+        "lga_name": "Mackay Regional",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.66333,
+          -20.82889
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "48519",
+        "place_name": "Beatrice",
+        "lga_name": "Tablelands Regional",
+        "sequence": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.58444,
+          -17.56222
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 4",
+        "iteration": 4,
+        "point_count": 3,
+        "order": [
+          "Spring Creek (Toowoomba Regional)",
+          "Eight Mile Creek",
+          "Lockhart River (Cook Shire)"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            151.98444,
+            -27.95667
+          ],
+          [
+            147.22806,
+            -20.28333
+          ],
+          [
+            143.58833,
+            -13.07972
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "49257",
+        "place_name": "Spring Creek (Toowoomba Regional)",
+        "lga_name": "Toowoomba Regional",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.98444,
+          -27.95667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "43385",
+        "place_name": "Eight Mile Creek",
+        "lga_name": "Burdekin Shire",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.22806,
+          -20.28333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "50590",
+        "place_name": "Lockhart River (Cook Shire)",
+        "lga_name": "Cook Shire",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.58833,
+          -13.07972
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 5",
+        "iteration": 5,
+        "point_count": 6,
+        "order": [
+          "Chillagoe",
+          "Carmoo",
+          "Pentland",
+          "Mount Charlton",
+          "Mia Mia",
+          "Springdale"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            144.65778,
+            -17.10528
+          ],
+          [
+            146.04139,
+            -17.94917
+          ],
+          [
+            145.47528,
+            -20.97556
+          ],
+          [
+            148.74694,
+            -21.01667
+          ],
+          [
+            148.81694,
+            -21.22889
+          ],
+          [
+            151.61194,
+            -28.80083
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "48570",
+        "place_name": "Chillagoe",
+        "lga_name": "Mareeba Shire",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.65778,
+          -17.10528
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "45661",
+        "place_name": "Carmoo",
+        "lga_name": "Cassowary Coast Regional",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.04139,
+          -17.94917
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "52306",
+        "place_name": "Pentland",
+        "lga_name": "Charters Towers Regional",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.47528,
+          -20.97556
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "50298",
+        "place_name": "Mount Charlton",
+        "lga_name": "Mackay Regional",
+        "sequence": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.74694,
+          -21.01667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "52348",
+        "place_name": "Mia Mia",
+        "lga_name": "Mackay Regional",
+        "sequence": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.81694,
+          -21.22889
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "50205",
+        "place_name": "Springdale",
+        "lga_name": "Southern Downs Regional",
+        "sequence": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.61194,
+          -28.80083
+        ]
+      }
+    }
+  ]
+}

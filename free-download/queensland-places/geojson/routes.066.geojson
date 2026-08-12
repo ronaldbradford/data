@@ -1,0 +1,630 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 1",
+        "iteration": 1,
+        "point_count": 3,
+        "order": [
+          "Pauls Pocket",
+          "Kia Ora",
+          "Kingaham"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            148.41222,
+            -20.47389
+          ],
+          [
+            152.76583,
+            -26.01556
+          ],
+          [
+            152.37556,
+            -26.55083
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "46893",
+        "place_name": "Pauls Pocket",
+        "lga_name": "Whitsunday Regional",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.41222,
+          -20.47389
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "46347",
+        "place_name": "Kia Ora",
+        "lga_name": "Gympie Regional",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.76583,
+          -26.01556
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "48137",
+        "place_name": "Kingaham",
+        "lga_name": "Somerset Regional",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.37556,
+          -26.55083
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 2",
+        "iteration": 2,
+        "point_count": 6,
+        "order": [
+          "Eungella Dam",
+          "Widgee Crossing South",
+          "Pinbarren",
+          "Woodbine",
+          "Upper Freestone",
+          "Nicholson"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            148.39083,
+            -21.17694
+          ],
+          [
+            152.61111,
+            -26.19861
+          ],
+          [
+            152.86778,
+            -26.32333
+          ],
+          [
+            152.20639,
+            -27.77778
+          ],
+          [
+            152.22056,
+            -28.12333
+          ],
+          [
+            138.72861,
+            -17.43056
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "46783",
+        "place_name": "Eungella Dam",
+        "lga_name": "Mackay Regional",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.39083,
+          -21.17694
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "46399",
+        "place_name": "Widgee Crossing South",
+        "lga_name": "Gympie Regional",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.61111,
+          -26.19861
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "48841",
+        "place_name": "Pinbarren",
+        "lga_name": "Noosa Shire",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.86778,
+          -26.32333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "45000",
+        "place_name": "Woodbine",
+        "lga_name": "Lockyer Valley Regional",
+        "sequence": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.20639,
+          -27.77778
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "49508",
+        "place_name": "Upper Freestone",
+        "lga_name": "Southern Downs Regional",
+        "sequence": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.22056,
+          -28.12333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "45777",
+        "place_name": "Nicholson",
+        "lga_name": "Burke Shire",
+        "sequence": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.72861,
+          -17.43056
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 3",
+        "iteration": 3,
+        "point_count": 6,
+        "order": [
+          "Highland Plains (Maranoa Regional)",
+          "Beeron",
+          "Yandaran",
+          "Cooloola",
+          "Gowrie Mountain",
+          "Goondi Bend"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            148.7575,
+            -25.86944
+          ],
+          [
+            151.2775,
+            -25.90111
+          ],
+          [
+            152.09444,
+            -24.70111
+          ],
+          [
+            153.06389,
+            -26.03333
+          ],
+          [
+            151.82,
+            -27.51417
+          ],
+          [
+            146.00806,
+            -17.52194
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "49171",
+        "place_name": "Highland Plains (Maranoa Regional)",
+        "lga_name": "Maranoa Regional",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.7575,
+          -25.86944
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "45316",
+        "place_name": "Beeron",
+        "lga_name": "North Burnett Regional",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.2775,
+          -25.90111
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "44815",
+        "place_name": "Yandaran",
+        "lga_name": "Bundaberg Regional",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.09444,
+          -24.70111
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "47613",
+        "place_name": "Cooloola",
+        "lga_name": "Gympie Regional",
+        "sequence": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.06389,
+          -26.03333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "47955",
+        "place_name": "Gowrie Mountain",
+        "lga_name": "Toowoomba Regional",
+        "sequence": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.82,
+          -27.51417
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "45703",
+        "place_name": "Goondi Bend",
+        "lga_name": "Cassowary Coast Regional",
+        "sequence": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.00806,
+          -17.52194
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 4",
+        "iteration": 4,
+        "point_count": 6,
+        "order": [
+          "Marian",
+          "Topaz",
+          "Burketown",
+          "Tuckerang",
+          "Limestone Ridges",
+          "Dalcouth"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            148.95139,
+            -21.17028
+          ],
+          [
+            145.70722,
+            -17.42444
+          ],
+          [
+            139.62083,
+            -17.85278
+          ],
+          [
+            150.98278,
+            -26.79444
+          ],
+          [
+            152.72472,
+            -27.83389
+          ],
+          [
+            151.99028,
+            -28.65778
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "52137",
+        "place_name": "Marian",
+        "lga_name": "Mackay Regional",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.95139,
+          -21.17028
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "48904",
+        "place_name": "Topaz",
+        "lga_name": "Tablelands Regional",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.70722,
+          -17.42444
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "42539",
+        "place_name": "Burketown",
+        "lga_name": "Burke Shire",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.62083,
+          -17.85278
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "47752",
+        "place_name": "Tuckerang",
+        "lga_name": "Western Downs Regional",
+        "sequence": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.98278,
+          -26.79444
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "45160",
+        "place_name": "Limestone Ridges",
+        "lga_name": "Scenic Rim Regional",
+        "sequence": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.72472,
+          -27.83389
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "49199",
+        "place_name": "Dalcouth",
+        "lga_name": "Southern Downs Regional",
+        "sequence": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.99028,
+          -28.65778
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 5",
+        "iteration": 5,
+        "point_count": 4,
+        "order": [
+          "Burncluith",
+          "Mount Nathan",
+          "Richmond (Richmond Shire)",
+          "Coralie"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            150.72917,
+            -26.58056
+          ],
+          [
+            153.2675,
+            -27.9825
+          ],
+          [
+            143.25778,
+            -20.72028
+          ],
+          [
+            141.81389,
+            -18.16806
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "47674",
+        "place_name": "Burncluith",
+        "lga_name": "Western Downs Regional",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.72917,
+          -26.58056
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "46066",
+        "place_name": "Mount Nathan",
+        "lga_name": "Gold Coast City",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.2675,
+          -27.9825
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "42355",
+        "place_name": "Richmond (Richmond Shire)",
+        "lga_name": "Richmond Shire",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.25778,
+          -20.72028
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "41771",
+        "place_name": "Coralie",
+        "lga_name": "Croydon Shire",
+        "sequence": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          141.81389,
+          -18.16806
+        ]
+      }
+    }
+  ]
+}

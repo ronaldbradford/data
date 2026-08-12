@@ -1,0 +1,652 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 1",
+        "iteration": 1,
+        "point_count": 4,
+        "order": [
+          "Frenches Creek",
+          "Cryna",
+          "Loch Lomond",
+          "Coomoo"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            152.63417,
+            -28.02278
+          ],
+          [
+            152.98639,
+            -28.04056
+          ],
+          [
+            152.19333,
+            -28.33056
+          ],
+          [
+            149.51528,
+            -23.86056
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "50203",
+        "place_name": "Frenches Creek",
+        "lga_name": "Scenic Rim Regional",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.63417,
+          -28.02278
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "45134",
+        "place_name": "Cryna",
+        "lga_name": "Scenic Rim Regional",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.98639,
+          -28.04056
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "45948",
+        "place_name": "Loch Lomond",
+        "lga_name": "Southern Downs Regional",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.19333,
+          -28.33056
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "46942",
+        "place_name": "Coomoo",
+        "lga_name": "Central Highlands Regional",
+        "sequence": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.51528,
+          -23.86056
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 2",
+        "iteration": 2,
+        "point_count": 4,
+        "order": [
+          "East Trinity",
+          "The Narrows",
+          "Dangore",
+          "Undullah (Logan City)"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            145.82361,
+            -16.92528
+          ],
+          [
+            150.965,
+            -23.61306
+          ],
+          [
+            151.58806,
+            -26.46278
+          ],
+          [
+            152.85,
+            -27.825
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "48616",
+        "place_name": "East Trinity",
+        "lga_name": "Cairns Regional",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.82361,
+          -16.92528
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "47290",
+        "place_name": "The Narrows",
+        "lga_name": "Gladstone Regional",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.965,
+          -23.61306
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "46214",
+        "place_name": "Dangore",
+        "lga_name": "South Burnett Regional",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.58806,
+          -26.46278
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "49730",
+        "place_name": "Undullah (Logan City)",
+        "lga_name": "Logan City",
+        "sequence": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.85,
+          -27.825
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 3",
+        "iteration": 3,
+        "point_count": 6,
+        "order": [
+          "Ward",
+          "Dumgree",
+          "Valentine Plains",
+          "Greenview",
+          "Evergreen",
+          "Goondiwindi"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            146.17806,
+            -25.76833
+          ],
+          [
+            150.63889,
+            -24.17139
+          ],
+          [
+            150.75611,
+            -24.4075
+          ],
+          [
+            151.80806,
+            -26.30944
+          ],
+          [
+            151.73028,
+            -27.16139
+          ],
+          [
+            150.35444,
+            -28.41806
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "49242",
+        "place_name": "Ward",
+        "lga_name": "Murweh Shire",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.17806,
+          -25.76833
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "49784",
+        "place_name": "Dumgree",
+        "lga_name": "Banana Shire",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.63889,
+          -24.17139
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "49577",
+        "place_name": "Valentine Plains",
+        "lga_name": "Banana Shire",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.75611,
+          -24.4075
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "46223",
+        "place_name": "Greenview",
+        "lga_name": "South Burnett Regional",
+        "sequence": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.80806,
+          -26.30944
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "49251",
+        "place_name": "Evergreen",
+        "lga_name": "Toowoomba Regional",
+        "sequence": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.73028,
+          -27.16139
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "50047",
+        "place_name": "Goondiwindi",
+        "lga_name": "Goondiwindi Regional",
+        "sequence": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.35444,
+          -28.41806
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 4",
+        "iteration": 4,
+        "point_count": 6,
+        "order": [
+          "Pittsworth",
+          "Wilsonton Heights",
+          "Cooeeimbardi",
+          "Veresdale (Scenic Rim Regional)",
+          "Banana",
+          "Birdsville"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            151.64833,
+            -27.74833
+          ],
+          [
+            151.92667,
+            -27.53222
+          ],
+          [
+            152.51778,
+            -27.11528
+          ],
+          [
+            153.0075,
+            -27.94472
+          ],
+          [
+            150.15528,
+            -24.42972
+          ],
+          [
+            138.26194,
+            -24.98639
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "50097",
+        "place_name": "Pittsworth",
+        "lga_name": "Toowoomba Regional",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.64833,
+          -27.74833
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "48096",
+        "place_name": "Wilsonton Heights",
+        "lga_name": "Toowoomba Regional",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.92667,
+          -27.53222
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "44857",
+        "place_name": "Cooeeimbardi",
+        "lga_name": "Somerset Regional",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.51778,
+          -27.11528
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "45199",
+        "place_name": "Veresdale (Scenic Rim Regional)",
+        "lga_name": "Scenic Rim Regional",
+        "sequence": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.0075,
+          -27.94472
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "49534",
+        "place_name": "Banana",
+        "lga_name": "Banana Shire",
+        "sequence": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.15528,
+          -24.42972
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "41499",
+        "place_name": "Birdsville",
+        "lga_name": "Diamantina Shire",
+        "sequence": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.26194,
+          -24.98639
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 5",
+        "iteration": 5,
+        "point_count": 6,
+        "order": [
+          "Goldsborough",
+          "Low Isles",
+          "Causeway Lake",
+          "Cherwell",
+          "Keysland",
+          "Yandina Creek"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            145.73611,
+            -17.19
+          ],
+          [
+            145.56333,
+            -16.38889
+          ],
+          [
+            150.79611,
+            -23.19944
+          ],
+          [
+            152.48722,
+            -25.27889
+          ],
+          [
+            151.74278,
+            -26.21361
+          ],
+          [
+            153.02639,
+            -26.52639
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "48659",
+        "place_name": "Goldsborough",
+        "lga_name": "Cairns Regional",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.73611,
+          -17.19
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "48733",
+        "place_name": "Low Isles",
+        "lga_name": "Douglas Shire",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.56333,
+          -16.38889
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "48566",
+        "place_name": "Causeway Lake",
+        "lga_name": "Livingstone Shire",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.79611,
+          -23.19944
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "50250",
+        "place_name": "Cherwell",
+        "lga_name": "Fraser Coast Regional",
+        "sequence": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.48722,
+          -25.27889
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "46231",
+        "place_name": "Keysland",
+        "lga_name": "South Burnett Regional",
+        "sequence": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.74278,
+          -26.21361
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "52242",
+        "place_name": "Yandina Creek",
+        "lga_name": "Sunshine Coast Regional",
+        "sequence": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.02639,
+          -26.52639
+        ]
+      }
+    }
+  ]
+}

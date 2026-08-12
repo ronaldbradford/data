@@ -1,0 +1,630 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 1",
+        "iteration": 1,
+        "point_count": 4,
+        "order": [
+          "Chambers Flat",
+          "Wilsonton Heights",
+          "Te Kowai",
+          "Dauan Island"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            153.07944,
+            -27.74667
+          ],
+          [
+            151.92667,
+            -27.53222
+          ],
+          [
+            149.11139,
+            -21.1875
+          ],
+          [
+            142.53944,
+            -9.42333
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "45259",
+        "place_name": "Chambers Flat",
+        "lga_name": "Logan City",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.07944,
+          -27.74667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "48096",
+        "place_name": "Wilsonton Heights",
+        "lga_name": "Toowoomba Regional",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.92667,
+          -27.53222
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "46843",
+        "place_name": "Te Kowai",
+        "lga_name": "Mackay Regional",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11139,
+          -21.1875
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "46702",
+        "place_name": "Dauan Island",
+        "lga_name": "Torres Strait Island Regional",
+        "sequence": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.53944,
+          -9.42333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 2",
+        "iteration": 2,
+        "point_count": 3,
+        "order": [
+          "Rosemount",
+          "Cadarga",
+          "Conway Beach"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            153.00111,
+            -26.62333
+          ],
+          [
+            151.03306,
+            -26.10083
+          ],
+          [
+            148.74694,
+            -20.47472
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "48861",
+        "place_name": "Rosemount",
+        "lga_name": "Sunshine Coast Regional",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.00111,
+          -26.62333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "47676",
+        "place_name": "Cadarga",
+        "lga_name": "Western Downs Regional",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.03306,
+          -26.10083
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "46861",
+        "place_name": "Conway Beach",
+        "lga_name": "Whitsunday Regional",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.74694,
+          -20.47472
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 3",
+        "iteration": 3,
+        "point_count": 6,
+        "order": [
+          "Dalby",
+          "Mount Darry",
+          "Birkdale",
+          "Maryborough West",
+          "Carstairs",
+          "Buckingham"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            151.26361,
+            -27.14111
+          ],
+          [
+            151.77139,
+            -27.19417
+          ],
+          [
+            153.21111,
+            -27.50028
+          ],
+          [
+            152.67056,
+            -25.5025
+          ],
+          [
+            147.4525,
+            -19.65056
+          ],
+          [
+            139.43889,
+            -22.27583
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "49866",
+        "place_name": "Dalby",
+        "lga_name": "Western Downs Regional",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.26361,
+          -27.14111
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "49252",
+        "place_name": "Mount Darry",
+        "lga_name": "Toowoomba Regional",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.77139,
+          -27.19417
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "48175",
+        "place_name": "Birkdale",
+        "lga_name": "Redland City",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.21111,
+          -27.50028
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "46661",
+        "place_name": "Maryborough West",
+        "lga_name": "Fraser Coast Regional",
+        "sequence": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.67056,
+          -25.5025
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "42282",
+        "place_name": "Carstairs",
+        "lga_name": "Burdekin Shire",
+        "sequence": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.4525,
+          -19.65056
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "42340",
+        "place_name": "Buckingham",
+        "lga_name": "Boulia Shire",
+        "sequence": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.43889,
+          -22.27583
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 4",
+        "iteration": 4,
+        "point_count": 6,
+        "order": [
+          "Mount Bindango",
+          "Kooralgin",
+          "Coolabine",
+          "Dunwich",
+          "Wonbah Forest",
+          "Palmer"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            148.48028,
+            -26.505
+          ],
+          [
+            151.93278,
+            -26.925
+          ],
+          [
+            152.78444,
+            -26.59833
+          ],
+          [
+            153.40444,
+            -27.49889
+          ],
+          [
+            151.61778,
+            -24.98722
+          ],
+          [
+            143.53861,
+            -15.97028
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "47438",
+        "place_name": "Mount Bindango",
+        "lga_name": "Maranoa Regional",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.48028,
+          -26.505
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "47984",
+        "place_name": "Kooralgin",
+        "lga_name": "Toowoomba Regional",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.93278,
+          -26.925
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "48578",
+        "place_name": "Coolabine",
+        "lga_name": "Sunshine Coast Regional",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.78444,
+          -26.59833
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "43641",
+        "place_name": "Dunwich",
+        "lga_name": "Redland City",
+        "sequence": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.40444,
+          -27.49889
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "47391",
+        "place_name": "Wonbah Forest",
+        "lga_name": "Bundaberg Regional",
+        "sequence": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.61778,
+          -24.98722
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "46137",
+        "place_name": "Palmer",
+        "lga_name": "Cook Shire",
+        "sequence": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.53861,
+          -15.97028
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 5",
+        "iteration": 5,
+        "point_count": 6,
+        "order": [
+          "Peranga",
+          "Regency Downs",
+          "Dallarnil",
+          "Eurimbula",
+          "Pleystowe",
+          "El Arish"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            151.67889,
+            -27.13417
+          ],
+          [
+            152.43944,
+            -27.5325
+          ],
+          [
+            152.04694,
+            -25.37333
+          ],
+          [
+            151.775,
+            -24.15972
+          ],
+          [
+            149.01861,
+            -21.15417
+          ],
+          [
+            146.00444,
+            -17.80444
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "52221",
+        "place_name": "Peranga",
+        "lga_name": "Toowoomba Regional",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.67889,
+          -27.13417
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "44985",
+        "place_name": "Regency Downs",
+        "lga_name": "Lockyer Valley Regional",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.43944,
+          -27.5325
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "45338",
+        "place_name": "Dallarnil",
+        "lga_name": "North Burnett Regional",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.04694,
+          -25.37333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "46606",
+        "place_name": "Eurimbula",
+        "lga_name": "Gladstone Regional",
+        "sequence": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.775,
+          -24.15972
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "46827",
+        "place_name": "Pleystowe",
+        "lga_name": "Mackay Regional",
+        "sequence": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.01861,
+          -21.15417
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "45670",
+        "place_name": "El Arish",
+        "lga_name": "Cassowary Coast Regional",
+        "sequence": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.00444,
+          -17.80444
+        ]
+      }
+    }
+  ]
+}

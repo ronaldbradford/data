@@ -1,0 +1,608 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 1",
+        "iteration": 1,
+        "point_count": 6,
+        "order": [
+          "Diwan",
+          "Bohle Plains",
+          "Beeron",
+          "Kowguran",
+          "Lefthand Branch",
+          "Bollon"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            145.42333,
+            -16.18611
+          ],
+          [
+            146.67417,
+            -19.29528
+          ],
+          [
+            151.2775,
+            -25.90111
+          ],
+          [
+            150.1225,
+            -26.50694
+          ],
+          [
+            152.2625,
+            -27.78972
+          ],
+          [
+            147.31806,
+            -28.26722
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "48609",
+        "place_name": "Diwan",
+        "lga_name": "Douglas Shire",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.42333,
+          -16.18611
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "44576",
+        "place_name": "Bohle Plains",
+        "lga_name": "Townsville City",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.67417,
+          -19.29528
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "45316",
+        "place_name": "Beeron",
+        "lga_name": "North Burnett Regional",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.2775,
+          -25.90111
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "47720",
+        "place_name": "Kowguran",
+        "lga_name": "Western Downs Regional",
+        "sequence": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.1225,
+          -26.50694
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "44971",
+        "place_name": "Lefthand Branch",
+        "lga_name": "Lockyer Valley Regional",
+        "sequence": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.2625,
+          -27.78972
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "42679",
+        "place_name": "Bollon",
+        "lga_name": "Balonne Shire",
+        "sequence": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.31806,
+          -28.26722
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 2",
+        "iteration": 2,
+        "point_count": 4,
+        "order": [
+          "Emu Vale",
+          "Haigslea (Somerset Regional)",
+          "Lake Proserpine",
+          "Mighell"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            152.34139,
+            -28.19361
+          ],
+          [
+            152.63444,
+            -27.54
+          ],
+          [
+            148.29778,
+            -20.41556
+          ],
+          [
+            146.01667,
+            -17.54056
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "45925",
+        "place_name": "Emu Vale",
+        "lga_name": "Southern Downs Regional",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.34139,
+          -28.19361
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "44941",
+        "place_name": "Haigslea (Somerset Regional)",
+        "lga_name": "Somerset Regional",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.63444,
+          -27.54
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "46881",
+        "place_name": "Lake Proserpine",
+        "lga_name": "Whitsunday Regional",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.29778,
+          -20.41556
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "45731",
+        "place_name": "Mighell",
+        "lga_name": "Cassowary Coast Regional",
+        "sequence": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.01667,
+          -17.54056
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 3",
+        "iteration": 3,
+        "point_count": 3,
+        "order": [
+          "Kilbirnie",
+          "Welsby",
+          "Bymount"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            151.82389,
+            -27.23222
+          ],
+          [
+            153.12361,
+            -26.98667
+          ],
+          [
+            148.62528,
+            -26.09194
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "47978",
+        "place_name": "Kilbirnie",
+        "lga_name": "Toowoomba Regional",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.82389,
+          -27.23222
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "45497",
+        "place_name": "Welsby",
+        "lga_name": "Moreton Bay City",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.12361,
+          -26.98667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "47416",
+        "place_name": "Bymount",
+        "lga_name": "Maranoa Regional",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.62528,
+          -26.09194
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 4",
+        "iteration": 4,
+        "point_count": 5,
+        "order": [
+          "Egypt",
+          "Wiyarra",
+          "Kiamba",
+          "Mondure",
+          "Mareeba"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            152.09778,
+            -27.67611
+          ],
+          [
+            152.21333,
+            -28.27556
+          ],
+          [
+            152.90944,
+            -26.57333
+          ],
+          [
+            151.78056,
+            -26.19139
+          ],
+          [
+            145.50139,
+            -17.0475
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "49515",
+        "place_name": "Egypt",
+        "lga_name": "Lockyer Valley Regional",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.09778,
+          -27.67611
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "46005",
+        "place_name": "Wiyarra",
+        "lga_name": "Southern Downs Regional",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.21333,
+          -28.27556
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "48698",
+        "place_name": "Kiamba",
+        "lga_name": "Sunshine Coast Regional",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.90944,
+          -26.57333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "46246",
+        "place_name": "Mondure",
+        "lga_name": "South Burnett Regional",
+        "sequence": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.78056,
+          -26.19139
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "50481",
+        "place_name": "Mareeba",
+        "lga_name": "Mareeba Shire",
+        "sequence": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.50139,
+          -17.0475
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 5",
+        "iteration": 5,
+        "point_count": 6,
+        "order": [
+          "Goondi",
+          "Glen Allyn",
+          "South Wellesley Islands",
+          "Amaroo (Boulia Shire)",
+          "Crownthorpe (South Burnett Regional)",
+          "Wellington Point"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            146.00556,
+            -17.50417
+          ],
+          [
+            145.66083,
+            -17.37833
+          ],
+          [
+            139.36333,
+            -17.00389
+          ],
+          [
+            139.38083,
+            -23.22972
+          ],
+          [
+            151.93778,
+            -26.11444
+          ],
+          [
+            153.23583,
+            -27.49806
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "45702",
+        "place_name": "Goondi",
+        "lga_name": "Cassowary Coast Regional",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.00556,
+          -17.50417
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "48649",
+        "place_name": "Glen Allyn",
+        "lga_name": "Tablelands Regional",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.66083,
+          -17.37833
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "42537",
+        "place_name": "South Wellesley Islands",
+        "lga_name": "",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.36333,
+          -17.00389
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "42338",
+        "place_name": "Amaroo (Boulia Shire)",
+        "lga_name": "Boulia Shire",
+        "sequence": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.38083,
+          -23.22972
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "47375",
+        "place_name": "Crownthorpe (South Burnett Regional)",
+        "lga_name": "South Burnett Regional",
+        "sequence": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.93778,
+          -26.11444
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "43638",
+        "place_name": "Wellington Point",
+        "lga_name": "Redland City",
+        "sequence": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.23583,
+          -27.49806
+        ]
+      }
+    }
+  ]
+}

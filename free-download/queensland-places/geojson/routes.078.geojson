@@ -1,0 +1,586 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 1",
+        "iteration": 1,
+        "point_count": 4,
+        "order": [
+          "Kensington Grove",
+          "Turallin",
+          "Kanigan (Gympie Regional)",
+          "Pinevale"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            152.47167,
+            -27.53194
+          ],
+          [
+            151.2,
+            -27.83333
+          ],
+          [
+            152.585,
+            -25.95722
+          ],
+          [
+            148.83278,
+            -21.31083
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "45005",
+        "place_name": "Kensington Grove",
+        "lga_name": "Lockyer Valley Regional",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.47167,
+          -27.53194
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "48079",
+        "place_name": "Turallin",
+        "lga_name": "Toowoomba Regional",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.2,
+          -27.83333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "46412",
+        "place_name": "Kanigan (Gympie Regional)",
+        "lga_name": "Gympie Regional",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.585,
+          -25.95722
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "46826",
+        "place_name": "Pinevale",
+        "lga_name": "Mackay Regional",
+        "sequence": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.83278,
+          -21.31083
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 2",
+        "iteration": 2,
+        "point_count": 3,
+        "order": [
+          "Ballard",
+          "Campbells Pocket",
+          "Longreach"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            151.98056,
+            -27.49944
+          ],
+          [
+            152.80472,
+            -27.07806
+          ],
+          [
+            143.70167,
+            -23.34944
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "52409",
+        "place_name": "Ballard",
+        "lga_name": "Lockyer Valley Regional",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.98056,
+          -27.49944
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "45433",
+        "place_name": "Campbells Pocket",
+        "lga_name": "Moreton Bay City",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.80472,
+          -27.07806
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "52312",
+        "place_name": "Longreach",
+        "lga_name": "Longreach Regional",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.70167,
+          -23.34944
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 3",
+        "iteration": 3,
+        "point_count": 6,
+        "order": [
+          "Mission River (Napranum Shire)",
+          "Coralie",
+          "Horse Creek",
+          "Cawarral",
+          "Kragra",
+          "Diamondvale"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            142.02861111,
+            -12.55555556
+          ],
+          [
+            141.81389,
+            -18.16806
+          ],
+          [
+            150.38194,
+            -23.6675
+          ],
+          [
+            150.67306,
+            -23.25222
+          ],
+          [
+            150.79028,
+            -26.1175
+          ],
+          [
+            151.96167,
+            -28.66361
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "52666",
+        "place_name": "Mission River (Napranum Shire)",
+        "lga_name": "Napranum Aboriginal Shire",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.02861111,
+          -12.55555556
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "41771",
+        "place_name": "Coralie",
+        "lga_name": "Croydon Shire",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          141.81389,
+          -18.16806
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "48673",
+        "place_name": "Horse Creek",
+        "lga_name": "Rockhampton Regional",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.38194,
+          -23.6675
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "49338",
+        "place_name": "Cawarral",
+        "lga_name": "Livingstone Shire",
+        "sequence": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.67306,
+          -23.25222
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "47721",
+        "place_name": "Kragra",
+        "lga_name": "Western Downs Regional",
+        "sequence": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.79028,
+          -26.1175
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "45922",
+        "place_name": "Diamondvale",
+        "lga_name": "Southern Downs Regional",
+        "sequence": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.96167,
+          -28.66361
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 4",
+        "iteration": 4,
+        "point_count": 4,
+        "order": [
+          "Mount Mackay",
+          "Scrubby Creek (Blackall-Tambo Regional)",
+          "Dundarrah",
+          "South Toowoomba"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            145.99889,
+            -17.93722
+          ],
+          [
+            145.72028,
+            -25.54833
+          ],
+          [
+            151.93583,
+            -25.6525
+          ],
+          [
+            151.95389,
+            -27.57611
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "45734",
+        "place_name": "Mount Mackay",
+        "lga_name": "Cassowary Coast Regional",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.99889,
+          -17.93722
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "47065",
+        "place_name": "Scrubby Creek (Blackall-Tambo Regional)",
+        "lga_name": "Blackall-Tambo Regional",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.72028,
+          -25.54833
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "47368",
+        "place_name": "Dundarrah",
+        "lga_name": "North Burnett Regional",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.93583,
+          -25.6525
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "48061",
+        "place_name": "South Toowoomba",
+        "lga_name": "Toowoomba Regional",
+        "sequence": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.95389,
+          -27.57611
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 5",
+        "iteration": 5,
+        "point_count": 6,
+        "order": [
+          "Doomadgee",
+          "Mount Mackay",
+          "Ross River",
+          "Tyrconnel (Maranoa Regional)",
+          "O'Bil Bil",
+          "Lower Beechmont"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            138.74806,
+            -17.69389
+          ],
+          [
+            145.99889,
+            -17.93722
+          ],
+          [
+            146.79306,
+            -19.48
+          ],
+          [
+            147.52083,
+            -26.2825
+          ],
+          [
+            151.25528,
+            -25.52611
+          ],
+          [
+            153.24222,
+            -28.04583
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "45901",
+        "place_name": "Doomadgee",
+        "lga_name": "Doomadgee Aboriginal Shire",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.74806,
+          -17.69389
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "45734",
+        "place_name": "Mount Mackay",
+        "lga_name": "Cassowary Coast Regional",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.99889,
+          -17.93722
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "44635",
+        "place_name": "Ross River",
+        "lga_name": "Townsville City",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.79306,
+          -19.48
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "47458",
+        "place_name": "Tyrconnel (Maranoa Regional)",
+        "lga_name": "Maranoa Regional",
+        "sequence": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.52083,
+          -26.2825
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "47621",
+        "place_name": "O'Bil Bil",
+        "lga_name": "North Burnett Regional",
+        "sequence": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.25528,
+          -25.52611
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "46058",
+        "place_name": "Lower Beechmont",
+        "lga_name": "Gold Coast City",
+        "sequence": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.24222,
+          -28.04583
+        ]
+      }
+    }
+  ]
+}

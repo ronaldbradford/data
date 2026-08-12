@@ -1,0 +1,45 @@
+Place names gazetteer - Queensland - txt file
+Data Dictionary
+
+Data Quality
+Data quality scope:
+Level: dataset
+Completeness (omission):
+
+Under the Act, all approved place names are to be recorded in the Gazetteer. The Act defines "place" as an area or geographical feature (whether natural or artificial). However, a "place" does not include:
+a) a road within the meaning of the Transport Operations (Road Use Management Act) 1995
+b) a canal associated with residential or commercial development
+c) a building or similar structure
+d) a dam wall or similar structure
+e) a local government area or a division or ward of a local government area
+f) an electoral district under the Electoral Act 1992
+g) another place prescribed by regulation.
+
+Attributes are:
+Reference number: Place names reference number.
+Place name: Name of the place.
+Alternative name: Alternate name of the place.
+Type: Feature type of named place.
+Description: description of the feature type
+Status: indication of whether the name is an approved name under the Place Names Act.
+Currency: indication of whether the name is current.
+Gazette date: date the name was published in the Queensland Government Gazette
+Gazetted page: page number in the Gazette
+Plan number: Queensland Place Names Plan (QPN) number which shows the location of the feature
+LGA name: The Queensland Local Government Area the Place Name is within. This is generated via an intersect with the Local Government Boundaries dataset.
+Longitude: Longitude in degree, minutes and seconds.
+Latitude: Latitude in degrees, minutes and seconds.
+Longitude DD: Longitude in decimal degrees.
+Latitude DD: Latitude in decimal degrees.
+
+Gazettal and historical information is not available for all place names.
+Positional accuracy (external, absolute):
+
+Coordinates for place names collated from the Place Names Card File system are shown to the nearest minute of latitude and longitude. The upgraded and new records have coordinates recorded to the nearest second of latitude and longitude. For linear features such as watercourses and gullies, the point relates to the mouth or confluence.
+Attribute accuracy (non quantitative):
+
+The estimated attribute accuracy is 98% reliable.
+
+History:
+Lineage statement:
+Information was originally contained within cadastral and topographic maps, place names card files and Queensland Government Gazettes. In the 1980's information from those resources were collated into this electronic gazetteer. Today the gazetteer is continuously updated in accordance with new actions under the Place Names Act 1994 and as further historical research is uncovered. The Queensland Government has a legislative requirement under the Act to record approved place names within Queensland.

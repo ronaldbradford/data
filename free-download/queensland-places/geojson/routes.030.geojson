@@ -1,0 +1,586 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 1",
+        "iteration": 1,
+        "point_count": 5,
+        "order": [
+          "Riverbend",
+          "Maroochy River",
+          "Brightly",
+          "Wellesley Islands",
+          "Somerset (Northern Peninsula Area Regional)"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            152.97222,
+            -27.82778
+          ],
+          [
+            153.01778,
+            -26.58194
+          ],
+          [
+            148.89111,
+            -21.27417
+          ],
+          [
+            139.38806,
+            -16.53306
+          ],
+          [
+            142.56528,
+            -10.78139
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "50117",
+        "place_name": "Riverbend",
+        "lga_name": "Logan City",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.97222,
+          -27.82778
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "50289",
+        "place_name": "Maroochy River",
+        "lga_name": "Sunshine Coast Regional",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.01778,
+          -26.58194
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "52347",
+        "place_name": "Brightly",
+        "lga_name": "Mackay Regional",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.89111,
+          -21.27417
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "42536",
+        "place_name": "Wellesley Islands",
+        "lga_name": "Mornington Shire",
+        "sequence": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.38806,
+          -16.53306
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "46107",
+        "place_name": "Somerset (Northern Peninsula Area Regional)",
+        "lga_name": "Northern Peninsula Area Regional",
+        "sequence": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.56528,
+          -10.78139
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 2",
+        "iteration": 2,
+        "point_count": 5,
+        "order": [
+          "Alligator Creek (Townsville City)",
+          "Hervey Range (Charters Towers Regional)",
+          "Eidsvold East",
+          "Guluguba",
+          "Croftby"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            146.94583,
+            -19.42417
+          ],
+          [
+            146.46278,
+            -19.45972
+          ],
+          [
+            151.25389,
+            -25.32333
+          ],
+          [
+            150.0825,
+            -26.27278
+          ],
+          [
+            152.59694,
+            -28.14944
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "44564",
+        "place_name": "Alligator Creek (Townsville City)",
+        "lga_name": "Townsville City",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.94583,
+          -19.42417
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "47871",
+        "place_name": "Hervey Range (Charters Towers Regional)",
+        "lga_name": "Charters Towers Regional",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.46278,
+          -19.45972
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "45347",
+        "place_name": "Eidsvold East",
+        "lga_name": "North Burnett Regional",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.25389,
+          -25.32333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "47706",
+        "place_name": "Guluguba",
+        "lga_name": "Western Downs Regional",
+        "sequence": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.0825,
+          -26.27278
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "52184",
+        "place_name": "Croftby",
+        "lga_name": "Scenic Rim Regional",
+        "sequence": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.59694,
+          -28.14944
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 3",
+        "iteration": 3,
+        "point_count": 3,
+        "order": [
+          "Eerwah Vale (Noosa Shire)",
+          "Pony Hills",
+          "Conjuboy"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            152.88389,
+            -26.46833
+          ],
+          [
+            148.96167,
+            -25.88972
+          ],
+          [
+            144.60194,
+            -18.71944
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "48619",
+        "place_name": "Eerwah Vale (Noosa Shire)",
+        "lga_name": "Noosa Shire",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.88389,
+          -26.46833
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "49170",
+        "place_name": "Pony Hills",
+        "lga_name": "Maranoa Regional",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.96167,
+          -25.88972
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "41669",
+        "place_name": "Conjuboy",
+        "lga_name": "Etheridge Shire",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.60194,
+          -18.71944
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 4",
+        "iteration": 4,
+        "point_count": 4,
+        "order": [
+          "Blackrock",
+          "El Arish",
+          "Coolana",
+          "Summerholm"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            146.20861,
+            -18.70639
+          ],
+          [
+            146.00444,
+            -17.80444
+          ],
+          [
+            152.55111,
+            -27.51528
+          ],
+          [
+            152.45972,
+            -27.61
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "42510",
+        "place_name": "Blackrock",
+        "lga_name": "Hinchinbrook Shire",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.20861,
+          -18.70639
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "45670",
+        "place_name": "El Arish",
+        "lga_name": "Cassowary Coast Regional",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.00444,
+          -17.80444
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "44858",
+        "place_name": "Coolana",
+        "lga_name": "Somerset Regional",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.55111,
+          -27.51528
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "50040",
+        "place_name": "Summerholm",
+        "lga_name": "Lockyer Valley Regional",
+        "sequence": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.45972,
+          -27.61
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 5",
+        "iteration": 5,
+        "point_count": 6,
+        "order": [
+          "Grandchester",
+          "Eerwah Vale (Sunshine Coast Regional)",
+          "Mungy",
+          "Takilberan",
+          "Cattle Creek (Toowoomba Regional)",
+          "Maxwelton"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            152.44611,
+            -27.67306
+          ],
+          [
+            152.90944,
+            -26.48167
+          ],
+          [
+            151.45528,
+            -25.2525
+          ],
+          [
+            151.72611,
+            -24.87944
+          ],
+          [
+            150.8,
+            -27.66667
+          ],
+          [
+            142.62167,
+            -20.85806
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "52405",
+        "place_name": "Grandchester",
+        "lga_name": "Ipswich City",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.44611,
+          -27.67306
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "49235",
+        "place_name": "Eerwah Vale (Sunshine Coast Regional)",
+        "lga_name": "Sunshine Coast Regional",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.90944,
+          -26.48167
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "47372",
+        "place_name": "Mungy",
+        "lga_name": "North Burnett Regional",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.45528,
+          -25.2525
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "44800",
+        "place_name": "Takilberan",
+        "lga_name": "Bundaberg Regional",
+        "sequence": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.72611,
+          -24.87944
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "47907",
+        "place_name": "Cattle Creek (Toowoomba Regional)",
+        "lga_name": "Toowoomba Regional",
+        "sequence": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.8,
+          -27.66667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "42354",
+        "place_name": "Maxwelton",
+        "lga_name": "Richmond Shire",
+        "sequence": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.62167,
+          -20.85806
+        ]
+      }
+    }
+  ]
+}

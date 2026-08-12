@@ -1,0 +1,652 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 1",
+        "iteration": 1,
+        "point_count": 6,
+        "order": [
+          "Bald Knob",
+          "The Dawn",
+          "Walloon",
+          "Iredale",
+          "Eungella Dam",
+          "Millstream"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            152.90833,
+            -26.7825
+          ],
+          [
+            152.68472,
+            -26.24889
+          ],
+          [
+            152.66417,
+            -27.60611
+          ],
+          [
+            152.10639,
+            -27.57944
+          ],
+          [
+            148.39083,
+            -21.17694
+          ],
+          [
+            145.38111,
+            -17.62611
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "48504",
+        "place_name": "Bald Knob",
+        "lga_name": "Sunshine Coast Regional",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.90833,
+          -26.7825
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "46383",
+        "place_name": "The Dawn",
+        "lga_name": "Gympie Regional",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.68472,
+          -26.24889
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "52503",
+        "place_name": "Walloon",
+        "lga_name": "Ipswich City",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.66417,
+          -27.60611
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "44961",
+        "place_name": "Iredale",
+        "lga_name": "Lockyer Valley Regional",
+        "sequence": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.10639,
+          -27.57944
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "46783",
+        "place_name": "Eungella Dam",
+        "lga_name": "Mackay Regional",
+        "sequence": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.39083,
+          -21.17694
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "48758",
+        "place_name": "Millstream",
+        "lga_name": "Tablelands Regional",
+        "sequence": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.38111,
+          -17.62611
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 2",
+        "iteration": 2,
+        "point_count": 6,
+        "order": [
+          "Murrumba",
+          "Lake Wivenhoe",
+          "Eskdale",
+          "Bella Creek",
+          "Yangan",
+          "Bloomsbury"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            152.46778,
+            -27.2025
+          ],
+          [
+            152.56778,
+            -27.31528
+          ],
+          [
+            152.23444,
+            -27.14861
+          ],
+          [
+            152.56111,
+            -26.47778
+          ],
+          [
+            152.20583,
+            -28.20111
+          ],
+          [
+            148.53278,
+            -20.72028
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "44905",
+        "place_name": "Murrumba",
+        "lga_name": "Somerset Regional",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.46778,
+          -27.2025
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "44880",
+        "place_name": "Lake Wivenhoe",
+        "lga_name": "Somerset Regional",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.56778,
+          -27.31528
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "44865",
+        "place_name": "Eskdale",
+        "lga_name": "Somerset Regional",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.23444,
+          -27.14861
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "52488",
+        "place_name": "Bella Creek",
+        "lga_name": "Gympie Regional",
+        "sequence": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.56111,
+          -26.47778
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "46008",
+        "place_name": "Yangan",
+        "lga_name": "Southern Downs Regional",
+        "sequence": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.20583,
+          -28.20111
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "46764",
+        "place_name": "Bloomsbury",
+        "lga_name": "Mackay Regional",
+        "sequence": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.53278,
+          -20.72028
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 3",
+        "iteration": 3,
+        "point_count": 5,
+        "order": [
+          "Gordonvale",
+          "Drinan",
+          "Beeron",
+          "Dangore",
+          "Blue Mountain Heights"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            145.77667,
+            -17.0975
+          ],
+          [
+            152.01917,
+            -25.04
+          ],
+          [
+            151.2775,
+            -25.90111
+          ],
+          [
+            151.58806,
+            -26.46278
+          ],
+          [
+            151.95666991,
+            -27.49749918
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "50118",
+        "place_name": "Gordonvale",
+        "lga_name": "Cairns Regional",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.77667,
+          -17.0975
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "44711",
+        "place_name": "Drinan",
+        "lga_name": "Bundaberg Regional",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.01917,
+          -25.04
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "45316",
+        "place_name": "Beeron",
+        "lga_name": "North Burnett Regional",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.2775,
+          -25.90111
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "46214",
+        "place_name": "Dangore",
+        "lga_name": "South Burnett Regional",
+        "sequence": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.58806,
+          -26.46278
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "52630",
+        "place_name": "Blue Mountain Heights",
+        "lga_name": "Toowoomba Regional",
+        "sequence": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.95666991,
+          -27.49749918
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 4",
+        "iteration": 4,
+        "point_count": 5,
+        "order": [
+          "Tarong",
+          "Marodian",
+          "Nebine",
+          "Tanbar",
+          "Wellesley Islands"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            151.88222,
+            -26.765
+          ],
+          [
+            152.29278,
+            -25.84556
+          ],
+          [
+            146.81417,
+            -28.06444
+          ],
+          [
+            141.53389,
+            -26.17083
+          ],
+          [
+            139.38806,
+            -16.53306
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "46271",
+        "place_name": "Tarong",
+        "lga_name": "South Burnett Regional",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.88222,
+          -26.765
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "46660",
+        "place_name": "Marodian",
+        "lga_name": "Fraser Coast Regional",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.29278,
+          -25.84556
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "42659",
+        "place_name": "Nebine",
+        "lga_name": "Paroo Shire",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.81417,
+          -28.06444
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "50026",
+        "place_name": "Tanbar",
+        "lga_name": "Barcoo Shire",
+        "sequence": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          141.53389,
+          -26.17083
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "42536",
+        "place_name": "Wellesley Islands",
+        "lga_name": "Mornington Shire",
+        "sequence": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.38806,
+          -16.53306
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 5",
+        "iteration": 5,
+        "point_count": 4,
+        "order": [
+          "Leafdale",
+          "Upper Cooyar Creek",
+          "Greenmount (Toowoomba Regional)",
+          "Airdmillan"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            151.77333,
+            -26.23861
+          ],
+          [
+            151.72806,
+            -26.98056
+          ],
+          [
+            151.89611,
+            -27.77611
+          ],
+          [
+            147.47528,
+            -19.52306
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "46237",
+        "place_name": "Leafdale",
+        "lga_name": "South Burnett Regional",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.77333,
+          -26.23861
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "48081",
+        "place_name": "Upper Cooyar Creek",
+        "lga_name": "Toowoomba Regional",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.72806,
+          -26.98056
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "50181",
+        "place_name": "Greenmount (Toowoomba Regional)",
+        "lga_name": "Toowoomba Regional",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.89611,
+          -27.77611
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "49422",
+        "place_name": "Airdmillan",
+        "lga_name": "Burdekin Shire",
+        "sequence": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.47528,
+          -19.52306
+        ]
+      }
+    }
+  ]
+}

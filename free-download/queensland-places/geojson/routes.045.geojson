@@ -1,0 +1,564 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 1",
+        "iteration": 1,
+        "point_count": 5,
+        "order": [
+          "Newtown (Toowoomba Regional)",
+          "Wivenhoe Hill",
+          "Mount Forbes (Ipswich City)",
+          "Mount Morgan",
+          "Walkerston"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            151.93,
+            -27.55417
+          ],
+          [
+            152.56778,
+            -27.36528
+          ],
+          [
+            152.61056,
+            -27.72028
+          ],
+          [
+            150.39417,
+            -23.64417
+          ],
+          [
+            149.06194,
+            -21.15917
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "48024",
+        "place_name": "Newtown (Toowoomba Regional)",
+        "lga_name": "Toowoomba Regional",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.93,
+          -27.55417
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "44932",
+        "place_name": "Wivenhoe Hill",
+        "lga_name": "Somerset Regional",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.56778,
+          -27.36528
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "46552",
+        "place_name": "Mount Forbes (Ipswich City)",
+        "lga_name": "Ipswich City",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.61056,
+          -27.72028
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "48786",
+        "place_name": "Mount Morgan",
+        "lga_name": "Rockhampton Regional",
+        "sequence": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.39417,
+          -23.64417
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "46846",
+        "place_name": "Walkerston",
+        "lga_name": "Mackay Regional",
+        "sequence": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.06194,
+          -21.15917
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 2",
+        "iteration": 2,
+        "point_count": 5,
+        "order": [
+          "Toko",
+          "Millstream",
+          "Prince Of Wales",
+          "Cooeeimbardi",
+          "Mount Lindesay"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            138.595,
+            -22.91333
+          ],
+          [
+            145.38111,
+            -17.62611
+          ],
+          [
+            142.20417,
+            -10.70028
+          ],
+          [
+            152.51778,
+            -27.11528
+          ],
+          [
+            152.73333,
+            -28.33056
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "42345",
+        "place_name": "Toko",
+        "lga_name": "Boulia Shire",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.595,
+          -22.91333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "48758",
+        "place_name": "Millstream",
+        "lga_name": "Tablelands Regional",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.38111,
+          -17.62611
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "41958",
+        "place_name": "Prince Of Wales",
+        "lga_name": "Torres Shire",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.20417,
+          -10.70028
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "44857",
+        "place_name": "Cooeeimbardi",
+        "lga_name": "Somerset Regional",
+        "sequence": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.51778,
+          -27.11528
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "45174",
+        "place_name": "Mount Lindesay",
+        "lga_name": "Scenic Rim Regional",
+        "sequence": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.73333,
+          -28.33056
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 3",
+        "iteration": 3,
+        "point_count": 5,
+        "order": [
+          "Southern Lamington",
+          "West Woombye",
+          "Alpha",
+          "Myrtlevale",
+          "Fielding"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            153.13,
+            -28.29417
+          ],
+          [
+            152.92611,
+            -26.66222
+          ],
+          [
+            146.71111,
+            -23.60528
+          ],
+          [
+            148.55028,
+            -20.33083
+          ],
+          [
+            141.28972,
+            -18.83167
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "45188",
+        "place_name": "Southern Lamington",
+        "lga_name": "Scenic Rim Regional",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.13,
+          -28.29417
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "50411",
+        "place_name": "West Woombye",
+        "lga_name": "Sunshine Coast Regional",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.92611,
+          -26.66222
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "52303",
+        "place_name": "Alpha",
+        "lga_name": "Barcaldine Regional",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.71111,
+          -23.60528
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "46890",
+        "place_name": "Myrtlevale",
+        "lga_name": "Whitsunday Regional",
+        "sequence": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.55028,
+          -20.33083
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "42908",
+        "place_name": "Fielding",
+        "lga_name": "Carpentaria Shire",
+        "sequence": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          141.28972,
+          -18.83167
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 4",
+        "iteration": 4,
+        "point_count": 3,
+        "order": [
+          "Glenrae",
+          "Ferney",
+          "Kowanyama"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            151.37056,
+            -25.64417
+          ],
+          [
+            152.62056,
+            -25.61083
+          ],
+          [
+            141.78694,
+            -15.33472
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "45352",
+        "place_name": "Glenrae",
+        "lga_name": "North Burnett Regional",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.37056,
+          -25.64417
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "46649",
+        "place_name": "Ferney",
+        "lga_name": "Fraser Coast Regional",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.62056,
+          -25.61083
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "45504",
+        "place_name": "Kowanyama",
+        "lga_name": "Kowanyama Aboriginal Shire",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          141.78694,
+          -15.33472
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 5",
+        "iteration": 5,
+        "point_count": 4,
+        "order": [
+          "Vale View",
+          "Greenmount (Toowoomba Regional)",
+          "Greenwood",
+          "Jimna"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            151.90389,
+            -27.66083
+          ],
+          [
+            151.89611,
+            -27.77611
+          ],
+          [
+            151.73972,
+            -27.33667
+          ],
+          [
+            152.54111,
+            -26.70306
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "48085",
+        "place_name": "Vale View",
+        "lga_name": "Toowoomba Regional",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.90389,
+          -27.66083
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "50181",
+        "place_name": "Greenmount (Toowoomba Regional)",
+        "lga_name": "Toowoomba Regional",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.89611,
+          -27.77611
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "47960",
+        "place_name": "Greenwood",
+        "lga_name": "Toowoomba Regional",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.73972,
+          -27.33667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "44876",
+        "place_name": "Jimna",
+        "lga_name": "Somerset Regional",
+        "sequence": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.54111,
+          -26.70306
+        ]
+      }
+    }
+  ]
+}

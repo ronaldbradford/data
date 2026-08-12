@@ -1,0 +1,674 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 1",
+        "iteration": 1,
+        "point_count": 4,
+        "order": [
+          "Wallangarra",
+          "Bungaban",
+          "Cattle Creek (North Burnett Regional)",
+          "Bauhinia (Woorabinda Shire)"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            151.91167,
+            -28.9025
+          ],
+          [
+            150.18556,
+            -25.92333
+          ],
+          [
+            151.30389,
+            -25.46639
+          ],
+          [
+            149.36083,
+            -24.62194
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "49846",
+        "place_name": "Wallangarra",
+        "lga_name": "Southern Downs Regional",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.91167,
+          -28.9025
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "47672",
+        "place_name": "Bungaban",
+        "lga_name": "Western Downs Regional",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.18556,
+          -25.92333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "45329",
+        "place_name": "Cattle Creek (North Burnett Regional)",
+        "lga_name": "North Burnett Regional",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.30389,
+          -25.46639
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "49303",
+        "place_name": "Bauhinia (Woorabinda Shire)",
+        "lga_name": "Woorabinda Aboriginal Shire",
+        "sequence": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.36083,
+          -24.62194
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 2",
+        "iteration": 2,
+        "point_count": 6,
+        "order": [
+          "Traveston",
+          "Netherby",
+          "Qunaba",
+          "Gracemere",
+          "Kleinton",
+          "Carstairs"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            152.76667,
+            -26.31944
+          ],
+          [
+            152.53167,
+            -25.78111
+          ],
+          [
+            152.43028,
+            -24.82417
+          ],
+          [
+            150.45611,
+            -23.45917
+          ],
+          [
+            151.955,
+            -27.41889
+          ],
+          [
+            147.4525,
+            -19.65056
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "50479",
+        "place_name": "Traveston",
+        "lga_name": "Gympie Regional",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.76667,
+          -26.31944
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "50085",
+        "place_name": "Netherby",
+        "lga_name": "Fraser Coast Regional",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.53167,
+          -25.78111
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "44761",
+        "place_name": "Qunaba",
+        "lga_name": "Bundaberg Regional",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.43028,
+          -24.82417
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "48661",
+        "place_name": "Gracemere",
+        "lga_name": "Rockhampton Regional",
+        "sequence": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.45611,
+          -23.45917
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "49692",
+        "place_name": "Kleinton",
+        "lga_name": "Toowoomba Regional",
+        "sequence": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.955,
+          -27.41889
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "42282",
+        "place_name": "Carstairs",
+        "lga_name": "Burdekin Shire",
+        "sequence": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.4525,
+          -19.65056
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 3",
+        "iteration": 3,
+        "point_count": 5,
+        "order": [
+          "Condamine Plains",
+          "Leyburn (Southern Downs Regional)",
+          "Langlands",
+          "Taabinga",
+          "Hamilton Creek"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            151.28333,
+            -27.66667
+          ],
+          [
+            151.59083,
+            -28.03889
+          ],
+          [
+            150.98917,
+            -26.69417
+          ],
+          [
+            151.83194,
+            -26.59111
+          ],
+          [
+            150.39611,
+            -23.67278
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "49370",
+        "place_name": "Condamine Plains",
+        "lga_name": "Toowoomba Regional",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.28333,
+          -27.66667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "45947",
+        "place_name": "Leyburn (Southern Downs Regional)",
+        "lga_name": "Southern Downs Regional",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.59083,
+          -28.03889
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "49272",
+        "place_name": "Langlands",
+        "lga_name": "Western Downs Regional",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.98917,
+          -26.69417
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "46268",
+        "place_name": "Taabinga",
+        "lga_name": "South Burnett Regional",
+        "sequence": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.83194,
+          -26.59111
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "48667",
+        "place_name": "Hamilton Creek",
+        "lga_name": "Rockhampton Regional",
+        "sequence": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.39611,
+          -23.67278
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 4",
+        "iteration": 4,
+        "point_count": 6,
+        "order": [
+          "Hervey Range (Charters Towers Regional)",
+          "Proston",
+          "Irvingdale (Toowoomba Regional)",
+          "Stony Creek",
+          "Diamond Valley",
+          "Samsonvale"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            146.46278,
+            -19.45972
+          ],
+          [
+            151.59,
+            -26.17333
+          ],
+          [
+            151.51028,
+            -27.16778
+          ],
+          [
+            152.71194,
+            -26.91917
+          ],
+          [
+            152.92639,
+            -26.75611
+          ],
+          [
+            152.85806,
+            -27.26194
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "47871",
+        "place_name": "Hervey Range (Charters Towers Regional)",
+        "lga_name": "Charters Towers Regional",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.46278,
+          -19.45972
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "46257",
+        "place_name": "Proston",
+        "lga_name": "South Burnett Regional",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.59,
+          -26.17333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "52144",
+        "place_name": "Irvingdale (Toowoomba Regional)",
+        "lga_name": "Toowoomba Regional",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.51028,
+          -27.16778
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "45482",
+        "place_name": "Stony Creek",
+        "lga_name": "Moreton Bay City",
+        "sequence": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.71194,
+          -26.91917
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "50949",
+        "place_name": "Diamond Valley",
+        "lga_name": "Sunshine Coast Regional",
+        "sequence": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.92639,
+          -26.75611
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "45470",
+        "place_name": "Samsonvale",
+        "lga_name": "Moreton Bay City",
+        "sequence": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.85806,
+          -27.26194
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 5",
+        "iteration": 5,
+        "point_count": 6,
+        "order": [
+          "McDesme",
+          "Dunk",
+          "Sarina Beach",
+          "Moolboolaman",
+          "Amamoor",
+          "Ormiston"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            147.39861,
+            -19.62
+          ],
+          [
+            146.15361,
+            -17.98889
+          ],
+          [
+            149.285,
+            -21.38111
+          ],
+          [
+            151.82056,
+            -24.98639
+          ],
+          [
+            152.67222,
+            -26.35556
+          ],
+          [
+            153.25417,
+            -27.51222
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "42294",
+        "place_name": "McDesme",
+        "lga_name": "Burdekin Shire",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.39861,
+          -19.62
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "45668",
+        "place_name": "Dunk",
+        "lga_name": "Cassowary Coast Regional",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.15361,
+          -17.98889
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "46834",
+        "place_name": "Sarina Beach",
+        "lga_name": "Mackay Regional",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.285,
+          -21.38111
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "44748",
+        "place_name": "Moolboolaman",
+        "lga_name": "Bundaberg Regional",
+        "sequence": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.82056,
+          -24.98639
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "49837",
+        "place_name": "Amamoor",
+        "lga_name": "Gympie Regional",
+        "sequence": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.67222,
+          -26.35556
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "43631",
+        "place_name": "Ormiston",
+        "lga_name": "Redland City",
+        "sequence": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.25417,
+          -27.51222
+        ]
+      }
+    }
+  ]
+}

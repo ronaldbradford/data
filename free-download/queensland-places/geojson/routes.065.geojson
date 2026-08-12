@@ -1,0 +1,674 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 1",
+        "iteration": 1,
+        "point_count": 6,
+        "order": [
+          "Neerdie (Fraser Coast Regional)",
+          "Munna Creek (Fraser Coast Regional)",
+          "Byee",
+          "North Gregory",
+          "Babinda",
+          "Dedin"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            152.6625,
+            -25.95417
+          ],
+          [
+            152.45417,
+            -25.87222
+          ],
+          [
+            151.85139,
+            -26.18389
+          ],
+          [
+            152.28861,
+            -25.05111
+          ],
+          [
+            145.92306,
+            -17.34667
+          ],
+          [
+            145.16861,
+            -16.27361
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "46750",
+        "place_name": "Neerdie (Fraser Coast Regional)",
+        "lga_name": "Fraser Coast Regional",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.6625,
+          -25.95417
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "46743",
+        "place_name": "Munna Creek (Fraser Coast Regional)",
+        "lga_name": "Fraser Coast Regional",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.45417,
+          -25.87222
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "46202",
+        "place_name": "Byee",
+        "lga_name": "South Burnett Regional",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.85139,
+          -26.18389
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "48972",
+        "place_name": "North Gregory",
+        "lga_name": "Bundaberg Regional",
+        "sequence": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.28861,
+          -25.05111
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "48502",
+        "place_name": "Babinda",
+        "lga_name": "Cairns Regional",
+        "sequence": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.92306,
+          -17.34667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "48600",
+        "place_name": "Dedin",
+        "lga_name": "Douglas Shire",
+        "sequence": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.16861,
+          -16.27361
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 2",
+        "iteration": 2,
+        "point_count": 6,
+        "order": [
+          "Tipton",
+          "Irvingdale (Western Downs Regional)",
+          "Inverlaw",
+          "Coal Creek",
+          "Moodlu",
+          "Tamborine (Scenic Rim Regional)"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            151.25833,
+            -27.46361
+          ],
+          [
+            151.40778,
+            -27.14028
+          ],
+          [
+            151.76556,
+            -26.58306
+          ],
+          [
+            152.43444,
+            -27.18194
+          ],
+          [
+            152.91139,
+            -27.05444
+          ],
+          [
+            153.14333,
+            -27.87639
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "49371",
+        "place_name": "Tipton",
+        "lga_name": "Toowoomba Regional",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.25833,
+          -27.46361
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "52146",
+        "place_name": "Irvingdale (Western Downs Regional)",
+        "lga_name": "Western Downs Regional",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.40778,
+          -27.14028
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "46227",
+        "place_name": "Inverlaw",
+        "lga_name": "South Burnett Regional",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.76556,
+          -26.58306
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "44852",
+        "place_name": "Coal Creek",
+        "lga_name": "Somerset Regional",
+        "sequence": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.43444,
+          -27.18194
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "47121",
+        "place_name": "Moodlu",
+        "lga_name": "Moreton Bay City",
+        "sequence": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.91139,
+          -27.05444
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "48266",
+        "place_name": "Tamborine (Scenic Rim Regional)",
+        "lga_name": "Scenic Rim Regional",
+        "sequence": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.14333,
+          -27.87639
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 3",
+        "iteration": 3,
+        "point_count": 6,
+        "order": [
+          "Oyster Creek",
+          "Joskeleigh",
+          "Mount Ossa",
+          "Mount Lofty",
+          "Rosenthal Heights",
+          "Macleay Island"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            151.86111,
+            -24.42778
+          ],
+          [
+            150.8,
+            -23.38111
+          ],
+          [
+            148.83361,
+            -20.97694
+          ],
+          [
+            151.98389,
+            -27.53694
+          ],
+          [
+            151.97,
+            -28.25333
+          ],
+          [
+            153.35583,
+            -27.61417
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "46617",
+        "place_name": "Oyster Creek",
+        "lga_name": "Gladstone Regional",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.86111,
+          -24.42778
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "48685",
+        "place_name": "Joskeleigh",
+        "lga_name": "Livingstone Shire",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.8,
+          -23.38111
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "50299",
+        "place_name": "Mount Ossa",
+        "lga_name": "Mackay Regional",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.83361,
+          -20.97694
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "52410",
+        "place_name": "Mount Lofty",
+        "lga_name": "Toowoomba Regional",
+        "sequence": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.98389,
+          -27.53694
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "45972",
+        "place_name": "Rosenthal Heights",
+        "lga_name": "Southern Downs Regional",
+        "sequence": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.97,
+          -28.25333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "43644",
+        "place_name": "Macleay Island",
+        "lga_name": "Redland City",
+        "sequence": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.35583,
+          -27.61417
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 4",
+        "iteration": 4,
+        "point_count": 5,
+        "order": [
+          "Milford",
+          "Park Ridge South",
+          "Dalcouth",
+          "Golden Fleece",
+          "Dunk"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            152.7075,
+            -28.03139
+          ],
+          [
+            153.035,
+            -27.72722
+          ],
+          [
+            151.99028,
+            -28.65778
+          ],
+          [
+            152.19278,
+            -25.44833
+          ],
+          [
+            146.15361,
+            -17.98889
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "45163",
+        "place_name": "Milford",
+        "lga_name": "Scenic Rim Regional",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.7075,
+          -28.03139
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "45285",
+        "place_name": "Park Ridge South",
+        "lga_name": "Logan City",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.035,
+          -27.72722
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "49199",
+        "place_name": "Dalcouth",
+        "lga_name": "Southern Downs Regional",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.99028,
+          -28.65778
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "45353",
+        "place_name": "Golden Fleece",
+        "lga_name": "North Burnett Regional",
+        "sequence": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.19278,
+          -25.44833
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "45668",
+        "place_name": "Dunk",
+        "lga_name": "Cassowary Coast Regional",
+        "sequence": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.15361,
+          -17.98889
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 5",
+        "iteration": 5,
+        "point_count": 4,
+        "order": [
+          "Wonbah Forest",
+          "Mount Pleasant (Moreton Bay City)",
+          "Warwick",
+          "Wonga Beach"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            151.61778,
+            -24.98722
+          ],
+          [
+            152.78278,
+            -27.14778
+          ],
+          [
+            152.02222,
+            -28.21667
+          ],
+          [
+            145.41611,
+            -16.33389
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "47391",
+        "place_name": "Wonbah Forest",
+        "lga_name": "Bundaberg Regional",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.61778,
+          -24.98722
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "52318",
+        "place_name": "Mount Pleasant (Moreton Bay City)",
+        "lga_name": "Moreton Bay City",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.78278,
+          -27.14778
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "47653",
+        "place_name": "Warwick",
+        "lga_name": "Southern Downs Regional",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.02222,
+          -28.21667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "49615",
+        "place_name": "Wonga Beach",
+        "lga_name": "Douglas Shire",
+        "sequence": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.41611,
+          -16.33389
+        ]
+      }
+    }
+  ]
+}

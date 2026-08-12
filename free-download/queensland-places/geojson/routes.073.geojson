@@ -1,0 +1,674 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 1",
+        "iteration": 1,
+        "point_count": 5,
+        "order": [
+          "Lower Mount Walker (Scenic Rim Regional)",
+          "Cockatoo",
+          "Leydens Hill",
+          "Warrami",
+          "Strathmore (Mareeba Shire)"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            152.55361,
+            -27.73972
+          ],
+          [
+            150.28139,
+            -25.68444
+          ],
+          [
+            150.41222,
+            -23.61083
+          ],
+          [
+            145.79222,
+            -18.04
+          ],
+          [
+            142.73472,
+            -17.19556
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "45213",
+        "place_name": "Lower Mount Walker (Scenic Rim Regional)",
+        "lga_name": "Scenic Rim Regional",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.55361,
+          -27.73972
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "49542",
+        "place_name": "Cockatoo",
+        "lga_name": "Banana Shire",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.28139,
+          -25.68444
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "48728",
+        "place_name": "Leydens Hill",
+        "lga_name": "Rockhampton Regional",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.41222,
+          -23.61083
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "45772",
+        "place_name": "Warrami",
+        "lga_name": "Cassowary Coast Regional",
+        "sequence": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.79222,
+          -18.04
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 1,
+        "reference_number": "48882",
+        "place_name": "Strathmore (Mareeba Shire)",
+        "lga_name": "Mareeba Shire",
+        "sequence": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.73472,
+          -17.19556
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 2",
+        "iteration": 2,
+        "point_count": 6,
+        "order": [
+          "Mentmore",
+          "Mount Gardiner",
+          "Ulogie",
+          "West Stowe",
+          "Doctor Creek",
+          "Dundas"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            148.73833,
+            -20.76333
+          ],
+          [
+            149.51028,
+            -22.97556
+          ],
+          [
+            150.51528,
+            -23.94278
+          ],
+          [
+            151.12972,
+            -23.92278
+          ],
+          [
+            151.80861,
+            -27.18083
+          ],
+          [
+            152.68444,
+            -27.29861
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "46805",
+        "place_name": "Mentmore",
+        "lga_name": "Mackay Regional",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.73833,
+          -20.76333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "48782",
+        "place_name": "Mount Gardiner",
+        "lga_name": "Livingstone Shire",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.51028,
+          -22.97556
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "49787",
+        "place_name": "Ulogie",
+        "lga_name": "Banana Shire",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.51528,
+          -23.94278
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "49124",
+        "place_name": "West Stowe",
+        "lga_name": "Gladstone Regional",
+        "sequence": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.12972,
+          -23.92278
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "47928",
+        "place_name": "Doctor Creek",
+        "lga_name": "Toowoomba Regional",
+        "sequence": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.80861,
+          -27.18083
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 2,
+        "reference_number": "44862",
+        "place_name": "Dundas",
+        "lga_name": "Somerset Regional",
+        "sequence": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.68444,
+          -27.29861
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 3",
+        "iteration": 3,
+        "point_count": 4,
+        "order": [
+          "Byfield",
+          "Veteran",
+          "Kalbar",
+          "Warenda"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            150.63806,
+            -22.88972
+          ],
+          [
+            152.70417,
+            -26.14861
+          ],
+          [
+            152.61111,
+            -27.93861
+          ],
+          [
+            140.27194,
+            -22.47417
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "48553",
+        "place_name": "Byfield",
+        "lga_name": "Livingstone Shire",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.63806,
+          -22.88972
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "46394",
+        "place_name": "Veteran",
+        "lga_name": "Gympie Regional",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.70417,
+          -26.14861
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "45151",
+        "place_name": "Kalbar",
+        "lga_name": "Scenic Rim Regional",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.61111,
+          -27.93861
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 3,
+        "reference_number": "42347",
+        "place_name": "Warenda",
+        "lga_name": "Boulia Shire",
+        "sequence": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.27194,
+          -22.47417
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 4",
+        "iteration": 4,
+        "point_count": 6,
+        "order": [
+          "Abergowrie",
+          "Beilba",
+          "Mount Emlyn",
+          "Rockville",
+          "Minden",
+          "Rosemount"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            145.91944,
+            -18.43833
+          ],
+          [
+            148.85,
+            -25.65139
+          ],
+          [
+            151.3,
+            -28.03333
+          ],
+          [
+            151.93861,
+            -27.53583
+          ],
+          [
+            152.55111,
+            -27.54861
+          ],
+          [
+            153.00111,
+            -26.62333
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "42509",
+        "place_name": "Abergowrie",
+        "lga_name": "Hinchinbrook Shire",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.91944,
+          -18.43833
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "47411",
+        "place_name": "Beilba",
+        "lga_name": "Maranoa Regional",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.85,
+          -25.65139
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "48009",
+        "place_name": "Mount Emlyn",
+        "lga_name": "Toowoomba Regional",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.3,
+          -28.03333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "48052",
+        "place_name": "Rockville",
+        "lga_name": "Toowoomba Regional",
+        "sequence": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.93861,
+          -27.53583
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "49444",
+        "place_name": "Minden",
+        "lga_name": "Somerset Regional",
+        "sequence": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.55111,
+          -27.54861
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 4,
+        "reference_number": "48861",
+        "place_name": "Rosemount",
+        "lga_name": "Sunshine Coast Regional",
+        "sequence": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.00111,
+          -26.62333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounded locality route 5",
+        "iteration": 5,
+        "point_count": 6,
+        "order": [
+          "Tam O'Shanter",
+          "Southern Cross",
+          "Mount Kelly",
+          "Lonesome Creek",
+          "Round Hill",
+          "Yangan"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            146.06167,
+            -17.91389
+          ],
+          [
+            146.16722,
+            -20.01444
+          ],
+          [
+            147.315,
+            -19.66722
+          ],
+          [
+            150.10722,
+            -24.87833
+          ],
+          [
+            151.88333,
+            -24.27639
+          ],
+          [
+            152.20583,
+            -28.20111
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "45759",
+        "place_name": "Tam O'Shanter",
+        "lga_name": "Cassowary Coast Regional",
+        "sequence": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.06167,
+          -17.91389
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "49862",
+        "place_name": "Southern Cross",
+        "lga_name": "Charters Towers Regional",
+        "sequence": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.16722,
+          -20.01444
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "44669",
+        "place_name": "Mount Kelly",
+        "lga_name": "Burdekin Shire",
+        "sequence": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.315,
+          -19.66722
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "49564",
+        "place_name": "Lonesome Creek",
+        "lga_name": "Banana Shire",
+        "sequence": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.10722,
+          -24.87833
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "46621",
+        "place_name": "Round Hill",
+        "lga_name": "Gladstone Regional",
+        "sequence": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.88333,
+          -24.27639
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iteration": 5,
+        "reference_number": "46008",
+        "place_name": "Yangan",
+        "lga_name": "Southern Downs Regional",
+        "sequence": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.20583,
+          -28.20111
+        ]
+      }
+    }
+  ]
+}
