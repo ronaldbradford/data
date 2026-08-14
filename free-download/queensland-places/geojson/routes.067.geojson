@@ -11,7 +11,10 @@
           "Obum Obum",
           "Harristown",
           "Glendale"
-        ]
+        ],
+        "stroke": "#e6194b",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -38,7 +41,8 @@
         "reference_number": "45179",
         "place_name": "Obum Obum",
         "lga_name": "Scenic Rim Regional",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#e6194b"
       },
       "geometry": {
         "type": "Point",
@@ -55,7 +59,8 @@
         "reference_number": "47965",
         "place_name": "Harristown",
         "lga_name": "Toowoomba Regional",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#e6194b"
       },
       "geometry": {
         "type": "Point",
@@ -72,7 +77,8 @@
         "reference_number": "48653",
         "place_name": "Glendale",
         "lga_name": "Livingstone Shire",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#e6194b"
       },
       "geometry": {
         "type": "Point",
@@ -95,7 +101,10 @@
           "Fletcher",
           "Durham Downs",
           "Mount Molloy"
-        ]
+        ],
+        "stroke": "#3cb44b",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -134,7 +143,8 @@
         "reference_number": "46629",
         "place_name": "Bidwill",
         "lga_name": "Fraser Coast Regional",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#3cb44b"
       },
       "geometry": {
         "type": "Point",
@@ -151,7 +161,8 @@
         "reference_number": "46681",
         "place_name": "Tinnanbar",
         "lga_name": "Fraser Coast Regional",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#3cb44b"
       },
       "geometry": {
         "type": "Point",
@@ -168,7 +179,8 @@
         "reference_number": "48090",
         "place_name": "West Haldon (Toowoomba Regional)",
         "lga_name": "Toowoomba Regional",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#3cb44b"
       },
       "geometry": {
         "type": "Point",
@@ -185,7 +197,8 @@
         "reference_number": "50287",
         "place_name": "Fletcher",
         "lga_name": "Southern Downs Regional",
-        "sequence": 4
+        "sequence": 4,
+        "marker-color": "#3cb44b"
       },
       "geometry": {
         "type": "Point",
@@ -202,7 +215,8 @@
         "reference_number": "50008",
         "place_name": "Durham Downs",
         "lga_name": "Maranoa Regional",
-        "sequence": 5
+        "sequence": 5,
+        "marker-color": "#3cb44b"
       },
       "geometry": {
         "type": "Point",
@@ -219,7 +233,8 @@
         "reference_number": "48785",
         "place_name": "Mount Molloy",
         "lga_name": "Mareeba Shire",
-        "sequence": 6
+        "sequence": 6,
+        "marker-color": "#3cb44b"
       },
       "geometry": {
         "type": "Point",
@@ -240,7 +255,10 @@
           "St Helens (Fraser Coast Regional)",
           "Tyrconnel (Murweh Shire)",
           "No. 4 Branch"
-        ]
+        ],
+        "stroke": "#4363d8",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -271,7 +289,8 @@
         "reference_number": "52222",
         "place_name": "Quinalow",
         "lga_name": "Toowoomba Regional",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#4363d8"
       },
       "geometry": {
         "type": "Point",
@@ -288,7 +307,8 @@
         "reference_number": "46744",
         "place_name": "St Helens (Fraser Coast Regional)",
         "lga_name": "Fraser Coast Regional",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#4363d8"
       },
       "geometry": {
         "type": "Point",
@@ -305,7 +325,8 @@
         "reference_number": "42934",
         "place_name": "Tyrconnel (Murweh Shire)",
         "lga_name": "Murweh Shire",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#4363d8"
       },
       "geometry": {
         "type": "Point",
@@ -322,7 +343,8 @@
         "reference_number": "45743",
         "place_name": "No. 4 Branch",
         "lga_name": "Cassowary Coast Regional",
-        "sequence": 4
+        "sequence": 4,
+        "marker-color": "#4363d8"
       },
       "geometry": {
         "type": "Point",
@@ -342,7 +364,10 @@
           "Damper Creek",
           "Utchee Creek",
           "North Maclean"
-        ]
+        ],
+        "stroke": "#f58231",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -369,7 +394,8 @@
         "reference_number": "45663",
         "place_name": "Damper Creek",
         "lga_name": "Cassowary Coast Regional",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#f58231"
       },
       "geometry": {
         "type": "Point",
@@ -386,7 +412,8 @@
         "reference_number": "45762",
         "place_name": "Utchee Creek",
         "lga_name": "Cassowary Coast Regional",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#f58231"
       },
       "geometry": {
         "type": "Point",
@@ -403,7 +430,8 @@
         "reference_number": "48339",
         "place_name": "North Maclean",
         "lga_name": "Logan City",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#f58231"
       },
       "geometry": {
         "type": "Point",
@@ -423,7 +451,10 @@
           "Flagstone Creek",
           "Noosa North Shore",
           "Hamilton Plains"
-        ]
+        ],
+        "stroke": "#911eb4",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -450,7 +481,8 @@
         "reference_number": "45003",
         "place_name": "Flagstone Creek",
         "lga_name": "Lockyer Valley Regional",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#911eb4"
       },
       "geometry": {
         "type": "Point",
@@ -467,7 +499,8 @@
         "reference_number": "48809",
         "place_name": "Noosa North Shore",
         "lga_name": "Noosa Shire",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#911eb4"
       },
       "geometry": {
         "type": "Point",
@@ -484,7 +517,8 @@
         "reference_number": "46877",
         "place_name": "Hamilton Plains",
         "lga_name": "Whitsunday Regional",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#911eb4"
       },
       "geometry": {
         "type": "Point",

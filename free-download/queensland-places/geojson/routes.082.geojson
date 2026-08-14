@@ -12,7 +12,10 @@
           "Topaz",
           "South Mission Beach",
           "Crediton"
-        ]
+        ],
+        "stroke": "#e6194b",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -43,7 +46,8 @@
         "reference_number": "48802",
         "place_name": "Newell",
         "lga_name": "Douglas Shire",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#e6194b"
       },
       "geometry": {
         "type": "Point",
@@ -60,7 +64,8 @@
         "reference_number": "48904",
         "place_name": "Topaz",
         "lga_name": "Tablelands Regional",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#e6194b"
       },
       "geometry": {
         "type": "Point",
@@ -77,7 +82,8 @@
         "reference_number": "45755",
         "place_name": "South Mission Beach",
         "lga_name": "Cassowary Coast Regional",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#e6194b"
       },
       "geometry": {
         "type": "Point",
@@ -94,7 +100,8 @@
         "reference_number": "46771",
         "place_name": "Crediton",
         "lga_name": "Mackay Regional",
-        "sequence": 4
+        "sequence": 4,
+        "marker-color": "#e6194b"
       },
       "geometry": {
         "type": "Point",
@@ -115,7 +122,10 @@
           "Nebine",
           "Breddan",
           "Birkalla"
-        ]
+        ],
+        "stroke": "#3cb44b",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -146,7 +156,8 @@
         "reference_number": "46599",
         "place_name": "Colosseum",
         "lga_name": "Gladstone Regional",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#3cb44b"
       },
       "geometry": {
         "type": "Point",
@@ -163,7 +174,8 @@
         "reference_number": "42659",
         "place_name": "Nebine",
         "lga_name": "Paroo Shire",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#3cb44b"
       },
       "geometry": {
         "type": "Point",
@@ -180,7 +192,8 @@
         "reference_number": "48128",
         "place_name": "Breddan",
         "lga_name": "Charters Towers Regional",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#3cb44b"
       },
       "geometry": {
         "type": "Point",
@@ -197,7 +210,8 @@
         "reference_number": "45657",
         "place_name": "Birkalla",
         "lga_name": "Cassowary Coast Regional",
-        "sequence": 4
+        "sequence": 4,
+        "marker-color": "#3cb44b"
       },
       "geometry": {
         "type": "Point",
@@ -220,7 +234,10 @@
           "Mount Marrow",
           "Upper Freestone",
           "Stanthorpe"
-        ]
+        ],
+        "stroke": "#4363d8",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -259,7 +276,8 @@
         "reference_number": "49746",
         "place_name": "Dotswood",
         "lga_name": "Charters Towers Regional",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#4363d8"
       },
       "geometry": {
         "type": "Point",
@@ -276,7 +294,8 @@
         "reference_number": "46870",
         "place_name": "Glen Isla",
         "lga_name": "Whitsunday Regional",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#4363d8"
       },
       "geometry": {
         "type": "Point",
@@ -293,7 +312,8 @@
         "reference_number": "45352",
         "place_name": "Glenrae",
         "lga_name": "North Burnett Regional",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#4363d8"
       },
       "geometry": {
         "type": "Point",
@@ -310,7 +330,8 @@
         "reference_number": "45059",
         "place_name": "Mount Marrow",
         "lga_name": "Ipswich City",
-        "sequence": 4
+        "sequence": 4,
+        "marker-color": "#4363d8"
       },
       "geometry": {
         "type": "Point",
@@ -327,7 +348,8 @@
         "reference_number": "49508",
         "place_name": "Upper Freestone",
         "lga_name": "Southern Downs Regional",
-        "sequence": 5
+        "sequence": 5,
+        "marker-color": "#4363d8"
       },
       "geometry": {
         "type": "Point",
@@ -344,7 +366,8 @@
         "reference_number": "45978",
         "place_name": "Stanthorpe",
         "lga_name": "Southern Downs Regional",
-        "sequence": 6
+        "sequence": 6,
+        "marker-color": "#4363d8"
       },
       "geometry": {
         "type": "Point",
@@ -364,7 +387,10 @@
           "Mapleton",
           "Gatton",
           "Rubyvale"
-        ]
+        ],
+        "stroke": "#f58231",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -391,7 +417,8 @@
         "reference_number": "48743",
         "place_name": "Mapleton",
         "lga_name": "Sunshine Coast Regional",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#f58231"
       },
       "geometry": {
         "type": "Point",
@@ -408,7 +435,8 @@
         "reference_number": "44954",
         "place_name": "Gatton",
         "lga_name": "Lockyer Valley Regional",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#f58231"
       },
       "geometry": {
         "type": "Point",
@@ -425,7 +453,8 @@
         "reference_number": "50496",
         "place_name": "Rubyvale",
         "lga_name": "Central Highlands Regional",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#f58231"
       },
       "geometry": {
         "type": "Point",
@@ -447,7 +476,10 @@
           "Walter Hill",
           "North Johnstone",
           "Mona Mona"
-        ]
+        ],
+        "stroke": "#911eb4",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -482,7 +514,8 @@
         "reference_number": "47375",
         "place_name": "Crownthorpe (South Burnett Regional)",
         "lga_name": "South Burnett Regional",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#911eb4"
       },
       "geometry": {
         "type": "Point",
@@ -499,7 +532,8 @@
         "reference_number": "44961",
         "place_name": "Iredale",
         "lga_name": "Lockyer Valley Regional",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#911eb4"
       },
       "geometry": {
         "type": "Point",
@@ -516,7 +550,8 @@
         "reference_number": "45764",
         "place_name": "Walter Hill",
         "lga_name": "Cassowary Coast Regional",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#911eb4"
       },
       "geometry": {
         "type": "Point",
@@ -533,7 +568,8 @@
         "reference_number": "48813",
         "place_name": "North Johnstone",
         "lga_name": "Tablelands Regional",
-        "sequence": 4
+        "sequence": 4,
+        "marker-color": "#911eb4"
       },
       "geometry": {
         "type": "Point",
@@ -550,7 +586,8 @@
         "reference_number": "48765",
         "place_name": "Mona Mona",
         "lga_name": "Mareeba Shire",
-        "sequence": 5
+        "sequence": 5,
+        "marker-color": "#911eb4"
       },
       "geometry": {
         "type": "Point",

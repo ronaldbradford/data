@@ -12,7 +12,10 @@
           "Nobby",
           "Maxwelton",
           "Bellenden Ker"
-        ]
+        ],
+        "stroke": "#e6194b",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -43,7 +46,8 @@
         "reference_number": "46321",
         "place_name": "Corella",
         "lga_name": "Gympie Regional",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#e6194b"
       },
       "geometry": {
         "type": "Point",
@@ -60,7 +64,8 @@
         "reference_number": "50182",
         "place_name": "Nobby",
         "lga_name": "Toowoomba Regional",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#e6194b"
       },
       "geometry": {
         "type": "Point",
@@ -77,7 +82,8 @@
         "reference_number": "42354",
         "place_name": "Maxwelton",
         "lga_name": "Richmond Shire",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#e6194b"
       },
       "geometry": {
         "type": "Point",
@@ -94,7 +100,8 @@
         "reference_number": "48522",
         "place_name": "Bellenden Ker",
         "lga_name": "Cairns Regional",
-        "sequence": 4
+        "sequence": 4,
+        "marker-color": "#e6194b"
       },
       "geometry": {
         "type": "Point",
@@ -115,7 +122,10 @@
           "Rifle Range",
           "Taragoola",
           "Longreach"
-        ]
+        ],
+        "stroke": "#3cb44b",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -146,7 +156,8 @@
         "reference_number": "45204",
         "place_name": "Warrill View",
         "lga_name": "Scenic Rim Regional",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#3cb44b"
       },
       "geometry": {
         "type": "Point",
@@ -163,7 +174,8 @@
         "reference_number": "44911",
         "place_name": "Rifle Range",
         "lga_name": "Somerset Regional",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#3cb44b"
       },
       "geometry": {
         "type": "Point",
@@ -180,7 +192,8 @@
         "reference_number": "47288",
         "place_name": "Taragoola",
         "lga_name": "Gladstone Regional",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#3cb44b"
       },
       "geometry": {
         "type": "Point",
@@ -197,7 +210,8 @@
         "reference_number": "52312",
         "place_name": "Longreach",
         "lga_name": "Longreach Regional",
-        "sequence": 4
+        "sequence": 4,
+        "marker-color": "#3cb44b"
       },
       "geometry": {
         "type": "Point",
@@ -218,7 +232,10 @@
           "Goondiwindi",
           "Pinnacle",
           "Clemant"
-        ]
+        ],
+        "stroke": "#4363d8",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -249,7 +266,8 @@
         "reference_number": "46638",
         "place_name": "Burrum River",
         "lga_name": "Fraser Coast Regional",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#4363d8"
       },
       "geometry": {
         "type": "Point",
@@ -266,7 +284,8 @@
         "reference_number": "50047",
         "place_name": "Goondiwindi",
         "lga_name": "Goondiwindi Regional",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#4363d8"
       },
       "geometry": {
         "type": "Point",
@@ -283,7 +302,8 @@
         "reference_number": "46931",
         "place_name": "Pinnacle",
         "lga_name": "Mackay Regional",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#4363d8"
       },
       "geometry": {
         "type": "Point",
@@ -300,7 +320,8 @@
         "reference_number": "44583",
         "place_name": "Clemant",
         "lga_name": "Townsville City",
-        "sequence": 4
+        "sequence": 4,
+        "marker-color": "#4363d8"
       },
       "geometry": {
         "type": "Point",
@@ -321,7 +342,10 @@
           "Alligator Creek (Townsville City)",
           "Wonga Beach",
           "Western Creek"
-        ]
+        ],
+        "stroke": "#f58231",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -352,7 +376,8 @@
         "reference_number": "49376",
         "place_name": "Goorganga Creek",
         "lga_name": "Whitsunday Regional",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#f58231"
       },
       "geometry": {
         "type": "Point",
@@ -369,7 +394,8 @@
         "reference_number": "44564",
         "place_name": "Alligator Creek (Townsville City)",
         "lga_name": "Townsville City",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#f58231"
       },
       "geometry": {
         "type": "Point",
@@ -386,7 +412,8 @@
         "reference_number": "49615",
         "place_name": "Wonga Beach",
         "lga_name": "Douglas Shire",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#f58231"
       },
       "geometry": {
         "type": "Point",
@@ -403,7 +430,8 @@
         "reference_number": "48093",
         "place_name": "Western Creek",
         "lga_name": "Toowoomba Regional",
-        "sequence": 4
+        "sequence": 4,
+        "marker-color": "#f58231"
       },
       "geometry": {
         "type": "Point",
@@ -423,7 +451,10 @@
           "Dayboro",
           "Oyster Creek",
           "Mount Rooper"
-        ]
+        ],
+        "stroke": "#911eb4",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -450,7 +481,8 @@
         "reference_number": "49807",
         "place_name": "Dayboro",
         "lga_name": "Moreton Bay City",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#911eb4"
       },
       "geometry": {
         "type": "Point",
@@ -467,7 +499,8 @@
         "reference_number": "46617",
         "place_name": "Oyster Creek",
         "lga_name": "Gladstone Regional",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#911eb4"
       },
       "geometry": {
         "type": "Point",
@@ -484,7 +517,8 @@
         "reference_number": "46888",
         "place_name": "Mount Rooper",
         "lga_name": "Whitsunday Regional",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#911eb4"
       },
       "geometry": {
         "type": "Point",

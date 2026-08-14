@@ -14,7 +14,10 @@
           "Barringun",
           "Hughenden",
           "Burrar Islet"
-        ]
+        ],
+        "stroke": "#e6194b",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -53,7 +56,8 @@
         "reference_number": "49676",
         "place_name": "Bli Bli",
         "lga_name": "Sunshine Coast Regional",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#e6194b"
       },
       "geometry": {
         "type": "Point",
@@ -70,7 +74,8 @@
         "reference_number": "46341",
         "place_name": "Inskip",
         "lga_name": "Gympie Regional",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#e6194b"
       },
       "geometry": {
         "type": "Point",
@@ -87,7 +92,8 @@
         "reference_number": "49179",
         "place_name": "Oakey",
         "lga_name": "Toowoomba Regional",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#e6194b"
       },
       "geometry": {
         "type": "Point",
@@ -104,7 +110,8 @@
         "reference_number": "42650",
         "place_name": "Barringun",
         "lga_name": "Paroo Shire",
-        "sequence": 4
+        "sequence": 4,
+        "marker-color": "#e6194b"
       },
       "geometry": {
         "type": "Point",
@@ -121,7 +128,8 @@
         "reference_number": "52091",
         "place_name": "Hughenden",
         "lga_name": "Flinders Shire",
-        "sequence": 5
+        "sequence": 5,
+        "marker-color": "#e6194b"
       },
       "geometry": {
         "type": "Point",
@@ -138,7 +146,8 @@
         "reference_number": "46712",
         "place_name": "Burrar Islet",
         "lga_name": "Torres Strait Island Regional",
-        "sequence": 6
+        "sequence": 6,
+        "marker-color": "#e6194b"
       },
       "geometry": {
         "type": "Point",
@@ -159,7 +168,10 @@
           "Mungy",
           "Teebar",
           "Branyan"
-        ]
+        ],
+        "stroke": "#3cb44b",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -190,7 +202,8 @@
         "reference_number": "45318",
         "place_name": "Binjour",
         "lga_name": "North Burnett Regional",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#3cb44b"
       },
       "geometry": {
         "type": "Point",
@@ -207,7 +220,8 @@
         "reference_number": "47372",
         "place_name": "Mungy",
         "lga_name": "North Burnett Regional",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#3cb44b"
       },
       "geometry": {
         "type": "Point",
@@ -224,7 +238,8 @@
         "reference_number": "46677",
         "place_name": "Teebar",
         "lga_name": "Fraser Coast Regional",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#3cb44b"
       },
       "geometry": {
         "type": "Point",
@@ -241,7 +256,8 @@
         "reference_number": "48369",
         "place_name": "Branyan",
         "lga_name": "Bundaberg Regional",
-        "sequence": 4
+        "sequence": 4,
+        "marker-color": "#3cb44b"
       },
       "geometry": {
         "type": "Point",
@@ -261,7 +277,10 @@
           "Mount Tyson",
           "Campbell Creek",
           "Dalga"
-        ]
+        ],
+        "stroke": "#4363d8",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -288,7 +307,8 @@
         "reference_number": "49194",
         "place_name": "Mount Tyson",
         "lga_name": "Toowoomba Regional",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#4363d8"
       },
       "geometry": {
         "type": "Point",
@@ -305,7 +325,8 @@
         "reference_number": "45326",
         "place_name": "Campbell Creek",
         "lga_name": "North Burnett Regional",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#4363d8"
       },
       "geometry": {
         "type": "Point",
@@ -322,7 +343,8 @@
         "reference_number": "44705",
         "place_name": "Dalga",
         "lga_name": "Bundaberg Regional",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#4363d8"
       },
       "geometry": {
         "type": "Point",
@@ -343,7 +365,10 @@
           "Dulong",
           "Paluma (Townsville City)",
           "New Harbourline"
-        ]
+        ],
+        "stroke": "#f58231",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -374,7 +399,8 @@
         "reference_number": "50251",
         "place_name": "Howard",
         "lga_name": "Fraser Coast Regional",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#f58231"
       },
       "geometry": {
         "type": "Point",
@@ -391,7 +417,8 @@
         "reference_number": "48612",
         "place_name": "Dulong",
         "lga_name": "Sunshine Coast Regional",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#f58231"
       },
       "geometry": {
         "type": "Point",
@@ -408,7 +435,8 @@
         "reference_number": "44625",
         "place_name": "Paluma (Townsville City)",
         "lga_name": "Townsville City",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#f58231"
       },
       "geometry": {
         "type": "Point",
@@ -425,7 +453,8 @@
         "reference_number": "45742",
         "place_name": "New Harbourline",
         "lga_name": "Cassowary Coast Regional",
-        "sequence": 4
+        "sequence": 4,
+        "marker-color": "#f58231"
       },
       "geometry": {
         "type": "Point",
@@ -447,7 +476,10 @@
           "Neusa Vale",
           "Toondahra",
           "Mackenzie (Central Highlands Regional)"
-        ]
+        ],
+        "stroke": "#911eb4",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -482,7 +514,8 @@
         "reference_number": "45167",
         "place_name": "Morwincha",
         "lga_name": "Scenic Rim Regional",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#911eb4"
       },
       "geometry": {
         "type": "Point",
@@ -499,7 +532,8 @@
         "reference_number": "48962",
         "place_name": "Tamborine Mountain",
         "lga_name": "Scenic Rim Regional",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#911eb4"
       },
       "geometry": {
         "type": "Point",
@@ -516,7 +550,8 @@
         "reference_number": "46370",
         "place_name": "Neusa Vale",
         "lga_name": "Gympie Regional",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#911eb4"
       },
       "geometry": {
         "type": "Point",
@@ -533,7 +568,8 @@
         "reference_number": "45420",
         "place_name": "Toondahra",
         "lga_name": "North Burnett Regional",
-        "sequence": 4
+        "sequence": 4,
+        "marker-color": "#911eb4"
       },
       "geometry": {
         "type": "Point",
@@ -550,7 +586,8 @@
         "reference_number": "46963",
         "place_name": "Mackenzie (Central Highlands Regional)",
         "lga_name": "Central Highlands Regional",
-        "sequence": 5
+        "sequence": 5,
+        "marker-color": "#911eb4"
       },
       "geometry": {
         "type": "Point",

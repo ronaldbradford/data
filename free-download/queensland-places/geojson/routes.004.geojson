@@ -12,7 +12,10 @@
           "Lake Barrine",
           "Aratula",
           "Bahrs Scrub"
-        ]
+        ],
+        "stroke": "#e6194b",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -43,7 +46,8 @@
         "reference_number": "46848",
         "place_name": "Yalboroo",
         "lga_name": "Mackay Regional",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#e6194b"
       },
       "geometry": {
         "type": "Point",
@@ -60,7 +64,8 @@
         "reference_number": "48717",
         "place_name": "Lake Barrine",
         "lga_name": "Tablelands Regional",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#e6194b"
       },
       "geometry": {
         "type": "Point",
@@ -77,7 +82,8 @@
         "reference_number": "45107",
         "place_name": "Aratula",
         "lga_name": "Scenic Rim Regional",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#e6194b"
       },
       "geometry": {
         "type": "Point",
@@ -94,7 +100,8 @@
         "reference_number": "47852",
         "place_name": "Bahrs Scrub",
         "lga_name": "Logan City",
-        "sequence": 4
+        "sequence": 4,
+        "marker-color": "#e6194b"
       },
       "geometry": {
         "type": "Point",
@@ -115,7 +122,10 @@
           "Cattle Creek (Toowoomba Regional)",
           "Sharon",
           "Amaroo (Boulia Shire)"
-        ]
+        ],
+        "stroke": "#3cb44b",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -146,7 +156,8 @@
         "reference_number": "44977",
         "place_name": "Ma Ma Creek",
         "lga_name": "Lockyer Valley Regional",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#3cb44b"
       },
       "geometry": {
         "type": "Point",
@@ -163,7 +174,8 @@
         "reference_number": "47907",
         "place_name": "Cattle Creek (Toowoomba Regional)",
         "lga_name": "Toowoomba Regional",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#3cb44b"
       },
       "geometry": {
         "type": "Point",
@@ -180,7 +192,8 @@
         "reference_number": "44766",
         "place_name": "Sharon",
         "lga_name": "Bundaberg Regional",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#3cb44b"
       },
       "geometry": {
         "type": "Point",
@@ -197,7 +210,8 @@
         "reference_number": "42338",
         "place_name": "Amaroo (Boulia Shire)",
         "lga_name": "Boulia Shire",
-        "sequence": 4
+        "sequence": 4,
+        "marker-color": "#3cb44b"
       },
       "geometry": {
         "type": "Point",
@@ -219,7 +233,10 @@
           "Blythdale",
           "Surat",
           "Bakers Bend"
-        ]
+        ],
+        "stroke": "#4363d8",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -254,7 +271,8 @@
         "reference_number": "44704",
         "place_name": "Cordalba",
         "lga_name": "Bundaberg Regional",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#4363d8"
       },
       "geometry": {
         "type": "Point",
@@ -271,7 +289,8 @@
         "reference_number": "46211",
         "place_name": "Crawford",
         "lga_name": "South Burnett Regional",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#4363d8"
       },
       "geometry": {
         "type": "Point",
@@ -288,7 +307,8 @@
         "reference_number": "49162",
         "place_name": "Blythdale",
         "lga_name": "Maranoa Regional",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#4363d8"
       },
       "geometry": {
         "type": "Point",
@@ -305,7 +325,8 @@
         "reference_number": "47455",
         "place_name": "Surat",
         "lga_name": "Maranoa Regional",
-        "sequence": 4
+        "sequence": 4,
+        "marker-color": "#4363d8"
       },
       "geometry": {
         "type": "Point",
@@ -322,7 +343,8 @@
         "reference_number": "49243",
         "place_name": "Bakers Bend",
         "lga_name": "Murweh Shire",
-        "sequence": 5
+        "sequence": 5,
+        "marker-color": "#4363d8"
       },
       "geometry": {
         "type": "Point",
@@ -344,7 +366,10 @@
           "Starcke",
           "Eurimbula",
           "Chinghee Creek"
-        ]
+        ],
+        "stroke": "#f58231",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -379,7 +404,8 @@
         "reference_number": "45726",
         "place_name": "McCutcheon",
         "lga_name": "Cassowary Coast Regional",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#f58231"
       },
       "geometry": {
         "type": "Point",
@@ -396,7 +422,8 @@
         "reference_number": "42510",
         "place_name": "Blackrock",
         "lga_name": "Hinchinbrook Shire",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#f58231"
       },
       "geometry": {
         "type": "Point",
@@ -413,7 +440,8 @@
         "reference_number": "46140",
         "place_name": "Starcke",
         "lga_name": "Cook Shire",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#f58231"
       },
       "geometry": {
         "type": "Point",
@@ -430,7 +458,8 @@
         "reference_number": "46606",
         "place_name": "Eurimbula",
         "lga_name": "Gladstone Regional",
-        "sequence": 4
+        "sequence": 4,
+        "marker-color": "#f58231"
       },
       "geometry": {
         "type": "Point",
@@ -447,7 +476,8 @@
         "reference_number": "45127",
         "place_name": "Chinghee Creek",
         "lga_name": "Scenic Rim Regional",
-        "sequence": 5
+        "sequence": 5,
+        "marker-color": "#f58231"
       },
       "geometry": {
         "type": "Point",
@@ -469,7 +499,10 @@
           "Bakers Creek",
           "Mount Julian",
           "East Innisfail"
-        ]
+        ],
+        "stroke": "#911eb4",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -504,7 +537,8 @@
         "reference_number": "46650",
         "place_name": "Gootchie",
         "lga_name": "Fraser Coast Regional",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#911eb4"
       },
       "geometry": {
         "type": "Point",
@@ -521,7 +555,8 @@
         "reference_number": "45955",
         "place_name": "Mount Colliery",
         "lga_name": "Southern Downs Regional",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#911eb4"
       },
       "geometry": {
         "type": "Point",
@@ -538,7 +573,8 @@
         "reference_number": "46756",
         "place_name": "Bakers Creek",
         "lga_name": "Mackay Regional",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#911eb4"
       },
       "geometry": {
         "type": "Point",
@@ -555,7 +591,8 @@
         "reference_number": "46885",
         "place_name": "Mount Julian",
         "lga_name": "Whitsunday Regional",
-        "sequence": 4
+        "sequence": 4,
+        "marker-color": "#911eb4"
       },
       "geometry": {
         "type": "Point",
@@ -572,7 +609,8 @@
         "reference_number": "45693",
         "place_name": "East Innisfail",
         "lga_name": "Cassowary Coast Regional",
-        "sequence": 5
+        "sequence": 5,
+        "marker-color": "#911eb4"
       },
       "geometry": {
         "type": "Point",

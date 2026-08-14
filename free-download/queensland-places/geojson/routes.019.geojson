@@ -11,7 +11,10 @@
           "Blythdale",
           "Washpool",
           "Yaamba"
-        ]
+        ],
+        "stroke": "#e6194b",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -38,7 +41,8 @@
         "reference_number": "49162",
         "place_name": "Blythdale",
         "lga_name": "Maranoa Regional",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#e6194b"
       },
       "geometry": {
         "type": "Point",
@@ -55,7 +59,8 @@
         "reference_number": "45205",
         "place_name": "Washpool",
         "lga_name": "Scenic Rim Regional",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#e6194b"
       },
       "geometry": {
         "type": "Point",
@@ -72,7 +77,8 @@
         "reference_number": "48951",
         "place_name": "Yaamba",
         "lga_name": "Livingstone Shire",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#e6194b"
       },
       "geometry": {
         "type": "Point",
@@ -93,7 +99,10 @@
           "Birnam (Toowoomba Regional)",
           "Boynewood",
           "Andergrove"
-        ]
+        ],
+        "stroke": "#3cb44b",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -124,7 +133,8 @@
         "reference_number": "47832",
         "place_name": "Texas",
         "lga_name": "Goondiwindi Regional",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#3cb44b"
       },
       "geometry": {
         "type": "Point",
@@ -141,7 +151,8 @@
         "reference_number": "49203",
         "place_name": "Birnam (Toowoomba Regional)",
         "lga_name": "Toowoomba Regional",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#3cb44b"
       },
       "geometry": {
         "type": "Point",
@@ -158,7 +169,8 @@
         "reference_number": "47365",
         "place_name": "Boynewood",
         "lga_name": "North Burnett Regional",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#3cb44b"
       },
       "geometry": {
         "type": "Point",
@@ -175,7 +187,8 @@
         "reference_number": "46754",
         "place_name": "Andergrove",
         "lga_name": "Mackay Regional",
-        "sequence": 4
+        "sequence": 4,
+        "marker-color": "#3cb44b"
       },
       "geometry": {
         "type": "Point",
@@ -196,7 +209,10 @@
           "Fassifern",
           "Deepwater",
           "Captain Creek"
-        ]
+        ],
+        "stroke": "#4363d8",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -227,7 +243,8 @@
         "reference_number": "49866",
         "place_name": "Dalby",
         "lga_name": "Western Downs Regional",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#4363d8"
       },
       "geometry": {
         "type": "Point",
@@ -244,7 +261,8 @@
         "reference_number": "45137",
         "place_name": "Fassifern",
         "lga_name": "Scenic Rim Regional",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#4363d8"
       },
       "geometry": {
         "type": "Point",
@@ -261,7 +279,8 @@
         "reference_number": "46602",
         "place_name": "Deepwater",
         "lga_name": "Gladstone Regional",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#4363d8"
       },
       "geometry": {
         "type": "Point",
@@ -278,7 +297,8 @@
         "reference_number": "46598",
         "place_name": "Captain Creek",
         "lga_name": "Gladstone Regional",
-        "sequence": 4
+        "sequence": 4,
+        "marker-color": "#4363d8"
       },
       "geometry": {
         "type": "Point",
@@ -301,7 +321,10 @@
           "Dugandan",
           "Myrtlevale",
           "Albion (Richmond Shire)"
-        ]
+        ],
+        "stroke": "#f58231",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -340,7 +363,8 @@
         "reference_number": "46973",
         "place_name": "Rewan",
         "lga_name": "Central Highlands Regional",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#f58231"
       },
       "geometry": {
         "type": "Point",
@@ -357,7 +381,8 @@
         "reference_number": "46965",
         "place_name": "Mimosa",
         "lga_name": "Central Highlands Regional",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#f58231"
       },
       "geometry": {
         "type": "Point",
@@ -374,7 +399,8 @@
         "reference_number": "46633",
         "place_name": "Booral",
         "lga_name": "Fraser Coast Regional",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#f58231"
       },
       "geometry": {
         "type": "Point",
@@ -391,7 +417,8 @@
         "reference_number": "45136",
         "place_name": "Dugandan",
         "lga_name": "Scenic Rim Regional",
-        "sequence": 4
+        "sequence": 4,
+        "marker-color": "#f58231"
       },
       "geometry": {
         "type": "Point",
@@ -408,7 +435,8 @@
         "reference_number": "46890",
         "place_name": "Myrtlevale",
         "lga_name": "Whitsunday Regional",
-        "sequence": 5
+        "sequence": 5,
+        "marker-color": "#f58231"
       },
       "geometry": {
         "type": "Point",
@@ -425,7 +453,8 @@
         "reference_number": "42351",
         "place_name": "Albion (Richmond Shire)",
         "lga_name": "Richmond Shire",
-        "sequence": 6
+        "sequence": 6,
+        "marker-color": "#f58231"
       },
       "geometry": {
         "type": "Point",
@@ -446,7 +475,10 @@
           "Yangan",
           "Mount Barney",
           "Jimbour East"
-        ]
+        ],
+        "stroke": "#911eb4",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -477,7 +509,8 @@
         "reference_number": "44838",
         "place_name": "Brightview (Somerset Regional)",
         "lga_name": "Somerset Regional",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#911eb4"
       },
       "geometry": {
         "type": "Point",
@@ -494,7 +527,8 @@
         "reference_number": "46008",
         "place_name": "Yangan",
         "lga_name": "Southern Downs Regional",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#911eb4"
       },
       "geometry": {
         "type": "Point",
@@ -511,7 +545,8 @@
         "reference_number": "45169",
         "place_name": "Mount Barney",
         "lga_name": "Scenic Rim Regional",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#911eb4"
       },
       "geometry": {
         "type": "Point",
@@ -528,7 +563,8 @@
         "reference_number": "49278",
         "place_name": "Jimbour East",
         "lga_name": "Western Downs Regional",
-        "sequence": 4
+        "sequence": 4,
+        "marker-color": "#911eb4"
       },
       "geometry": {
         "type": "Point",

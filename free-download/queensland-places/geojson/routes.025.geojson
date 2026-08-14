@@ -14,7 +14,10 @@
           "Rossville",
           "Yaraka",
           "Cleveland"
-        ]
+        ],
+        "stroke": "#e6194b",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -53,7 +56,8 @@
         "reference_number": "42294",
         "place_name": "McDesme",
         "lga_name": "Burdekin Shire",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#e6194b"
       },
       "geometry": {
         "type": "Point",
@@ -70,7 +74,8 @@
         "reference_number": "46859",
         "place_name": "Collinsville",
         "lga_name": "Whitsunday Regional",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#e6194b"
       },
       "geometry": {
         "type": "Point",
@@ -87,7 +92,8 @@
         "reference_number": "48686",
         "place_name": "Julatten",
         "lga_name": "Mareeba Shire",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#e6194b"
       },
       "geometry": {
         "type": "Point",
@@ -104,7 +110,8 @@
         "reference_number": "46138",
         "place_name": "Rossville",
         "lga_name": "Cook Shire",
-        "sequence": 4
+        "sequence": 4,
+        "marker-color": "#e6194b"
       },
       "geometry": {
         "type": "Point",
@@ -121,7 +128,8 @@
         "reference_number": "52077",
         "place_name": "Yaraka",
         "lga_name": "Longreach Regional",
-        "sequence": 5
+        "sequence": 5,
+        "marker-color": "#e6194b"
       },
       "geometry": {
         "type": "Point",
@@ -138,7 +146,8 @@
         "reference_number": "43629",
         "place_name": "Cleveland",
         "lga_name": "Redland City",
-        "sequence": 6
+        "sequence": 6,
+        "marker-color": "#e6194b"
       },
       "geometry": {
         "type": "Point",
@@ -160,7 +169,10 @@
           "Kensington Grove",
           "Dakenba",
           "Dingo Beach"
-        ]
+        ],
+        "stroke": "#3cb44b",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -195,7 +207,8 @@
         "reference_number": "42681",
         "place_name": "Hebel",
         "lga_name": "Balonne Shire",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#3cb44b"
       },
       "geometry": {
         "type": "Point",
@@ -212,7 +225,8 @@
         "reference_number": "48060",
         "place_name": "Silverleigh",
         "lga_name": "Toowoomba Regional",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#3cb44b"
       },
       "geometry": {
         "type": "Point",
@@ -229,7 +243,8 @@
         "reference_number": "45005",
         "place_name": "Kensington Grove",
         "lga_name": "Lockyer Valley Regional",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#3cb44b"
       },
       "geometry": {
         "type": "Point",
@@ -246,7 +261,8 @@
         "reference_number": "49545",
         "place_name": "Dakenba",
         "lga_name": "Banana Shire",
-        "sequence": 4
+        "sequence": 4,
+        "marker-color": "#3cb44b"
       },
       "geometry": {
         "type": "Point",
@@ -263,7 +279,8 @@
         "reference_number": "46863",
         "place_name": "Dingo Beach",
         "lga_name": "Whitsunday Regional",
-        "sequence": 5
+        "sequence": 5,
+        "marker-color": "#3cb44b"
       },
       "geometry": {
         "type": "Point",
@@ -283,7 +300,10 @@
           "Nanango",
           "Severnlea",
           "Yungaburra"
-        ]
+        ],
+        "stroke": "#4363d8",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -310,7 +330,8 @@
         "reference_number": "49608",
         "place_name": "Nanango",
         "lga_name": "South Burnett Regional",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#4363d8"
       },
       "geometry": {
         "type": "Point",
@@ -327,7 +348,8 @@
         "reference_number": "45973",
         "place_name": "Severnlea",
         "lga_name": "Southern Downs Regional",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#4363d8"
       },
       "geometry": {
         "type": "Point",
@@ -344,7 +366,8 @@
         "reference_number": "48957",
         "place_name": "Yungaburra",
         "lga_name": "Tablelands Regional",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#4363d8"
       },
       "geometry": {
         "type": "Point",
@@ -366,7 +389,10 @@
           "Balnagowan",
           "Oberina",
           "Muirlea"
-        ]
+        ],
+        "stroke": "#f58231",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -401,7 +427,8 @@
         "reference_number": "45762",
         "place_name": "Utchee Creek",
         "lga_name": "Cassowary Coast Regional",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#f58231"
       },
       "geometry": {
         "type": "Point",
@@ -418,7 +445,8 @@
         "reference_number": "48662",
         "place_name": "Green Hill",
         "lga_name": "Cairns Regional",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#f58231"
       },
       "geometry": {
         "type": "Point",
@@ -435,7 +463,8 @@
         "reference_number": "49360",
         "place_name": "Balnagowan",
         "lga_name": "Mackay Regional",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#f58231"
       },
       "geometry": {
         "type": "Point",
@@ -452,7 +481,8 @@
         "reference_number": "47446",
         "place_name": "Oberina",
         "lga_name": "Maranoa Regional",
-        "sequence": 4
+        "sequence": 4,
+        "marker-color": "#f58231"
       },
       "geometry": {
         "type": "Point",
@@ -469,7 +499,8 @@
         "reference_number": "48968",
         "place_name": "Muirlea",
         "lga_name": "Ipswich City",
-        "sequence": 5
+        "sequence": 5,
+        "marker-color": "#f58231"
       },
       "geometry": {
         "type": "Point",
@@ -489,7 +520,10 @@
           "Isisford",
           "Monduran",
           "Blacksoil"
-        ]
+        ],
+        "stroke": "#911eb4",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -516,7 +550,8 @@
         "reference_number": "52076",
         "place_name": "Isisford",
         "lga_name": "Longreach Regional",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#911eb4"
       },
       "geometry": {
         "type": "Point",
@@ -533,7 +568,8 @@
         "reference_number": "50044",
         "place_name": "Monduran",
         "lga_name": "Bundaberg Regional",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#911eb4"
       },
       "geometry": {
         "type": "Point",
@@ -550,7 +586,8 @@
         "reference_number": "45028",
         "place_name": "Blacksoil",
         "lga_name": "Ipswich City",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#911eb4"
       },
       "geometry": {
         "type": "Point",

@@ -12,7 +12,10 @@
           "Winya",
           "Thulimbah",
           "Yagoonya"
-        ]
+        ],
+        "stroke": "#e6194b",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -43,7 +46,8 @@
         "reference_number": "46058",
         "place_name": "Lower Beechmont",
         "lga_name": "Gold Coast City",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#e6194b"
       },
       "geometry": {
         "type": "Point",
@@ -60,7 +64,8 @@
         "reference_number": "52209",
         "place_name": "Winya",
         "lga_name": "Somerset Regional",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#e6194b"
       },
       "geometry": {
         "type": "Point",
@@ -77,7 +82,8 @@
         "reference_number": "45994",
         "place_name": "Thulimbah",
         "lga_name": "Southern Downs Regional",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#e6194b"
       },
       "geometry": {
         "type": "Point",
@@ -94,7 +100,8 @@
         "reference_number": "42976",
         "place_name": "Yagoonya",
         "lga_name": "Carpentaria Shire",
-        "sequence": 4
+        "sequence": 4,
+        "marker-color": "#e6194b"
       },
       "geometry": {
         "type": "Point",
@@ -115,7 +122,10 @@
           "St Helens (Fraser Coast Regional)",
           "Elphinstone (Toowoomba Regional)",
           "Dargal Road"
-        ]
+        ],
+        "stroke": "#3cb44b",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -146,7 +156,8 @@
         "reference_number": "48540",
         "place_name": "Bouldercombe",
         "lga_name": "Rockhampton Regional",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#3cb44b"
       },
       "geometry": {
         "type": "Point",
@@ -163,7 +174,8 @@
         "reference_number": "46744",
         "place_name": "St Helens (Fraser Coast Regional)",
         "lga_name": "Fraser Coast Regional",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#3cb44b"
       },
       "geometry": {
         "type": "Point",
@@ -180,7 +192,8 @@
         "reference_number": "47937",
         "place_name": "Elphinstone (Toowoomba Regional)",
         "lga_name": "Toowoomba Regional",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#3cb44b"
       },
       "geometry": {
         "type": "Point",
@@ -197,7 +210,8 @@
         "reference_number": "47418",
         "place_name": "Dargal Road",
         "lga_name": "Maranoa Regional",
-        "sequence": 4
+        "sequence": 4,
+        "marker-color": "#3cb44b"
       },
       "geometry": {
         "type": "Point",
@@ -219,7 +233,10 @@
           "Fishermans Pocket",
           "Palmtree",
           "Glenlyon"
-        ]
+        ],
+        "stroke": "#4363d8",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -254,7 +271,8 @@
         "reference_number": "48547",
         "place_name": "Bulleringa",
         "lga_name": "Mareeba Shire",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#4363d8"
       },
       "geometry": {
         "type": "Point",
@@ -271,7 +289,8 @@
         "reference_number": "46718",
         "place_name": "Dowar Islet",
         "lga_name": "Torres Strait Island Regional",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#4363d8"
       },
       "geometry": {
         "type": "Point",
@@ -288,7 +307,8 @@
         "reference_number": "49681",
         "place_name": "Fishermans Pocket",
         "lga_name": "Gympie Regional",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#4363d8"
       },
       "geometry": {
         "type": "Point",
@@ -305,7 +325,8 @@
         "reference_number": "48032",
         "place_name": "Palmtree",
         "lga_name": "Toowoomba Regional",
-        "sequence": 4
+        "sequence": 4,
+        "marker-color": "#4363d8"
       },
       "geometry": {
         "type": "Point",
@@ -322,7 +343,8 @@
         "reference_number": "50204",
         "place_name": "Glenlyon",
         "lga_name": "Southern Downs Regional",
-        "sequence": 5
+        "sequence": 5,
+        "marker-color": "#4363d8"
       },
       "geometry": {
         "type": "Point",
@@ -342,7 +364,10 @@
           "Malpas-Trenton",
           "Mission River (Cook Shire)",
           "Nerimbera"
-        ]
+        ],
+        "stroke": "#f58231",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -369,7 +394,8 @@
         "reference_number": "42264",
         "place_name": "Malpas-Trenton",
         "lga_name": "McKinlay Shire",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#f58231"
       },
       "geometry": {
         "type": "Point",
@@ -386,7 +412,8 @@
         "reference_number": "46136",
         "place_name": "Mission River (Cook Shire)",
         "lga_name": "Cook Shire",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#f58231"
       },
       "geometry": {
         "type": "Point",
@@ -403,7 +430,8 @@
         "reference_number": "48801",
         "place_name": "Nerimbera",
         "lga_name": "Livingstone Shire",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#f58231"
       },
       "geometry": {
         "type": "Point",
@@ -426,7 +454,10 @@
           "Halliford",
           "Moranbah",
           "Cassowary"
-        ]
+        ],
+        "stroke": "#911eb4",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -465,7 +496,8 @@
         "reference_number": "44861",
         "place_name": "Crossdale",
         "lga_name": "Somerset Regional",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#911eb4"
       },
       "geometry": {
         "type": "Point",
@@ -482,7 +514,8 @@
         "reference_number": "52504",
         "place_name": "Haigslea (Ipswich City)",
         "lga_name": "Ipswich City",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#911eb4"
       },
       "geometry": {
         "type": "Point",
@@ -499,7 +532,8 @@
         "reference_number": "52503",
         "place_name": "Walloon",
         "lga_name": "Ipswich City",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#911eb4"
       },
       "geometry": {
         "type": "Point",
@@ -516,7 +550,8 @@
         "reference_number": "47708",
         "place_name": "Halliford",
         "lga_name": "Western Downs Regional",
-        "sequence": 4
+        "sequence": 4,
+        "marker-color": "#911eb4"
       },
       "geometry": {
         "type": "Point",
@@ -533,7 +568,8 @@
         "reference_number": "49384",
         "place_name": "Moranbah",
         "lga_name": "Isaac Regional",
-        "sequence": 5
+        "sequence": 5,
+        "marker-color": "#911eb4"
       },
       "geometry": {
         "type": "Point",
@@ -550,7 +586,8 @@
         "reference_number": "48564",
         "place_name": "Cassowary",
         "lga_name": "Douglas Shire",
-        "sequence": 6
+        "sequence": 6,
+        "marker-color": "#911eb4"
       },
       "geometry": {
         "type": "Point",

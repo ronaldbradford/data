@@ -14,7 +14,10 @@
           "Groper Creek",
           "Cromarty",
           "Lake Barrine"
-        ]
+        ],
+        "stroke": "#e6194b",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -53,7 +56,8 @@
         "reference_number": "47067",
         "place_name": "Windeyer",
         "lga_name": "Blackall-Tambo Regional",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#e6194b"
       },
       "geometry": {
         "type": "Point",
@@ -70,7 +74,8 @@
         "reference_number": "47752",
         "place_name": "Tuckerang",
         "lga_name": "Western Downs Regional",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#e6194b"
       },
       "geometry": {
         "type": "Point",
@@ -87,7 +92,8 @@
         "reference_number": "49217",
         "place_name": "Wigton",
         "lga_name": "South Burnett Regional",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#e6194b"
       },
       "geometry": {
         "type": "Point",
@@ -104,7 +110,8 @@
         "reference_number": "49457",
         "place_name": "Groper Creek",
         "lga_name": "Burdekin Shire",
-        "sequence": 4
+        "sequence": 4,
+        "marker-color": "#e6194b"
       },
       "geometry": {
         "type": "Point",
@@ -121,7 +128,8 @@
         "reference_number": "42306",
         "place_name": "Cromarty",
         "lga_name": "Burdekin Shire",
-        "sequence": 5
+        "sequence": 5,
+        "marker-color": "#e6194b"
       },
       "geometry": {
         "type": "Point",
@@ -138,7 +146,8 @@
         "reference_number": "48717",
         "place_name": "Lake Barrine",
         "lga_name": "Tablelands Regional",
-        "sequence": 6
+        "sequence": 6,
+        "marker-color": "#e6194b"
       },
       "geometry": {
         "type": "Point",
@@ -159,7 +168,10 @@
           "Back Plains",
           "Bushley",
           "Long Pocket"
-        ]
+        ],
+        "stroke": "#3cb44b",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -190,7 +202,8 @@
         "reference_number": "45453",
         "place_name": "Mount Glorious",
         "lga_name": "Moreton Bay City",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#3cb44b"
       },
       "geometry": {
         "type": "Point",
@@ -207,7 +220,8 @@
         "reference_number": "50089",
         "place_name": "Back Plains",
         "lga_name": "Toowoomba Regional",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#3cb44b"
       },
       "geometry": {
         "type": "Point",
@@ -224,7 +238,8 @@
         "reference_number": "48551",
         "place_name": "Bushley",
         "lga_name": "Rockhampton Regional",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#3cb44b"
       },
       "geometry": {
         "type": "Point",
@@ -241,7 +256,8 @@
         "reference_number": "20014",
         "place_name": "Long Pocket",
         "lga_name": "Hinchinbrook Shire",
-        "sequence": 4
+        "sequence": 4,
+        "marker-color": "#3cb44b"
       },
       "geometry": {
         "type": "Point",
@@ -263,7 +279,10 @@
           "Corndale",
           "Mount Moffatt",
           "Collinsville"
-        ]
+        ],
+        "stroke": "#4363d8",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -298,7 +317,8 @@
         "reference_number": "46747",
         "place_name": "Yerra",
         "lga_name": "Fraser Coast Regional",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#4363d8"
       },
       "geometry": {
         "type": "Point",
@@ -315,7 +335,8 @@
         "reference_number": "45338",
         "place_name": "Dallarnil",
         "lga_name": "North Burnett Regional",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#4363d8"
       },
       "geometry": {
         "type": "Point",
@@ -332,7 +353,8 @@
         "reference_number": "46209",
         "place_name": "Corndale",
         "lga_name": "South Burnett Regional",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#4363d8"
       },
       "geometry": {
         "type": "Point",
@@ -349,7 +371,8 @@
         "reference_number": "47441",
         "place_name": "Mount Moffatt",
         "lga_name": "Maranoa Regional",
-        "sequence": 4
+        "sequence": 4,
+        "marker-color": "#4363d8"
       },
       "geometry": {
         "type": "Point",
@@ -366,7 +389,8 @@
         "reference_number": "46859",
         "place_name": "Collinsville",
         "lga_name": "Whitsunday Regional",
-        "sequence": 5
+        "sequence": 5,
+        "marker-color": "#4363d8"
       },
       "geometry": {
         "type": "Point",
@@ -386,7 +410,10 @@
           "Hope Vale (Cook Shire)",
           "Midge Point",
           "Elliott"
-        ]
+        ],
+        "stroke": "#f58231",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -413,7 +440,8 @@
         "reference_number": "46128",
         "place_name": "Hope Vale (Cook Shire)",
         "lga_name": "Cook Shire",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#f58231"
       },
       "geometry": {
         "type": "Point",
@@ -430,7 +458,8 @@
         "reference_number": "46807",
         "place_name": "Midge Point",
         "lga_name": "Mackay Regional",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#f58231"
       },
       "geometry": {
         "type": "Point",
@@ -447,7 +476,8 @@
         "reference_number": "48971",
         "place_name": "Elliott",
         "lga_name": "Bundaberg Regional",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#f58231"
       },
       "geometry": {
         "type": "Point",
@@ -468,7 +498,10 @@
           "Sunny Nook",
           "The Gums",
           "Yarrabah"
-        ]
+        ],
+        "stroke": "#911eb4",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -499,7 +532,8 @@
         "reference_number": "47011",
         "place_name": "Coppabella",
         "lga_name": "Isaac Regional",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#911eb4"
       },
       "geometry": {
         "type": "Point",
@@ -516,7 +550,8 @@
         "reference_number": "46267",
         "place_name": "Sunny Nook",
         "lga_name": "South Burnett Regional",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#911eb4"
       },
       "geometry": {
         "type": "Point",
@@ -533,7 +568,8 @@
         "reference_number": "47751",
         "place_name": "The Gums",
         "lga_name": "Western Downs Regional",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#911eb4"
       },
       "geometry": {
         "type": "Point",
@@ -550,7 +586,8 @@
         "reference_number": "45792",
         "place_name": "Yarrabah",
         "lga_name": "Yarrabah Aboriginal Shire",
-        "sequence": 4
+        "sequence": 4,
+        "marker-color": "#911eb4"
       },
       "geometry": {
         "type": "Point",

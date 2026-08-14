@@ -14,7 +14,10 @@
           "Plainland",
           "Morwincha",
           "King Scrub"
-        ]
+        ],
+        "stroke": "#e6194b",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -53,7 +56,8 @@
         "reference_number": "49550",
         "place_name": "Eurombah (Banana Shire)",
         "lga_name": "Banana Shire",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#e6194b"
       },
       "geometry": {
         "type": "Point",
@@ -70,7 +74,8 @@
         "reference_number": "47430",
         "place_name": "Injune",
         "lga_name": "Maranoa Regional",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#e6194b"
       },
       "geometry": {
         "type": "Point",
@@ -87,7 +92,8 @@
         "reference_number": "47418",
         "place_name": "Dargal Road",
         "lga_name": "Maranoa Regional",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#e6194b"
       },
       "geometry": {
         "type": "Point",
@@ -104,7 +110,8 @@
         "reference_number": "44984",
         "place_name": "Plainland",
         "lga_name": "Lockyer Valley Regional",
-        "sequence": 4
+        "sequence": 4,
+        "marker-color": "#e6194b"
       },
       "geometry": {
         "type": "Point",
@@ -121,7 +128,8 @@
         "reference_number": "45167",
         "place_name": "Morwincha",
         "lga_name": "Scenic Rim Regional",
-        "sequence": 5
+        "sequence": 5,
+        "marker-color": "#e6194b"
       },
       "geometry": {
         "type": "Point",
@@ -138,7 +146,8 @@
         "reference_number": "45442",
         "place_name": "King Scrub",
         "lga_name": "Moreton Bay City",
-        "sequence": 6
+        "sequence": 6,
+        "marker-color": "#e6194b"
       },
       "geometry": {
         "type": "Point",
@@ -159,7 +168,10 @@
           "Mutdapilly (Scenic Rim Regional)",
           "Monarch Glen",
           "Garners Beach"
-        ]
+        ],
+        "stroke": "#3cb44b",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -190,7 +202,8 @@
         "reference_number": "47817",
         "place_name": "Limevale",
         "lga_name": "Goondiwindi Regional",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#3cb44b"
       },
       "geometry": {
         "type": "Point",
@@ -207,7 +220,8 @@
         "reference_number": "45212",
         "place_name": "Mutdapilly (Scenic Rim Regional)",
         "lga_name": "Scenic Rim Regional",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#3cb44b"
       },
       "geometry": {
         "type": "Point",
@@ -224,7 +238,8 @@
         "reference_number": "49727",
         "place_name": "Monarch Glen",
         "lga_name": "Logan City",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#3cb44b"
       },
       "geometry": {
         "type": "Point",
@@ -241,7 +256,8 @@
         "reference_number": "45675",
         "place_name": "Garners Beach",
         "lga_name": "Cassowary Coast Regional",
-        "sequence": 4
+        "sequence": 4,
+        "marker-color": "#3cb44b"
       },
       "geometry": {
         "type": "Point",
@@ -261,7 +277,10 @@
           "Sommariva",
           "Burton",
           "Tarome"
-        ]
+        ],
+        "stroke": "#4363d8",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -288,7 +307,8 @@
         "reference_number": "50253",
         "place_name": "Sommariva",
         "lga_name": "Murweh Shire",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#4363d8"
       },
       "geometry": {
         "type": "Point",
@@ -305,7 +325,8 @@
         "reference_number": "49383",
         "place_name": "Burton",
         "lga_name": "Isaac Regional",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#4363d8"
       },
       "geometry": {
         "type": "Point",
@@ -322,7 +343,8 @@
         "reference_number": "45195",
         "place_name": "Tarome",
         "lga_name": "Scenic Rim Regional",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#4363d8"
       },
       "geometry": {
         "type": "Point",
@@ -344,7 +366,10 @@
           "Brightview (Somerset Regional)",
           "Chambers Flat",
           "Cheltenham"
-        ]
+        ],
+        "stroke": "#f58231",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -379,7 +404,8 @@
         "reference_number": "47886",
         "place_name": "Aubigny",
         "lga_name": "Toowoomba Regional",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#f58231"
       },
       "geometry": {
         "type": "Point",
@@ -396,7 +422,8 @@
         "reference_number": "52410",
         "place_name": "Mount Lofty",
         "lga_name": "Toowoomba Regional",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#f58231"
       },
       "geometry": {
         "type": "Point",
@@ -413,7 +440,8 @@
         "reference_number": "44838",
         "place_name": "Brightview (Somerset Regional)",
         "lga_name": "Somerset Regional",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#f58231"
       },
       "geometry": {
         "type": "Point",
@@ -430,7 +458,8 @@
         "reference_number": "45259",
         "place_name": "Chambers Flat",
         "lga_name": "Logan City",
-        "sequence": 4
+        "sequence": 4,
+        "marker-color": "#f58231"
       },
       "geometry": {
         "type": "Point",
@@ -447,7 +476,8 @@
         "reference_number": "52273",
         "place_name": "Cheltenham",
         "lga_name": "North Burnett Regional",
-        "sequence": 5
+        "sequence": 5,
+        "marker-color": "#f58231"
       },
       "geometry": {
         "type": "Point",
@@ -468,7 +498,10 @@
           "Ramsay",
           "Marlborough",
           "Bombeeta"
-        ]
+        ],
+        "stroke": "#911eb4",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -499,7 +532,8 @@
         "reference_number": "46214",
         "place_name": "Dangore",
         "lga_name": "South Burnett Regional",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#911eb4"
       },
       "geometry": {
         "type": "Point",
@@ -516,7 +550,8 @@
         "reference_number": "52411",
         "place_name": "Ramsay",
         "lga_name": "Toowoomba Regional",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#911eb4"
       },
       "geometry": {
         "type": "Point",
@@ -533,7 +568,8 @@
         "reference_number": "48747",
         "place_name": "Marlborough",
         "lga_name": "Livingstone Shire",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#911eb4"
       },
       "geometry": {
         "type": "Point",
@@ -550,7 +586,8 @@
         "reference_number": "45679",
         "place_name": "Bombeeta",
         "lga_name": "Cassowary Coast Regional",
-        "sequence": 4
+        "sequence": 4,
+        "marker-color": "#911eb4"
       },
       "geometry": {
         "type": "Point",

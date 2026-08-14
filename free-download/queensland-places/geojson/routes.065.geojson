@@ -14,7 +14,10 @@
           "North Gregory",
           "Babinda",
           "Dedin"
-        ]
+        ],
+        "stroke": "#e6194b",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -53,7 +56,8 @@
         "reference_number": "46750",
         "place_name": "Neerdie (Fraser Coast Regional)",
         "lga_name": "Fraser Coast Regional",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#e6194b"
       },
       "geometry": {
         "type": "Point",
@@ -70,7 +74,8 @@
         "reference_number": "46743",
         "place_name": "Munna Creek (Fraser Coast Regional)",
         "lga_name": "Fraser Coast Regional",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#e6194b"
       },
       "geometry": {
         "type": "Point",
@@ -87,7 +92,8 @@
         "reference_number": "46202",
         "place_name": "Byee",
         "lga_name": "South Burnett Regional",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#e6194b"
       },
       "geometry": {
         "type": "Point",
@@ -104,7 +110,8 @@
         "reference_number": "48972",
         "place_name": "North Gregory",
         "lga_name": "Bundaberg Regional",
-        "sequence": 4
+        "sequence": 4,
+        "marker-color": "#e6194b"
       },
       "geometry": {
         "type": "Point",
@@ -121,7 +128,8 @@
         "reference_number": "48502",
         "place_name": "Babinda",
         "lga_name": "Cairns Regional",
-        "sequence": 5
+        "sequence": 5,
+        "marker-color": "#e6194b"
       },
       "geometry": {
         "type": "Point",
@@ -138,7 +146,8 @@
         "reference_number": "48600",
         "place_name": "Dedin",
         "lga_name": "Douglas Shire",
-        "sequence": 6
+        "sequence": 6,
+        "marker-color": "#e6194b"
       },
       "geometry": {
         "type": "Point",
@@ -161,7 +170,10 @@
           "Coal Creek",
           "Moodlu",
           "Tamborine (Scenic Rim Regional)"
-        ]
+        ],
+        "stroke": "#3cb44b",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -200,7 +212,8 @@
         "reference_number": "49371",
         "place_name": "Tipton",
         "lga_name": "Toowoomba Regional",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#3cb44b"
       },
       "geometry": {
         "type": "Point",
@@ -217,7 +230,8 @@
         "reference_number": "52146",
         "place_name": "Irvingdale (Western Downs Regional)",
         "lga_name": "Western Downs Regional",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#3cb44b"
       },
       "geometry": {
         "type": "Point",
@@ -234,7 +248,8 @@
         "reference_number": "46227",
         "place_name": "Inverlaw",
         "lga_name": "South Burnett Regional",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#3cb44b"
       },
       "geometry": {
         "type": "Point",
@@ -251,7 +266,8 @@
         "reference_number": "44852",
         "place_name": "Coal Creek",
         "lga_name": "Somerset Regional",
-        "sequence": 4
+        "sequence": 4,
+        "marker-color": "#3cb44b"
       },
       "geometry": {
         "type": "Point",
@@ -268,7 +284,8 @@
         "reference_number": "47121",
         "place_name": "Moodlu",
         "lga_name": "Moreton Bay City",
-        "sequence": 5
+        "sequence": 5,
+        "marker-color": "#3cb44b"
       },
       "geometry": {
         "type": "Point",
@@ -285,7 +302,8 @@
         "reference_number": "48266",
         "place_name": "Tamborine (Scenic Rim Regional)",
         "lga_name": "Scenic Rim Regional",
-        "sequence": 6
+        "sequence": 6,
+        "marker-color": "#3cb44b"
       },
       "geometry": {
         "type": "Point",
@@ -308,7 +326,10 @@
           "Mount Lofty",
           "Rosenthal Heights",
           "Macleay Island"
-        ]
+        ],
+        "stroke": "#4363d8",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -347,7 +368,8 @@
         "reference_number": "46617",
         "place_name": "Oyster Creek",
         "lga_name": "Gladstone Regional",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#4363d8"
       },
       "geometry": {
         "type": "Point",
@@ -364,7 +386,8 @@
         "reference_number": "48685",
         "place_name": "Joskeleigh",
         "lga_name": "Livingstone Shire",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#4363d8"
       },
       "geometry": {
         "type": "Point",
@@ -381,7 +404,8 @@
         "reference_number": "50299",
         "place_name": "Mount Ossa",
         "lga_name": "Mackay Regional",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#4363d8"
       },
       "geometry": {
         "type": "Point",
@@ -398,7 +422,8 @@
         "reference_number": "52410",
         "place_name": "Mount Lofty",
         "lga_name": "Toowoomba Regional",
-        "sequence": 4
+        "sequence": 4,
+        "marker-color": "#4363d8"
       },
       "geometry": {
         "type": "Point",
@@ -415,7 +440,8 @@
         "reference_number": "45972",
         "place_name": "Rosenthal Heights",
         "lga_name": "Southern Downs Regional",
-        "sequence": 5
+        "sequence": 5,
+        "marker-color": "#4363d8"
       },
       "geometry": {
         "type": "Point",
@@ -432,7 +458,8 @@
         "reference_number": "43644",
         "place_name": "Macleay Island",
         "lga_name": "Redland City",
-        "sequence": 6
+        "sequence": 6,
+        "marker-color": "#4363d8"
       },
       "geometry": {
         "type": "Point",
@@ -454,7 +481,10 @@
           "Dalcouth",
           "Golden Fleece",
           "Dunk"
-        ]
+        ],
+        "stroke": "#f58231",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -489,7 +519,8 @@
         "reference_number": "45163",
         "place_name": "Milford",
         "lga_name": "Scenic Rim Regional",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#f58231"
       },
       "geometry": {
         "type": "Point",
@@ -506,7 +537,8 @@
         "reference_number": "45285",
         "place_name": "Park Ridge South",
         "lga_name": "Logan City",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#f58231"
       },
       "geometry": {
         "type": "Point",
@@ -523,7 +555,8 @@
         "reference_number": "49199",
         "place_name": "Dalcouth",
         "lga_name": "Southern Downs Regional",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#f58231"
       },
       "geometry": {
         "type": "Point",
@@ -540,7 +573,8 @@
         "reference_number": "45353",
         "place_name": "Golden Fleece",
         "lga_name": "North Burnett Regional",
-        "sequence": 4
+        "sequence": 4,
+        "marker-color": "#f58231"
       },
       "geometry": {
         "type": "Point",
@@ -557,7 +591,8 @@
         "reference_number": "45668",
         "place_name": "Dunk",
         "lga_name": "Cassowary Coast Regional",
-        "sequence": 5
+        "sequence": 5,
+        "marker-color": "#f58231"
       },
       "geometry": {
         "type": "Point",
@@ -578,7 +613,10 @@
           "Mount Pleasant (Moreton Bay City)",
           "Warwick",
           "Wonga Beach"
-        ]
+        ],
+        "stroke": "#911eb4",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -609,7 +647,8 @@
         "reference_number": "47391",
         "place_name": "Wonbah Forest",
         "lga_name": "Bundaberg Regional",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#911eb4"
       },
       "geometry": {
         "type": "Point",
@@ -626,7 +665,8 @@
         "reference_number": "52318",
         "place_name": "Mount Pleasant (Moreton Bay City)",
         "lga_name": "Moreton Bay City",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#911eb4"
       },
       "geometry": {
         "type": "Point",
@@ -643,7 +683,8 @@
         "reference_number": "47653",
         "place_name": "Warwick",
         "lga_name": "Southern Downs Regional",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#911eb4"
       },
       "geometry": {
         "type": "Point",
@@ -660,7 +701,8 @@
         "reference_number": "49615",
         "place_name": "Wonga Beach",
         "lga_name": "Douglas Shire",
-        "sequence": 4
+        "sequence": 4,
+        "marker-color": "#911eb4"
       },
       "geometry": {
         "type": "Point",

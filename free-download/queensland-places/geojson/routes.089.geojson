@@ -11,7 +11,10 @@
           "Greenlands",
           "Mount Lawless",
           "Beecher"
-        ]
+        ],
+        "stroke": "#e6194b",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -38,7 +41,8 @@
         "reference_number": "50092",
         "place_name": "Greenlands",
         "lga_name": "Southern Downs Regional",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#e6194b"
       },
       "geometry": {
         "type": "Point",
@@ -55,7 +59,8 @@
         "reference_number": "45394",
         "place_name": "Mount Lawless",
         "lga_name": "North Burnett Regional",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#e6194b"
       },
       "geometry": {
         "type": "Point",
@@ -72,7 +77,8 @@
         "reference_number": "46588",
         "place_name": "Beecher",
         "lga_name": "Gladstone Regional",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#e6194b"
       },
       "geometry": {
         "type": "Point",
@@ -94,7 +100,10 @@
           "Mount Luke",
           "Strathfield",
           "Umagico (Northern Peninsula Area Regional)"
-        ]
+        ],
+        "stroke": "#3cb44b",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -129,7 +138,8 @@
         "reference_number": "44750",
         "place_name": "Moorland",
         "lga_name": "Bundaberg Regional",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#3cb44b"
       },
       "geometry": {
         "type": "Point",
@@ -146,7 +156,8 @@
         "reference_number": "45462",
         "place_name": "Ocean View",
         "lga_name": "Moreton Bay City",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#3cb44b"
       },
       "geometry": {
         "type": "Point",
@@ -163,7 +174,8 @@
         "reference_number": "48013",
         "place_name": "Mount Luke",
         "lga_name": "Toowoomba Regional",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#3cb44b"
       },
       "geometry": {
         "type": "Point",
@@ -180,7 +192,8 @@
         "reference_number": "47036",
         "place_name": "Strathfield",
         "lga_name": "Isaac Regional",
-        "sequence": 4
+        "sequence": 4,
+        "marker-color": "#3cb44b"
       },
       "geometry": {
         "type": "Point",
@@ -197,7 +210,8 @@
         "reference_number": "46109",
         "place_name": "Umagico (Northern Peninsula Area Regional)",
         "lga_name": "Northern Peninsula Area Regional",
-        "sequence": 5
+        "sequence": 5,
+        "marker-color": "#3cb44b"
       },
       "geometry": {
         "type": "Point",
@@ -219,7 +233,10 @@
           "Taroom (Banana Shire)",
           "Lowood",
           "Kooroomool"
-        ]
+        ],
+        "stroke": "#4363d8",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -254,7 +271,8 @@
         "reference_number": "47036",
         "place_name": "Strathfield",
         "lga_name": "Isaac Regional",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#4363d8"
       },
       "geometry": {
         "type": "Point",
@@ -271,7 +289,8 @@
         "reference_number": "48653",
         "place_name": "Glendale",
         "lga_name": "Livingstone Shire",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#4363d8"
       },
       "geometry": {
         "type": "Point",
@@ -288,7 +307,8 @@
         "reference_number": "49572",
         "place_name": "Taroom (Banana Shire)",
         "lga_name": "Banana Shire",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#4363d8"
       },
       "geometry": {
         "type": "Point",
@@ -305,7 +325,8 @@
         "reference_number": "44894",
         "place_name": "Lowood",
         "lga_name": "Somerset Regional",
-        "sequence": 4
+        "sequence": 4,
+        "marker-color": "#4363d8"
       },
       "geometry": {
         "type": "Point",
@@ -322,7 +343,8 @@
         "reference_number": "45717",
         "place_name": "Kooroomool",
         "lga_name": "Cassowary Coast Regional",
-        "sequence": 5
+        "sequence": 5,
+        "marker-color": "#4363d8"
       },
       "geometry": {
         "type": "Point",
@@ -342,7 +364,10 @@
           "Fairdale",
           "Wateranga",
           "Upper Pilton (Toowoomba Regional)"
-        ]
+        ],
+        "stroke": "#f58231",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -369,7 +394,8 @@
         "reference_number": "46217",
         "place_name": "Fairdale",
         "lga_name": "South Burnett Regional",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#f58231"
       },
       "geometry": {
         "type": "Point",
@@ -386,7 +412,8 @@
         "reference_number": "45423",
         "place_name": "Wateranga",
         "lga_name": "North Burnett Regional",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#f58231"
       },
       "geometry": {
         "type": "Point",
@@ -403,7 +430,8 @@
         "reference_number": "49755",
         "place_name": "Upper Pilton (Toowoomba Regional)",
         "lga_name": "Toowoomba Regional",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#f58231"
       },
       "geometry": {
         "type": "Point",
@@ -426,7 +454,10 @@
           "Mount Sylvia",
           "Leyburn (Toowoomba Regional)",
           "Cowan Cowan"
-        ]
+        ],
+        "stroke": "#911eb4",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -465,7 +496,8 @@
         "reference_number": "44628",
         "place_name": "Pinnacles",
         "lga_name": "Townsville City",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#911eb4"
       },
       "geometry": {
         "type": "Point",
@@ -482,7 +514,8 @@
         "reference_number": "46958",
         "place_name": "Jellinbah",
         "lga_name": "Central Highlands Regional",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#911eb4"
       },
       "geometry": {
         "type": "Point",
@@ -499,7 +532,8 @@
         "reference_number": "44837",
         "place_name": "Braemore",
         "lga_name": "Somerset Regional",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#911eb4"
       },
       "geometry": {
         "type": "Point",
@@ -516,7 +550,8 @@
         "reference_number": "44980",
         "place_name": "Mount Sylvia",
         "lga_name": "Lockyer Valley Regional",
-        "sequence": 4
+        "sequence": 4,
+        "marker-color": "#911eb4"
       },
       "geometry": {
         "type": "Point",
@@ -533,7 +568,8 @@
         "reference_number": "47990",
         "place_name": "Leyburn (Toowoomba Regional)",
         "lga_name": "Toowoomba Regional",
-        "sequence": 5
+        "sequence": 5,
+        "marker-color": "#911eb4"
       },
       "geometry": {
         "type": "Point",
@@ -550,7 +586,8 @@
         "reference_number": "49459",
         "place_name": "Cowan Cowan",
         "lga_name": "Brisbane City",
-        "sequence": 6
+        "sequence": 6,
+        "marker-color": "#911eb4"
       },
       "geometry": {
         "type": "Point",

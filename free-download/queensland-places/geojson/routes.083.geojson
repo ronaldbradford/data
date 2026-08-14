@@ -14,7 +14,10 @@
           "Kowguran",
           "Lefthand Branch",
           "Bollon"
-        ]
+        ],
+        "stroke": "#e6194b",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -53,7 +56,8 @@
         "reference_number": "48609",
         "place_name": "Diwan",
         "lga_name": "Douglas Shire",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#e6194b"
       },
       "geometry": {
         "type": "Point",
@@ -70,7 +74,8 @@
         "reference_number": "44576",
         "place_name": "Bohle Plains",
         "lga_name": "Townsville City",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#e6194b"
       },
       "geometry": {
         "type": "Point",
@@ -87,7 +92,8 @@
         "reference_number": "45316",
         "place_name": "Beeron",
         "lga_name": "North Burnett Regional",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#e6194b"
       },
       "geometry": {
         "type": "Point",
@@ -104,7 +110,8 @@
         "reference_number": "47720",
         "place_name": "Kowguran",
         "lga_name": "Western Downs Regional",
-        "sequence": 4
+        "sequence": 4,
+        "marker-color": "#e6194b"
       },
       "geometry": {
         "type": "Point",
@@ -121,7 +128,8 @@
         "reference_number": "44971",
         "place_name": "Lefthand Branch",
         "lga_name": "Lockyer Valley Regional",
-        "sequence": 5
+        "sequence": 5,
+        "marker-color": "#e6194b"
       },
       "geometry": {
         "type": "Point",
@@ -138,7 +146,8 @@
         "reference_number": "42679",
         "place_name": "Bollon",
         "lga_name": "Balonne Shire",
-        "sequence": 6
+        "sequence": 6,
+        "marker-color": "#e6194b"
       },
       "geometry": {
         "type": "Point",
@@ -159,7 +168,10 @@
           "Haigslea (Somerset Regional)",
           "Lake Proserpine",
           "Mighell"
-        ]
+        ],
+        "stroke": "#3cb44b",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -190,7 +202,8 @@
         "reference_number": "45925",
         "place_name": "Emu Vale",
         "lga_name": "Southern Downs Regional",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#3cb44b"
       },
       "geometry": {
         "type": "Point",
@@ -207,7 +220,8 @@
         "reference_number": "44941",
         "place_name": "Haigslea (Somerset Regional)",
         "lga_name": "Somerset Regional",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#3cb44b"
       },
       "geometry": {
         "type": "Point",
@@ -224,7 +238,8 @@
         "reference_number": "46881",
         "place_name": "Lake Proserpine",
         "lga_name": "Whitsunday Regional",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#3cb44b"
       },
       "geometry": {
         "type": "Point",
@@ -241,7 +256,8 @@
         "reference_number": "45731",
         "place_name": "Mighell",
         "lga_name": "Cassowary Coast Regional",
-        "sequence": 4
+        "sequence": 4,
+        "marker-color": "#3cb44b"
       },
       "geometry": {
         "type": "Point",
@@ -261,7 +277,10 @@
           "Kilbirnie",
           "Welsby",
           "Bymount"
-        ]
+        ],
+        "stroke": "#4363d8",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -288,7 +307,8 @@
         "reference_number": "47978",
         "place_name": "Kilbirnie",
         "lga_name": "Toowoomba Regional",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#4363d8"
       },
       "geometry": {
         "type": "Point",
@@ -305,7 +325,8 @@
         "reference_number": "45497",
         "place_name": "Welsby",
         "lga_name": "Moreton Bay City",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#4363d8"
       },
       "geometry": {
         "type": "Point",
@@ -322,7 +343,8 @@
         "reference_number": "47416",
         "place_name": "Bymount",
         "lga_name": "Maranoa Regional",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#4363d8"
       },
       "geometry": {
         "type": "Point",
@@ -344,7 +366,10 @@
           "Kiamba",
           "Mondure",
           "Mareeba"
-        ]
+        ],
+        "stroke": "#f58231",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -379,7 +404,8 @@
         "reference_number": "49515",
         "place_name": "Egypt",
         "lga_name": "Lockyer Valley Regional",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#f58231"
       },
       "geometry": {
         "type": "Point",
@@ -396,7 +422,8 @@
         "reference_number": "46005",
         "place_name": "Wiyarra",
         "lga_name": "Southern Downs Regional",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#f58231"
       },
       "geometry": {
         "type": "Point",
@@ -413,7 +440,8 @@
         "reference_number": "48698",
         "place_name": "Kiamba",
         "lga_name": "Sunshine Coast Regional",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#f58231"
       },
       "geometry": {
         "type": "Point",
@@ -430,7 +458,8 @@
         "reference_number": "46246",
         "place_name": "Mondure",
         "lga_name": "South Burnett Regional",
-        "sequence": 4
+        "sequence": 4,
+        "marker-color": "#f58231"
       },
       "geometry": {
         "type": "Point",
@@ -447,7 +476,8 @@
         "reference_number": "50481",
         "place_name": "Mareeba",
         "lga_name": "Mareeba Shire",
-        "sequence": 5
+        "sequence": 5,
+        "marker-color": "#f58231"
       },
       "geometry": {
         "type": "Point",
@@ -470,7 +500,10 @@
           "Amaroo (Boulia Shire)",
           "Crownthorpe (South Burnett Regional)",
           "Wellington Point"
-        ]
+        ],
+        "stroke": "#911eb4",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -509,7 +542,8 @@
         "reference_number": "45702",
         "place_name": "Goondi",
         "lga_name": "Cassowary Coast Regional",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#911eb4"
       },
       "geometry": {
         "type": "Point",
@@ -526,7 +560,8 @@
         "reference_number": "48649",
         "place_name": "Glen Allyn",
         "lga_name": "Tablelands Regional",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#911eb4"
       },
       "geometry": {
         "type": "Point",
@@ -543,7 +578,8 @@
         "reference_number": "42537",
         "place_name": "South Wellesley Islands",
         "lga_name": "",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#911eb4"
       },
       "geometry": {
         "type": "Point",
@@ -560,7 +596,8 @@
         "reference_number": "42338",
         "place_name": "Amaroo (Boulia Shire)",
         "lga_name": "Boulia Shire",
-        "sequence": 4
+        "sequence": 4,
+        "marker-color": "#911eb4"
       },
       "geometry": {
         "type": "Point",
@@ -577,7 +614,8 @@
         "reference_number": "47375",
         "place_name": "Crownthorpe (South Burnett Regional)",
         "lga_name": "South Burnett Regional",
-        "sequence": 5
+        "sequence": 5,
+        "marker-color": "#911eb4"
       },
       "geometry": {
         "type": "Point",
@@ -594,7 +632,8 @@
         "reference_number": "43638",
         "place_name": "Wellington Point",
         "lga_name": "Redland City",
-        "sequence": 6
+        "sequence": 6,
+        "marker-color": "#911eb4"
       },
       "geometry": {
         "type": "Point",

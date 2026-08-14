@@ -14,7 +14,10 @@
           "Wieambilla",
           "Nukku",
           "Cement Mills"
-        ]
+        ],
+        "stroke": "#e6194b",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -53,7 +56,8 @@
         "reference_number": "47018",
         "place_name": "Glenden",
         "lga_name": "Isaac Regional",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#e6194b"
       },
       "geometry": {
         "type": "Point",
@@ -70,7 +74,8 @@
         "reference_number": "45699",
         "place_name": "Garradunga",
         "lga_name": "Cassowary Coast Regional",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#e6194b"
       },
       "geometry": {
         "type": "Point",
@@ -87,7 +92,8 @@
         "reference_number": "46717",
         "place_name": "Mer Island",
         "lga_name": "Torres Strait Island Regional",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#e6194b"
       },
       "geometry": {
         "type": "Point",
@@ -104,7 +110,8 @@
         "reference_number": "47759",
         "place_name": "Wieambilla",
         "lga_name": "Western Downs Regional",
-        "sequence": 4
+        "sequence": 4,
+        "marker-color": "#e6194b"
       },
       "geometry": {
         "type": "Point",
@@ -121,7 +128,8 @@
         "reference_number": "46253",
         "place_name": "Nukku",
         "lga_name": "South Burnett Regional",
-        "sequence": 5
+        "sequence": 5,
+        "marker-color": "#e6194b"
       },
       "geometry": {
         "type": "Point",
@@ -138,7 +146,8 @@
         "reference_number": "49640",
         "place_name": "Cement Mills",
         "lga_name": "Goondiwindi Regional",
-        "sequence": 6
+        "sequence": 6,
+        "marker-color": "#e6194b"
       },
       "geometry": {
         "type": "Point",
@@ -160,7 +169,10 @@
           "Bromelton",
           "Mooloo",
           "Coralie"
-        ]
+        ],
+        "stroke": "#3cb44b",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -195,7 +207,8 @@
         "reference_number": "47749",
         "place_name": "Tara",
         "lga_name": "Western Downs Regional",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#3cb44b"
       },
       "geometry": {
         "type": "Point",
@@ -212,7 +225,8 @@
         "reference_number": "52629",
         "place_name": "Mount Kynoch",
         "lga_name": "Toowoomba Regional",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#3cb44b"
       },
       "geometry": {
         "type": "Point",
@@ -229,7 +243,8 @@
         "reference_number": "49611",
         "place_name": "Bromelton",
         "lga_name": "Scenic Rim Regional",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#3cb44b"
       },
       "geometry": {
         "type": "Point",
@@ -246,7 +261,8 @@
         "reference_number": "46363",
         "place_name": "Mooloo",
         "lga_name": "Gympie Regional",
-        "sequence": 4
+        "sequence": 4,
+        "marker-color": "#3cb44b"
       },
       "geometry": {
         "type": "Point",
@@ -263,7 +279,8 @@
         "reference_number": "41771",
         "place_name": "Coralie",
         "lga_name": "Croydon Shire",
-        "sequence": 5
+        "sequence": 5,
+        "marker-color": "#3cb44b"
       },
       "geometry": {
         "type": "Point",
@@ -283,7 +300,10 @@
           "Munruben",
           "Rush Creek",
           "Esk"
-        ]
+        ],
+        "stroke": "#4363d8",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -310,7 +330,8 @@
         "reference_number": "48338",
         "place_name": "Munruben",
         "lga_name": "Logan City",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#4363d8"
       },
       "geometry": {
         "type": "Point",
@@ -327,7 +348,8 @@
         "reference_number": "45467",
         "place_name": "Rush Creek",
         "lga_name": "Moreton Bay City",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#4363d8"
       },
       "geometry": {
         "type": "Point",
@@ -344,7 +366,8 @@
         "reference_number": "45517",
         "place_name": "Esk",
         "lga_name": "Somerset Regional",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#4363d8"
       },
       "geometry": {
         "type": "Point",
@@ -366,7 +389,10 @@
           "Kanigan (Gympie Regional)",
           "Laidley South",
           "Upper Pilton (Southern Downs Regional)"
-        ]
+        ],
+        "stroke": "#f58231",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -401,7 +427,8 @@
         "reference_number": "45705",
         "place_name": "Granadilla",
         "lga_name": "Cassowary Coast Regional",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#f58231"
       },
       "geometry": {
         "type": "Point",
@@ -418,7 +445,8 @@
         "reference_number": "50256",
         "place_name": "Hidden Valley",
         "lga_name": "Livingstone Shire",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#f58231"
       },
       "geometry": {
         "type": "Point",
@@ -435,7 +463,8 @@
         "reference_number": "46412",
         "place_name": "Kanigan (Gympie Regional)",
         "lga_name": "Gympie Regional",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#f58231"
       },
       "geometry": {
         "type": "Point",
@@ -452,7 +481,8 @@
         "reference_number": "52406",
         "place_name": "Laidley South",
         "lga_name": "Lockyer Valley Regional",
-        "sequence": 4
+        "sequence": 4,
+        "marker-color": "#f58231"
       },
       "geometry": {
         "type": "Point",
@@ -469,7 +499,8 @@
         "reference_number": "49754",
         "place_name": "Upper Pilton (Southern Downs Regional)",
         "lga_name": "Southern Downs Regional",
-        "sequence": 5
+        "sequence": 5,
+        "marker-color": "#f58231"
       },
       "geometry": {
         "type": "Point",
@@ -489,7 +520,10 @@
           "Veresdale (Scenic Rim Regional)",
           "Linden",
           "Mount Garnet"
-        ]
+        ],
+        "stroke": "#911eb4",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -516,7 +550,8 @@
         "reference_number": "45199",
         "place_name": "Veresdale (Scenic Rim Regional)",
         "lga_name": "Scenic Rim Regional",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#911eb4"
       },
       "geometry": {
         "type": "Point",
@@ -533,7 +568,8 @@
         "reference_number": "42658",
         "place_name": "Linden",
         "lga_name": "Paroo Shire",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#911eb4"
       },
       "geometry": {
         "type": "Point",
@@ -550,7 +586,8 @@
         "reference_number": "49795",
         "place_name": "Mount Garnet",
         "lga_name": "Tablelands Regional",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#911eb4"
       },
       "geometry": {
         "type": "Point",

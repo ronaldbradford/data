@@ -9,14 +9,20 @@ With --iterations N, the sample-and-route process is repeated N times
 and all resulting routes are written into a single GeoJSON file as
 separate LineString features (one route per iteration).
 
+Each route is styled with a distinct colour (simplestyle-spec "stroke" /
+"marker-color" properties, understood by geojson.io, GitHub, Mapbox, etc.)
+so multiple routes in the one output file are easy to tell apart.
+
 Usage:
-    python3 extract_locb_route.py [--count N] [--iterations N] [--seed S] [--input FILE] [--output FILE]
+    python3 extract_locb_route.py [--count N] [--iterations N] [--seed S] [--input FILE] [--output FILE] [--palette COLORS]
 
     --count N       Number of locations per route, 3-6 (default: random in that range each iteration)
     --iterations N  Number of routes to generate into the one output file (default: 1)
     --seed S        Random seed for reproducibility (optional)
     --input FILE    Source CSV (default: queensland.csv)
     --output FILE   Output GeoJSON file (default: locb_route.geojson)
+    --palette COLORS  Comma-separated hex colours to cycle through, one per
+                       route (default: a built-in 10-colour palette)
 """
 
 import argparse
@@ -61,6 +67,20 @@ def load_locb_rows(path):
     return rows
 
 
+DEFAULT_PALETTE = [
+    "#e6194b",
+    "#3cb44b",
+    "#4363d8",
+    "#f58231",
+    "#911eb4",
+    "#42d4f4",
+    "#f032e6",
+    "#bfef45",
+    "#469990",
+    "#9a6324",
+]
+
+
 def nearest_neighbour_order(points):
     """Order points starting at points[0], always visiting the nearest
     remaining point next (a simple nearest-neighbour path, not a full TSP)."""
@@ -75,9 +95,10 @@ def nearest_neighbour_order(points):
     return ordered
 
 
-def route_features(ordered_points, iteration):
+def route_features(ordered_points, iteration, color):
     """Build the LineString feature plus per-point Point features for a
-    single route, tagged with its iteration number."""
+    single route, tagged with its iteration number and styled with color
+    (simplestyle-spec properties, e.g. as understood by geojson.io)."""
     coords = [[p["lon"], p["lat"]] for p in ordered_points]
 
     line_feature = {
@@ -87,6 +108,9 @@ def route_features(ordered_points, iteration):
             "iteration": iteration,
             "point_count": len(ordered_points),
             "order": [p["place_name"] for p in ordered_points],
+            "stroke": color,
+            "stroke-width": 2,
+            "stroke-opacity": 1,
         },
         "geometry": {
             "type": "LineString",
@@ -103,6 +127,7 @@ def route_features(ordered_points, iteration):
                 "place_name": p["place_name"],
                 "lga_name": p["lga_name"],
                 "sequence": i + 1,
+                "marker-color": color,
             },
             "geometry": {
                 "type": "Point",
@@ -115,11 +140,13 @@ def route_features(ordered_points, iteration):
     return [line_feature] + point_features
 
 
-def build_geojson(routes):
-    """routes: list of ordered_points lists, one per iteration."""
+def build_geojson(routes, palette):
+    """routes: list of ordered_points lists, one per iteration. Each route
+    is coloured by cycling through palette."""
     features = []
     for i, ordered_points in enumerate(routes, 1):
-        features.extend(route_features(ordered_points, i))
+        color = palette[(i - 1) % len(palette)]
+        features.extend(route_features(ordered_points, i, color))
 
     return {
         "type": "FeatureCollection",
@@ -134,6 +161,11 @@ def main():
     parser.add_argument("--seed", type=int, default=None, help="Random seed")
     parser.add_argument("--input", default="queensland.csv", help="Source CSV file")
     parser.add_argument("--output", default="locb_route.geojson", help="Output GeoJSON file")
+    parser.add_argument(
+        "--palette",
+        default=None,
+        help="Comma-separated hex colours to cycle through, one per route (default: built-in palette)",
+    )
     args = parser.parse_args()
 
     if args.seed is not None:
@@ -144,6 +176,10 @@ def main():
 
     if args.iterations < 1:
         sys.exit("--iterations must be at least 1")
+
+    palette = [c.strip() for c in args.palette.split(",")] if args.palette else DEFAULT_PALETTE
+    if not palette or any(not c for c in palette):
+        sys.exit("--palette must be a non-empty comma-separated list of colours")
 
     rows = load_locb_rows(args.input)
     min_needed = args.count if args.count is not None else 3
@@ -161,7 +197,7 @@ def main():
         for i, p in enumerate(ordered, 1):
             print(f"  {i}. {p['place_name']} ({p['lat']:.5f}, {p['lon']:.5f}) - {p['lga_name']}")
 
-    geojson = build_geojson(routes)
+    geojson = build_geojson(routes, palette)
 
     with open(args.output, "w", encoding="utf-8") as f:
         json.dump(geojson, f, indent=2)

@@ -13,7 +13,10 @@
           "Kensington Grove",
           "Bahrs Scrub",
           "Luscombe"
-        ]
+        ],
+        "stroke": "#e6194b",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -48,7 +51,8 @@
         "reference_number": "46905",
         "place_name": "Wilson Beach",
         "lga_name": "Whitsunday Regional",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#e6194b"
       },
       "geometry": {
         "type": "Point",
@@ -65,7 +69,8 @@
         "reference_number": "47136",
         "place_name": "Isis Central",
         "lga_name": "Bundaberg Regional",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#e6194b"
       },
       "geometry": {
         "type": "Point",
@@ -82,7 +87,8 @@
         "reference_number": "45005",
         "place_name": "Kensington Grove",
         "lga_name": "Lockyer Valley Regional",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#e6194b"
       },
       "geometry": {
         "type": "Point",
@@ -99,7 +105,8 @@
         "reference_number": "47852",
         "place_name": "Bahrs Scrub",
         "lga_name": "Logan City",
-        "sequence": 4
+        "sequence": 4,
+        "marker-color": "#e6194b"
       },
       "geometry": {
         "type": "Point",
@@ -116,7 +123,8 @@
         "reference_number": "46059",
         "place_name": "Luscombe",
         "lga_name": "Gold Coast City",
-        "sequence": 5
+        "sequence": 5,
+        "marker-color": "#e6194b"
       },
       "geometry": {
         "type": "Point",
@@ -136,7 +144,10 @@
           "Warburton",
           "Germantown",
           "Gowrie Mountain"
-        ]
+        ],
+        "stroke": "#3cb44b",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -163,7 +174,8 @@
         "reference_number": "42346",
         "place_name": "Warburton",
         "lga_name": "Boulia Shire",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#3cb44b"
       },
       "geometry": {
         "type": "Point",
@@ -180,7 +192,8 @@
         "reference_number": "45700",
         "place_name": "Germantown",
         "lga_name": "Cassowary Coast Regional",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#3cb44b"
       },
       "geometry": {
         "type": "Point",
@@ -197,7 +210,8 @@
         "reference_number": "47955",
         "place_name": "Gowrie Mountain",
         "lga_name": "Toowoomba Regional",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#3cb44b"
       },
       "geometry": {
         "type": "Point",
@@ -219,7 +233,10 @@
           "Veteran",
           "Sunshine Acres",
           "Mount Bindango"
-        ]
+        ],
+        "stroke": "#4363d8",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -254,7 +271,8 @@
         "reference_number": "44961",
         "place_name": "Iredale",
         "lga_name": "Lockyer Valley Regional",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#4363d8"
       },
       "geometry": {
         "type": "Point",
@@ -271,7 +289,8 @@
         "reference_number": "47121",
         "place_name": "Moodlu",
         "lga_name": "Moreton Bay City",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#4363d8"
       },
       "geometry": {
         "type": "Point",
@@ -288,7 +307,8 @@
         "reference_number": "46394",
         "place_name": "Veteran",
         "lga_name": "Gympie Regional",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#4363d8"
       },
       "geometry": {
         "type": "Point",
@@ -305,7 +325,8 @@
         "reference_number": "46672",
         "place_name": "Sunshine Acres",
         "lga_name": "Fraser Coast Regional",
-        "sequence": 4
+        "sequence": 4,
+        "marker-color": "#4363d8"
       },
       "geometry": {
         "type": "Point",
@@ -322,7 +343,8 @@
         "reference_number": "47438",
         "place_name": "Mount Bindango",
         "lga_name": "Maranoa Regional",
-        "sequence": 5
+        "sequence": 5,
+        "marker-color": "#4363d8"
       },
       "geometry": {
         "type": "Point",
@@ -343,7 +365,10 @@
           "Kuranda",
           "Thursday Island",
           "Bromelton"
-        ]
+        ],
+        "stroke": "#f58231",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -374,7 +399,8 @@
         "reference_number": "48901",
         "place_name": "Tinaroo",
         "lga_name": "Tablelands Regional",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#f58231"
       },
       "geometry": {
         "type": "Point",
@@ -391,7 +417,8 @@
         "reference_number": "48714",
         "place_name": "Kuranda",
         "lga_name": "Mareeba Shire",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#f58231"
       },
       "geometry": {
         "type": "Point",
@@ -408,7 +435,8 @@
         "reference_number": "41959",
         "place_name": "Thursday Island",
         "lga_name": "Torres Shire",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#f58231"
       },
       "geometry": {
         "type": "Point",
@@ -425,7 +453,8 @@
         "reference_number": "49611",
         "place_name": "Bromelton",
         "lga_name": "Scenic Rim Regional",
-        "sequence": 4
+        "sequence": 4,
+        "marker-color": "#f58231"
       },
       "geometry": {
         "type": "Point",
@@ -448,7 +477,10 @@
           "Downsfield",
           "Canning Creek (Toowoomba Regional)",
           "Yungaburra"
-        ]
+        ],
+        "stroke": "#911eb4",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -487,7 +519,8 @@
         "reference_number": "48508",
         "place_name": "Baree",
         "lga_name": "Rockhampton Regional",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#911eb4"
       },
       "geometry": {
         "type": "Point",
@@ -504,7 +537,8 @@
         "reference_number": "46920",
         "place_name": "Boolburra",
         "lga_name": "Central Highlands Regional",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#911eb4"
       },
       "geometry": {
         "type": "Point",
@@ -521,7 +555,8 @@
         "reference_number": "47307",
         "place_name": "Rosedale (Gladstone Regional)",
         "lga_name": "Gladstone Regional",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#911eb4"
       },
       "geometry": {
         "type": "Point",
@@ -538,7 +573,8 @@
         "reference_number": "46325",
         "place_name": "Downsfield",
         "lga_name": "Gympie Regional",
-        "sequence": 4
+        "sequence": 4,
+        "marker-color": "#911eb4"
       },
       "geometry": {
         "type": "Point",
@@ -555,7 +591,8 @@
         "reference_number": "49209",
         "place_name": "Canning Creek (Toowoomba Regional)",
         "lga_name": "Toowoomba Regional",
-        "sequence": 5
+        "sequence": 5,
+        "marker-color": "#911eb4"
       },
       "geometry": {
         "type": "Point",
@@ -572,7 +609,8 @@
         "reference_number": "48957",
         "place_name": "Yungaburra",
         "lga_name": "Tablelands Regional",
-        "sequence": 6
+        "sequence": 6,
+        "marker-color": "#911eb4"
       },
       "geometry": {
         "type": "Point",

@@ -13,7 +13,10 @@
           "Kuttabul",
           "Coolmunda",
           "The Glen"
-        ]
+        ],
+        "stroke": "#e6194b",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -48,7 +51,8 @@
         "reference_number": "48629",
         "place_name": "Evelyn",
         "lga_name": "Tablelands Regional",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#e6194b"
       },
       "geometry": {
         "type": "Point",
@@ -65,7 +69,8 @@
         "reference_number": "44621",
         "place_name": "Oak Valley",
         "lga_name": "Townsville City",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#e6194b"
       },
       "geometry": {
         "type": "Point",
@@ -82,7 +87,8 @@
         "reference_number": "46800",
         "place_name": "Kuttabul",
         "lga_name": "Mackay Regional",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#e6194b"
       },
       "geometry": {
         "type": "Point",
@@ -99,7 +105,8 @@
         "reference_number": "47806",
         "place_name": "Coolmunda",
         "lga_name": "Goondiwindi Regional",
-        "sequence": 4
+        "sequence": 4,
+        "marker-color": "#e6194b"
       },
       "geometry": {
         "type": "Point",
@@ -116,7 +123,8 @@
         "reference_number": "45989",
         "place_name": "The Glen",
         "lga_name": "Southern Downs Regional",
-        "sequence": 5
+        "sequence": 5,
+        "marker-color": "#e6194b"
       },
       "geometry": {
         "type": "Point",
@@ -139,7 +147,10 @@
           "Nerimbera",
           "Sarina Range",
           "Iama Island"
-        ]
+        ],
+        "stroke": "#3cb44b",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -178,7 +189,8 @@
         "reference_number": "46285",
         "place_name": "Wyalla",
         "lga_name": "South Burnett Regional",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#3cb44b"
       },
       "geometry": {
         "type": "Point",
@@ -195,7 +207,8 @@
         "reference_number": "46254",
         "place_name": "Oakdale",
         "lga_name": "South Burnett Regional",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#3cb44b"
       },
       "geometry": {
         "type": "Point",
@@ -212,7 +225,8 @@
         "reference_number": "48330",
         "place_name": "Bellthorpe",
         "lga_name": "Moreton Bay City",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#3cb44b"
       },
       "geometry": {
         "type": "Point",
@@ -229,7 +243,8 @@
         "reference_number": "48801",
         "place_name": "Nerimbera",
         "lga_name": "Livingstone Shire",
-        "sequence": 4
+        "sequence": 4,
+        "marker-color": "#3cb44b"
       },
       "geometry": {
         "type": "Point",
@@ -246,7 +261,8 @@
         "reference_number": "46835",
         "place_name": "Sarina Range",
         "lga_name": "Mackay Regional",
-        "sequence": 5
+        "sequence": 5,
+        "marker-color": "#3cb44b"
       },
       "geometry": {
         "type": "Point",
@@ -263,7 +279,8 @@
         "reference_number": "46708",
         "place_name": "Iama Island",
         "lga_name": "Torres Strait Island Regional",
-        "sequence": 6
+        "sequence": 6,
+        "marker-color": "#3cb44b"
       },
       "geometry": {
         "type": "Point",
@@ -283,7 +300,10 @@
           "Suttor",
           "Septimus",
           "Kumbia"
-        ]
+        ],
+        "stroke": "#4363d8",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -310,7 +330,8 @@
         "reference_number": "47037",
         "place_name": "Suttor",
         "lga_name": "Isaac Regional",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#4363d8"
       },
       "geometry": {
         "type": "Point",
@@ -327,7 +348,8 @@
         "reference_number": "46837",
         "place_name": "Septimus",
         "lga_name": "Mackay Regional",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#4363d8"
       },
       "geometry": {
         "type": "Point",
@@ -344,7 +366,8 @@
         "reference_number": "46235",
         "place_name": "Kumbia",
         "lga_name": "South Burnett Regional",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#4363d8"
       },
       "geometry": {
         "type": "Point",
@@ -366,7 +389,10 @@
           "Maclagan",
           "Electra",
           "Conjuboy"
-        ]
+        ],
+        "stroke": "#f58231",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -401,7 +427,8 @@
         "reference_number": "49222",
         "place_name": "Sheep Station Creek",
         "lga_name": "Somerset Regional",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#f58231"
       },
       "geometry": {
         "type": "Point",
@@ -418,7 +445,8 @@
         "reference_number": "52487",
         "place_name": "Upper Kandanga",
         "lga_name": "Gympie Regional",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#f58231"
       },
       "geometry": {
         "type": "Point",
@@ -435,7 +463,8 @@
         "reference_number": "47993",
         "place_name": "Maclagan",
         "lga_name": "Toowoomba Regional",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#f58231"
       },
       "geometry": {
         "type": "Point",
@@ -452,7 +481,8 @@
         "reference_number": "44713",
         "place_name": "Electra",
         "lga_name": "Bundaberg Regional",
-        "sequence": 4
+        "sequence": 4,
+        "marker-color": "#f58231"
       },
       "geometry": {
         "type": "Point",
@@ -469,7 +499,8 @@
         "reference_number": "41669",
         "place_name": "Conjuboy",
         "lga_name": "Etheridge Shire",
-        "sequence": 5
+        "sequence": 5,
+        "marker-color": "#f58231"
       },
       "geometry": {
         "type": "Point",
@@ -492,7 +523,10 @@
           "Gemini Mountains",
           "Cow Bay",
           "Four Ways"
-        ]
+        ],
+        "stroke": "#911eb4",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -531,7 +565,8 @@
         "reference_number": "46278",
         "place_name": "Wheatlands",
         "lga_name": "South Burnett Regional",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#911eb4"
       },
       "geometry": {
         "type": "Point",
@@ -548,7 +583,8 @@
         "reference_number": "49277",
         "place_name": "Bell",
         "lga_name": "Western Downs Regional",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#911eb4"
       },
       "geometry": {
         "type": "Point",
@@ -565,7 +601,8 @@
         "reference_number": "44747",
         "place_name": "Mon Repos",
         "lga_name": "Bundaberg Regional",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#911eb4"
       },
       "geometry": {
         "type": "Point",
@@ -582,7 +619,8 @@
         "reference_number": "47017",
         "place_name": "Gemini Mountains",
         "lga_name": "Isaac Regional",
-        "sequence": 4
+        "sequence": 4,
+        "marker-color": "#911eb4"
       },
       "geometry": {
         "type": "Point",
@@ -599,7 +637,8 @@
         "reference_number": "48590",
         "place_name": "Cow Bay",
         "lga_name": "Douglas Shire",
-        "sequence": 5
+        "sequence": 5,
+        "marker-color": "#911eb4"
       },
       "geometry": {
         "type": "Point",
@@ -616,7 +655,8 @@
         "reference_number": "42492",
         "place_name": "Four Ways",
         "lga_name": "Cloncurry Shire",
-        "sequence": 6
+        "sequence": 6,
+        "marker-color": "#911eb4"
       },
       "geometry": {
         "type": "Point",

@@ -13,7 +13,10 @@
           "Murrumba",
           "Georgina",
           "Evans Landing"
-        ]
+        ],
+        "stroke": "#e6194b",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -48,7 +51,8 @@
         "reference_number": "44702",
         "place_name": "Coonarr",
         "lga_name": "Bundaberg Regional",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#e6194b"
       },
       "geometry": {
         "type": "Point",
@@ -65,7 +69,8 @@
         "reference_number": "46730",
         "place_name": "Mungar",
         "lga_name": "Fraser Coast Regional",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#e6194b"
       },
       "geometry": {
         "type": "Point",
@@ -82,7 +87,8 @@
         "reference_number": "44905",
         "place_name": "Murrumba",
         "lga_name": "Somerset Regional",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#e6194b"
       },
       "geometry": {
         "type": "Point",
@@ -99,7 +105,8 @@
         "reference_number": "42342",
         "place_name": "Georgina",
         "lga_name": "Boulia Shire",
-        "sequence": 4
+        "sequence": 4,
+        "marker-color": "#e6194b"
       },
       "geometry": {
         "type": "Point",
@@ -116,7 +123,8 @@
         "reference_number": "12015",
         "place_name": "Evans Landing",
         "lga_name": "Weipa Town",
-        "sequence": 5
+        "sequence": 5,
+        "marker-color": "#e6194b"
       },
       "geometry": {
         "type": "Point",
@@ -137,7 +145,10 @@
           "Yarraman",
           "Mount Pleasant (Moreton Bay City)",
           "Burrum Town"
-        ]
+        ],
+        "stroke": "#3cb44b",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -168,7 +179,8 @@
         "reference_number": "46354",
         "place_name": "Long Flat",
         "lga_name": "Gympie Regional",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#3cb44b"
       },
       "geometry": {
         "type": "Point",
@@ -185,7 +197,8 @@
         "reference_number": "48105",
         "place_name": "Yarraman",
         "lga_name": "Toowoomba Regional",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#3cb44b"
       },
       "geometry": {
         "type": "Point",
@@ -202,7 +215,8 @@
         "reference_number": "52318",
         "place_name": "Mount Pleasant (Moreton Bay City)",
         "lga_name": "Moreton Bay City",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#3cb44b"
       },
       "geometry": {
         "type": "Point",
@@ -219,7 +233,8 @@
         "reference_number": "46639",
         "place_name": "Burrum Town",
         "lga_name": "Fraser Coast Regional",
-        "sequence": 4
+        "sequence": 4,
+        "marker-color": "#3cb44b"
       },
       "geometry": {
         "type": "Point",
@@ -241,7 +256,10 @@
           "Mount Hallen",
           "Harrisville",
           "Oman Ama"
-        ]
+        ],
+        "stroke": "#4363d8",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -276,7 +294,8 @@
         "reference_number": "49502",
         "place_name": "Ingham",
         "lga_name": "Hinchinbrook Shire",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#4363d8"
       },
       "geometry": {
         "type": "Point",
@@ -293,7 +312,8 @@
         "reference_number": "46634",
         "place_name": "Brooweena",
         "lga_name": "Fraser Coast Regional",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#4363d8"
       },
       "geometry": {
         "type": "Point",
@@ -310,7 +330,8 @@
         "reference_number": "44901",
         "place_name": "Mount Hallen",
         "lga_name": "Somerset Regional",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#4363d8"
       },
       "geometry": {
         "type": "Point",
@@ -327,7 +348,8 @@
         "reference_number": "49609",
         "place_name": "Harrisville",
         "lga_name": "Scenic Rim Regional",
-        "sequence": 4
+        "sequence": 4,
+        "marker-color": "#4363d8"
       },
       "geometry": {
         "type": "Point",
@@ -344,7 +366,8 @@
         "reference_number": "49281",
         "place_name": "Oman Ama",
         "lga_name": "Goondiwindi Regional",
-        "sequence": 5
+        "sequence": 5,
+        "marker-color": "#4363d8"
       },
       "geometry": {
         "type": "Point",
@@ -367,7 +390,10 @@
           "Natural Bridge",
           "Glenarbon",
           "Moonie (Goondiwindi Regional)"
-        ]
+        ],
+        "stroke": "#f58231",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -406,7 +432,8 @@
         "reference_number": "48803",
         "place_name": "Ngatjan (Cairns Regional)",
         "lga_name": "Cairns Regional",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#f58231"
       },
       "geometry": {
         "type": "Point",
@@ -423,7 +450,8 @@
         "reference_number": "47288",
         "place_name": "Taragoola",
         "lga_name": "Gladstone Regional",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#f58231"
       },
       "geometry": {
         "type": "Point",
@@ -440,7 +468,8 @@
         "reference_number": "46324",
         "place_name": "Dagun",
         "lga_name": "Gympie Regional",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#f58231"
       },
       "geometry": {
         "type": "Point",
@@ -457,7 +486,8 @@
         "reference_number": "47850",
         "place_name": "Natural Bridge",
         "lga_name": "Gold Coast City",
-        "sequence": 4
+        "sequence": 4,
+        "marker-color": "#f58231"
       },
       "geometry": {
         "type": "Point",
@@ -474,7 +504,8 @@
         "reference_number": "47808",
         "place_name": "Glenarbon",
         "lga_name": "Goondiwindi Regional",
-        "sequence": 5
+        "sequence": 5,
+        "marker-color": "#f58231"
       },
       "geometry": {
         "type": "Point",
@@ -491,7 +522,8 @@
         "reference_number": "47820",
         "place_name": "Moonie (Goondiwindi Regional)",
         "lga_name": "Goondiwindi Regional",
-        "sequence": 6
+        "sequence": 6,
+        "marker-color": "#f58231"
       },
       "geometry": {
         "type": "Point",
@@ -512,7 +544,10 @@
           "Austinville",
           "Ringtail Creek",
           "Elliott"
-        ]
+        ],
+        "stroke": "#911eb4",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -543,7 +578,8 @@
         "reference_number": "45219",
         "place_name": "The Bluff (Ipswich City)",
         "lga_name": "Ipswich City",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#911eb4"
       },
       "geometry": {
         "type": "Point",
@@ -560,7 +596,8 @@
         "reference_number": "46026",
         "place_name": "Austinville",
         "lga_name": "Gold Coast City",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#911eb4"
       },
       "geometry": {
         "type": "Point",
@@ -577,7 +614,8 @@
         "reference_number": "48856",
         "place_name": "Ringtail Creek",
         "lga_name": "Noosa Shire",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#911eb4"
       },
       "geometry": {
         "type": "Point",
@@ -594,7 +632,8 @@
         "reference_number": "48971",
         "place_name": "Elliott",
         "lga_name": "Bundaberg Regional",
-        "sequence": 4
+        "sequence": 4,
+        "marker-color": "#911eb4"
       },
       "geometry": {
         "type": "Point",

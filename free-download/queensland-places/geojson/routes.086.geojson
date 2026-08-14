@@ -11,7 +11,10 @@
           "Tungamull",
           "Bluff",
           "Julia Creek"
-        ]
+        ],
+        "stroke": "#e6194b",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -38,7 +41,8 @@
         "reference_number": "49426",
         "place_name": "Tungamull",
         "lga_name": "Livingstone Shire",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#e6194b"
       },
       "geometry": {
         "type": "Point",
@@ -55,7 +59,8 @@
         "reference_number": "46919",
         "place_name": "Bluff",
         "lga_name": "Central Highlands Regional",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#e6194b"
       },
       "geometry": {
         "type": "Point",
@@ -72,7 +77,8 @@
         "reference_number": "42263",
         "place_name": "Julia Creek",
         "lga_name": "McKinlay Shire",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#e6194b"
       },
       "geometry": {
         "type": "Point",
@@ -92,7 +98,10 @@
           "Struck Oil",
           "Upper Yarraman",
           "Andromache"
-        ]
+        ],
+        "stroke": "#3cb44b",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -119,7 +128,8 @@
         "reference_number": "48883",
         "place_name": "Struck Oil",
         "lga_name": "Rockhampton Regional",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#3cb44b"
       },
       "geometry": {
         "type": "Point",
@@ -136,7 +146,8 @@
         "reference_number": "50516",
         "place_name": "Upper Yarraman",
         "lga_name": "Toowoomba Regional",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#3cb44b"
       },
       "geometry": {
         "type": "Point",
@@ -153,7 +164,8 @@
         "reference_number": "46850",
         "place_name": "Andromache",
         "lga_name": "Whitsunday Regional",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#3cb44b"
       },
       "geometry": {
         "type": "Point",
@@ -176,7 +188,10 @@
           "Doonan (Sunshine Coast Regional)",
           "Trotter Creek",
           "Evans Landing"
-        ]
+        ],
+        "stroke": "#4363d8",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -215,7 +230,8 @@
         "reference_number": "45105",
         "place_name": "Allenview",
         "lga_name": "Scenic Rim Regional",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#4363d8"
       },
       "geometry": {
         "type": "Point",
@@ -232,7 +248,8 @@
         "reference_number": "45004",
         "place_name": "Helidon Spa",
         "lga_name": "Lockyer Valley Regional",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#4363d8"
       },
       "geometry": {
         "type": "Point",
@@ -249,7 +266,8 @@
         "reference_number": "47969",
         "place_name": "Highland Plains (Toowoomba Regional)",
         "lga_name": "Toowoomba Regional",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#4363d8"
       },
       "geometry": {
         "type": "Point",
@@ -266,7 +284,8 @@
         "reference_number": "48611",
         "place_name": "Doonan (Sunshine Coast Regional)",
         "lga_name": "Sunshine Coast Regional",
-        "sequence": 4
+        "sequence": 4,
+        "marker-color": "#4363d8"
       },
       "geometry": {
         "type": "Point",
@@ -283,7 +302,8 @@
         "reference_number": "48908",
         "place_name": "Trotter Creek",
         "lga_name": "Rockhampton Regional",
-        "sequence": 5
+        "sequence": 5,
+        "marker-color": "#4363d8"
       },
       "geometry": {
         "type": "Point",
@@ -300,7 +320,8 @@
         "reference_number": "12015",
         "place_name": "Evans Landing",
         "lga_name": "Weipa Town",
-        "sequence": 6
+        "sequence": 6,
+        "marker-color": "#4363d8"
       },
       "geometry": {
         "type": "Point",
@@ -321,7 +342,10 @@
           "Bony Mountain",
           "Innes Park",
           "Maria Creeks"
-        ]
+        ],
+        "stroke": "#f58231",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -352,7 +376,8 @@
         "reference_number": "46100",
         "place_name": "Stapylton",
         "lga_name": "Gold Coast City",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#f58231"
       },
       "geometry": {
         "type": "Point",
@@ -369,7 +394,8 @@
         "reference_number": "47645",
         "place_name": "Bony Mountain",
         "lga_name": "Southern Downs Regional",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#f58231"
       },
       "geometry": {
         "type": "Point",
@@ -386,7 +412,8 @@
         "reference_number": "44729",
         "place_name": "Innes Park",
         "lga_name": "Bundaberg Regional",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#f58231"
       },
       "geometry": {
         "type": "Point",
@@ -403,7 +430,8 @@
         "reference_number": "45724",
         "place_name": "Maria Creeks",
         "lga_name": "Cassowary Coast Regional",
-        "sequence": 4
+        "sequence": 4,
+        "marker-color": "#f58231"
       },
       "geometry": {
         "type": "Point",
@@ -426,7 +454,10 @@
           "Whetstone",
           "Joskeleigh",
           "Eungella"
-        ]
+        ],
+        "stroke": "#911eb4",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -465,7 +496,8 @@
         "reference_number": "46731",
         "place_name": "Oakhurst",
         "lga_name": "Fraser Coast Regional",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#911eb4"
       },
       "geometry": {
         "type": "Point",
@@ -482,7 +514,8 @@
         "reference_number": "44949",
         "place_name": "Churchable",
         "lga_name": "Lockyer Valley Regional",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#911eb4"
       },
       "geometry": {
         "type": "Point",
@@ -499,7 +532,8 @@
         "reference_number": "44961",
         "place_name": "Iredale",
         "lga_name": "Lockyer Valley Regional",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#911eb4"
       },
       "geometry": {
         "type": "Point",
@@ -516,7 +550,8 @@
         "reference_number": "47837",
         "place_name": "Whetstone",
         "lga_name": "Goondiwindi Regional",
-        "sequence": 4
+        "sequence": 4,
+        "marker-color": "#911eb4"
       },
       "geometry": {
         "type": "Point",
@@ -533,7 +568,8 @@
         "reference_number": "48685",
         "place_name": "Joskeleigh",
         "lga_name": "Livingstone Shire",
-        "sequence": 5
+        "sequence": 5,
+        "marker-color": "#911eb4"
       },
       "geometry": {
         "type": "Point",
@@ -550,7 +586,8 @@
         "reference_number": "46782",
         "place_name": "Eungella",
         "lga_name": "Mackay Regional",
-        "sequence": 6
+        "sequence": 6,
+        "marker-color": "#911eb4"
       },
       "geometry": {
         "type": "Point",

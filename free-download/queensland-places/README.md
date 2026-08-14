@@ -2,7 +2,6 @@
 
 URL: https://www.data.qld.gov.au/dataset/place-names-gazetteer-queensland-txt-file
 
-
 ## Get Source Data
 
 ```
@@ -17,6 +16,11 @@ Produce easier to use headings
 awk 'NR==1{gsub(/ /,"_"); print tolower($0); next} 1' queensland_place_names_gazetteer.csv > queensland.csv
 ```
 
+## Generate Randomized Routes
 
-for i in $(seq -w 1 100); do echo $i; python3 extract_locb_route.py --iterations 5 --seed $i --output routes.$i.geojson; done
+Extract a number of locations, and create a GEOJSON file of routes, simulating a very poor example of a package delivery system.
+
+```
+for i in $(seq -w 1 100); do echo $i; python3 extract_locb_route.py --iterations 5 --seed $i --output geojson/routes.$i.geojson; done
+```
 

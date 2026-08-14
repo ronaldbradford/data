@@ -14,7 +14,10 @@
           "Joskeleigh",
           "Wyuna",
           "Marathon"
-        ]
+        ],
+        "stroke": "#e6194b",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -53,7 +56,8 @@
         "reference_number": "46626",
         "place_name": "Bauple Forest",
         "lga_name": "Fraser Coast Regional",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#e6194b"
       },
       "geometry": {
         "type": "Point",
@@ -70,7 +74,8 @@
         "reference_number": "46321",
         "place_name": "Corella",
         "lga_name": "Gympie Regional",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#e6194b"
       },
       "geometry": {
         "type": "Point",
@@ -87,7 +92,8 @@
         "reference_number": "47617",
         "place_name": "Rainbow Beach",
         "lga_name": "Gympie Regional",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#e6194b"
       },
       "geometry": {
         "type": "Point",
@@ -104,7 +110,8 @@
         "reference_number": "48685",
         "place_name": "Joskeleigh",
         "lga_name": "Livingstone Shire",
-        "sequence": 4
+        "sequence": 4,
+        "marker-color": "#e6194b"
       },
       "geometry": {
         "type": "Point",
@@ -121,7 +128,8 @@
         "reference_number": "46989",
         "place_name": "Wyuna",
         "lga_name": "Central Highlands Regional",
-        "sequence": 5
+        "sequence": 5,
+        "marker-color": "#e6194b"
       },
       "geometry": {
         "type": "Point",
@@ -138,7 +146,8 @@
         "reference_number": "52092",
         "place_name": "Marathon",
         "lga_name": "Flinders Shire",
-        "sequence": 6
+        "sequence": 6,
+        "marker-color": "#e6194b"
       },
       "geometry": {
         "type": "Point",
@@ -158,7 +167,10 @@
           "Douglas (Toowoomba Regional)",
           "Greenview",
           "Blackwater"
-        ]
+        ],
+        "stroke": "#3cb44b",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -185,7 +197,8 @@
         "reference_number": "49256",
         "place_name": "Douglas (Toowoomba Regional)",
         "lga_name": "Toowoomba Regional",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#3cb44b"
       },
       "geometry": {
         "type": "Point",
@@ -202,7 +215,8 @@
         "reference_number": "46223",
         "place_name": "Greenview",
         "lga_name": "South Burnett Regional",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#3cb44b"
       },
       "geometry": {
         "type": "Point",
@@ -219,7 +233,8 @@
         "reference_number": "46918",
         "place_name": "Blackwater",
         "lga_name": "Central Highlands Regional",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#3cb44b"
       },
       "geometry": {
         "type": "Point",
@@ -239,7 +254,10 @@
           "Sandstone Point",
           "Ebenezer",
           "Boynewood"
-        ]
+        ],
+        "stroke": "#4363d8",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -266,7 +284,8 @@
         "reference_number": "45495",
         "place_name": "Sandstone Point",
         "lga_name": "Moreton Bay City",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#4363d8"
       },
       "geometry": {
         "type": "Point",
@@ -283,7 +302,8 @@
         "reference_number": "45045",
         "place_name": "Ebenezer",
         "lga_name": "Ipswich City",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#4363d8"
       },
       "geometry": {
         "type": "Point",
@@ -300,7 +320,8 @@
         "reference_number": "47365",
         "place_name": "Boynewood",
         "lga_name": "North Burnett Regional",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#4363d8"
       },
       "geometry": {
         "type": "Point",
@@ -322,7 +343,10 @@
           "Windermere",
           "Cushnie",
           "Emu Vale"
-        ]
+        ],
+        "stroke": "#f58231",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -357,7 +381,8 @@
         "reference_number": "46931",
         "place_name": "Pinnacle",
         "lga_name": "Mackay Regional",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#f58231"
       },
       "geometry": {
         "type": "Point",
@@ -374,7 +399,8 @@
         "reference_number": "46982",
         "place_name": "Wallaroo (Central Highlands Regional)",
         "lga_name": "Central Highlands Regional",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#f58231"
       },
       "geometry": {
         "type": "Point",
@@ -391,7 +417,8 @@
         "reference_number": "44811",
         "place_name": "Windermere",
         "lga_name": "Bundaberg Regional",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#f58231"
       },
       "geometry": {
         "type": "Point",
@@ -408,7 +435,8 @@
         "reference_number": "46213",
         "place_name": "Cushnie",
         "lga_name": "South Burnett Regional",
-        "sequence": 4
+        "sequence": 4,
+        "marker-color": "#f58231"
       },
       "geometry": {
         "type": "Point",
@@ -425,7 +453,8 @@
         "reference_number": "45925",
         "place_name": "Emu Vale",
         "lga_name": "Southern Downs Regional",
-        "sequence": 5
+        "sequence": 5,
+        "marker-color": "#f58231"
       },
       "geometry": {
         "type": "Point",
@@ -448,7 +477,10 @@
           "Woolmer",
           "Moolboolaman",
           "Strathfield"
-        ]
+        ],
+        "stroke": "#911eb4",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -487,7 +519,8 @@
         "reference_number": "50949",
         "place_name": "Diamond Valley",
         "lga_name": "Sunshine Coast Regional",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#911eb4"
       },
       "geometry": {
         "type": "Point",
@@ -504,7 +537,8 @@
         "reference_number": "52217",
         "place_name": "Maleny",
         "lga_name": "Sunshine Coast Regional",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#911eb4"
       },
       "geometry": {
         "type": "Point",
@@ -521,7 +555,8 @@
         "reference_number": "44972",
         "place_name": "Lilydale",
         "lga_name": "Lockyer Valley Regional",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#911eb4"
       },
       "geometry": {
         "type": "Point",
@@ -538,7 +573,8 @@
         "reference_number": "50064",
         "place_name": "Woolmer",
         "lga_name": "Toowoomba Regional",
-        "sequence": 4
+        "sequence": 4,
+        "marker-color": "#911eb4"
       },
       "geometry": {
         "type": "Point",
@@ -555,7 +591,8 @@
         "reference_number": "44748",
         "place_name": "Moolboolaman",
         "lga_name": "Bundaberg Regional",
-        "sequence": 5
+        "sequence": 5,
+        "marker-color": "#911eb4"
       },
       "geometry": {
         "type": "Point",
@@ -572,7 +609,8 @@
         "reference_number": "47036",
         "place_name": "Strathfield",
         "lga_name": "Isaac Regional",
-        "sequence": 6
+        "sequence": 6,
+        "marker-color": "#911eb4"
       },
       "geometry": {
         "type": "Point",

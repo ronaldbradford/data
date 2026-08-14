@@ -12,7 +12,10 @@
           "McIlwraith",
           "Veteran",
           "Southern Lamington"
-        ]
+        ],
+        "stroke": "#e6194b",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -43,7 +46,8 @@
         "reference_number": "49566",
         "place_name": "Orange Creek",
         "lga_name": "Banana Shire",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#e6194b"
       },
       "geometry": {
         "type": "Point",
@@ -60,7 +64,8 @@
         "reference_number": "44741",
         "place_name": "McIlwraith",
         "lga_name": "Bundaberg Regional",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#e6194b"
       },
       "geometry": {
         "type": "Point",
@@ -77,7 +82,8 @@
         "reference_number": "46394",
         "place_name": "Veteran",
         "lga_name": "Gympie Regional",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#e6194b"
       },
       "geometry": {
         "type": "Point",
@@ -94,7 +100,8 @@
         "reference_number": "45188",
         "place_name": "Southern Lamington",
         "lga_name": "Scenic Rim Regional",
-        "sequence": 4
+        "sequence": 4,
+        "marker-color": "#e6194b"
       },
       "geometry": {
         "type": "Point",
@@ -117,7 +124,10 @@
           "Montrose (Western Downs Regional)",
           "Veradilla",
           "Seisia (Northern Peninsula Area Regional)"
-        ]
+        ],
+        "stroke": "#3cb44b",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -156,7 +166,8 @@
         "reference_number": "48541",
         "place_name": "Bramston Beach",
         "lga_name": "Cairns Regional",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#3cb44b"
       },
       "geometry": {
         "type": "Point",
@@ -173,7 +184,8 @@
         "reference_number": "48681",
         "place_name": "Irvinebank",
         "lga_name": "Mareeba Shire",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#3cb44b"
       },
       "geometry": {
         "type": "Point",
@@ -190,7 +202,8 @@
         "reference_number": "52312",
         "place_name": "Longreach",
         "lga_name": "Longreach Regional",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#3cb44b"
       },
       "geometry": {
         "type": "Point",
@@ -207,7 +220,8 @@
         "reference_number": "47728",
         "place_name": "Montrose (Western Downs Regional)",
         "lga_name": "Western Downs Regional",
-        "sequence": 4
+        "sequence": 4,
+        "marker-color": "#3cb44b"
       },
       "geometry": {
         "type": "Point",
@@ -224,7 +238,8 @@
         "reference_number": "44995",
         "place_name": "Veradilla",
         "lga_name": "Lockyer Valley Regional",
-        "sequence": 5
+        "sequence": 5,
+        "marker-color": "#3cb44b"
       },
       "geometry": {
         "type": "Point",
@@ -241,7 +256,8 @@
         "reference_number": "46106",
         "place_name": "Seisia (Northern Peninsula Area Regional)",
         "lga_name": "Northern Peninsula Area Regional",
-        "sequence": 6
+        "sequence": 6,
+        "marker-color": "#3cb44b"
       },
       "geometry": {
         "type": "Point",
@@ -264,7 +280,10 @@
           "Branch Creek",
           "Coalstoun Lakes",
           "Daymar"
-        ]
+        ],
+        "stroke": "#4363d8",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -303,7 +322,8 @@
         "reference_number": "42526",
         "place_name": "Peacock Siding",
         "lga_name": "Hinchinbrook Shire",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#4363d8"
       },
       "geometry": {
         "type": "Point",
@@ -320,7 +340,8 @@
         "reference_number": "35845",
         "place_name": "Upper Stone",
         "lga_name": "Hinchinbrook Shire",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#4363d8"
       },
       "geometry": {
         "type": "Point",
@@ -337,7 +358,8 @@
         "reference_number": "48509",
         "place_name": "Barlows Hill",
         "lga_name": "Livingstone Shire",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#4363d8"
       },
       "geometry": {
         "type": "Point",
@@ -354,7 +376,8 @@
         "reference_number": "48109",
         "place_name": "Branch Creek",
         "lga_name": "North Burnett Regional",
-        "sequence": 4
+        "sequence": 4,
+        "marker-color": "#4363d8"
       },
       "geometry": {
         "type": "Point",
@@ -371,7 +394,8 @@
         "reference_number": "50095",
         "place_name": "Coalstoun Lakes",
         "lga_name": "North Burnett Regional",
-        "sequence": 5
+        "sequence": 5,
+        "marker-color": "#4363d8"
       },
       "geometry": {
         "type": "Point",
@@ -388,7 +412,8 @@
         "reference_number": "47807",
         "place_name": "Daymar",
         "lga_name": "Goondiwindi Regional",
-        "sequence": 6
+        "sequence": 6,
+        "marker-color": "#4363d8"
       },
       "geometry": {
         "type": "Point",
@@ -410,7 +435,10 @@
           "Woolshed",
           "Bluff",
           "West Wellesley Islands"
-        ]
+        ],
+        "stroke": "#f58231",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -445,7 +473,8 @@
         "reference_number": "46241",
         "place_name": "Marshlands",
         "lga_name": "South Burnett Regional",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#f58231"
       },
       "geometry": {
         "type": "Point",
@@ -462,7 +491,8 @@
         "reference_number": "49837",
         "place_name": "Amamoor",
         "lga_name": "Gympie Regional",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#f58231"
       },
       "geometry": {
         "type": "Point",
@@ -479,7 +509,8 @@
         "reference_number": "45103",
         "place_name": "Woolshed",
         "lga_name": "Ipswich City",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#f58231"
       },
       "geometry": {
         "type": "Point",
@@ -496,7 +527,8 @@
         "reference_number": "46919",
         "place_name": "Bluff",
         "lga_name": "Central Highlands Regional",
-        "sequence": 4
+        "sequence": 4,
+        "marker-color": "#f58231"
       },
       "geometry": {
         "type": "Point",
@@ -513,7 +545,8 @@
         "reference_number": "42538",
         "place_name": "West Wellesley Islands",
         "lga_name": "",
-        "sequence": 5
+        "sequence": 5,
+        "marker-color": "#f58231"
       },
       "geometry": {
         "type": "Point",
@@ -533,7 +566,10 @@
           "Abergowrie",
           "Lochington",
           "Macalister"
-        ]
+        ],
+        "stroke": "#911eb4",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -560,7 +596,8 @@
         "reference_number": "42509",
         "place_name": "Abergowrie",
         "lga_name": "Hinchinbrook Shire",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#911eb4"
       },
       "geometry": {
         "type": "Point",
@@ -577,7 +614,8 @@
         "reference_number": "52304",
         "place_name": "Lochington",
         "lga_name": "Central Highlands Regional",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#911eb4"
       },
       "geometry": {
         "type": "Point",
@@ -594,7 +632,8 @@
         "reference_number": "49274",
         "place_name": "Macalister",
         "lga_name": "Western Downs Regional",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#911eb4"
       },
       "geometry": {
         "type": "Point",

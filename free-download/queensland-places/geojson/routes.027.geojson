@@ -14,7 +14,10 @@
           "Eskdale",
           "Pratten",
           "Pine Creek"
-        ]
+        ],
+        "stroke": "#e6194b",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -53,7 +56,8 @@
         "reference_number": "46677",
         "place_name": "Teebar",
         "lga_name": "Fraser Coast Regional",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#e6194b"
       },
       "geometry": {
         "type": "Point",
@@ -70,7 +74,8 @@
         "reference_number": "46736",
         "place_name": "Tinana",
         "lga_name": "Fraser Coast Regional",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#e6194b"
       },
       "geometry": {
         "type": "Point",
@@ -87,7 +92,8 @@
         "reference_number": "46391",
         "place_name": "Two Mile",
         "lga_name": "Gympie Regional",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#e6194b"
       },
       "geometry": {
         "type": "Point",
@@ -104,7 +110,8 @@
         "reference_number": "44865",
         "place_name": "Eskdale",
         "lga_name": "Somerset Regional",
-        "sequence": 4
+        "sequence": 4,
+        "marker-color": "#e6194b"
       },
       "geometry": {
         "type": "Point",
@@ -121,7 +128,8 @@
         "reference_number": "45969",
         "place_name": "Pratten",
         "lga_name": "Southern Downs Regional",
-        "sequence": 5
+        "sequence": 5,
+        "marker-color": "#e6194b"
       },
       "geometry": {
         "type": "Point",
@@ -138,7 +146,8 @@
         "reference_number": "44759",
         "place_name": "Pine Creek",
         "lga_name": "Bundaberg Regional",
-        "sequence": 6
+        "sequence": 6,
+        "marker-color": "#e6194b"
       },
       "geometry": {
         "type": "Point",
@@ -160,7 +169,10 @@
           "Cooyar",
           "Dalwogon",
           "Warrami"
-        ]
+        ],
+        "stroke": "#3cb44b",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -195,7 +207,8 @@
         "reference_number": "46382",
         "place_name": "Tansey",
         "lga_name": "Gympie Regional",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#3cb44b"
       },
       "geometry": {
         "type": "Point",
@@ -212,7 +225,8 @@
         "reference_number": "46356",
         "place_name": "Manumbar",
         "lga_name": "Gympie Regional",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#3cb44b"
       },
       "geometry": {
         "type": "Point",
@@ -229,7 +243,8 @@
         "reference_number": "47918",
         "place_name": "Cooyar",
         "lga_name": "Toowoomba Regional",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#3cb44b"
       },
       "geometry": {
         "type": "Point",
@@ -246,7 +261,8 @@
         "reference_number": "47689",
         "place_name": "Dalwogon",
         "lga_name": "Western Downs Regional",
-        "sequence": 4
+        "sequence": 4,
+        "marker-color": "#3cb44b"
       },
       "geometry": {
         "type": "Point",
@@ -263,7 +279,8 @@
         "reference_number": "45772",
         "place_name": "Warrami",
         "lga_name": "Cassowary Coast Regional",
-        "sequence": 5
+        "sequence": 5,
+        "marker-color": "#3cb44b"
       },
       "geometry": {
         "type": "Point",
@@ -284,7 +301,10 @@
           "Caboonbah",
           "Goldfields",
           "Stamford"
-        ]
+        ],
+        "stroke": "#4363d8",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -315,7 +335,8 @@
         "reference_number": "48809",
         "place_name": "Noosa North Shore",
         "lga_name": "Noosa Shire",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#4363d8"
       },
       "geometry": {
         "type": "Point",
@@ -332,7 +353,8 @@
         "reference_number": "44850",
         "place_name": "Caboonbah",
         "lga_name": "Somerset Regional",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#4363d8"
       },
       "geometry": {
         "type": "Point",
@@ -349,7 +371,8 @@
         "reference_number": "49590",
         "place_name": "Goldfields",
         "lga_name": "Southern Downs Regional",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#4363d8"
       },
       "geometry": {
         "type": "Point",
@@ -366,7 +389,8 @@
         "reference_number": "52093",
         "place_name": "Stamford",
         "lga_name": "Flinders Shire",
-        "sequence": 4
+        "sequence": 4,
+        "marker-color": "#4363d8"
       },
       "geometry": {
         "type": "Point",
@@ -386,7 +410,10 @@
           "Glenlogan",
           "North Branch (Toowoomba Regional)",
           "St Aubyn"
-        ]
+        ],
+        "stroke": "#f58231",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -413,7 +440,8 @@
         "reference_number": "50116",
         "place_name": "Glenlogan",
         "lga_name": "Logan City",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#f58231"
       },
       "geometry": {
         "type": "Point",
@@ -430,7 +458,8 @@
         "reference_number": "48026",
         "place_name": "North Branch (Toowoomba Regional)",
         "lga_name": "Toowoomba Regional",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#f58231"
       },
       "geometry": {
         "type": "Point",
@@ -447,7 +476,8 @@
         "reference_number": "48066",
         "place_name": "St Aubyn",
         "lga_name": "Toowoomba Regional",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#f58231"
       },
       "geometry": {
         "type": "Point",
@@ -467,7 +497,10 @@
           "Peak Vale (Isaac Regional)",
           "Curtis Island",
           "North Maclean"
-        ]
+        ],
+        "stroke": "#911eb4",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -494,7 +527,8 @@
         "reference_number": "52418",
         "place_name": "Peak Vale (Isaac Regional)",
         "lga_name": "Isaac Regional",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#911eb4"
       },
       "geometry": {
         "type": "Point",
@@ -511,7 +545,8 @@
         "reference_number": "47384",
         "place_name": "Curtis Island",
         "lga_name": "Gladstone Regional",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#911eb4"
       },
       "geometry": {
         "type": "Point",
@@ -528,7 +563,8 @@
         "reference_number": "48339",
         "place_name": "North Maclean",
         "lga_name": "Logan City",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#911eb4"
       },
       "geometry": {
         "type": "Point",

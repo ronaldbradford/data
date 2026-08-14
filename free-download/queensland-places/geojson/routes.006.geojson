@@ -11,7 +11,10 @@
           "Mooloolah Valley",
           "Euleilah",
           "Savannah"
-        ]
+        ],
+        "stroke": "#e6194b",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -38,7 +41,8 @@
         "reference_number": "48769",
         "place_name": "Mooloolah Valley",
         "lga_name": "Sunshine Coast Regional",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#e6194b"
       },
       "geometry": {
         "type": "Point",
@@ -55,7 +59,8 @@
         "reference_number": "46605",
         "place_name": "Euleilah",
         "lga_name": "Gladstone Regional",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#e6194b"
       },
       "geometry": {
         "type": "Point",
@@ -72,7 +77,8 @@
         "reference_number": "42917",
         "place_name": "Savannah",
         "lga_name": "Carpentaria Shire",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#e6194b"
       },
       "geometry": {
         "type": "Point",
@@ -92,7 +98,10 @@
           "Wetheron",
           "Greycliffe",
           "Canungra"
-        ]
+        ],
+        "stroke": "#3cb44b",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -119,7 +128,8 @@
         "reference_number": "45424",
         "place_name": "Wetheron",
         "lga_name": "North Burnett Regional",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#3cb44b"
       },
       "geometry": {
         "type": "Point",
@@ -136,7 +146,8 @@
         "reference_number": "49786",
         "place_name": "Greycliffe",
         "lga_name": "Banana Shire",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#3cb44b"
       },
       "geometry": {
         "type": "Point",
@@ -153,7 +164,8 @@
         "reference_number": "52643",
         "place_name": "Canungra",
         "lga_name": "Scenic Rim Regional",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#3cb44b"
       },
       "geometry": {
         "type": "Point",
@@ -176,7 +188,10 @@
           "Pinnacle",
           "Warburton",
           "Storm King"
-        ]
+        ],
+        "stroke": "#4363d8",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -215,7 +230,8 @@
         "reference_number": "47692",
         "place_name": "Drillham",
         "lga_name": "Western Downs Regional",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#4363d8"
       },
       "geometry": {
         "type": "Point",
@@ -232,7 +248,8 @@
         "reference_number": "46654",
         "place_name": "Gungaloon",
         "lga_name": "Fraser Coast Regional",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#4363d8"
       },
       "geometry": {
         "type": "Point",
@@ -249,7 +266,8 @@
         "reference_number": "48794",
         "place_name": "Mulambin",
         "lga_name": "Livingstone Shire",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#4363d8"
       },
       "geometry": {
         "type": "Point",
@@ -266,7 +284,8 @@
         "reference_number": "46931",
         "place_name": "Pinnacle",
         "lga_name": "Mackay Regional",
-        "sequence": 4
+        "sequence": 4,
+        "marker-color": "#4363d8"
       },
       "geometry": {
         "type": "Point",
@@ -283,7 +302,8 @@
         "reference_number": "42346",
         "place_name": "Warburton",
         "lga_name": "Boulia Shire",
-        "sequence": 5
+        "sequence": 5,
+        "marker-color": "#4363d8"
       },
       "geometry": {
         "type": "Point",
@@ -300,7 +320,8 @@
         "reference_number": "45979",
         "place_name": "Storm King",
         "lga_name": "Southern Downs Regional",
-        "sequence": 6
+        "sequence": 6,
+        "marker-color": "#4363d8"
       },
       "geometry": {
         "type": "Point",
@@ -323,7 +344,10 @@
           "Montrose (Southern Downs Regional)",
           "Broadmere",
           "Moranbah"
-        ]
+        ],
+        "stroke": "#f58231",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -362,7 +386,8 @@
         "reference_number": "49255",
         "place_name": "Bergen",
         "lga_name": "Toowoomba Regional",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#f58231"
       },
       "geometry": {
         "type": "Point",
@@ -379,7 +404,8 @@
         "reference_number": "44996",
         "place_name": "Vinegar Hill",
         "lga_name": "Lockyer Valley Regional",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#f58231"
       },
       "geometry": {
         "type": "Point",
@@ -396,7 +422,8 @@
         "reference_number": "49261",
         "place_name": "Felton",
         "lga_name": "Toowoomba Regional",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#f58231"
       },
       "geometry": {
         "type": "Point",
@@ -413,7 +440,8 @@
         "reference_number": "45953",
         "place_name": "Montrose (Southern Downs Regional)",
         "lga_name": "Southern Downs Regional",
-        "sequence": 4
+        "sequence": 4,
+        "marker-color": "#f58231"
       },
       "geometry": {
         "type": "Point",
@@ -430,7 +458,8 @@
         "reference_number": "49538",
         "place_name": "Broadmere",
         "lga_name": "Banana Shire",
-        "sequence": 5
+        "sequence": 5,
+        "marker-color": "#f58231"
       },
       "geometry": {
         "type": "Point",
@@ -447,7 +476,8 @@
         "reference_number": "49384",
         "place_name": "Moranbah",
         "lga_name": "Isaac Regional",
-        "sequence": 6
+        "sequence": 6,
+        "marker-color": "#f58231"
       },
       "geometry": {
         "type": "Point",
@@ -469,7 +499,10 @@
           "Murphys Creek",
           "Laidley Heights",
           "Southbrook"
-        ]
+        ],
+        "stroke": "#911eb4",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -504,7 +537,8 @@
         "reference_number": "52665",
         "place_name": "Napranum",
         "lga_name": "Napranum Aboriginal Shire",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#911eb4"
       },
       "geometry": {
         "type": "Point",
@@ -521,7 +555,8 @@
         "reference_number": "47043",
         "place_name": "Elphinstone (Isaac Regional)",
         "lga_name": "Isaac Regional",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#911eb4"
       },
       "geometry": {
         "type": "Point",
@@ -538,7 +573,8 @@
         "reference_number": "50110",
         "place_name": "Murphys Creek",
         "lga_name": "Lockyer Valley Regional",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#911eb4"
       },
       "geometry": {
         "type": "Point",
@@ -555,7 +591,8 @@
         "reference_number": "44966",
         "place_name": "Laidley Heights",
         "lga_name": "Lockyer Valley Regional",
-        "sequence": 4
+        "sequence": 4,
+        "marker-color": "#911eb4"
       },
       "geometry": {
         "type": "Point",
@@ -572,7 +609,8 @@
         "reference_number": "48062",
         "place_name": "Southbrook",
         "lga_name": "Toowoomba Regional",
-        "sequence": 5
+        "sequence": 5,
+        "marker-color": "#911eb4"
       },
       "geometry": {
         "type": "Point",

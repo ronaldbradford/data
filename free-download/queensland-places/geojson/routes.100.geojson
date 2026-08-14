@@ -12,7 +12,10 @@
           "Mount Mackay",
           "Coorooman",
           "Silver Spur"
-        ]
+        ],
+        "stroke": "#e6194b",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -43,7 +46,8 @@
         "reference_number": "48608",
         "place_name": "Dimbulah",
         "lga_name": "Mareeba Shire",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#e6194b"
       },
       "geometry": {
         "type": "Point",
@@ -60,7 +64,8 @@
         "reference_number": "45734",
         "place_name": "Mount Mackay",
         "lga_name": "Cassowary Coast Regional",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#e6194b"
       },
       "geometry": {
         "type": "Point",
@@ -77,7 +82,8 @@
         "reference_number": "48583",
         "place_name": "Coorooman",
         "lga_name": "Livingstone Shire",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#e6194b"
       },
       "geometry": {
         "type": "Point",
@@ -94,7 +100,8 @@
         "reference_number": "47827",
         "place_name": "Silver Spur",
         "lga_name": "Goondiwindi Regional",
-        "sequence": 4
+        "sequence": 4,
+        "marker-color": "#e6194b"
       },
       "geometry": {
         "type": "Point",
@@ -116,7 +123,10 @@
           "Emu Creek",
           "Wonglepong",
           "Innisplain"
-        ]
+        ],
+        "stroke": "#3cb44b",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -151,7 +161,8 @@
         "reference_number": "48128",
         "place_name": "Breddan",
         "lga_name": "Charters Towers Regional",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#3cb44b"
       },
       "geometry": {
         "type": "Point",
@@ -168,7 +179,8 @@
         "reference_number": "48918",
         "place_name": "Walmul",
         "lga_name": "Rockhampton Regional",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#3cb44b"
       },
       "geometry": {
         "type": "Point",
@@ -185,7 +197,8 @@
         "reference_number": "49223",
         "place_name": "Emu Creek",
         "lga_name": "Toowoomba Regional",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#3cb44b"
       },
       "geometry": {
         "type": "Point",
@@ -202,7 +215,8 @@
         "reference_number": "45208",
         "place_name": "Wonglepong",
         "lga_name": "Scenic Rim Regional",
-        "sequence": 4
+        "sequence": 4,
+        "marker-color": "#3cb44b"
       },
       "geometry": {
         "type": "Point",
@@ -219,7 +233,8 @@
         "reference_number": "45148",
         "place_name": "Innisplain",
         "lga_name": "Scenic Rim Regional",
-        "sequence": 5
+        "sequence": 5,
+        "marker-color": "#3cb44b"
       },
       "geometry": {
         "type": "Point",
@@ -239,7 +254,10 @@
           "Coowonga",
           "Mount Alma",
           "Paluma (Charters Towers Regional)"
-        ]
+        ],
+        "stroke": "#4363d8",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -266,7 +284,8 @@
         "reference_number": "48587",
         "place_name": "Coowonga",
         "lga_name": "Livingstone Shire",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#4363d8"
       },
       "geometry": {
         "type": "Point",
@@ -283,7 +302,8 @@
         "reference_number": "46613",
         "place_name": "Mount Alma",
         "lga_name": "Gladstone Regional",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#4363d8"
       },
       "geometry": {
         "type": "Point",
@@ -300,7 +320,8 @@
         "reference_number": "44550",
         "place_name": "Paluma (Charters Towers Regional)",
         "lga_name": "Charters Towers Regional",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#4363d8"
       },
       "geometry": {
         "type": "Point",
@@ -321,7 +342,10 @@
           "Mandalay",
           "Moffatdale",
           "Cedar Creek (Gold Coast City)"
-        ]
+        ],
+        "stroke": "#f58231",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -352,7 +376,8 @@
         "reference_number": "47040",
         "place_name": "Valkyrie",
         "lga_name": "Isaac Regional",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#f58231"
       },
       "geometry": {
         "type": "Point",
@@ -369,7 +394,8 @@
         "reference_number": "46883",
         "place_name": "Mandalay",
         "lga_name": "Whitsunday Regional",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#f58231"
       },
       "geometry": {
         "type": "Point",
@@ -386,7 +412,8 @@
         "reference_number": "46245",
         "place_name": "Moffatdale",
         "lga_name": "South Burnett Regional",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#f58231"
       },
       "geometry": {
         "type": "Point",
@@ -403,7 +430,8 @@
         "reference_number": "46037",
         "place_name": "Cedar Creek (Gold Coast City)",
         "lga_name": "Gold Coast City",
-        "sequence": 4
+        "sequence": 4,
+        "marker-color": "#f58231"
       },
       "geometry": {
         "type": "Point",
@@ -424,7 +452,10 @@
           "Biggenden",
           "Bungaban",
           "Diamondvale"
-        ]
+        ],
+        "stroke": "#911eb4",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -455,7 +486,8 @@
         "reference_number": "45395",
         "place_name": "Mount Perry",
         "lga_name": "North Burnett Regional",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#911eb4"
       },
       "geometry": {
         "type": "Point",
@@ -472,7 +504,8 @@
         "reference_number": "47364",
         "place_name": "Biggenden",
         "lga_name": "North Burnett Regional",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#911eb4"
       },
       "geometry": {
         "type": "Point",
@@ -489,7 +522,8 @@
         "reference_number": "47672",
         "place_name": "Bungaban",
         "lga_name": "Western Downs Regional",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#911eb4"
       },
       "geometry": {
         "type": "Point",
@@ -506,7 +540,8 @@
         "reference_number": "45922",
         "place_name": "Diamondvale",
         "lga_name": "Southern Downs Regional",
-        "sequence": 4
+        "sequence": 4,
+        "marker-color": "#911eb4"
       },
       "geometry": {
         "type": "Point",

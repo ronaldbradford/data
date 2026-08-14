@@ -11,7 +11,10 @@
           "Taunton",
           "Tiaro",
           "Hungerford (Bulloo Shire)"
-        ]
+        ],
+        "stroke": "#e6194b",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -38,7 +41,8 @@
         "reference_number": "47289",
         "place_name": "Taunton",
         "lga_name": "Gladstone Regional",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#e6194b"
       },
       "geometry": {
         "type": "Point",
@@ -55,7 +59,8 @@
         "reference_number": "50086",
         "place_name": "Tiaro",
         "lga_name": "Fraser Coast Regional",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#e6194b"
       },
       "geometry": {
         "type": "Point",
@@ -72,7 +77,8 @@
         "reference_number": "50024",
         "place_name": "Hungerford (Bulloo Shire)",
         "lga_name": "Bulloo Shire",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#e6194b"
       },
       "geometry": {
         "type": "Point",
@@ -94,7 +100,10 @@
           "Wootha",
           "Motley",
           "Silver Spur"
-        ]
+        ],
+        "stroke": "#3cb44b",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -129,7 +138,8 @@
         "reference_number": "44960",
         "place_name": "Ingoldsby",
         "lga_name": "Lockyer Valley Regional",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#3cb44b"
       },
       "geometry": {
         "type": "Point",
@@ -146,7 +156,8 @@
         "reference_number": "47273",
         "place_name": "Glamorgan Vale",
         "lga_name": "Somerset Regional",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#3cb44b"
       },
       "geometry": {
         "type": "Point",
@@ -163,7 +174,8 @@
         "reference_number": "48944",
         "place_name": "Wootha",
         "lga_name": "Sunshine Coast Regional",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#3cb44b"
       },
       "geometry": {
         "type": "Point",
@@ -180,7 +192,8 @@
         "reference_number": "48006",
         "place_name": "Motley",
         "lga_name": "Toowoomba Regional",
-        "sequence": 4
+        "sequence": 4,
+        "marker-color": "#3cb44b"
       },
       "geometry": {
         "type": "Point",
@@ -197,7 +210,8 @@
         "reference_number": "47827",
         "place_name": "Silver Spur",
         "lga_name": "Goondiwindi Regional",
-        "sequence": 5
+        "sequence": 5,
+        "marker-color": "#3cb44b"
       },
       "geometry": {
         "type": "Point",
@@ -217,7 +231,10 @@
           "Cuttaburra",
           "Beaudesert",
           "Bamboo"
-        ]
+        ],
+        "stroke": "#4363d8",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -244,7 +261,8 @@
         "reference_number": "42653",
         "place_name": "Cuttaburra",
         "lga_name": "Paroo Shire",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#4363d8"
       },
       "geometry": {
         "type": "Point",
@@ -261,7 +279,8 @@
         "reference_number": "45109",
         "place_name": "Beaudesert",
         "lga_name": "Scenic Rim Regional",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#4363d8"
       },
       "geometry": {
         "type": "Point",
@@ -278,7 +297,8 @@
         "reference_number": "48506",
         "place_name": "Bamboo",
         "lga_name": "Douglas Shire",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#4363d8"
       },
       "geometry": {
         "type": "Point",
@@ -299,7 +319,10 @@
           "Rookwood",
           "Wealwandangie",
           "Glen Cairn"
-        ]
+        ],
+        "stroke": "#f58231",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -330,7 +353,8 @@
         "reference_number": "47382",
         "place_name": "Foresthome",
         "lga_name": "Hinchinbrook Shire",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#f58231"
       },
       "geometry": {
         "type": "Point",
@@ -347,7 +371,8 @@
         "reference_number": "48860",
         "place_name": "Rookwood",
         "lga_name": "Mareeba Shire",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#f58231"
       },
       "geometry": {
         "type": "Point",
@@ -364,7 +389,8 @@
         "reference_number": "46983",
         "place_name": "Wealwandangie",
         "lga_name": "Central Highlands Regional",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#f58231"
       },
       "geometry": {
         "type": "Point",
@@ -381,7 +407,8 @@
         "reference_number": "44955",
         "place_name": "Glen Cairn",
         "lga_name": "Lockyer Valley Regional",
-        "sequence": 4
+        "sequence": 4,
+        "marker-color": "#f58231"
       },
       "geometry": {
         "type": "Point",
@@ -404,7 +431,10 @@
           "Bullcamp",
           "Kooroomool",
           "Bellenden Ker"
-        ]
+        ],
+        "stroke": "#911eb4",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -443,7 +473,8 @@
         "reference_number": "45985",
         "place_name": "Tannymorel",
         "lga_name": "Southern Downs Regional",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#911eb4"
       },
       "geometry": {
         "type": "Point",
@@ -460,7 +491,8 @@
         "reference_number": "48133",
         "place_name": "Gilston",
         "lga_name": "Gold Coast City",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#911eb4"
       },
       "geometry": {
         "type": "Point",
@@ -477,7 +509,8 @@
         "reference_number": "47960",
         "place_name": "Greenwood",
         "lga_name": "Toowoomba Regional",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#911eb4"
       },
       "geometry": {
         "type": "Point",
@@ -494,7 +527,8 @@
         "reference_number": "46200",
         "place_name": "Bullcamp",
         "lga_name": "South Burnett Regional",
-        "sequence": 4
+        "sequence": 4,
+        "marker-color": "#911eb4"
       },
       "geometry": {
         "type": "Point",
@@ -511,7 +545,8 @@
         "reference_number": "45717",
         "place_name": "Kooroomool",
         "lga_name": "Cassowary Coast Regional",
-        "sequence": 5
+        "sequence": 5,
+        "marker-color": "#911eb4"
       },
       "geometry": {
         "type": "Point",
@@ -528,7 +563,8 @@
         "reference_number": "48522",
         "place_name": "Bellenden Ker",
         "lga_name": "Cairns Regional",
-        "sequence": 6
+        "sequence": 6,
+        "marker-color": "#911eb4"
       },
       "geometry": {
         "type": "Point",

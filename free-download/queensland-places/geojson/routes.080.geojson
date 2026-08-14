@@ -13,7 +13,10 @@
           "Pirrinuan",
           "Blackswamp",
           "O'Bil Bil"
-        ]
+        ],
+        "stroke": "#e6194b",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -48,7 +51,8 @@
         "reference_number": "47835",
         "place_name": "Watsons Crossing",
         "lga_name": "Goondiwindi Regional",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#e6194b"
       },
       "geometry": {
         "type": "Point",
@@ -65,7 +69,8 @@
         "reference_number": "48044",
         "place_name": "Punchs Creek",
         "lga_name": "Toowoomba Regional",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#e6194b"
       },
       "geometry": {
         "type": "Point",
@@ -82,7 +87,8 @@
         "reference_number": "49276",
         "place_name": "Pirrinuan",
         "lga_name": "Western Downs Regional",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#e6194b"
       },
       "geometry": {
         "type": "Point",
@@ -99,7 +105,8 @@
         "reference_number": "47666",
         "place_name": "Blackswamp",
         "lga_name": "Western Downs Regional",
-        "sequence": 4
+        "sequence": 4,
+        "marker-color": "#e6194b"
       },
       "geometry": {
         "type": "Point",
@@ -116,7 +123,8 @@
         "reference_number": "47621",
         "place_name": "O'Bil Bil",
         "lga_name": "North Burnett Regional",
-        "sequence": 5
+        "sequence": 5,
+        "marker-color": "#e6194b"
       },
       "geometry": {
         "type": "Point",
@@ -139,7 +147,10 @@
           "Branchview",
           "Lake Mary",
           "Four Ways"
-        ]
+        ],
+        "stroke": "#3cb44b",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -178,7 +189,8 @@
         "reference_number": "47698",
         "place_name": "Fairyland",
         "lga_name": "Western Downs Regional",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#3cb44b"
       },
       "geometry": {
         "type": "Point",
@@ -195,7 +207,8 @@
         "reference_number": "46203",
         "place_name": "Chahpingah",
         "lga_name": "South Burnett Regional",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#3cb44b"
       },
       "geometry": {
         "type": "Point",
@@ -212,7 +225,8 @@
         "reference_number": "47749",
         "place_name": "Tara",
         "lga_name": "Western Downs Regional",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#3cb44b"
       },
       "geometry": {
         "type": "Point",
@@ -229,7 +243,8 @@
         "reference_number": "49367",
         "place_name": "Branchview",
         "lga_name": "Toowoomba Regional",
-        "sequence": 4
+        "sequence": 4,
+        "marker-color": "#3cb44b"
       },
       "geometry": {
         "type": "Point",
@@ -246,7 +261,8 @@
         "reference_number": "50245",
         "place_name": "Lake Mary",
         "lga_name": "Livingstone Shire",
-        "sequence": 5
+        "sequence": 5,
+        "marker-color": "#3cb44b"
       },
       "geometry": {
         "type": "Point",
@@ -263,7 +279,8 @@
         "reference_number": "42492",
         "place_name": "Four Ways",
         "lga_name": "Cloncurry Shire",
-        "sequence": 6
+        "sequence": 6,
+        "marker-color": "#3cb44b"
       },
       "geometry": {
         "type": "Point",
@@ -283,7 +300,10 @@
           "Canning Creek (Goondiwindi Regional)",
           "Carters Ridge",
           "Japoonvale"
-        ]
+        ],
+        "stroke": "#4363d8",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -310,7 +330,8 @@
         "reference_number": "47804",
         "place_name": "Canning Creek (Goondiwindi Regional)",
         "lga_name": "Goondiwindi Regional",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#4363d8"
       },
       "geometry": {
         "type": "Point",
@@ -327,7 +348,8 @@
         "reference_number": "46313",
         "place_name": "Carters Ridge",
         "lga_name": "Gympie Regional",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#4363d8"
       },
       "geometry": {
         "type": "Point",
@@ -344,7 +366,8 @@
         "reference_number": "45713",
         "place_name": "Japoonvale",
         "lga_name": "Cassowary Coast Regional",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#4363d8"
       },
       "geometry": {
         "type": "Point",
@@ -364,7 +387,10 @@
           "Three Moon",
           "Canoona",
           "Landsborough"
-        ]
+        ],
+        "stroke": "#f58231",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -391,7 +417,8 @@
         "reference_number": "45419",
         "place_name": "Three Moon",
         "lga_name": "North Burnett Regional",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#f58231"
       },
       "geometry": {
         "type": "Point",
@@ -408,7 +435,8 @@
         "reference_number": "48560",
         "place_name": "Canoona",
         "lga_name": "Livingstone Shire",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#f58231"
       },
       "geometry": {
         "type": "Point",
@@ -425,7 +453,8 @@
         "reference_number": "50280",
         "place_name": "Landsborough",
         "lga_name": "Sunshine Coast Regional",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#f58231"
       },
       "geometry": {
         "type": "Point",
@@ -446,7 +475,10 @@
           "Dargal Road",
           "Dulacca",
           "Okeden"
-        ]
+        ],
+        "stroke": "#911eb4",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -477,7 +509,8 @@
         "reference_number": "45667",
         "place_name": "Djiru",
         "lga_name": "Cassowary Coast Regional",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#911eb4"
       },
       "geometry": {
         "type": "Point",
@@ -494,7 +527,8 @@
         "reference_number": "47418",
         "place_name": "Dargal Road",
         "lga_name": "Maranoa Regional",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#911eb4"
       },
       "geometry": {
         "type": "Point",
@@ -511,7 +545,8 @@
         "reference_number": "47695",
         "place_name": "Dulacca",
         "lga_name": "Western Downs Regional",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#911eb4"
       },
       "geometry": {
         "type": "Point",
@@ -528,7 +563,8 @@
         "reference_number": "46255",
         "place_name": "Okeden",
         "lga_name": "South Burnett Regional",
-        "sequence": 4
+        "sequence": 4,
+        "marker-color": "#911eb4"
       },
       "geometry": {
         "type": "Point",

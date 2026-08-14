@@ -14,7 +14,10 @@
           "Hodgleigh",
           "Radford",
           "New Harbourline"
-        ]
+        ],
+        "stroke": "#e6194b",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -53,7 +56,8 @@
         "reference_number": "49161",
         "place_name": "Wallumbilla South",
         "lga_name": "Maranoa Regional",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#e6194b"
       },
       "geometry": {
         "type": "Point",
@@ -70,7 +74,8 @@
         "reference_number": "47728",
         "place_name": "Montrose (Western Downs Regional)",
         "lga_name": "Western Downs Regional",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#e6194b"
       },
       "geometry": {
         "type": "Point",
@@ -87,7 +92,8 @@
         "reference_number": "49276",
         "place_name": "Pirrinuan",
         "lga_name": "Western Downs Regional",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#e6194b"
       },
       "geometry": {
         "type": "Point",
@@ -104,7 +110,8 @@
         "reference_number": "46226",
         "place_name": "Hodgleigh",
         "lga_name": "South Burnett Regional",
-        "sequence": 4
+        "sequence": 4,
+        "marker-color": "#e6194b"
       },
       "geometry": {
         "type": "Point",
@@ -121,7 +128,8 @@
         "reference_number": "45181",
         "place_name": "Radford",
         "lga_name": "Scenic Rim Regional",
-        "sequence": 5
+        "sequence": 5,
+        "marker-color": "#e6194b"
       },
       "geometry": {
         "type": "Point",
@@ -138,7 +146,8 @@
         "reference_number": "45742",
         "place_name": "New Harbourline",
         "lga_name": "Cassowary Coast Regional",
-        "sequence": 6
+        "sequence": 6,
+        "marker-color": "#e6194b"
       },
       "geometry": {
         "type": "Point",
@@ -160,7 +169,10 @@
           "Lonesome Creek",
           "Haly Creek",
           "Radford"
-        ]
+        ],
+        "stroke": "#3cb44b",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -195,7 +207,8 @@
         "reference_number": "42529",
         "place_name": "Trebonne",
         "lga_name": "Hinchinbrook Shire",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#3cb44b"
       },
       "geometry": {
         "type": "Point",
@@ -212,7 +225,8 @@
         "reference_number": "41769",
         "place_name": "Karron",
         "lga_name": "Croydon Shire",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#3cb44b"
       },
       "geometry": {
         "type": "Point",
@@ -229,7 +243,8 @@
         "reference_number": "49564",
         "place_name": "Lonesome Creek",
         "lga_name": "Banana Shire",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#3cb44b"
       },
       "geometry": {
         "type": "Point",
@@ -246,7 +261,8 @@
         "reference_number": "46224",
         "place_name": "Haly Creek",
         "lga_name": "South Burnett Regional",
-        "sequence": 4
+        "sequence": 4,
+        "marker-color": "#3cb44b"
       },
       "geometry": {
         "type": "Point",
@@ -263,7 +279,8 @@
         "reference_number": "45181",
         "place_name": "Radford",
         "lga_name": "Scenic Rim Regional",
-        "sequence": 5
+        "sequence": 5,
+        "marker-color": "#3cb44b"
       },
       "geometry": {
         "type": "Point",
@@ -283,7 +300,10 @@
           "Birkalla",
           "Walkerston",
           "Muirlea"
-        ]
+        ],
+        "stroke": "#4363d8",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -310,7 +330,8 @@
         "reference_number": "45657",
         "place_name": "Birkalla",
         "lga_name": "Cassowary Coast Regional",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#4363d8"
       },
       "geometry": {
         "type": "Point",
@@ -327,7 +348,8 @@
         "reference_number": "46846",
         "place_name": "Walkerston",
         "lga_name": "Mackay Regional",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#4363d8"
       },
       "geometry": {
         "type": "Point",
@@ -344,7 +366,8 @@
         "reference_number": "48968",
         "place_name": "Muirlea",
         "lga_name": "Ipswich City",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#4363d8"
       },
       "geometry": {
         "type": "Point",
@@ -367,7 +390,10 @@
           "East Toowoomba",
           "Dundas",
           "Monkland"
-        ]
+        ],
+        "stroke": "#f58231",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -406,7 +432,8 @@
         "reference_number": "49832",
         "place_name": "Macalister Range",
         "lga_name": "Cairns Regional",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#f58231"
       },
       "geometry": {
         "type": "Point",
@@ -423,7 +450,8 @@
         "reference_number": "46968",
         "place_name": "Mungabunda",
         "lga_name": "Central Highlands Regional",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#f58231"
       },
       "geometry": {
         "type": "Point",
@@ -440,7 +468,8 @@
         "reference_number": "47443",
         "place_name": "Mungallala",
         "lga_name": "Maranoa Regional",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#f58231"
       },
       "geometry": {
         "type": "Point",
@@ -457,7 +486,8 @@
         "reference_number": "47935",
         "place_name": "East Toowoomba",
         "lga_name": "Toowoomba Regional",
-        "sequence": 4
+        "sequence": 4,
+        "marker-color": "#f58231"
       },
       "geometry": {
         "type": "Point",
@@ -474,7 +504,8 @@
         "reference_number": "44862",
         "place_name": "Dundas",
         "lga_name": "Somerset Regional",
-        "sequence": 5
+        "sequence": 5,
+        "marker-color": "#f58231"
       },
       "geometry": {
         "type": "Point",
@@ -491,7 +522,8 @@
         "reference_number": "47106",
         "place_name": "Monkland",
         "lga_name": "Gympie Regional",
-        "sequence": 6
+        "sequence": 6,
+        "marker-color": "#f58231"
       },
       "geometry": {
         "type": "Point",
@@ -513,7 +545,10 @@
           "Lamington",
           "Wura",
           "Djiru"
-        ]
+        ],
+        "stroke": "#911eb4",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -548,7 +583,8 @@
         "reference_number": "50238",
         "place_name": "Blackbutt",
         "lga_name": "South Burnett Regional",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#911eb4"
       },
       "geometry": {
         "type": "Point",
@@ -565,7 +601,8 @@
         "reference_number": "44834",
         "place_name": "Banks Creek (Somerset Regional)",
         "lga_name": "Somerset Regional",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#911eb4"
       },
       "geometry": {
         "type": "Point",
@@ -582,7 +619,8 @@
         "reference_number": "45158",
         "place_name": "Lamington",
         "lga_name": "Scenic Rim Regional",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#911eb4"
       },
       "geometry": {
         "type": "Point",
@@ -599,7 +637,8 @@
         "reference_number": "48948",
         "place_name": "Wura",
         "lga_name": "Rockhampton Regional",
-        "sequence": 4
+        "sequence": 4,
+        "marker-color": "#911eb4"
       },
       "geometry": {
         "type": "Point",
@@ -616,7 +655,8 @@
         "reference_number": "45667",
         "place_name": "Djiru",
         "lga_name": "Cassowary Coast Regional",
-        "sequence": 5
+        "sequence": 5,
+        "marker-color": "#911eb4"
       },
       "geometry": {
         "type": "Point",

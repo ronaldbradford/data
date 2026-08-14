@@ -12,7 +12,10 @@
           "Woolshed",
           "Canaga",
           "Badu Island"
-        ]
+        ],
+        "stroke": "#e6194b",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -43,7 +46,8 @@
         "reference_number": "45925",
         "place_name": "Emu Vale",
         "lga_name": "Southern Downs Regional",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#e6194b"
       },
       "geometry": {
         "type": "Point",
@@ -60,7 +64,8 @@
         "reference_number": "45103",
         "place_name": "Woolshed",
         "lga_name": "Ipswich City",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#e6194b"
       },
       "geometry": {
         "type": "Point",
@@ -77,7 +82,8 @@
         "reference_number": "49271",
         "place_name": "Canaga",
         "lga_name": "Western Downs Regional",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#e6194b"
       },
       "geometry": {
         "type": "Point",
@@ -94,7 +100,8 @@
         "reference_number": "46705",
         "place_name": "Badu Island",
         "lga_name": "Torres Strait Island Regional",
-        "sequence": 4
+        "sequence": 4,
+        "marker-color": "#e6194b"
       },
       "geometry": {
         "type": "Point",
@@ -116,7 +123,10 @@
           "Mosquito Creek",
           "Miva (Gympie Regional)",
           "Rolleston"
-        ]
+        ],
+        "stroke": "#3cb44b",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -151,7 +161,8 @@
         "reference_number": "52230",
         "place_name": "Bellmere",
         "lga_name": "Moreton Bay City",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#3cb44b"
       },
       "geometry": {
         "type": "Point",
@@ -168,7 +179,8 @@
         "reference_number": "45214",
         "place_name": "Merryvale",
         "lga_name": "Scenic Rim Regional",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#3cb44b"
       },
       "geometry": {
         "type": "Point",
@@ -185,7 +197,8 @@
         "reference_number": "49285",
         "place_name": "Mosquito Creek",
         "lga_name": "Goondiwindi Regional",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#3cb44b"
       },
       "geometry": {
         "type": "Point",
@@ -202,7 +215,8 @@
         "reference_number": "47615",
         "place_name": "Miva (Gympie Regional)",
         "lga_name": "Gympie Regional",
-        "sequence": 4
+        "sequence": 4,
+        "marker-color": "#3cb44b"
       },
       "geometry": {
         "type": "Point",
@@ -219,7 +233,8 @@
         "reference_number": "46975",
         "place_name": "Rolleston",
         "lga_name": "Central Highlands Regional",
-        "sequence": 5
+        "sequence": 5,
+        "marker-color": "#3cb44b"
       },
       "geometry": {
         "type": "Point",
@@ -239,7 +254,10 @@
           "Sunshine Acres",
           "Lockyer Waters",
           "Westmar"
-        ]
+        ],
+        "stroke": "#4363d8",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -266,7 +284,8 @@
         "reference_number": "46672",
         "place_name": "Sunshine Acres",
         "lga_name": "Fraser Coast Regional",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#4363d8"
       },
       "geometry": {
         "type": "Point",
@@ -283,7 +302,8 @@
         "reference_number": "44974",
         "place_name": "Lockyer Waters",
         "lga_name": "Lockyer Valley Regional",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#4363d8"
       },
       "geometry": {
         "type": "Point",
@@ -300,7 +320,8 @@
         "reference_number": "47758",
         "place_name": "Westmar",
         "lga_name": "Western Downs Regional",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#4363d8"
       },
       "geometry": {
         "type": "Point",
@@ -323,7 +344,10 @@
           "Atkinsons Dam",
           "Thulimbah",
           "Cannon Creek (Southern Downs Regional)"
-        ]
+        ],
+        "stroke": "#f58231",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -362,7 +386,8 @@
         "reference_number": "48971",
         "place_name": "Elliott",
         "lga_name": "Bundaberg Regional",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#f58231"
       },
       "geometry": {
         "type": "Point",
@@ -379,7 +404,8 @@
         "reference_number": "50208",
         "place_name": "Gympie",
         "lga_name": "Gympie Regional",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#f58231"
       },
       "geometry": {
         "type": "Point",
@@ -396,7 +422,8 @@
         "reference_number": "46370",
         "place_name": "Neusa Vale",
         "lga_name": "Gympie Regional",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#f58231"
       },
       "geometry": {
         "type": "Point",
@@ -413,7 +440,8 @@
         "reference_number": "44832",
         "place_name": "Atkinsons Dam",
         "lga_name": "Somerset Regional",
-        "sequence": 4
+        "sequence": 4,
+        "marker-color": "#f58231"
       },
       "geometry": {
         "type": "Point",
@@ -430,7 +458,8 @@
         "reference_number": "45994",
         "place_name": "Thulimbah",
         "lga_name": "Southern Downs Regional",
-        "sequence": 5
+        "sequence": 5,
+        "marker-color": "#f58231"
       },
       "geometry": {
         "type": "Point",
@@ -447,7 +476,8 @@
         "reference_number": "45913",
         "place_name": "Cannon Creek (Southern Downs Regional)",
         "lga_name": "Southern Downs Regional",
-        "sequence": 6
+        "sequence": 6,
+        "marker-color": "#f58231"
       },
       "geometry": {
         "type": "Point",
@@ -467,7 +497,10 @@
           "Dingo Beach",
           "Peacock Siding",
           "Tuan"
-        ]
+        ],
+        "stroke": "#911eb4",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -494,7 +527,8 @@
         "reference_number": "46863",
         "place_name": "Dingo Beach",
         "lga_name": "Whitsunday Regional",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#911eb4"
       },
       "geometry": {
         "type": "Point",
@@ -511,7 +545,8 @@
         "reference_number": "42526",
         "place_name": "Peacock Siding",
         "lga_name": "Hinchinbrook Shire",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#911eb4"
       },
       "geometry": {
         "type": "Point",
@@ -528,7 +563,8 @@
         "reference_number": "46685",
         "place_name": "Tuan",
         "lga_name": "Fraser Coast Regional",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#911eb4"
       },
       "geometry": {
         "type": "Point",

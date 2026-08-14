@@ -11,7 +11,10 @@
           "Mission River (Cook Shire)",
           "Walkerston",
           "Three Moon"
-        ]
+        ],
+        "stroke": "#e6194b",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -38,7 +41,8 @@
         "reference_number": "46136",
         "place_name": "Mission River (Cook Shire)",
         "lga_name": "Cook Shire",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#e6194b"
       },
       "geometry": {
         "type": "Point",
@@ -55,7 +59,8 @@
         "reference_number": "46846",
         "place_name": "Walkerston",
         "lga_name": "Mackay Regional",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#e6194b"
       },
       "geometry": {
         "type": "Point",
@@ -72,7 +77,8 @@
         "reference_number": "45419",
         "place_name": "Three Moon",
         "lga_name": "North Burnett Regional",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#e6194b"
       },
       "geometry": {
         "type": "Point",
@@ -93,7 +99,10 @@
           "Woolgar",
           "Morven",
           "Thagoona"
-        ]
+        ],
+        "stroke": "#3cb44b",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -124,7 +133,8 @@
         "reference_number": "48850",
         "place_name": "Ravensworth",
         "lga_name": "Mareeba Shire",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#3cb44b"
       },
       "geometry": {
         "type": "Point",
@@ -141,7 +151,8 @@
         "reference_number": "42357",
         "place_name": "Woolgar",
         "lga_name": "Richmond Shire",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#3cb44b"
       },
       "geometry": {
         "type": "Point",
@@ -158,7 +169,8 @@
         "reference_number": "42928",
         "place_name": "Morven",
         "lga_name": "Murweh Shire",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#3cb44b"
       },
       "geometry": {
         "type": "Point",
@@ -175,7 +187,8 @@
         "reference_number": "45084",
         "place_name": "Thagoona",
         "lga_name": "Ipswich City",
-        "sequence": 4
+        "sequence": 4,
+        "marker-color": "#3cb44b"
       },
       "geometry": {
         "type": "Point",
@@ -197,7 +210,10 @@
           "Blue Mountain",
           "Bungeworgorai",
           "Kuridala"
-        ]
+        ],
+        "stroke": "#4363d8",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -232,7 +248,8 @@
         "reference_number": "48934",
         "place_name": "Whyanbeel",
         "lga_name": "Douglas Shire",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#4363d8"
       },
       "geometry": {
         "type": "Point",
@@ -249,7 +266,8 @@
         "reference_number": "48659",
         "place_name": "Goldsborough",
         "lga_name": "Cairns Regional",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#4363d8"
       },
       "geometry": {
         "type": "Point",
@@ -266,7 +284,8 @@
         "reference_number": "47004",
         "place_name": "Blue Mountain",
         "lga_name": "Isaac Regional",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#4363d8"
       },
       "geometry": {
         "type": "Point",
@@ -283,7 +302,8 @@
         "reference_number": "49172",
         "place_name": "Bungeworgorai",
         "lga_name": "Maranoa Regional",
-        "sequence": 4
+        "sequence": 4,
+        "marker-color": "#4363d8"
       },
       "geometry": {
         "type": "Point",
@@ -300,7 +320,8 @@
         "reference_number": "44673",
         "place_name": "Kuridala",
         "lga_name": "Cloncurry Shire",
-        "sequence": 5
+        "sequence": 5,
+        "marker-color": "#4363d8"
       },
       "geometry": {
         "type": "Point",
@@ -322,7 +343,10 @@
           "Meringandan",
           "Kholo",
           "Lyons"
-        ]
+        ],
+        "stroke": "#f58231",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -357,7 +381,8 @@
         "reference_number": "50047",
         "place_name": "Goondiwindi",
         "lga_name": "Goondiwindi Regional",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#f58231"
       },
       "geometry": {
         "type": "Point",
@@ -374,7 +399,8 @@
         "reference_number": "49278",
         "place_name": "Jimbour East",
         "lga_name": "Western Downs Regional",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#f58231"
       },
       "geometry": {
         "type": "Point",
@@ -391,7 +417,8 @@
         "reference_number": "49182",
         "place_name": "Meringandan",
         "lga_name": "Toowoomba Regional",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#f58231"
       },
       "geometry": {
         "type": "Point",
@@ -408,7 +435,8 @@
         "reference_number": "18050",
         "place_name": "Kholo",
         "lga_name": "Brisbane City",
-        "sequence": 4
+        "sequence": 4,
+        "marker-color": "#f58231"
       },
       "geometry": {
         "type": "Point",
@@ -425,7 +453,8 @@
         "reference_number": "45303",
         "place_name": "Lyons",
         "lga_name": "Logan City",
-        "sequence": 5
+        "sequence": 5,
+        "marker-color": "#f58231"
       },
       "geometry": {
         "type": "Point",
@@ -445,7 +474,10 @@
           "Moongan",
           "Munna Creek (Fraser Coast Regional)",
           "Bambaroo"
-        ]
+        ],
+        "stroke": "#911eb4",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -472,7 +504,8 @@
         "reference_number": "48771",
         "place_name": "Moongan",
         "lga_name": "Rockhampton Regional",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#911eb4"
       },
       "geometry": {
         "type": "Point",
@@ -489,7 +522,8 @@
         "reference_number": "46743",
         "place_name": "Munna Creek (Fraser Coast Regional)",
         "lga_name": "Fraser Coast Regional",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#911eb4"
       },
       "geometry": {
         "type": "Point",
@@ -506,7 +540,8 @@
         "reference_number": "46015",
         "place_name": "Bambaroo",
         "lga_name": "Hinchinbrook Shire",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#911eb4"
       },
       "geometry": {
         "type": "Point",

@@ -11,7 +11,10 @@
           "North Isis",
           "Kurwongbah",
           "The Falls"
-        ]
+        ],
+        "stroke": "#e6194b",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -38,7 +41,8 @@
         "reference_number": "47654",
         "place_name": "North Isis",
         "lga_name": "Bundaberg Regional",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#e6194b"
       },
       "geometry": {
         "type": "Point",
@@ -55,7 +59,8 @@
         "reference_number": "49810",
         "place_name": "Kurwongbah",
         "lga_name": "Moreton Bay City",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#e6194b"
       },
       "geometry": {
         "type": "Point",
@@ -72,7 +77,8 @@
         "reference_number": "50082",
         "place_name": "The Falls",
         "lga_name": "Southern Downs Regional",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#e6194b"
       },
       "geometry": {
         "type": "Point",
@@ -92,7 +98,10 @@
           "Hivesville",
           "Elliott",
           "Coorumbene"
-        ]
+        ],
+        "stroke": "#3cb44b",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -119,7 +128,8 @@
         "reference_number": "46225",
         "place_name": "Hivesville",
         "lga_name": "South Burnett Regional",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#3cb44b"
       },
       "geometry": {
         "type": "Point",
@@ -136,7 +146,8 @@
         "reference_number": "48971",
         "place_name": "Elliott",
         "lga_name": "Bundaberg Regional",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#3cb44b"
       },
       "geometry": {
         "type": "Point",
@@ -153,7 +164,8 @@
         "reference_number": "46943",
         "place_name": "Coorumbene",
         "lga_name": "Central Highlands Regional",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#3cb44b"
       },
       "geometry": {
         "type": "Point",
@@ -176,7 +188,10 @@
           "Sturt (Boulia Shire)",
           "Jimbour West",
           "Borallon"
-        ]
+        ],
+        "stroke": "#4363d8",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -215,7 +230,8 @@
         "reference_number": "46758",
         "place_name": "Ball Bay",
         "lga_name": "Mackay Regional",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#4363d8"
       },
       "geometry": {
         "type": "Point",
@@ -232,7 +248,8 @@
         "reference_number": "45696",
         "place_name": "Etty Bay",
         "lga_name": "Cassowary Coast Regional",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#4363d8"
       },
       "geometry": {
         "type": "Point",
@@ -249,7 +266,8 @@
         "reference_number": "52076",
         "place_name": "Isisford",
         "lga_name": "Longreach Regional",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#4363d8"
       },
       "geometry": {
         "type": "Point",
@@ -266,7 +284,8 @@
         "reference_number": "42337",
         "place_name": "Sturt (Boulia Shire)",
         "lga_name": "Boulia Shire",
-        "sequence": 4
+        "sequence": 4,
+        "marker-color": "#4363d8"
       },
       "geometry": {
         "type": "Point",
@@ -283,7 +302,8 @@
         "reference_number": "47716",
         "place_name": "Jimbour West",
         "lga_name": "Western Downs Regional",
-        "sequence": 5
+        "sequence": 5,
+        "marker-color": "#4363d8"
       },
       "geometry": {
         "type": "Point",
@@ -300,7 +320,8 @@
         "reference_number": "48319",
         "place_name": "Borallon",
         "lga_name": "Somerset Regional",
-        "sequence": 6
+        "sequence": 6,
+        "marker-color": "#4363d8"
       },
       "geometry": {
         "type": "Point",
@@ -322,7 +343,10 @@
           "Ballard",
           "Frazerview",
           "Greenvale"
-        ]
+        ],
+        "stroke": "#f58231",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -357,7 +381,8 @@
         "reference_number": "47716",
         "place_name": "Jimbour West",
         "lga_name": "Western Downs Regional",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#f58231"
       },
       "geometry": {
         "type": "Point",
@@ -374,7 +399,8 @@
         "reference_number": "47883",
         "place_name": "Anduramba",
         "lga_name": "Toowoomba Regional",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#f58231"
       },
       "geometry": {
         "type": "Point",
@@ -391,7 +417,8 @@
         "reference_number": "52409",
         "place_name": "Ballard",
         "lga_name": "Lockyer Valley Regional",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#f58231"
       },
       "geometry": {
         "type": "Point",
@@ -408,7 +435,8 @@
         "reference_number": "45141",
         "place_name": "Frazerview",
         "lga_name": "Scenic Rim Regional",
-        "sequence": 4
+        "sequence": 4,
+        "marker-color": "#f58231"
       },
       "geometry": {
         "type": "Point",
@@ -425,7 +453,8 @@
         "reference_number": "49759",
         "place_name": "Greenvale",
         "lga_name": "Charters Towers Regional",
-        "sequence": 5
+        "sequence": 5,
+        "marker-color": "#f58231"
       },
       "geometry": {
         "type": "Point",
@@ -448,7 +477,10 @@
           "Tuchekoi",
           "Broughton",
           "Danbulla"
-        ]
+        ],
+        "stroke": "#911eb4",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -487,7 +519,8 @@
         "reference_number": "49339",
         "place_name": "Ironpot (Livingstone Shire)",
         "lga_name": "Livingstone Shire",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#911eb4"
       },
       "geometry": {
         "type": "Point",
@@ -504,7 +537,8 @@
         "reference_number": "49547",
         "place_name": "Dululu",
         "lga_name": "Banana Shire",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#911eb4"
       },
       "geometry": {
         "type": "Point",
@@ -521,7 +555,8 @@
         "reference_number": "45389",
         "place_name": "Monal",
         "lga_name": "North Burnett Regional",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#911eb4"
       },
       "geometry": {
         "type": "Point",
@@ -538,7 +573,8 @@
         "reference_number": "46390",
         "place_name": "Tuchekoi",
         "lga_name": "Gympie Regional",
-        "sequence": 4
+        "sequence": 4,
+        "marker-color": "#911eb4"
       },
       "geometry": {
         "type": "Point",
@@ -555,7 +591,8 @@
         "reference_number": "52260",
         "place_name": "Broughton",
         "lga_name": "Charters Towers Regional",
-        "sequence": 5
+        "sequence": 5,
+        "marker-color": "#911eb4"
       },
       "geometry": {
         "type": "Point",
@@ -572,7 +609,8 @@
         "reference_number": "50210",
         "place_name": "Danbulla",
         "lga_name": "Tablelands Regional",
-        "sequence": 6
+        "sequence": 6,
+        "marker-color": "#911eb4"
       },
       "geometry": {
         "type": "Point",

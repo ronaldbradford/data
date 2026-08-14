@@ -13,7 +13,10 @@
           "Como",
           "Whichello",
           "Moranbah"
-        ]
+        ],
+        "stroke": "#e6194b",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -48,7 +51,8 @@
         "reference_number": "44739",
         "place_name": "Lake Monduran",
         "lga_name": "Bundaberg Regional",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#e6194b"
       },
       "geometry": {
         "type": "Point",
@@ -65,7 +69,8 @@
         "reference_number": "49573",
         "place_name": "Tarramba",
         "lga_name": "Banana Shire",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#e6194b"
       },
       "geometry": {
         "type": "Point",
@@ -82,7 +87,8 @@
         "reference_number": "48574",
         "place_name": "Como",
         "lga_name": "Noosa Shire",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#e6194b"
       },
       "geometry": {
         "type": "Point",
@@ -99,7 +105,8 @@
         "reference_number": "48094",
         "place_name": "Whichello",
         "lga_name": "Toowoomba Regional",
-        "sequence": 4
+        "sequence": 4,
+        "marker-color": "#e6194b"
       },
       "geometry": {
         "type": "Point",
@@ -116,7 +123,8 @@
         "reference_number": "49384",
         "place_name": "Moranbah",
         "lga_name": "Isaac Regional",
-        "sequence": 5
+        "sequence": 5,
+        "marker-color": "#e6194b"
       },
       "geometry": {
         "type": "Point",
@@ -138,7 +146,10 @@
           "Springdale",
           "North Bungunya",
           "Yungaburra"
-        ]
+        ],
+        "stroke": "#3cb44b",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -173,7 +184,8 @@
         "reference_number": "46412",
         "place_name": "Kanigan (Gympie Regional)",
         "lga_name": "Gympie Regional",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#3cb44b"
       },
       "geometry": {
         "type": "Point",
@@ -190,7 +202,8 @@
         "reference_number": "47775",
         "place_name": "Glen Echo",
         "lga_name": "Gympie Regional",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#3cb44b"
       },
       "geometry": {
         "type": "Point",
@@ -207,7 +220,8 @@
         "reference_number": "50205",
         "place_name": "Springdale",
         "lga_name": "Southern Downs Regional",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#3cb44b"
       },
       "geometry": {
         "type": "Point",
@@ -224,7 +238,8 @@
         "reference_number": "47823",
         "place_name": "North Bungunya",
         "lga_name": "Goondiwindi Regional",
-        "sequence": 4
+        "sequence": 4,
+        "marker-color": "#3cb44b"
       },
       "geometry": {
         "type": "Point",
@@ -241,7 +256,8 @@
         "reference_number": "48957",
         "place_name": "Yungaburra",
         "lga_name": "Tablelands Regional",
-        "sequence": 5
+        "sequence": 5,
+        "marker-color": "#3cb44b"
       },
       "geometry": {
         "type": "Point",
@@ -261,7 +277,10 @@
           "Norwin",
           "Lilywood",
           "Maxwelton"
-        ]
+        ],
+        "stroke": "#4363d8",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -288,7 +307,8 @@
         "reference_number": "48029",
         "place_name": "Norwin",
         "lga_name": "Toowoomba Regional",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#4363d8"
       },
       "geometry": {
         "type": "Point",
@@ -305,7 +325,8 @@
         "reference_number": "52455",
         "place_name": "Lilywood",
         "lga_name": "Moreton Bay City",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#4363d8"
       },
       "geometry": {
         "type": "Point",
@@ -322,7 +343,8 @@
         "reference_number": "42354",
         "place_name": "Maxwelton",
         "lga_name": "Richmond Shire",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#4363d8"
       },
       "geometry": {
         "type": "Point",
@@ -342,7 +364,10 @@
           "Hawkins Creek",
           "Malanda",
           "Mount Tom"
-        ]
+        ],
+        "stroke": "#f58231",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -369,7 +394,8 @@
         "reference_number": "15528",
         "place_name": "Hawkins Creek",
         "lga_name": "Hinchinbrook Shire",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#f58231"
       },
       "geometry": {
         "type": "Point",
@@ -386,7 +412,8 @@
         "reference_number": "48739",
         "place_name": "Malanda",
         "lga_name": "Tablelands Regional",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#f58231"
       },
       "geometry": {
         "type": "Point",
@@ -403,7 +430,8 @@
         "reference_number": "46616",
         "place_name": "Mount Tom",
         "lga_name": "Gladstone Regional",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#f58231"
       },
       "geometry": {
         "type": "Point",
@@ -423,7 +451,10 @@
           "Arcadia Valley",
           "Kianga",
           "Umbiram"
-        ]
+        ],
+        "stroke": "#911eb4",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -450,7 +481,8 @@
         "reference_number": "46909",
         "place_name": "Arcadia Valley",
         "lga_name": "Central Highlands Regional",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#911eb4"
       },
       "geometry": {
         "type": "Point",
@@ -467,7 +499,8 @@
         "reference_number": "49559",
         "place_name": "Kianga",
         "lga_name": "Banana Shire",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#911eb4"
       },
       "geometry": {
         "type": "Point",
@@ -484,7 +517,8 @@
         "reference_number": "48080",
         "place_name": "Umbiram",
         "lga_name": "Toowoomba Regional",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#911eb4"
       },
       "geometry": {
         "type": "Point",

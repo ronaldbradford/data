@@ -14,7 +14,10 @@
           "Wyreema",
           "Kents Pocket",
           "Greenlands"
-        ]
+        ],
+        "stroke": "#e6194b",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -53,7 +56,8 @@
         "reference_number": "48876",
         "place_name": "Staaten",
         "lga_name": "Mareeba Shire",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#e6194b"
       },
       "geometry": {
         "type": "Point",
@@ -70,7 +74,8 @@
         "reference_number": "49680",
         "place_name": "Chatsworth",
         "lga_name": "Gympie Regional",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#e6194b"
       },
       "geometry": {
         "type": "Point",
@@ -87,7 +92,8 @@
         "reference_number": "46324",
         "place_name": "Dagun",
         "lga_name": "Gympie Regional",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#e6194b"
       },
       "geometry": {
         "type": "Point",
@@ -104,7 +110,8 @@
         "reference_number": "48101",
         "place_name": "Wyreema",
         "lga_name": "Toowoomba Regional",
-        "sequence": 4
+        "sequence": 4,
+        "marker-color": "#e6194b"
       },
       "geometry": {
         "type": "Point",
@@ -121,7 +128,8 @@
         "reference_number": "45153",
         "place_name": "Kents Pocket",
         "lga_name": "Scenic Rim Regional",
-        "sequence": 5
+        "sequence": 5,
+        "marker-color": "#e6194b"
       },
       "geometry": {
         "type": "Point",
@@ -138,7 +146,8 @@
         "reference_number": "50092",
         "place_name": "Greenlands",
         "lga_name": "Southern Downs Regional",
-        "sequence": 6
+        "sequence": 6,
+        "marker-color": "#e6194b"
       },
       "geometry": {
         "type": "Point",
@@ -161,7 +170,10 @@
           "Lilyvale (Central Highlands Regional)",
           "Burton",
           "Goolboo"
-        ]
+        ],
+        "stroke": "#3cb44b",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -200,7 +212,8 @@
         "reference_number": "46623",
         "place_name": "Antigua",
         "lga_name": "Fraser Coast Regional",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#3cb44b"
       },
       "geometry": {
         "type": "Point",
@@ -217,7 +230,8 @@
         "reference_number": "48330",
         "place_name": "Bellthorpe",
         "lga_name": "Moreton Bay City",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#3cb44b"
       },
       "geometry": {
         "type": "Point",
@@ -234,7 +248,8 @@
         "reference_number": "47461",
         "place_name": "Walhallow",
         "lga_name": "Maranoa Regional",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#3cb44b"
       },
       "geometry": {
         "type": "Point",
@@ -251,7 +266,8 @@
         "reference_number": "46987",
         "place_name": "Lilyvale (Central Highlands Regional)",
         "lga_name": "Central Highlands Regional",
-        "sequence": 4
+        "sequence": 4,
+        "marker-color": "#3cb44b"
       },
       "geometry": {
         "type": "Point",
@@ -268,7 +284,8 @@
         "reference_number": "49383",
         "place_name": "Burton",
         "lga_name": "Isaac Regional",
-        "sequence": 5
+        "sequence": 5,
+        "marker-color": "#3cb44b"
       },
       "geometry": {
         "type": "Point",
@@ -285,7 +302,8 @@
         "reference_number": "45701",
         "place_name": "Goolboo",
         "lga_name": "Cassowary Coast Regional",
-        "sequence": 6
+        "sequence": 6,
+        "marker-color": "#3cb44b"
       },
       "geometry": {
         "type": "Point",
@@ -305,7 +323,10 @@
           "Eight Mile Creek",
           "Boyne Island",
           "Marcoola"
-        ]
+        ],
+        "stroke": "#4363d8",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -332,7 +353,8 @@
         "reference_number": "43385",
         "place_name": "Eight Mile Creek",
         "lga_name": "Burdekin Shire",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#4363d8"
       },
       "geometry": {
         "type": "Point",
@@ -349,7 +371,8 @@
         "reference_number": "49334",
         "place_name": "Boyne Island",
         "lga_name": "Gladstone Regional",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#4363d8"
       },
       "geometry": {
         "type": "Point",
@@ -366,7 +389,8 @@
         "reference_number": "48744",
         "place_name": "Marcoola",
         "lga_name": "Sunshine Coast Regional",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#4363d8"
       },
       "geometry": {
         "type": "Point",
@@ -386,7 +410,10 @@
           "South Kolan",
           "Upper Lockyer",
           "Brandon"
-        ]
+        ],
+        "stroke": "#f58231",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -413,7 +440,8 @@
         "reference_number": "47145",
         "place_name": "South Kolan",
         "lga_name": "Bundaberg Regional",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#f58231"
       },
       "geometry": {
         "type": "Point",
@@ -430,7 +458,8 @@
         "reference_number": "44993",
         "place_name": "Upper Lockyer",
         "lga_name": "Lockyer Valley Regional",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#f58231"
       },
       "geometry": {
         "type": "Point",
@@ -447,7 +476,8 @@
         "reference_number": "44667",
         "place_name": "Brandon",
         "lga_name": "Burdekin Shire",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#f58231"
       },
       "geometry": {
         "type": "Point",
@@ -468,7 +498,10 @@
           "Upper Wheatvale",
           "Loch Lomond",
           "Opalton"
-        ]
+        ],
+        "stroke": "#911eb4",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -499,7 +532,8 @@
         "reference_number": "45963",
         "place_name": "Old Talgai",
         "lga_name": "Southern Downs Regional",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#911eb4"
       },
       "geometry": {
         "type": "Point",
@@ -516,7 +550,8 @@
         "reference_number": "49198",
         "place_name": "Upper Wheatvale",
         "lga_name": "Southern Downs Regional",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#911eb4"
       },
       "geometry": {
         "type": "Point",
@@ -533,7 +568,8 @@
         "reference_number": "45948",
         "place_name": "Loch Lomond",
         "lga_name": "Southern Downs Regional",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#911eb4"
       },
       "geometry": {
         "type": "Point",
@@ -550,7 +586,8 @@
         "reference_number": "41495",
         "place_name": "Opalton",
         "lga_name": "Winton Shire",
-        "sequence": 4
+        "sequence": 4,
+        "marker-color": "#911eb4"
       },
       "geometry": {
         "type": "Point",

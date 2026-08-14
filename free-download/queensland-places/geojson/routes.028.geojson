@@ -11,7 +11,10 @@
           "Ceratodus",
           "Boyne Island",
           "Flinton"
-        ]
+        ],
+        "stroke": "#e6194b",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -38,7 +41,8 @@
         "reference_number": "45330",
         "place_name": "Ceratodus",
         "lga_name": "North Burnett Regional",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#e6194b"
       },
       "geometry": {
         "type": "Point",
@@ -55,7 +59,8 @@
         "reference_number": "49334",
         "place_name": "Boyne Island",
         "lga_name": "Gladstone Regional",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#e6194b"
       },
       "geometry": {
         "type": "Point",
@@ -72,7 +77,8 @@
         "reference_number": "50014",
         "place_name": "Flinton",
         "lga_name": "Western Downs Regional",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#e6194b"
       },
       "geometry": {
         "type": "Point",
@@ -93,7 +99,10 @@
           "Deep Creek",
           "Dutton River",
           "Fishery Falls"
-        ]
+        ],
+        "stroke": "#3cb44b",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -124,7 +133,8 @@
         "reference_number": "46231",
         "place_name": "Keysland",
         "lga_name": "South Burnett Regional",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#3cb44b"
       },
       "geometry": {
         "type": "Point",
@@ -141,7 +151,8 @@
         "reference_number": "45339",
         "place_name": "Deep Creek",
         "lga_name": "North Burnett Regional",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#3cb44b"
       },
       "geometry": {
         "type": "Point",
@@ -158,7 +169,8 @@
         "reference_number": "52094",
         "place_name": "Dutton River",
         "lga_name": "Flinders Shire",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#3cb44b"
       },
       "geometry": {
         "type": "Point",
@@ -175,7 +187,8 @@
         "reference_number": "48634",
         "place_name": "Fishery Falls",
         "lga_name": "Cairns Regional",
-        "sequence": 4
+        "sequence": 4,
+        "marker-color": "#3cb44b"
       },
       "geometry": {
         "type": "Point",
@@ -198,7 +211,10 @@
           "Coominglah",
           "The Limits",
           "Maidenhead"
-        ]
+        ],
+        "stroke": "#4363d8",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -237,7 +253,8 @@
         "reference_number": "46122",
         "place_name": "Bloomfield (Cook Shire)",
         "lga_name": "Cook Shire",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#4363d8"
       },
       "geometry": {
         "type": "Point",
@@ -254,7 +271,8 @@
         "reference_number": "45683",
         "place_name": "Comoon Loop",
         "lga_name": "Cassowary Coast Regional",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#4363d8"
       },
       "geometry": {
         "type": "Point",
@@ -271,7 +289,8 @@
         "reference_number": "46135",
         "place_name": "Mapoon (Cook Shire)",
         "lga_name": "Cook Shire",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#4363d8"
       },
       "geometry": {
         "type": "Point",
@@ -288,7 +307,8 @@
         "reference_number": "45333",
         "place_name": "Coominglah",
         "lga_name": "North Burnett Regional",
-        "sequence": 4
+        "sequence": 4,
+        "marker-color": "#4363d8"
       },
       "geometry": {
         "type": "Point",
@@ -305,7 +325,8 @@
         "reference_number": "45418",
         "place_name": "The Limits",
         "lga_name": "North Burnett Regional",
-        "sequence": 5
+        "sequence": 5,
+        "marker-color": "#4363d8"
       },
       "geometry": {
         "type": "Point",
@@ -322,7 +343,8 @@
         "reference_number": "47819",
         "place_name": "Maidenhead",
         "lga_name": "Goondiwindi Regional",
-        "sequence": 6
+        "sequence": 6,
+        "marker-color": "#4363d8"
       },
       "geometry": {
         "type": "Point",
@@ -343,7 +365,10 @@
           "Gowrie Little Plain",
           "Bollier",
           "Macknade"
-        ]
+        ],
+        "stroke": "#f58231",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -374,7 +399,8 @@
         "reference_number": "45995",
         "place_name": "Toolburra",
         "lga_name": "Southern Downs Regional",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#f58231"
       },
       "geometry": {
         "type": "Point",
@@ -391,7 +417,8 @@
         "reference_number": "47954",
         "place_name": "Gowrie Little Plain",
         "lga_name": "Toowoomba Regional",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#f58231"
       },
       "geometry": {
         "type": "Point",
@@ -408,7 +435,8 @@
         "reference_number": "46307",
         "place_name": "Bollier",
         "lga_name": "Gympie Regional",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#f58231"
       },
       "geometry": {
         "type": "Point",
@@ -425,7 +453,8 @@
         "reference_number": "42522",
         "place_name": "Macknade",
         "lga_name": "Hinchinbrook Shire",
-        "sequence": 4
+        "sequence": 4,
+        "marker-color": "#f58231"
       },
       "geometry": {
         "type": "Point",
@@ -445,7 +474,10 @@
           "Woodbine",
           "Preston (Toowoomba Regional)",
           "Wilson Beach"
-        ]
+        ],
+        "stroke": "#911eb4",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -472,7 +504,8 @@
         "reference_number": "45000",
         "place_name": "Woodbine",
         "lga_name": "Lockyer Valley Regional",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#911eb4"
       },
       "geometry": {
         "type": "Point",
@@ -489,7 +522,8 @@
         "reference_number": "48042",
         "place_name": "Preston (Toowoomba Regional)",
         "lga_name": "Toowoomba Regional",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#911eb4"
       },
       "geometry": {
         "type": "Point",
@@ -506,7 +540,8 @@
         "reference_number": "46905",
         "place_name": "Wilson Beach",
         "lga_name": "Whitsunday Regional",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#911eb4"
       },
       "geometry": {
         "type": "Point",

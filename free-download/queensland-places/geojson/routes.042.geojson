@@ -11,7 +11,10 @@
           "Selwyn",
           "Pioneers Rest",
           "Imbil"
-        ]
+        ],
+        "stroke": "#e6194b",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -38,7 +41,8 @@
         "reference_number": "42494",
         "place_name": "Selwyn",
         "lga_name": "Cloncurry Shire",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#e6194b"
       },
       "geometry": {
         "type": "Point",
@@ -55,7 +59,8 @@
         "reference_number": "46667",
         "place_name": "Pioneers Rest",
         "lga_name": "Fraser Coast Regional",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#e6194b"
       },
       "geometry": {
         "type": "Point",
@@ -72,7 +77,8 @@
         "reference_number": "46340",
         "place_name": "Imbil",
         "lga_name": "Gympie Regional",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#e6194b"
       },
       "geometry": {
         "type": "Point",
@@ -93,7 +99,10 @@
           "Iredale",
           "Allandale",
           "Bauhinia (Central Highlands Regional)"
-        ]
+        ],
+        "stroke": "#3cb44b",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -124,7 +133,8 @@
         "reference_number": "45390",
         "place_name": "Monogorilby",
         "lga_name": "North Burnett Regional",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#3cb44b"
       },
       "geometry": {
         "type": "Point",
@@ -141,7 +151,8 @@
         "reference_number": "44961",
         "place_name": "Iredale",
         "lga_name": "Lockyer Valley Regional",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#3cb44b"
       },
       "geometry": {
         "type": "Point",
@@ -158,7 +169,8 @@
         "reference_number": "45104",
         "place_name": "Allandale",
         "lga_name": "Scenic Rim Regional",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#3cb44b"
       },
       "geometry": {
         "type": "Point",
@@ -175,7 +187,8 @@
         "reference_number": "49332",
         "place_name": "Bauhinia (Central Highlands Regional)",
         "lga_name": "Central Highlands Regional",
-        "sequence": 4
+        "sequence": 4,
+        "marker-color": "#3cb44b"
       },
       "geometry": {
         "type": "Point",
@@ -198,7 +211,10 @@
           "Towen Mountain",
           "Upper Tenthill",
           "Yuruga"
-        ]
+        ],
+        "stroke": "#4363d8",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -237,7 +253,8 @@
         "reference_number": "42650",
         "place_name": "Barringun",
         "lga_name": "Paroo Shire",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#4363d8"
       },
       "geometry": {
         "type": "Point",
@@ -254,7 +271,8 @@
         "reference_number": "46197",
         "place_name": "Boyneside",
         "lga_name": "South Burnett Regional",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#4363d8"
       },
       "geometry": {
         "type": "Point",
@@ -271,7 +289,8 @@
         "reference_number": "46260",
         "place_name": "Sandy Ridges",
         "lga_name": "South Burnett Regional",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#4363d8"
       },
       "geometry": {
         "type": "Point",
@@ -288,7 +307,8 @@
         "reference_number": "48905",
         "place_name": "Towen Mountain",
         "lga_name": "Sunshine Coast Regional",
-        "sequence": 4
+        "sequence": 4,
+        "marker-color": "#4363d8"
       },
       "geometry": {
         "type": "Point",
@@ -305,7 +325,8 @@
         "reference_number": "44994",
         "place_name": "Upper Tenthill",
         "lga_name": "Lockyer Valley Regional",
-        "sequence": 5
+        "sequence": 5,
+        "marker-color": "#4363d8"
       },
       "geometry": {
         "type": "Point",
@@ -322,7 +343,8 @@
         "reference_number": "42533",
         "place_name": "Yuruga",
         "lga_name": "Hinchinbrook Shire",
-        "sequence": 6
+        "sequence": 6,
+        "marker-color": "#4363d8"
       },
       "geometry": {
         "type": "Point",
@@ -342,7 +364,10 @@
           "Gunalda (Gympie Regional)",
           "Swanfels",
           "Aramac"
-        ]
+        ],
+        "stroke": "#f58231",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -369,7 +394,8 @@
         "reference_number": "49520",
         "place_name": "Gunalda (Gympie Regional)",
         "lga_name": "Gympie Regional",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#f58231"
       },
       "geometry": {
         "type": "Point",
@@ -386,7 +412,8 @@
         "reference_number": "45983",
         "place_name": "Swanfels",
         "lga_name": "Southern Downs Regional",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#f58231"
       },
       "geometry": {
         "type": "Point",
@@ -403,7 +430,8 @@
         "reference_number": "52305",
         "place_name": "Aramac",
         "lga_name": "Barcaldine Regional",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#f58231"
       },
       "geometry": {
         "type": "Point",
@@ -426,7 +454,10 @@
           "Boulder Creek",
           "East Feluga",
           "Gilbert River"
-        ]
+        ],
+        "stroke": "#911eb4",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -465,7 +496,8 @@
         "reference_number": "46204",
         "place_name": "Charlestown",
         "lga_name": "South Burnett Regional",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#911eb4"
       },
       "geometry": {
         "type": "Point",
@@ -482,7 +514,8 @@
         "reference_number": "49803",
         "place_name": "Cooloolabin",
         "lga_name": "Sunshine Coast Regional",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#911eb4"
       },
       "geometry": {
         "type": "Point",
@@ -499,7 +532,8 @@
         "reference_number": "46682",
         "place_name": "Toogoom",
         "lga_name": "Fraser Coast Regional",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#911eb4"
       },
       "geometry": {
         "type": "Point",
@@ -516,7 +550,8 @@
         "reference_number": "48539",
         "place_name": "Boulder Creek",
         "lga_name": "Rockhampton Regional",
-        "sequence": 4
+        "sequence": 4,
+        "marker-color": "#911eb4"
       },
       "geometry": {
         "type": "Point",
@@ -533,7 +568,8 @@
         "reference_number": "45669",
         "place_name": "East Feluga",
         "lga_name": "Cassowary Coast Regional",
-        "sequence": 5
+        "sequence": 5,
+        "marker-color": "#911eb4"
       },
       "geometry": {
         "type": "Point",
@@ -550,7 +586,8 @@
         "reference_number": "41664",
         "place_name": "Gilbert River",
         "lga_name": "Etheridge Shire",
-        "sequence": 6
+        "sequence": 6,
+        "marker-color": "#911eb4"
       },
       "geometry": {
         "type": "Point",

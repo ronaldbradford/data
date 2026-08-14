@@ -12,7 +12,10 @@
           "Cryna",
           "Loch Lomond",
           "Coomoo"
-        ]
+        ],
+        "stroke": "#e6194b",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -43,7 +46,8 @@
         "reference_number": "50203",
         "place_name": "Frenches Creek",
         "lga_name": "Scenic Rim Regional",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#e6194b"
       },
       "geometry": {
         "type": "Point",
@@ -60,7 +64,8 @@
         "reference_number": "45134",
         "place_name": "Cryna",
         "lga_name": "Scenic Rim Regional",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#e6194b"
       },
       "geometry": {
         "type": "Point",
@@ -77,7 +82,8 @@
         "reference_number": "45948",
         "place_name": "Loch Lomond",
         "lga_name": "Southern Downs Regional",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#e6194b"
       },
       "geometry": {
         "type": "Point",
@@ -94,7 +100,8 @@
         "reference_number": "46942",
         "place_name": "Coomoo",
         "lga_name": "Central Highlands Regional",
-        "sequence": 4
+        "sequence": 4,
+        "marker-color": "#e6194b"
       },
       "geometry": {
         "type": "Point",
@@ -115,7 +122,10 @@
           "The Narrows",
           "Dangore",
           "Undullah (Logan City)"
-        ]
+        ],
+        "stroke": "#3cb44b",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -146,7 +156,8 @@
         "reference_number": "48616",
         "place_name": "East Trinity",
         "lga_name": "Cairns Regional",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#3cb44b"
       },
       "geometry": {
         "type": "Point",
@@ -163,7 +174,8 @@
         "reference_number": "47290",
         "place_name": "The Narrows",
         "lga_name": "Gladstone Regional",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#3cb44b"
       },
       "geometry": {
         "type": "Point",
@@ -180,7 +192,8 @@
         "reference_number": "46214",
         "place_name": "Dangore",
         "lga_name": "South Burnett Regional",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#3cb44b"
       },
       "geometry": {
         "type": "Point",
@@ -197,7 +210,8 @@
         "reference_number": "49730",
         "place_name": "Undullah (Logan City)",
         "lga_name": "Logan City",
-        "sequence": 4
+        "sequence": 4,
+        "marker-color": "#3cb44b"
       },
       "geometry": {
         "type": "Point",
@@ -220,7 +234,10 @@
           "Greenview",
           "Evergreen",
           "Goondiwindi"
-        ]
+        ],
+        "stroke": "#4363d8",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -259,7 +276,8 @@
         "reference_number": "49242",
         "place_name": "Ward",
         "lga_name": "Murweh Shire",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#4363d8"
       },
       "geometry": {
         "type": "Point",
@@ -276,7 +294,8 @@
         "reference_number": "49784",
         "place_name": "Dumgree",
         "lga_name": "Banana Shire",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#4363d8"
       },
       "geometry": {
         "type": "Point",
@@ -293,7 +312,8 @@
         "reference_number": "49577",
         "place_name": "Valentine Plains",
         "lga_name": "Banana Shire",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#4363d8"
       },
       "geometry": {
         "type": "Point",
@@ -310,7 +330,8 @@
         "reference_number": "46223",
         "place_name": "Greenview",
         "lga_name": "South Burnett Regional",
-        "sequence": 4
+        "sequence": 4,
+        "marker-color": "#4363d8"
       },
       "geometry": {
         "type": "Point",
@@ -327,7 +348,8 @@
         "reference_number": "49251",
         "place_name": "Evergreen",
         "lga_name": "Toowoomba Regional",
-        "sequence": 5
+        "sequence": 5,
+        "marker-color": "#4363d8"
       },
       "geometry": {
         "type": "Point",
@@ -344,7 +366,8 @@
         "reference_number": "50047",
         "place_name": "Goondiwindi",
         "lga_name": "Goondiwindi Regional",
-        "sequence": 6
+        "sequence": 6,
+        "marker-color": "#4363d8"
       },
       "geometry": {
         "type": "Point",
@@ -367,7 +390,10 @@
           "Veresdale (Scenic Rim Regional)",
           "Banana",
           "Birdsville"
-        ]
+        ],
+        "stroke": "#f58231",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -406,7 +432,8 @@
         "reference_number": "50097",
         "place_name": "Pittsworth",
         "lga_name": "Toowoomba Regional",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#f58231"
       },
       "geometry": {
         "type": "Point",
@@ -423,7 +450,8 @@
         "reference_number": "48096",
         "place_name": "Wilsonton Heights",
         "lga_name": "Toowoomba Regional",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#f58231"
       },
       "geometry": {
         "type": "Point",
@@ -440,7 +468,8 @@
         "reference_number": "44857",
         "place_name": "Cooeeimbardi",
         "lga_name": "Somerset Regional",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#f58231"
       },
       "geometry": {
         "type": "Point",
@@ -457,7 +486,8 @@
         "reference_number": "45199",
         "place_name": "Veresdale (Scenic Rim Regional)",
         "lga_name": "Scenic Rim Regional",
-        "sequence": 4
+        "sequence": 4,
+        "marker-color": "#f58231"
       },
       "geometry": {
         "type": "Point",
@@ -474,7 +504,8 @@
         "reference_number": "49534",
         "place_name": "Banana",
         "lga_name": "Banana Shire",
-        "sequence": 5
+        "sequence": 5,
+        "marker-color": "#f58231"
       },
       "geometry": {
         "type": "Point",
@@ -491,7 +522,8 @@
         "reference_number": "41499",
         "place_name": "Birdsville",
         "lga_name": "Diamantina Shire",
-        "sequence": 6
+        "sequence": 6,
+        "marker-color": "#f58231"
       },
       "geometry": {
         "type": "Point",
@@ -514,7 +546,10 @@
           "Cherwell",
           "Keysland",
           "Yandina Creek"
-        ]
+        ],
+        "stroke": "#911eb4",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -553,7 +588,8 @@
         "reference_number": "48659",
         "place_name": "Goldsborough",
         "lga_name": "Cairns Regional",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#911eb4"
       },
       "geometry": {
         "type": "Point",
@@ -570,7 +606,8 @@
         "reference_number": "48733",
         "place_name": "Low Isles",
         "lga_name": "Douglas Shire",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#911eb4"
       },
       "geometry": {
         "type": "Point",
@@ -587,7 +624,8 @@
         "reference_number": "48566",
         "place_name": "Causeway Lake",
         "lga_name": "Livingstone Shire",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#911eb4"
       },
       "geometry": {
         "type": "Point",
@@ -604,7 +642,8 @@
         "reference_number": "50250",
         "place_name": "Cherwell",
         "lga_name": "Fraser Coast Regional",
-        "sequence": 4
+        "sequence": 4,
+        "marker-color": "#911eb4"
       },
       "geometry": {
         "type": "Point",
@@ -621,7 +660,8 @@
         "reference_number": "46231",
         "place_name": "Keysland",
         "lga_name": "South Burnett Regional",
-        "sequence": 5
+        "sequence": 5,
+        "marker-color": "#911eb4"
       },
       "geometry": {
         "type": "Point",
@@ -638,7 +678,8 @@
         "reference_number": "52242",
         "place_name": "Yandina Creek",
         "lga_name": "Sunshine Coast Regional",
-        "sequence": 6
+        "sequence": 6,
+        "marker-color": "#911eb4"
       },
       "geometry": {
         "type": "Point",

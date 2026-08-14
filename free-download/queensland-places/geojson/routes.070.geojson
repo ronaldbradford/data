@@ -11,7 +11,10 @@
           "Eungella Dam",
           "Bulleringa",
           "Diddillibah"
-        ]
+        ],
+        "stroke": "#e6194b",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -38,7 +41,8 @@
         "reference_number": "46783",
         "place_name": "Eungella Dam",
         "lga_name": "Mackay Regional",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#e6194b"
       },
       "geometry": {
         "type": "Point",
@@ -55,7 +59,8 @@
         "reference_number": "48547",
         "place_name": "Bulleringa",
         "lga_name": "Mareeba Shire",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#e6194b"
       },
       "geometry": {
         "type": "Point",
@@ -72,7 +77,8 @@
         "reference_number": "48607",
         "place_name": "Diddillibah",
         "lga_name": "Sunshine Coast Regional",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#e6194b"
       },
       "geometry": {
         "type": "Point",
@@ -93,7 +99,10 @@
           "Coleyville",
           "Windorah",
           "Palm Island (Palm Island Shire)"
-        ]
+        ],
+        "stroke": "#3cb44b",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -124,7 +133,8 @@
         "reference_number": "46948",
         "place_name": "Duaringa (Central Highlands Regional)",
         "lga_name": "Central Highlands Regional",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#3cb44b"
       },
       "geometry": {
         "type": "Point",
@@ -141,7 +151,8 @@
         "reference_number": "45130",
         "place_name": "Coleyville",
         "lga_name": "Scenic Rim Regional",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#3cb44b"
       },
       "geometry": {
         "type": "Point",
@@ -158,7 +169,8 @@
         "reference_number": "50021",
         "place_name": "Windorah",
         "lga_name": "Barcoo Shire",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#3cb44b"
       },
       "geometry": {
         "type": "Point",
@@ -175,7 +187,8 @@
         "reference_number": "45506",
         "place_name": "Palm Island (Palm Island Shire)",
         "lga_name": "Palm Island Aboriginal Shire",
-        "sequence": 4
+        "sequence": 4,
+        "marker-color": "#3cb44b"
       },
       "geometry": {
         "type": "Point",
@@ -196,7 +209,10 @@
           "Bowenville",
           "Tarong",
           "Moraby"
-        ]
+        ],
+        "stroke": "#4363d8",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -227,7 +243,8 @@
         "reference_number": "47978",
         "place_name": "Kilbirnie",
         "lga_name": "Toowoomba Regional",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#4363d8"
       },
       "geometry": {
         "type": "Point",
@@ -244,7 +261,8 @@
         "reference_number": "47895",
         "place_name": "Bowenville",
         "lga_name": "Toowoomba Regional",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#4363d8"
       },
       "geometry": {
         "type": "Point",
@@ -261,7 +279,8 @@
         "reference_number": "46271",
         "place_name": "Tarong",
         "lga_name": "South Burnett Regional",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#4363d8"
       },
       "geometry": {
         "type": "Point",
@@ -278,7 +297,8 @@
         "reference_number": "47731",
         "place_name": "Moraby",
         "lga_name": "Western Downs Regional",
-        "sequence": 4
+        "sequence": 4,
+        "marker-color": "#4363d8"
       },
       "geometry": {
         "type": "Point",
@@ -298,7 +318,10 @@
           "Tolga",
           "Cheeseborough",
           "River Heads"
-        ]
+        ],
+        "stroke": "#f58231",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -325,7 +348,8 @@
         "reference_number": "48903",
         "place_name": "Tolga",
         "lga_name": "Tablelands Regional",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#f58231"
       },
       "geometry": {
         "type": "Point",
@@ -342,7 +366,8 @@
         "reference_number": "46936",
         "place_name": "Cheeseborough",
         "lga_name": "Central Highlands Regional",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#f58231"
       },
       "geometry": {
         "type": "Point",
@@ -359,7 +384,8 @@
         "reference_number": "46670",
         "place_name": "River Heads",
         "lga_name": "Fraser Coast Regional",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#f58231"
       },
       "geometry": {
         "type": "Point",
@@ -382,7 +408,10 @@
           "The Narrows",
           "Blanchview",
           "Upper Tenthill"
-        ]
+        ],
+        "stroke": "#911eb4",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -421,7 +450,8 @@
         "reference_number": "48514",
         "place_name": "Barron Gorge",
         "lga_name": "Cairns Regional",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#911eb4"
       },
       "geometry": {
         "type": "Point",
@@ -438,7 +468,8 @@
         "reference_number": "48807",
         "place_name": "Noah",
         "lga_name": "Douglas Shire",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#911eb4"
       },
       "geometry": {
         "type": "Point",
@@ -455,7 +486,8 @@
         "reference_number": "42542",
         "place_name": "Lawn Hill (Burke Shire)",
         "lga_name": "Burke Shire",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#911eb4"
       },
       "geometry": {
         "type": "Point",
@@ -472,7 +504,8 @@
         "reference_number": "47290",
         "place_name": "The Narrows",
         "lga_name": "Gladstone Regional",
-        "sequence": 4
+        "sequence": 4,
+        "marker-color": "#911eb4"
       },
       "geometry": {
         "type": "Point",
@@ -489,7 +522,8 @@
         "reference_number": "45007",
         "place_name": "Blanchview",
         "lga_name": "Lockyer Valley Regional",
-        "sequence": 5
+        "sequence": 5,
+        "marker-color": "#911eb4"
       },
       "geometry": {
         "type": "Point",
@@ -506,7 +540,8 @@
         "reference_number": "44994",
         "place_name": "Upper Tenthill",
         "lga_name": "Lockyer Valley Regional",
-        "sequence": 6
+        "sequence": 6,
+        "marker-color": "#911eb4"
       },
       "geometry": {
         "type": "Point",

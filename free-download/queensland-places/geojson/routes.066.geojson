@@ -11,7 +11,10 @@
           "Pauls Pocket",
           "Kia Ora",
           "Kingaham"
-        ]
+        ],
+        "stroke": "#e6194b",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -38,7 +41,8 @@
         "reference_number": "46893",
         "place_name": "Pauls Pocket",
         "lga_name": "Whitsunday Regional",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#e6194b"
       },
       "geometry": {
         "type": "Point",
@@ -55,7 +59,8 @@
         "reference_number": "46347",
         "place_name": "Kia Ora",
         "lga_name": "Gympie Regional",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#e6194b"
       },
       "geometry": {
         "type": "Point",
@@ -72,7 +77,8 @@
         "reference_number": "48137",
         "place_name": "Kingaham",
         "lga_name": "Somerset Regional",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#e6194b"
       },
       "geometry": {
         "type": "Point",
@@ -95,7 +101,10 @@
           "Woodbine",
           "Upper Freestone",
           "Nicholson"
-        ]
+        ],
+        "stroke": "#3cb44b",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -134,7 +143,8 @@
         "reference_number": "46783",
         "place_name": "Eungella Dam",
         "lga_name": "Mackay Regional",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#3cb44b"
       },
       "geometry": {
         "type": "Point",
@@ -151,7 +161,8 @@
         "reference_number": "46399",
         "place_name": "Widgee Crossing South",
         "lga_name": "Gympie Regional",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#3cb44b"
       },
       "geometry": {
         "type": "Point",
@@ -168,7 +179,8 @@
         "reference_number": "48841",
         "place_name": "Pinbarren",
         "lga_name": "Noosa Shire",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#3cb44b"
       },
       "geometry": {
         "type": "Point",
@@ -185,7 +197,8 @@
         "reference_number": "45000",
         "place_name": "Woodbine",
         "lga_name": "Lockyer Valley Regional",
-        "sequence": 4
+        "sequence": 4,
+        "marker-color": "#3cb44b"
       },
       "geometry": {
         "type": "Point",
@@ -202,7 +215,8 @@
         "reference_number": "49508",
         "place_name": "Upper Freestone",
         "lga_name": "Southern Downs Regional",
-        "sequence": 5
+        "sequence": 5,
+        "marker-color": "#3cb44b"
       },
       "geometry": {
         "type": "Point",
@@ -219,7 +233,8 @@
         "reference_number": "45777",
         "place_name": "Nicholson",
         "lga_name": "Burke Shire",
-        "sequence": 6
+        "sequence": 6,
+        "marker-color": "#3cb44b"
       },
       "geometry": {
         "type": "Point",
@@ -242,7 +257,10 @@
           "Cooloola",
           "Gowrie Mountain",
           "Goondi Bend"
-        ]
+        ],
+        "stroke": "#4363d8",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -281,7 +299,8 @@
         "reference_number": "49171",
         "place_name": "Highland Plains (Maranoa Regional)",
         "lga_name": "Maranoa Regional",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#4363d8"
       },
       "geometry": {
         "type": "Point",
@@ -298,7 +317,8 @@
         "reference_number": "45316",
         "place_name": "Beeron",
         "lga_name": "North Burnett Regional",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#4363d8"
       },
       "geometry": {
         "type": "Point",
@@ -315,7 +335,8 @@
         "reference_number": "44815",
         "place_name": "Yandaran",
         "lga_name": "Bundaberg Regional",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#4363d8"
       },
       "geometry": {
         "type": "Point",
@@ -332,7 +353,8 @@
         "reference_number": "47613",
         "place_name": "Cooloola",
         "lga_name": "Gympie Regional",
-        "sequence": 4
+        "sequence": 4,
+        "marker-color": "#4363d8"
       },
       "geometry": {
         "type": "Point",
@@ -349,7 +371,8 @@
         "reference_number": "47955",
         "place_name": "Gowrie Mountain",
         "lga_name": "Toowoomba Regional",
-        "sequence": 5
+        "sequence": 5,
+        "marker-color": "#4363d8"
       },
       "geometry": {
         "type": "Point",
@@ -366,7 +389,8 @@
         "reference_number": "45703",
         "place_name": "Goondi Bend",
         "lga_name": "Cassowary Coast Regional",
-        "sequence": 6
+        "sequence": 6,
+        "marker-color": "#4363d8"
       },
       "geometry": {
         "type": "Point",
@@ -389,7 +413,10 @@
           "Tuckerang",
           "Limestone Ridges",
           "Dalcouth"
-        ]
+        ],
+        "stroke": "#f58231",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -428,7 +455,8 @@
         "reference_number": "52137",
         "place_name": "Marian",
         "lga_name": "Mackay Regional",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#f58231"
       },
       "geometry": {
         "type": "Point",
@@ -445,7 +473,8 @@
         "reference_number": "48904",
         "place_name": "Topaz",
         "lga_name": "Tablelands Regional",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#f58231"
       },
       "geometry": {
         "type": "Point",
@@ -462,7 +491,8 @@
         "reference_number": "42539",
         "place_name": "Burketown",
         "lga_name": "Burke Shire",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#f58231"
       },
       "geometry": {
         "type": "Point",
@@ -479,7 +509,8 @@
         "reference_number": "47752",
         "place_name": "Tuckerang",
         "lga_name": "Western Downs Regional",
-        "sequence": 4
+        "sequence": 4,
+        "marker-color": "#f58231"
       },
       "geometry": {
         "type": "Point",
@@ -496,7 +527,8 @@
         "reference_number": "45160",
         "place_name": "Limestone Ridges",
         "lga_name": "Scenic Rim Regional",
-        "sequence": 5
+        "sequence": 5,
+        "marker-color": "#f58231"
       },
       "geometry": {
         "type": "Point",
@@ -513,7 +545,8 @@
         "reference_number": "49199",
         "place_name": "Dalcouth",
         "lga_name": "Southern Downs Regional",
-        "sequence": 6
+        "sequence": 6,
+        "marker-color": "#f58231"
       },
       "geometry": {
         "type": "Point",
@@ -534,7 +567,10 @@
           "Mount Nathan",
           "Richmond (Richmond Shire)",
           "Coralie"
-        ]
+        ],
+        "stroke": "#911eb4",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -565,7 +601,8 @@
         "reference_number": "47674",
         "place_name": "Burncluith",
         "lga_name": "Western Downs Regional",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#911eb4"
       },
       "geometry": {
         "type": "Point",
@@ -582,7 +619,8 @@
         "reference_number": "46066",
         "place_name": "Mount Nathan",
         "lga_name": "Gold Coast City",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#911eb4"
       },
       "geometry": {
         "type": "Point",
@@ -599,7 +637,8 @@
         "reference_number": "42355",
         "place_name": "Richmond (Richmond Shire)",
         "lga_name": "Richmond Shire",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#911eb4"
       },
       "geometry": {
         "type": "Point",
@@ -616,7 +655,8 @@
         "reference_number": "41771",
         "place_name": "Coralie",
         "lga_name": "Croydon Shire",
-        "sequence": 4
+        "sequence": 4,
+        "marker-color": "#911eb4"
       },
       "geometry": {
         "type": "Point",

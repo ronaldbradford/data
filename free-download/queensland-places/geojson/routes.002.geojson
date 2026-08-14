@@ -11,7 +11,10 @@
           "Placid Hills",
           "East Haldon",
           "V Gate"
-        ]
+        ],
+        "stroke": "#e6194b",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -38,7 +41,8 @@
         "reference_number": "44983",
         "place_name": "Placid Hills",
         "lga_name": "Lockyer Valley Regional",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#e6194b"
       },
       "geometry": {
         "type": "Point",
@@ -55,7 +59,8 @@
         "reference_number": "44952",
         "place_name": "East Haldon",
         "lga_name": "Lockyer Valley Regional",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#e6194b"
       },
       "geometry": {
         "type": "Point",
@@ -72,7 +77,8 @@
         "reference_number": "47460",
         "place_name": "V Gate",
         "lga_name": "Maranoa Regional",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#e6194b"
       },
       "geometry": {
         "type": "Point",
@@ -93,7 +99,10 @@
           "Tiaro",
           "Scotchy Pocket",
           "Lakefield"
-        ]
+        ],
+        "stroke": "#3cb44b",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -124,7 +133,8 @@
         "reference_number": "46877",
         "place_name": "Hamilton Plains",
         "lga_name": "Whitsunday Regional",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#3cb44b"
       },
       "geometry": {
         "type": "Point",
@@ -141,7 +151,8 @@
         "reference_number": "50086",
         "place_name": "Tiaro",
         "lga_name": "Fraser Coast Regional",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#3cb44b"
       },
       "geometry": {
         "type": "Point",
@@ -158,7 +169,8 @@
         "reference_number": "46376",
         "place_name": "Scotchy Pocket",
         "lga_name": "Gympie Regional",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#3cb44b"
       },
       "geometry": {
         "type": "Point",
@@ -175,7 +187,8 @@
         "reference_number": "46130",
         "place_name": "Lakefield",
         "lga_name": "Cook Shire",
-        "sequence": 4
+        "sequence": 4,
+        "marker-color": "#3cb44b"
       },
       "geometry": {
         "type": "Point",
@@ -195,7 +208,10 @@
           "Palmview",
           "Wilsonton Heights",
           "Daveson"
-        ]
+        ],
+        "stroke": "#4363d8",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -222,7 +238,8 @@
         "reference_number": "49695",
         "place_name": "Palmview",
         "lga_name": "Sunshine Coast Regional",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#4363d8"
       },
       "geometry": {
         "type": "Point",
@@ -239,7 +256,8 @@
         "reference_number": "48096",
         "place_name": "Wilsonton Heights",
         "lga_name": "Toowoomba Regional",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#4363d8"
       },
       "geometry": {
         "type": "Point",
@@ -256,7 +274,8 @@
         "reference_number": "45664",
         "place_name": "Daveson",
         "lga_name": "Cassowary Coast Regional",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#4363d8"
       },
       "geometry": {
         "type": "Point",
@@ -279,7 +298,10 @@
           "Bangalee",
           "Brooweena",
           "Cooranga"
-        ]
+        ],
+        "stroke": "#f58231",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -318,7 +340,8 @@
         "reference_number": "48936",
         "place_name": "Wondecla",
         "lga_name": "Tablelands Regional",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#f58231"
       },
       "geometry": {
         "type": "Point",
@@ -335,7 +358,8 @@
         "reference_number": "48882",
         "place_name": "Strathmore (Mareeba Shire)",
         "lga_name": "Mareeba Shire",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#f58231"
       },
       "geometry": {
         "type": "Point",
@@ -352,7 +376,8 @@
         "reference_number": "49301",
         "place_name": "Balcomba (Woorabinda Shire)",
         "lga_name": "Woorabinda Aboriginal Shire",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#f58231"
       },
       "geometry": {
         "type": "Point",
@@ -369,7 +394,8 @@
         "reference_number": "48507",
         "place_name": "Bangalee",
         "lga_name": "Livingstone Shire",
-        "sequence": 4
+        "sequence": 4,
+        "marker-color": "#f58231"
       },
       "geometry": {
         "type": "Point",
@@ -386,7 +412,8 @@
         "reference_number": "46634",
         "place_name": "Brooweena",
         "lga_name": "Fraser Coast Regional",
-        "sequence": 5
+        "sequence": 5,
+        "marker-color": "#f58231"
       },
       "geometry": {
         "type": "Point",
@@ -403,7 +430,8 @@
         "reference_number": "47685",
         "place_name": "Cooranga",
         "lga_name": "Western Downs Regional",
-        "sequence": 6
+        "sequence": 6,
+        "marker-color": "#f58231"
       },
       "geometry": {
         "type": "Point",
@@ -423,7 +451,10 @@
           "Lucinda",
           "Forest Creek",
           "Rainbow Beach"
-        ]
+        ],
+        "stroke": "#911eb4",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -450,7 +481,8 @@
         "reference_number": "42521",
         "place_name": "Lucinda",
         "lga_name": "Hinchinbrook Shire",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#911eb4"
       },
       "geometry": {
         "type": "Point",
@@ -467,7 +499,8 @@
         "reference_number": "48638",
         "place_name": "Forest Creek",
         "lga_name": "Douglas Shire",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#911eb4"
       },
       "geometry": {
         "type": "Point",
@@ -484,7 +517,8 @@
         "reference_number": "47617",
         "place_name": "Rainbow Beach",
         "lga_name": "Gympie Regional",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#911eb4"
       },
       "geometry": {
         "type": "Point",

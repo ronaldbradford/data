@@ -14,7 +14,10 @@
           "Glenmorgan (Western Downs Regional)",
           "Rubyanna",
           "Evelyn"
-        ]
+        ],
+        "stroke": "#e6194b",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -25,7 +28,7 @@
           ],
           [
             151.8425,
-            -28.10056/Users/rbradfor/git/data/data/queensland/routes.038.geojson
+            -28.10056
           ],
           [
             152.59917,
@@ -53,7 +56,8 @@
         "reference_number": "48088",
         "place_name": "Wattle Ridge",
         "lga_name": "Toowoomba Regional",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#e6194b"
       },
       "geometry": {
         "type": "Point",
@@ -70,7 +74,8 @@
         "reference_number": "47645",
         "place_name": "Bony Mountain",
         "lga_name": "Southern Downs Regional",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#e6194b"
       },
       "geometry": {
         "type": "Point",
@@ -87,7 +92,8 @@
         "reference_number": "45100",
         "place_name": "Rosewood",
         "lga_name": "Ipswich City",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#e6194b"
       },
       "geometry": {
         "type": "Point",
@@ -104,7 +110,8 @@
         "reference_number": "47701",
         "place_name": "Glenmorgan (Western Downs Regional)",
         "lga_name": "Western Downs Regional",
-        "sequence": 4
+        "sequence": 4,
+        "marker-color": "#e6194b"
       },
       "geometry": {
         "type": "Point",
@@ -121,7 +128,8 @@
         "reference_number": "44765",
         "place_name": "Rubyanna",
         "lga_name": "Bundaberg Regional",
-        "sequence": 5
+        "sequence": 5,
+        "marker-color": "#e6194b"
       },
       "geometry": {
         "type": "Point",
@@ -138,7 +146,8 @@
         "reference_number": "48629",
         "place_name": "Evelyn",
         "lga_name": "Tablelands Regional",
-        "sequence": 6
+        "sequence": 6,
+        "marker-color": "#e6194b"
       },
       "geometry": {
         "type": "Point",
@@ -158,7 +167,10 @@
           "Pittsworth",
           "Rollingstone",
           "Jubilee Heights"
-        ]
+        ],
+        "stroke": "#3cb44b",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -185,7 +197,8 @@
         "reference_number": "50097",
         "place_name": "Pittsworth",
         "lga_name": "Toowoomba Regional",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#3cb44b"
       },
       "geometry": {
         "type": "Point",
@@ -202,7 +215,8 @@
         "reference_number": "49830",
         "place_name": "Rollingstone",
         "lga_name": "Townsville City",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#3cb44b"
       },
       "geometry": {
         "type": "Point",
@@ -219,7 +233,8 @@
         "reference_number": "45715",
         "place_name": "Jubilee Heights",
         "lga_name": "Cassowary Coast Regional",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#3cb44b"
       },
       "geometry": {
         "type": "Point",
@@ -241,7 +256,10 @@
           "Gregory River (Whitsunday Regional)",
           "Bidwill",
           "Evanslea"
-        ]
+        ],
+        "stroke": "#4363d8",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -276,7 +294,8 @@
         "reference_number": "46976",
         "place_name": "Springsure",
         "lga_name": "Central Highlands Regional",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#4363d8"
       },
       "geometry": {
         "type": "Point",
@@ -293,7 +312,8 @@
         "reference_number": "46987",
         "place_name": "Lilyvale (Central Highlands Regional)",
         "lga_name": "Central Highlands Regional",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#4363d8"
       },
       "geometry": {
         "type": "Point",
@@ -310,7 +330,8 @@
         "reference_number": "46873",
         "place_name": "Gregory River (Whitsunday Regional)",
         "lga_name": "Whitsunday Regional",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#4363d8"
       },
       "geometry": {
         "type": "Point",
@@ -327,7 +348,8 @@
         "reference_number": "46629",
         "place_name": "Bidwill",
         "lga_name": "Fraser Coast Regional",
-        "sequence": 4
+        "sequence": 4,
+        "marker-color": "#4363d8"
       },
       "geometry": {
         "type": "Point",
@@ -344,7 +366,8 @@
         "reference_number": "50290",
         "place_name": "Evanslea",
         "lga_name": "Toowoomba Regional",
-        "sequence": 5
+        "sequence": 5,
+        "marker-color": "#4363d8"
       },
       "geometry": {
         "type": "Point",
@@ -367,7 +390,10 @@
           "Greenmount (Toowoomba Regional)",
           "Wheatvale",
           "Bulli Creek"
-        ]
+        ],
+        "stroke": "#f58231",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -406,7 +432,8 @@
         "reference_number": "49747",
         "place_name": "Ravenswood",
         "lga_name": "Charters Towers Regional",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#f58231"
       },
       "geometry": {
         "type": "Point",
@@ -423,7 +450,8 @@
         "reference_number": "46217",
         "place_name": "Fairdale",
         "lga_name": "South Burnett Regional",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#f58231"
       },
       "geometry": {
         "type": "Point",
@@ -440,7 +468,8 @@
         "reference_number": "44949",
         "place_name": "Churchable",
         "lga_name": "Lockyer Valley Regional",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#f58231"
       },
       "geometry": {
         "type": "Point",
@@ -457,7 +486,8 @@
         "reference_number": "50181",
         "place_name": "Greenmount (Toowoomba Regional)",
         "lga_name": "Toowoomba Regional",
-        "sequence": 4
+        "sequence": 4,
+        "marker-color": "#f58231"
       },
       "geometry": {
         "type": "Point",
@@ -474,7 +504,8 @@
         "reference_number": "49197",
         "place_name": "Wheatvale",
         "lga_name": "Southern Downs Regional",
-        "sequence": 5
+        "sequence": 5,
+        "marker-color": "#f58231"
       },
       "geometry": {
         "type": "Point",
@@ -491,7 +522,8 @@
         "reference_number": "47902",
         "place_name": "Bulli Creek",
         "lga_name": "Toowoomba Regional",
-        "sequence": 6
+        "sequence": 6,
+        "marker-color": "#f58231"
       },
       "geometry": {
         "type": "Point",
@@ -514,7 +546,10 @@
           "Humeburn",
           "Braemeadows",
           "Horn"
-        ]
+        ],
+        "stroke": "#911eb4",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -553,7 +588,8 @@
         "reference_number": "45395",
         "place_name": "Mount Perry",
         "lga_name": "North Burnett Regional",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#911eb4"
       },
       "geometry": {
         "type": "Point",
@@ -570,7 +606,8 @@
         "reference_number": "46348",
         "place_name": "Kilkivan",
         "lga_name": "Gympie Regional",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#911eb4"
       },
       "geometry": {
         "type": "Point",
@@ -587,7 +624,8 @@
         "reference_number": "47733",
         "place_name": "Myall Park",
         "lga_name": "Western Downs Regional",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#911eb4"
       },
       "geometry": {
         "type": "Point",
@@ -604,7 +642,8 @@
         "reference_number": "49191",
         "place_name": "Humeburn",
         "lga_name": "Paroo Shire",
-        "sequence": 4
+        "sequence": 4,
+        "marker-color": "#911eb4"
       },
       "geometry": {
         "type": "Point",
@@ -621,7 +660,8 @@
         "reference_number": "48286",
         "place_name": "Braemeadows",
         "lga_name": "Hinchinbrook Shire",
-        "sequence": 5
+        "sequence": 5,
+        "marker-color": "#911eb4"
       },
       "geometry": {
         "type": "Point",
@@ -638,7 +678,8 @@
         "reference_number": "41960",
         "place_name": "Horn",
         "lga_name": "Torres Shire",
-        "sequence": 6
+        "sequence": 6,
+        "marker-color": "#911eb4"
       },
       "geometry": {
         "type": "Point",

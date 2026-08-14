@@ -14,7 +14,10 @@
           "Coolabine",
           "Braemeadows",
           "Bellfield"
-        ]
+        ],
+        "stroke": "#e6194b",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -53,7 +56,8 @@
         "reference_number": "49758",
         "place_name": "Ilbilbie",
         "lga_name": "Isaac Regional",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#e6194b"
       },
       "geometry": {
         "type": "Point",
@@ -70,7 +74,8 @@
         "reference_number": "48683",
         "place_name": "Jardine",
         "lga_name": "Livingstone Shire",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#e6194b"
       },
       "geometry": {
         "type": "Point",
@@ -87,7 +92,8 @@
         "reference_number": "48971",
         "place_name": "Elliott",
         "lga_name": "Bundaberg Regional",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#e6194b"
       },
       "geometry": {
         "type": "Point",
@@ -104,7 +110,8 @@
         "reference_number": "48578",
         "place_name": "Coolabine",
         "lga_name": "Sunshine Coast Regional",
-        "sequence": 4
+        "sequence": 4,
+        "marker-color": "#e6194b"
       },
       "geometry": {
         "type": "Point",
@@ -121,7 +128,8 @@
         "reference_number": "48286",
         "place_name": "Braemeadows",
         "lga_name": "Hinchinbrook Shire",
-        "sequence": 5
+        "sequence": 5,
+        "marker-color": "#e6194b"
       },
       "geometry": {
         "type": "Point",
@@ -138,7 +146,8 @@
         "reference_number": "43183",
         "place_name": "Bellfield",
         "lga_name": "Croydon Shire",
-        "sequence": 6
+        "sequence": 6,
+        "marker-color": "#e6194b"
       },
       "geometry": {
         "type": "Point",
@@ -160,7 +169,10 @@
           "Pie Creek",
           "Pacific Haven",
           "Blackdown"
-        ]
+        ],
+        "stroke": "#3cb44b",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -195,7 +207,8 @@
         "reference_number": "45070",
         "place_name": "Purga",
         "lga_name": "Ipswich City",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#3cb44b"
       },
       "geometry": {
         "type": "Point",
@@ -212,7 +225,8 @@
         "reference_number": "44947",
         "place_name": "Caffey",
         "lga_name": "Lockyer Valley Regional",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#3cb44b"
       },
       "geometry": {
         "type": "Point",
@@ -229,7 +243,8 @@
         "reference_number": "46373",
         "place_name": "Pie Creek",
         "lga_name": "Gympie Regional",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#3cb44b"
       },
       "geometry": {
         "type": "Point",
@@ -246,7 +261,8 @@
         "reference_number": "46665",
         "place_name": "Pacific Haven",
         "lga_name": "Fraser Coast Regional",
-        "sequence": 4
+        "sequence": 4,
+        "marker-color": "#3cb44b"
       },
       "geometry": {
         "type": "Point",
@@ -263,7 +279,8 @@
         "reference_number": "46917",
         "place_name": "Blackdown",
         "lga_name": "Central Highlands Regional",
-        "sequence": 5
+        "sequence": 5,
+        "marker-color": "#3cb44b"
       },
       "geometry": {
         "type": "Point",
@@ -286,7 +303,10 @@
           "Mount Kynoch",
           "Amiens",
           "Moregatta"
-        ]
+        ],
+        "stroke": "#4363d8",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -325,7 +345,8 @@
         "reference_number": "47369",
         "place_name": "Humphery",
         "lga_name": "North Burnett Regional",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#4363d8"
       },
       "geometry": {
         "type": "Point",
@@ -342,7 +363,8 @@
         "reference_number": "46633",
         "place_name": "Booral",
         "lga_name": "Fraser Coast Regional",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#4363d8"
       },
       "geometry": {
         "type": "Point",
@@ -359,7 +381,8 @@
         "reference_number": "47968",
         "place_name": "Highgrove",
         "lga_name": "Toowoomba Regional",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#4363d8"
       },
       "geometry": {
         "type": "Point",
@@ -376,7 +399,8 @@
         "reference_number": "52629",
         "place_name": "Mount Kynoch",
         "lga_name": "Toowoomba Regional",
-        "sequence": 4
+        "sequence": 4,
+        "marker-color": "#4363d8"
       },
       "geometry": {
         "type": "Point",
@@ -393,7 +417,8 @@
         "reference_number": "50091",
         "place_name": "Amiens",
         "lga_name": "Southern Downs Regional",
-        "sequence": 5
+        "sequence": 5,
+        "marker-color": "#4363d8"
       },
       "geometry": {
         "type": "Point",
@@ -410,7 +435,8 @@
         "reference_number": "48773",
         "place_name": "Moregatta",
         "lga_name": "Tablelands Regional",
-        "sequence": 6
+        "sequence": 6,
+        "marker-color": "#4363d8"
       },
       "geometry": {
         "type": "Point",
@@ -430,7 +456,10 @@
           "Jinghi",
           "Macalister",
           "Wowan"
-        ]
+        ],
+        "stroke": "#f58231",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -457,7 +486,8 @@
         "reference_number": "47717",
         "place_name": "Jinghi",
         "lga_name": "Western Downs Regional",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#f58231"
       },
       "geometry": {
         "type": "Point",
@@ -474,7 +504,8 @@
         "reference_number": "49274",
         "place_name": "Macalister",
         "lga_name": "Western Downs Regional",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#f58231"
       },
       "geometry": {
         "type": "Point",
@@ -491,7 +522,8 @@
         "reference_number": "49581",
         "place_name": "Wowan",
         "lga_name": "Banana Shire",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#f58231"
       },
       "geometry": {
         "type": "Point",
@@ -514,7 +546,10 @@
           "Coringa",
           "Pacific Heights",
           "St Helens Beach"
-        ]
+        ],
+        "stroke": "#911eb4",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -553,7 +588,8 @@
         "reference_number": "45982",
         "place_name": "Swan Creek",
         "lga_name": "Southern Downs Regional",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#911eb4"
       },
       "geometry": {
         "type": "Point",
@@ -570,7 +606,8 @@
         "reference_number": "45969",
         "place_name": "Pratten",
         "lga_name": "Southern Downs Regional",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#911eb4"
       },
       "geometry": {
         "type": "Point",
@@ -587,7 +624,8 @@
         "reference_number": "45413",
         "place_name": "Riverleigh",
         "lga_name": "North Burnett Regional",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#911eb4"
       },
       "geometry": {
         "type": "Point",
@@ -604,7 +642,8 @@
         "reference_number": "45336",
         "place_name": "Coringa",
         "lga_name": "North Burnett Regional",
-        "sequence": 4
+        "sequence": 4,
+        "marker-color": "#911eb4"
       },
       "geometry": {
         "type": "Point",
@@ -621,7 +660,8 @@
         "reference_number": "48820",
         "place_name": "Pacific Heights",
         "lga_name": "Livingstone Shire",
-        "sequence": 5
+        "sequence": 5,
+        "marker-color": "#911eb4"
       },
       "geometry": {
         "type": "Point",
@@ -638,7 +678,8 @@
         "reference_number": "46841",
         "place_name": "St Helens Beach",
         "lga_name": "Mackay Regional",
-        "sequence": 6
+        "sequence": 6,
+        "marker-color": "#911eb4"
       },
       "geometry": {
         "type": "Point",

@@ -11,7 +11,10 @@
           "Tarzali",
           "Glamorgan Vale",
           "Allan"
-        ]
+        ],
+        "stroke": "#e6194b",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -38,7 +41,8 @@
         "reference_number": "49860",
         "place_name": "Tarzali",
         "lga_name": "Tablelands Regional",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#e6194b"
       },
       "geometry": {
         "type": "Point",
@@ -55,7 +59,8 @@
         "reference_number": "47273",
         "place_name": "Glamorgan Vale",
         "lga_name": "Somerset Regional",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#e6194b"
       },
       "geometry": {
         "type": "Point",
@@ -72,7 +77,8 @@
         "reference_number": "45903",
         "place_name": "Allan",
         "lga_name": "Southern Downs Regional",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#e6194b"
       },
       "geometry": {
         "type": "Point",
@@ -94,7 +100,10 @@
           "Sandy Ridges",
           "Townson",
           "Hungerford (Paroo Shire)"
-        ]
+        ],
+        "stroke": "#3cb44b",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -129,7 +138,8 @@
         "reference_number": "46869",
         "place_name": "Foxdale",
         "lga_name": "Whitsunday Regional",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#3cb44b"
       },
       "geometry": {
         "type": "Point",
@@ -146,7 +156,8 @@
         "reference_number": "45323",
         "place_name": "Brovinia",
         "lga_name": "North Burnett Regional",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#3cb44b"
       },
       "geometry": {
         "type": "Point",
@@ -163,7 +174,8 @@
         "reference_number": "46260",
         "place_name": "Sandy Ridges",
         "lga_name": "South Burnett Regional",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#3cb44b"
       },
       "geometry": {
         "type": "Point",
@@ -180,7 +192,8 @@
         "reference_number": "47148",
         "place_name": "Townson",
         "lga_name": "Lockyer Valley Regional",
-        "sequence": 4
+        "sequence": 4,
+        "marker-color": "#3cb44b"
       },
       "geometry": {
         "type": "Point",
@@ -197,7 +210,8 @@
         "reference_number": "50025",
         "place_name": "Hungerford (Paroo Shire)",
         "lga_name": "Paroo Shire",
-        "sequence": 5
+        "sequence": 5,
+        "marker-color": "#3cb44b"
       },
       "geometry": {
         "type": "Point",
@@ -220,7 +234,10 @@
           "Rockside",
           "Carstairs",
           "Halifax"
-        ]
+        ],
+        "stroke": "#4363d8",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -259,7 +276,8 @@
         "reference_number": "45413",
         "place_name": "Riverleigh",
         "lga_name": "North Burnett Regional",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#4363d8"
       },
       "geometry": {
         "type": "Point",
@@ -276,7 +294,8 @@
         "reference_number": "46211",
         "place_name": "Crawford",
         "lga_name": "South Burnett Regional",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#4363d8"
       },
       "geometry": {
         "type": "Point",
@@ -293,7 +312,8 @@
         "reference_number": "48584",
         "place_name": "Cooroy",
         "lga_name": "Noosa Shire",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#4363d8"
       },
       "geometry": {
         "type": "Point",
@@ -310,7 +330,8 @@
         "reference_number": "50580",
         "place_name": "Rockside",
         "lga_name": "Lockyer Valley Regional",
-        "sequence": 4
+        "sequence": 4,
+        "marker-color": "#4363d8"
       },
       "geometry": {
         "type": "Point",
@@ -327,7 +348,8 @@
         "reference_number": "42282",
         "place_name": "Carstairs",
         "lga_name": "Burdekin Shire",
-        "sequence": 5
+        "sequence": 5,
+        "marker-color": "#4363d8"
       },
       "geometry": {
         "type": "Point",
@@ -344,7 +366,8 @@
         "reference_number": "42518",
         "place_name": "Halifax",
         "lga_name": "Hinchinbrook Shire",
-        "sequence": 6
+        "sequence": 6,
+        "marker-color": "#4363d8"
       },
       "geometry": {
         "type": "Point",
@@ -367,7 +390,10 @@
           "Giru",
           "Tumoulin",
           "Mount Whitestone"
-        ]
+        ],
+        "stroke": "#f58231",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -406,7 +432,8 @@
         "reference_number": "44812",
         "place_name": "Winfield",
         "lga_name": "Bundaberg Regional",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#f58231"
       },
       "geometry": {
         "type": "Point",
@@ -423,7 +450,8 @@
         "reference_number": "46919",
         "place_name": "Bluff",
         "lga_name": "Central Highlands Regional",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#f58231"
       },
       "geometry": {
         "type": "Point",
@@ -440,7 +468,8 @@
         "reference_number": "46790",
         "place_name": "Grasstree Beach",
         "lga_name": "Mackay Regional",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#f58231"
       },
       "geometry": {
         "type": "Point",
@@ -457,7 +486,8 @@
         "reference_number": "42307",
         "place_name": "Giru",
         "lga_name": "Burdekin Shire",
-        "sequence": 4
+        "sequence": 4,
+        "marker-color": "#f58231"
       },
       "geometry": {
         "type": "Point",
@@ -474,7 +504,8 @@
         "reference_number": "48909",
         "place_name": "Tumoulin",
         "lga_name": "Tablelands Regional",
-        "sequence": 5
+        "sequence": 5,
+        "marker-color": "#f58231"
       },
       "geometry": {
         "type": "Point",
@@ -491,7 +522,8 @@
         "reference_number": "44981",
         "place_name": "Mount Whitestone",
         "lga_name": "Lockyer Valley Regional",
-        "sequence": 6
+        "sequence": 6,
+        "marker-color": "#f58231"
       },
       "geometry": {
         "type": "Point",
@@ -514,7 +546,10 @@
           "Bunya Mountains (Western Downs Regional)",
           "Ducklo",
           "Tablelands (Gladstone Regional)"
-        ]
+        ],
+        "stroke": "#911eb4",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -553,7 +588,8 @@
         "reference_number": "46389",
         "place_name": "Tuan Forest (Gympie Regional)",
         "lga_name": "Gympie Regional",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#911eb4"
       },
       "geometry": {
         "type": "Point",
@@ -570,7 +606,8 @@
         "reference_number": "46639",
         "place_name": "Burrum Town",
         "lga_name": "Fraser Coast Regional",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#911eb4"
       },
       "geometry": {
         "type": "Point",
@@ -587,7 +624,8 @@
         "reference_number": "46205",
         "place_name": "Chelmsford",
         "lga_name": "South Burnett Regional",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#911eb4"
       },
       "geometry": {
         "type": "Point",
@@ -604,7 +642,8 @@
         "reference_number": "47673",
         "place_name": "Bunya Mountains (Western Downs Regional)",
         "lga_name": "Western Downs Regional",
-        "sequence": 4
+        "sequence": 4,
+        "marker-color": "#911eb4"
       },
       "geometry": {
         "type": "Point",
@@ -621,7 +660,8 @@
         "reference_number": "47694",
         "place_name": "Ducklo",
         "lga_name": "Western Downs Regional",
-        "sequence": 5
+        "sequence": 5,
+        "marker-color": "#911eb4"
       },
       "geometry": {
         "type": "Point",
@@ -638,7 +678,8 @@
         "reference_number": "47308",
         "place_name": "Tablelands (Gladstone Regional)",
         "lga_name": "Gladstone Regional",
-        "sequence": 6
+        "sequence": 6,
+        "marker-color": "#911eb4"
       },
       "geometry": {
         "type": "Point",

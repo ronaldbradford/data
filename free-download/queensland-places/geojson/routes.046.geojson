@@ -11,7 +11,10 @@
           "Brookstead",
           "Upper Warrego",
           "Forty Mile"
-        ]
+        ],
+        "stroke": "#e6194b",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -38,7 +41,8 @@
         "reference_number": "47898",
         "place_name": "Brookstead",
         "lga_name": "Toowoomba Regional",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#e6194b"
       },
       "geometry": {
         "type": "Point",
@@ -55,7 +59,8 @@
         "reference_number": "42935",
         "place_name": "Upper Warrego",
         "lga_name": "Murweh Shire",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#e6194b"
       },
       "geometry": {
         "type": "Point",
@@ -72,7 +77,8 @@
         "reference_number": "49798",
         "place_name": "Forty Mile",
         "lga_name": "Mareeba Shire",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#e6194b"
       },
       "geometry": {
         "type": "Point",
@@ -93,7 +99,10 @@
           "Iron Range",
           "Cedarton",
           "Goomburra"
-        ]
+        ],
+        "stroke": "#3cb44b",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -124,7 +133,8 @@
         "reference_number": "50591",
         "place_name": "Lockhart River (Lockhart River Shire)",
         "lga_name": "Lockhart River Aboriginal Shire",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#3cb44b"
       },
       "geometry": {
         "type": "Point",
@@ -141,7 +151,8 @@
         "reference_number": "49102",
         "place_name": "Iron Range",
         "lga_name": "Cook Shire",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#3cb44b"
       },
       "geometry": {
         "type": "Point",
@@ -158,7 +169,8 @@
         "reference_number": "45485",
         "place_name": "Cedarton",
         "lga_name": "Moreton Bay City",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#3cb44b"
       },
       "geometry": {
         "type": "Point",
@@ -175,7 +187,8 @@
         "reference_number": "49753",
         "place_name": "Goomburra",
         "lga_name": "Southern Downs Regional",
-        "sequence": 4
+        "sequence": 4,
+        "marker-color": "#3cb44b"
       },
       "geometry": {
         "type": "Point",
@@ -195,7 +208,10 @@
           "South Wellesley Islands",
           "Comet",
           "Winfield"
-        ]
+        ],
+        "stroke": "#4363d8",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -222,7 +238,8 @@
         "reference_number": "42537",
         "place_name": "South Wellesley Islands",
         "lga_name": "",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#4363d8"
       },
       "geometry": {
         "type": "Point",
@@ -239,7 +256,8 @@
         "reference_number": "46938",
         "place_name": "Comet",
         "lga_name": "Central Highlands Regional",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#4363d8"
       },
       "geometry": {
         "type": "Point",
@@ -256,7 +274,8 @@
         "reference_number": "44812",
         "place_name": "Winfield",
         "lga_name": "Bundaberg Regional",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#4363d8"
       },
       "geometry": {
         "type": "Point",
@@ -276,7 +295,10 @@
           "Burketown",
           "Balnagowan",
           "Golden Fleece"
-        ]
+        ],
+        "stroke": "#f58231",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -303,7 +325,8 @@
         "reference_number": "42539",
         "place_name": "Burketown",
         "lga_name": "Burke Shire",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#f58231"
       },
       "geometry": {
         "type": "Point",
@@ -320,7 +343,8 @@
         "reference_number": "49360",
         "place_name": "Balnagowan",
         "lga_name": "Mackay Regional",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#f58231"
       },
       "geometry": {
         "type": "Point",
@@ -337,7 +361,8 @@
         "reference_number": "45353",
         "place_name": "Golden Fleece",
         "lga_name": "North Burnett Regional",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#f58231"
       },
       "geometry": {
         "type": "Point",
@@ -359,7 +384,10 @@
           "Anduramba",
           "Wooroona",
           "Kureen"
-        ]
+        ],
+        "stroke": "#911eb4",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -394,7 +422,8 @@
         "reference_number": "49195",
         "place_name": "Massie",
         "lga_name": "Southern Downs Regional",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#911eb4"
       },
       "geometry": {
         "type": "Point",
@@ -411,7 +440,8 @@
         "reference_number": "44989",
         "place_name": "Seventeen Mile",
         "lga_name": "Lockyer Valley Regional",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#911eb4"
       },
       "geometry": {
         "type": "Point",
@@ -428,7 +458,8 @@
         "reference_number": "47883",
         "place_name": "Anduramba",
         "lga_name": "Toowoomba Regional",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#911eb4"
       },
       "geometry": {
         "type": "Point",
@@ -445,7 +476,8 @@
         "reference_number": "46988",
         "place_name": "Wooroona",
         "lga_name": "Central Highlands Regional",
-        "sequence": 4
+        "sequence": 4,
+        "marker-color": "#911eb4"
       },
       "geometry": {
         "type": "Point",
@@ -462,7 +494,8 @@
         "reference_number": "48716",
         "place_name": "Kureen",
         "lga_name": "Tablelands Regional",
-        "sequence": 5
+        "sequence": 5,
+        "marker-color": "#911eb4"
       },
       "geometry": {
         "type": "Point",

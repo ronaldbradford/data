@@ -11,7 +11,10 @@
           "Wainui",
           "Cement Mills",
           "Marmor"
-        ]
+        ],
+        "stroke": "#e6194b",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -38,7 +41,8 @@
         "reference_number": "48087",
         "place_name": "Wainui",
         "lga_name": "Toowoomba Regional",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#e6194b"
       },
       "geometry": {
         "type": "Point",
@@ -55,7 +59,8 @@
         "reference_number": "49640",
         "place_name": "Cement Mills",
         "lga_name": "Goondiwindi Regional",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#e6194b"
       },
       "geometry": {
         "type": "Point",
@@ -72,7 +77,8 @@
         "reference_number": "48748",
         "place_name": "Marmor",
         "lga_name": "Rockhampton Regional",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#e6194b"
       },
       "geometry": {
         "type": "Point",
@@ -92,7 +98,10 @@
           "Mount Nathan",
           "Etna Creek",
           "North Johnstone"
-        ]
+        ],
+        "stroke": "#3cb44b",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -119,7 +128,8 @@
         "reference_number": "46066",
         "place_name": "Mount Nathan",
         "lga_name": "Gold Coast City",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#3cb44b"
       },
       "geometry": {
         "type": "Point",
@@ -136,7 +146,8 @@
         "reference_number": "48625",
         "place_name": "Etna Creek",
         "lga_name": "Livingstone Shire",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#3cb44b"
       },
       "geometry": {
         "type": "Point",
@@ -153,7 +164,8 @@
         "reference_number": "48813",
         "place_name": "North Johnstone",
         "lga_name": "Tablelands Regional",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#3cb44b"
       },
       "geometry": {
         "type": "Point",
@@ -175,7 +187,10 @@
           "Bollon",
           "Euramo",
           "Ngatjan (Cairns Regional)"
-        ]
+        ],
+        "stroke": "#4363d8",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -210,7 +225,8 @@
         "reference_number": "52338",
         "place_name": "Woolooga",
         "lga_name": "Gympie Regional",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#4363d8"
       },
       "geometry": {
         "type": "Point",
@@ -227,7 +243,8 @@
         "reference_number": "49163",
         "place_name": "Pickanjinnie",
         "lga_name": "Maranoa Regional",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#4363d8"
       },
       "geometry": {
         "type": "Point",
@@ -244,7 +261,8 @@
         "reference_number": "42679",
         "place_name": "Bollon",
         "lga_name": "Balonne Shire",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#4363d8"
       },
       "geometry": {
         "type": "Point",
@@ -261,7 +279,8 @@
         "reference_number": "45672",
         "place_name": "Euramo",
         "lga_name": "Cassowary Coast Regional",
-        "sequence": 4
+        "sequence": 4,
+        "marker-color": "#4363d8"
       },
       "geometry": {
         "type": "Point",
@@ -278,7 +297,8 @@
         "reference_number": "48803",
         "place_name": "Ngatjan (Cairns Regional)",
         "lga_name": "Cairns Regional",
-        "sequence": 5
+        "sequence": 5,
+        "marker-color": "#4363d8"
       },
       "geometry": {
         "type": "Point",
@@ -300,7 +320,10 @@
           "Amity",
           "Nahrunda",
           "Walhallow"
-        ]
+        ],
+        "stroke": "#f58231",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -335,7 +358,8 @@
         "reference_number": "44883",
         "place_name": "Lockrose (Somerset Regional)",
         "lga_name": "Somerset Regional",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#f58231"
       },
       "geometry": {
         "type": "Point",
@@ -352,7 +376,8 @@
         "reference_number": "48042",
         "place_name": "Preston (Toowoomba Regional)",
         "lga_name": "Toowoomba Regional",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#f58231"
       },
       "geometry": {
         "type": "Point",
@@ -369,7 +394,8 @@
         "reference_number": "43639",
         "place_name": "Amity",
         "lga_name": "Redland City",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#f58231"
       },
       "geometry": {
         "type": "Point",
@@ -386,7 +412,8 @@
         "reference_number": "46368",
         "place_name": "Nahrunda",
         "lga_name": "Gympie Regional",
-        "sequence": 4
+        "sequence": 4,
+        "marker-color": "#f58231"
       },
       "geometry": {
         "type": "Point",
@@ -403,7 +430,8 @@
         "reference_number": "47461",
         "place_name": "Walhallow",
         "lga_name": "Maranoa Regional",
-        "sequence": 5
+        "sequence": 5,
+        "marker-color": "#f58231"
       },
       "geometry": {
         "type": "Point",
@@ -424,7 +452,10 @@
           "Rangemore (Toowoomba Regional)",
           "Pine Hills",
           "Hodgson"
-        ]
+        ],
+        "stroke": "#911eb4",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -455,7 +486,8 @@
         "reference_number": "50061",
         "place_name": "Chevallum",
         "lga_name": "Sunshine Coast Regional",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#911eb4"
       },
       "geometry": {
         "type": "Point",
@@ -472,7 +504,8 @@
         "reference_number": "48048",
         "place_name": "Rangemore (Toowoomba Regional)",
         "lga_name": "Toowoomba Regional",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#911eb4"
       },
       "geometry": {
         "type": "Point",
@@ -489,7 +522,8 @@
         "reference_number": "47738",
         "place_name": "Pine Hills",
         "lga_name": "Western Downs Regional",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#911eb4"
       },
       "geometry": {
         "type": "Point",
@@ -506,7 +540,8 @@
         "reference_number": "47428",
         "place_name": "Hodgson",
         "lga_name": "Maranoa Regional",
-        "sequence": 4
+        "sequence": 4,
+        "marker-color": "#911eb4"
       },
       "geometry": {
         "type": "Point",

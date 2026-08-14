@@ -14,7 +14,10 @@
           "Iredale",
           "Eungella Dam",
           "Millstream"
-        ]
+        ],
+        "stroke": "#e6194b",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -53,7 +56,8 @@
         "reference_number": "48504",
         "place_name": "Bald Knob",
         "lga_name": "Sunshine Coast Regional",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#e6194b"
       },
       "geometry": {
         "type": "Point",
@@ -70,7 +74,8 @@
         "reference_number": "46383",
         "place_name": "The Dawn",
         "lga_name": "Gympie Regional",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#e6194b"
       },
       "geometry": {
         "type": "Point",
@@ -87,7 +92,8 @@
         "reference_number": "52503",
         "place_name": "Walloon",
         "lga_name": "Ipswich City",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#e6194b"
       },
       "geometry": {
         "type": "Point",
@@ -104,7 +110,8 @@
         "reference_number": "44961",
         "place_name": "Iredale",
         "lga_name": "Lockyer Valley Regional",
-        "sequence": 4
+        "sequence": 4,
+        "marker-color": "#e6194b"
       },
       "geometry": {
         "type": "Point",
@@ -121,7 +128,8 @@
         "reference_number": "46783",
         "place_name": "Eungella Dam",
         "lga_name": "Mackay Regional",
-        "sequence": 5
+        "sequence": 5,
+        "marker-color": "#e6194b"
       },
       "geometry": {
         "type": "Point",
@@ -138,7 +146,8 @@
         "reference_number": "48758",
         "place_name": "Millstream",
         "lga_name": "Tablelands Regional",
-        "sequence": 6
+        "sequence": 6,
+        "marker-color": "#e6194b"
       },
       "geometry": {
         "type": "Point",
@@ -161,7 +170,10 @@
           "Bella Creek",
           "Yangan",
           "Bloomsbury"
-        ]
+        ],
+        "stroke": "#3cb44b",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -200,7 +212,8 @@
         "reference_number": "44905",
         "place_name": "Murrumba",
         "lga_name": "Somerset Regional",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#3cb44b"
       },
       "geometry": {
         "type": "Point",
@@ -217,7 +230,8 @@
         "reference_number": "44880",
         "place_name": "Lake Wivenhoe",
         "lga_name": "Somerset Regional",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#3cb44b"
       },
       "geometry": {
         "type": "Point",
@@ -234,7 +248,8 @@
         "reference_number": "44865",
         "place_name": "Eskdale",
         "lga_name": "Somerset Regional",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#3cb44b"
       },
       "geometry": {
         "type": "Point",
@@ -251,7 +266,8 @@
         "reference_number": "52488",
         "place_name": "Bella Creek",
         "lga_name": "Gympie Regional",
-        "sequence": 4
+        "sequence": 4,
+        "marker-color": "#3cb44b"
       },
       "geometry": {
         "type": "Point",
@@ -268,7 +284,8 @@
         "reference_number": "46008",
         "place_name": "Yangan",
         "lga_name": "Southern Downs Regional",
-        "sequence": 5
+        "sequence": 5,
+        "marker-color": "#3cb44b"
       },
       "geometry": {
         "type": "Point",
@@ -285,7 +302,8 @@
         "reference_number": "46764",
         "place_name": "Bloomsbury",
         "lga_name": "Mackay Regional",
-        "sequence": 6
+        "sequence": 6,
+        "marker-color": "#3cb44b"
       },
       "geometry": {
         "type": "Point",
@@ -307,7 +325,10 @@
           "Beeron",
           "Dangore",
           "Blue Mountain Heights"
-        ]
+        ],
+        "stroke": "#4363d8",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -342,7 +363,8 @@
         "reference_number": "50118",
         "place_name": "Gordonvale",
         "lga_name": "Cairns Regional",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#4363d8"
       },
       "geometry": {
         "type": "Point",
@@ -359,7 +381,8 @@
         "reference_number": "44711",
         "place_name": "Drinan",
         "lga_name": "Bundaberg Regional",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#4363d8"
       },
       "geometry": {
         "type": "Point",
@@ -376,7 +399,8 @@
         "reference_number": "45316",
         "place_name": "Beeron",
         "lga_name": "North Burnett Regional",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#4363d8"
       },
       "geometry": {
         "type": "Point",
@@ -393,7 +417,8 @@
         "reference_number": "46214",
         "place_name": "Dangore",
         "lga_name": "South Burnett Regional",
-        "sequence": 4
+        "sequence": 4,
+        "marker-color": "#4363d8"
       },
       "geometry": {
         "type": "Point",
@@ -410,7 +435,8 @@
         "reference_number": "52630",
         "place_name": "Blue Mountain Heights",
         "lga_name": "Toowoomba Regional",
-        "sequence": 5
+        "sequence": 5,
+        "marker-color": "#4363d8"
       },
       "geometry": {
         "type": "Point",
@@ -432,7 +458,10 @@
           "Nebine",
           "Tanbar",
           "Wellesley Islands"
-        ]
+        ],
+        "stroke": "#f58231",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -467,7 +496,8 @@
         "reference_number": "46271",
         "place_name": "Tarong",
         "lga_name": "South Burnett Regional",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#f58231"
       },
       "geometry": {
         "type": "Point",
@@ -484,7 +514,8 @@
         "reference_number": "46660",
         "place_name": "Marodian",
         "lga_name": "Fraser Coast Regional",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#f58231"
       },
       "geometry": {
         "type": "Point",
@@ -501,7 +532,8 @@
         "reference_number": "42659",
         "place_name": "Nebine",
         "lga_name": "Paroo Shire",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#f58231"
       },
       "geometry": {
         "type": "Point",
@@ -518,7 +550,8 @@
         "reference_number": "50026",
         "place_name": "Tanbar",
         "lga_name": "Barcoo Shire",
-        "sequence": 4
+        "sequence": 4,
+        "marker-color": "#f58231"
       },
       "geometry": {
         "type": "Point",
@@ -535,7 +568,8 @@
         "reference_number": "42536",
         "place_name": "Wellesley Islands",
         "lga_name": "Mornington Shire",
-        "sequence": 5
+        "sequence": 5,
+        "marker-color": "#f58231"
       },
       "geometry": {
         "type": "Point",
@@ -556,7 +590,10 @@
           "Upper Cooyar Creek",
           "Greenmount (Toowoomba Regional)",
           "Airdmillan"
-        ]
+        ],
+        "stroke": "#911eb4",
+        "stroke-width": 2,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -587,7 +624,8 @@
         "reference_number": "46237",
         "place_name": "Leafdale",
         "lga_name": "South Burnett Regional",
-        "sequence": 1
+        "sequence": 1,
+        "marker-color": "#911eb4"
       },
       "geometry": {
         "type": "Point",
@@ -604,7 +642,8 @@
         "reference_number": "48081",
         "place_name": "Upper Cooyar Creek",
         "lga_name": "Toowoomba Regional",
-        "sequence": 2
+        "sequence": 2,
+        "marker-color": "#911eb4"
       },
       "geometry": {
         "type": "Point",
@@ -621,7 +660,8 @@
         "reference_number": "50181",
         "place_name": "Greenmount (Toowoomba Regional)",
         "lga_name": "Toowoomba Regional",
-        "sequence": 3
+        "sequence": 3,
+        "marker-color": "#911eb4"
       },
       "geometry": {
         "type": "Point",
@@ -638,7 +678,8 @@
         "reference_number": "49422",
         "place_name": "Airdmillan",
         "lga_name": "Burdekin Shire",
-        "sequence": 4
+        "sequence": 4,
+        "marker-color": "#911eb4"
       },
       "geometry": {
         "type": "Point",
