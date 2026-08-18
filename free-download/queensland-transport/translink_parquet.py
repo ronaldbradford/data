@@ -4,6 +4,12 @@
 Each row is one timestamped GPS fix for one vehicle on one trip. Repeated
 polling accumulates the path a vehicle takes from origin to destination.
 
+With no --region given, the 5 officially documented regions (SEQ, CNS, NSI,
+MHB, BOW) are polled each cycle. Pass --all to also poll the undocumented
+regions found by probing the API (see README.md), or --region to poll just
+one, official or undocumented. --mode narrows to a single vehicle type but
+only exists for SEQ, so an unqualified --mode implies --region SEQ.
+
 Output is a Hive-partitioned directory that DuckDB reads directly:
 
     positions/dt=2026-08-11/region=SEQ/part-1786434892-31337-0003.parquet
@@ -17,8 +23,11 @@ Data licensed CC-BY, State of Queensland. No authentication required.
 Requires: pip install gtfs-realtime-bindings pyarrow
 
 Examples:
-    ./translink_parquet.py --once
-    ./translink_parquet.py --mode Bus --interval 20 --max-runtime 86400
+    ./translink_parquet.py --once                          # snapshot, 5 official regions
+    ./translink_parquet.py --all --once                     # snapshot, all 18 known regions
+    ./translink_parquet.py --interval 20 --max-runtime 86400
+    ./translink_parquet.py --region SEQ --mode Bus --interval 20
+    ./translink_parquet.py --region MKY --interval 20        # a single undocumented region
     ./translink_parquet.py --summary          # needs duckdb installed
 """
 
@@ -38,7 +47,18 @@ import pyarrow.parquet as pq
 from google.transit import gtfs_realtime_pb2
 
 FEED_BASE = "https://gtfsrt.api.translink.com.au/api/realtime"
-REGIONS = ("SEQ", "CNS", "NSI", "MHB", "BOW")
+# The 5 regions Translink documents at
+# https://translink.com.au/about-translink/open-data/gtfs-rt
+OFFICIAL_REGIONS = ("SEQ", "CNS", "NSI", "MHB", "BOW")
+
+# Undocumented but working codes, found by probing the realtime API with a
+# code guessed from each region name in the static GTFS schedule listing at
+# https://www.data.qld.gov.au/dataset/general-transit-feed-specification-gtfs-translink
+# See README.md for the full region-name-to-code table.
+UNDOCUMENTED_REGIONS = ("BUN", "GLT", "GYM", "INN", "KIL", "MKY", "MAG", "MAL",
+                        "RKY", "TWB", "TSV", "WAR", "WHT")
+
+ALL_REGIONS = OFFICIAL_REGIONS + UNDOCUMENTED_REGIONS
 MODES = ("Bus", "Rail", "Tram", "Ferry")
 USER_AGENT = "translink-trajectory-collector/2.0"
 
@@ -294,18 +314,18 @@ def parse_feed(payload, fetched_at):
     return rows
 
 
-def poll_once(sink, deduper, url, etag, verbose=False):
-    """Fetch, parse and buffer one snapshot. Returns the new ETag."""
+def poll_once(region, sink, deduper, url, etag, verbose=False):
+    """Fetch, parse and buffer one snapshot for one region. Returns the new ETag."""
     fetched_at = int(time.time())
     try:
         payload, new_etag = fetch(url, etag)
     except (urllib.error.URLError, TimeoutError) as error:
-        print("fetch failed: %s" % error, file=sys.stderr)
+        print("%-4s fetch failed: %s" % (region, error), file=sys.stderr)
         return etag
 
     if payload is None:
         if verbose:
-            print("feed unchanged (304)")
+            print("%-4s feed unchanged (304)" % region)
         return new_etag
 
     rows = parse_feed(payload, fetched_at)
@@ -315,10 +335,25 @@ def poll_once(sink, deduper, url, etag, verbose=False):
     deduper.prune(fetched_at)
 
     flushed = sink.flush() if sink.should_flush() else 0
-    print("%s  entities=%-5d new=%-5d buffered=%-6d flushed=%-6d bytes=%d" % (
+    print("%s %-4s entities=%-5d new=%-5d buffered=%-6d flushed=%-6d bytes=%d" % (
         time.strftime("%H:%M:%S", time.localtime(fetched_at)),
-        len(rows), len(fresh), len(sink.rows), flushed, len(payload)))
+        region, len(rows), len(fresh), len(sink.rows), flushed, len(payload)))
     return new_etag
+
+
+SUMMARY_HEADER = ("trip_id", "route", "vehicle", "pts", "first_fix", "last_fix",
+                   "mins", "km", "max_gap_m")
+
+
+def print_summary(rows):
+    """Print summary rows as TSV: a header line, then one line per row.
+
+    Tab-separated so the output pipes straight into `column -t -s $'\\t'`
+    for aligned columns, or into any other TSV-aware tool.
+    """
+    print("\t".join(SUMMARY_HEADER))
+    for row in rows:
+        print("\t".join("" if value is None else str(value) for value in row))
 
 
 def run_summary(root, limit):
@@ -338,24 +373,23 @@ def run_summary(root, limit):
     rows = connection.execute(
         SUMMARY_SQL.format(glob=glob, limit=int(limit))).fetchall()
 
+    print_summary(rows)
     if not rows:
-        print("No multi-point trips stored yet. Poll for a few minutes first.")
-        return 0
-
-    header = ("trip_id", "route", "vehicle", "pts", "first fix", "last fix",
-              "mins", "km", "max gap m")
-    print("%-26s %-8s %-12s %5s %-20s %-20s %6s %8s %9s" % header)
-    for row in rows:
-        print("%-26s %-8s %-12s %5s %-20s %-20s %6s %8s %9s" % tuple(
-            "" if value is None else str(value)[:26] for value in row))
+        print("No multi-point trips stored yet. Poll for a few minutes first.",
+              file=sys.stderr)
     return 0
 
 
 def main():
     parser = argparse.ArgumentParser(
         description="Collect Translink GTFS-RT vehicle positions into Parquet.")
-    parser.add_argument("--region", default="SEQ", choices=REGIONS,
-                        help="Translink region feed (default: SEQ)")
+    parser.add_argument("--region", choices=ALL_REGIONS,
+                        help="Translink region feed (default: the 5 official "
+                             "regions, or SEQ only when --mode is set)")
+    parser.add_argument("--all", action="store_true",
+                        help="poll every known region, including undocumented "
+                             "ones (see README.md); default is the 5 official "
+                             "regions only")
     parser.add_argument("--mode", choices=MODES,
                         help="restrict to one mode; SEQ only")
     parser.add_argument("--root", default="positions",
@@ -380,21 +414,39 @@ def main():
     parser.add_argument("--verbose", action="store_true")
     args = parser.parse_args()
 
-    if args.mode and args.region != "SEQ":
+    if args.region and args.all:
+        parser.error("--region and --all are mutually exclusive")
+    if args.mode and args.region and args.region != "SEQ":
         parser.error("mode-specific feeds are only published for SEQ")
+    if args.mode and args.all:
+        parser.error("mode-specific feeds are only published for SEQ, not --all")
     if args.interval < 5:
         parser.error("interval below 5s is impolite; the feed updates slower than that")
 
     if args.summary:
         return run_summary(args.root, args.limit)
 
-    sink = ParquetSink(args.root, args.region,
-                       batch_size=args.batch_size,
-                       max_age=args.max_age,
-                       compression=args.compression)
-    deduper = Deduplicator()
-    url = feed_url(args.region, args.mode)
-    print("polling %s every %.0fs -> %s/" % (url, args.interval, args.root))
+    if args.region:
+        regions = (args.region,)
+    elif args.mode:
+        # Mode-specific feeds only exist for SEQ, so an unqualified --mode
+        # implies --region SEQ rather than looping over every region.
+        regions = ("SEQ",)
+    elif args.all:
+        regions = ALL_REGIONS
+    else:
+        regions = OFFICIAL_REGIONS
+
+    feeds = []
+    for region in regions:
+        sink = ParquetSink(args.root, region,
+                           batch_size=args.batch_size,
+                           max_age=args.max_age,
+                           compression=args.compression)
+        url = feed_url(region, args.mode)
+        print("polling %s every %.0fs -> %s/" % (url, args.interval, args.root))
+        feeds.append({"region": region, "sink": sink, "deduper": Deduplicator(),
+                     "url": url, "etag": None})
 
     def stop(signum, frame):
         raise Stopped()
@@ -403,10 +455,12 @@ def main():
     signal.signal(signal.SIGTERM, stop)
 
     started = time.monotonic()
-    etag = None
     try:
         while True:
-            etag = poll_once(sink, deduper, url, etag, args.verbose)
+            for feed in feeds:
+                feed["etag"] = poll_once(feed["region"], feed["sink"],
+                                         feed["deduper"], feed["url"],
+                                         feed["etag"], args.verbose)
             if args.once:
                 break
             if args.max_runtime and time.monotonic() - started >= args.max_runtime:
@@ -415,10 +469,13 @@ def main():
     except Stopped:
         print("\nstopping")
     finally:
-        # Always drain the buffer, otherwise a clean shutdown loses rows.
-        sink.flush()
+        # Always drain the buffers, otherwise a clean shutdown loses rows.
+        for feed in feeds:
+            feed["sink"].flush()
         print("%d rows in %d files under %s/" % (
-            sink.rows_written, sink.files_written, args.root))
+            sum(feed["sink"].rows_written for feed in feeds),
+            sum(feed["sink"].files_written for feed in feeds),
+            args.root))
 
     return 0
 
