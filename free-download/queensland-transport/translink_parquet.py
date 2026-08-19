@@ -10,6 +10,13 @@ regions found by probing the API (see README.md), or --region to poll just
 one, official or undocumented. --mode narrows to a single vehicle type but
 only exists for SEQ, so an unqualified --mode implies --region SEQ.
 
+Mode-specific feeds only exist for SEQ. Whenever SEQ is polled and --mode
+wasn't given, it's automatically split into one poll per known mode (Bus,
+Rail, Tram, Ferry) instead of one combined poll — so every stored row gets
+a real mode instead of a null one (see "Data model" in CLAUDE.md). This
+means SEQ costs 4 requests per cycle instead of 1; other regions are
+unaffected, since none of them publish mode-specific feeds to split into.
+
 Output is a Hive-partitioned directory that DuckDB reads directly:
 
     positions/dt=2026-08-11/region=SEQ/part-1786434892-31337-0003.parquet
@@ -33,6 +40,7 @@ Examples:
 
 import argparse
 import gzip
+import http.client
 import io
 import os
 import signal
@@ -70,6 +78,10 @@ SCHEMA = pa.schema([
     ("vehicle_label", pa.string()),
     ("trip_id", pa.string()),
     ("route_id", pa.string()),
+    # Not part of the GTFS-RT payload itself — stamped from the --mode this
+    # row was collected with (null when collected without --mode, e.g. the
+    # default multi-region run, since Translink doesn't publish it per row).
+    ("mode", pa.string()),
     ("direction_id", pa.int8()),
     ("start_date", pa.string()),
     ("start_time", pa.string()),
@@ -263,8 +275,13 @@ def enum_name(descriptor, value):
         return str(value)
 
 
-def parse_feed(payload, fetched_at):
-    """Decode a FeedMessage into row tuples matching SCHEMA."""
+def parse_feed(payload, fetched_at, mode=None):
+    """Decode a FeedMessage into row tuples matching SCHEMA.
+
+    mode is not part of the feed payload — it's stamped from whatever
+    --mode this particular poll was fetched with, so stored rows can later
+    be filtered by it even though Translink's protobuf has no such field.
+    """
     feed = gtfs_realtime_pb2.FeedMessage()
     feed.ParseFromString(payload)
     feed_ts = feed.header.timestamp or None
@@ -292,6 +309,7 @@ def parse_feed(payload, fetched_at):
             descriptor.label or None,
             trip.trip_id or None,
             trip.route_id or None,
+            mode,
             trip.direction_id if trip.HasField("direction_id") else None,
             trip.start_date or None,
             trip.start_time or None,
@@ -314,30 +332,40 @@ def parse_feed(payload, fetched_at):
     return rows
 
 
-def poll_once(region, sink, deduper, url, etag, verbose=False):
-    """Fetch, parse and buffer one snapshot for one region. Returns the new ETag."""
+def poll_once(region, sink, deduper, url, etag, mode=None, verbose=False):
+    """Fetch, parse and buffer one snapshot for one region/mode. Returns the new ETag."""
+    # region alone is ambiguous once SEQ is split into per-mode sub-feeds
+    # (see main()) — "SEQ:Bus" vs. plain "SEQ" tells them apart in the log.
+    label = "%s:%s" % (region, mode) if mode else region
     fetched_at = int(time.time())
     try:
         payload, new_etag = fetch(url, etag)
-    except (urllib.error.URLError, TimeoutError) as error:
-        print("%-4s fetch failed: %s" % (region, error), file=sys.stderr)
+    except (OSError, http.client.HTTPException) as error:
+        # Broad on purpose: transient network failures surface as a mix of
+        # URLError, socket/ssl errors (both OSError), and raw http.client
+        # exceptions like RemoteDisconnected or BadStatusLine depending on
+        # exactly how the connection or response broke. Any of them should
+        # be logged and retried next cycle, not crash a run that may be
+        # mid-way through --max-runtime of continuous polling.
+        print("%-9s fetch failed: %s: %s" % (
+            label, type(error).__name__, error), file=sys.stderr)
         return etag
 
     if payload is None:
         if verbose:
-            print("%-4s feed unchanged (304)" % region)
+            print("%-9s feed unchanged (304)" % label)
         return new_etag
 
-    rows = parse_feed(payload, fetched_at)
+    rows = parse_feed(payload, fetched_at, mode)
     fresh = [row for row in rows if deduper.is_new(row[0], row[1])]
     for row in fresh:
         sink.add(row)
     deduper.prune(fetched_at)
 
     flushed = sink.flush() if sink.should_flush() else 0
-    print("%s %-4s entities=%-5d new=%-5d buffered=%-6d flushed=%-6d bytes=%d" % (
+    print("%s %-9s entities=%-5d new=%-5d buffered=%-6d flushed=%-6d bytes=%d" % (
         time.strftime("%H:%M:%S", time.localtime(fetched_at)),
-        region, len(rows), len(fresh), len(sink.rows), flushed, len(payload)))
+        label, len(rows), len(fresh), len(sink.rows), flushed, len(payload)))
     return new_etag
 
 
@@ -381,6 +409,12 @@ def run_summary(root, limit):
 
 
 def main():
+    # stdout is fully block-buffered when redirected to a file (e.g. under
+    # `nohup ... &`), so poll status lines wouldn't reach nohup.out until the
+    # buffer filled or the process exited. Force line buffering so each
+    # print() (they all end in \n) flushes immediately.
+    sys.stdout.reconfigure(line_buffering=True)
+
     parser = argparse.ArgumentParser(
         description="Collect Translink GTFS-RT vehicle positions into Parquet.")
     parser.add_argument("--region", choices=ALL_REGIONS,
@@ -391,7 +425,11 @@ def main():
                              "ones (see README.md); default is the 5 official "
                              "regions only")
     parser.add_argument("--mode", choices=MODES,
-                        help="restrict to one mode; SEQ only")
+                        help="restrict to one mode; SEQ only. If omitted, "
+                             "SEQ is automatically split into one poll per "
+                             "mode (%s) instead of one combined poll, so "
+                             "stored rows get a real mode instead of null"
+                             % ", ".join(MODES))
     parser.add_argument("--root", default="positions",
                         help="dataset root directory (default: positions)")
     parser.add_argument("--interval", type=float, default=20.0,
@@ -438,15 +476,39 @@ def main():
         regions = OFFICIAL_REGIONS
 
     feeds = []
+    sinks = []  # one per region, even though a region may map to several
+                # feeds below — used for draining/reporting so a region
+                # split into several sub-feeds isn't counted more than once
     for region in regions:
         sink = ParquetSink(args.root, region,
                            batch_size=args.batch_size,
                            max_age=args.max_age,
                            compression=args.compression)
-        url = feed_url(region, args.mode)
-        print("polling %s every %.0fs -> %s/" % (url, args.interval, args.root))
-        feeds.append({"region": region, "sink": sink, "deduper": Deduplicator(),
-                     "url": url, "etag": None})
+        sinks.append(sink)
+        # One sink/deduper per region, shared across however many
+        # sub-feeds that region is split into below, so all of a region's
+        # rows land in the same partition and dedup window regardless of
+        # which mode (if any) they came from.
+        deduper = Deduplicator()
+
+        # Mode-specific feeds only exist for SEQ. When --mode wasn't given,
+        # split SEQ into one poll per known mode instead of one combined
+        # poll, so every row gets a real mode instead of a null one — SEQ
+        # costs len(MODES) requests per cycle instead of 1. Other regions
+        # have no mode-specific endpoint to split into, so they're
+        # untouched either way.
+        if args.mode:
+            sub_modes = (args.mode,)
+        elif region == "SEQ":
+            sub_modes = MODES
+        else:
+            sub_modes = (None,)
+
+        for sub_mode in sub_modes:
+            url = feed_url(region, sub_mode)
+            print("polling %s every %.0fs -> %s/" % (url, args.interval, args.root))
+            feeds.append({"region": region, "mode": sub_mode, "sink": sink,
+                         "deduper": deduper, "url": url, "etag": None})
 
     def stop(signum, frame):
         raise Stopped()
@@ -460,7 +522,7 @@ def main():
             for feed in feeds:
                 feed["etag"] = poll_once(feed["region"], feed["sink"],
                                          feed["deduper"], feed["url"],
-                                         feed["etag"], args.verbose)
+                                         feed["etag"], feed["mode"], args.verbose)
             if args.once:
                 break
             if args.max_runtime and time.monotonic() - started >= args.max_runtime:
@@ -470,11 +532,14 @@ def main():
         print("\nstopping")
     finally:
         # Always drain the buffers, otherwise a clean shutdown loses rows.
-        for feed in feeds:
-            feed["sink"].flush()
+        # Iterates sinks, not feeds — a region split into several sub-feeds
+        # (e.g. SEQ into 4 modes) shares one sink, so summing per-feed would
+        # flush it repeatedly and multiply its rows/files into the total.
+        for sink in sinks:
+            sink.flush()
         print("%d rows in %d files under %s/" % (
-            sum(feed["sink"].rows_written for feed in feeds),
-            sum(feed["sink"].files_written for feed in feeds),
+            sum(sink.rows_written for sink in sinks),
+            sum(sink.files_written for sink in sinks),
             args.root))
 
     return 0

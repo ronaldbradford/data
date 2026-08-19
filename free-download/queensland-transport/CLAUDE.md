@@ -46,12 +46,13 @@ There is no test suite, linter, or build step in this directory — verification
 
 ## Data model
 
-One row = one timestamped GPS fix for one vehicle on one trip: `vehicle_id, ts, vehicle_label, trip_id, route_id, direction_id, start_date, start_time, lat, lon, bearing, speed, odometer, stop_id, current_status, occupancy_status, congestion_level, feed_ts, fetched_at`.
+One row = one timestamped GPS fix for one vehicle on one trip: `vehicle_id, ts, vehicle_label, trip_id, route_id, mode, direction_id, start_date, start_time, lat, lon, bearing, speed, odometer, stop_id, current_status, occupancy_status, congestion_level, feed_ts, fetched_at`.
 
 - Regions: `SEQ` (South East Queensland, default), `CNS`, `NSI`, `MHB`, `BOW`.
 - Feeds are polled politely via ETag/`If-None-Match`; a 304 response means no new data and is not treated as an error.
 - A vehicle-reported timestamp of 0 falls back to the feed header timestamp, then to fetch time, so `ts` is never null.
 - Protobuf enum fields (`current_status`, `occupancy_status`, `congestion_level`) are converted to their symbolic names via `enum_name()`, tolerating unknown values from the upstream feed.
+- `mode` is not part of the GTFS-RT payload — Translink has no such field on `VehiclePosition`. It's stamped from whatever `--mode` a given `translink_parquet.py` run was collecting with, so it's `NULL` for any row collected without `--mode` (the default multi-region run). A `mode` filter downstream (`viewer_parquet.py`, `current_positions.py --mode`) only matches rows collected with that exact `--mode`, not all vehicles of that type.
 
 ## Non-code files
 
