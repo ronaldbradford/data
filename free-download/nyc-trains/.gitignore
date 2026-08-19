@@ -1,0 +1,4 @@
+__pycache__/
+deploy/
+.nyc_rail_static_cache.json
+nohup.out
