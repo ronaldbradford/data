@@ -1,0 +1,64 @@
+# Local MySQL for nyc_trains — spins up MySQL, then auto-creates the
+# schema (01-schema.sql) and the nyc_trains table (02-tables.sql) on
+# first boot via the image's docker-entrypoint-initdb.d mechanism.
+# generator.py --sql output can then be loaded straight into it — see
+# MYSQL.md for the full walkthrough.
+#
+# Needs MYSQL_ROOT_PASSWORD/MYSQL_DATABASE/MYSQL_USER/MYSQL_PASSWORD/
+# MYSQL_PORT already in the environment — see .envrc (direnv loads it
+# automatically on `cd` here after `direnv allow`; without direnv, run
+# `source .envrc` first). The `:?` defaults below fail fast with a clear
+# message if that step was skipped, rather than silently using different
+# credentials than the ones .envrc told you to connect with.
+#
+# Usage:
+#   docker compose up -d
+#   docker compose logs -f mysql       # watch schema/table creation on first boot
+#   docker compose down                # stop (keeps the data volume)
+#   docker compose down -v             # stop and wipe the data volume too
+#
+# 01-schema.sql/02-tables.sql only run against a *fresh* data volume —
+# MySQL skips docker-entrypoint-initdb.d entirely once /var/lib/mysql has
+# already been initialized. Edited the schema? `docker compose down -v`
+# first (or `docker compose exec -T mysql mysql ... < 02-tables.sql` to
+# reapply just that file by hand).
+#
+# Binary logging (log-bin/binlog-format/binlog-expire-logs-seconds/
+# server-id below) is on by default in mysql:8.4 with no config at all —
+# these flags don't change that, they just pin the exact values down
+# explicitly instead of leaving them as an implicit image default that
+# could shift on a future MySQL version. Since `command:` only takes
+# effect when a container is actually (re)created, editing it here never
+# touches an already-running container — it applies starting from the
+# next `docker compose up`/recreate.
+
+services:
+  mysql:
+    image: mysql:8.4
+    container_name: nyc-trains-mysql
+    restart: unless-stopped
+    command:
+      - --log-bin=/var/lib/mysql/binlog
+      - --binlog-format=ROW
+      - --binlog-expire-logs-seconds=2592000  # 30 days
+      - --server-id=1
+    environment:
+      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD:?set in .envrc, then source it (or `direnv allow`) before `docker compose up`}
+      MYSQL_DATABASE: ${MYSQL_DATABASE:?set in .envrc, then source it (or `direnv allow`) before `docker compose up`}
+      MYSQL_USER: ${MYSQL_USER:?set in .envrc, then source it (or `direnv allow`) before `docker compose up`}
+      MYSQL_PASSWORD: ${MYSQL_PASSWORD:?set in .envrc, then source it (or `direnv allow`) before `docker compose up`}
+    ports:
+      - "${MYSQL_PORT:-3306}:3306"
+    volumes:
+      - ./01-schema.sql:/docker-entrypoint-initdb.d/01-schema.sql:ro
+      - ./02-tables.sql:/docker-entrypoint-initdb.d/02-tables.sql:ro
+      - nyc-trains-mysql-data:/var/lib/mysql
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "127.0.0.1"]
+      interval: 5s
+      timeout: 5s
+      retries: 20
+      start_period: 30s
+
+volumes:
+  nyc-trains-mysql-data:
