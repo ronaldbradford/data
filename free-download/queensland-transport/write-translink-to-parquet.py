@@ -42,6 +42,7 @@ import argparse
 import gzip
 import http.client
 import io
+import logging
 import os
 import signal
 import sys
@@ -53,6 +54,8 @@ from datetime import datetime, timezone
 import pyarrow as pa
 import pyarrow.parquet as pq
 from google.transit import gtfs_realtime_pb2
+
+log = logging.getLogger("translink")
 
 FEED_BASE = "https://gtfsrt.api.translink.com.au/api/realtime"
 # The 5 regions Translink documents at
@@ -210,6 +213,7 @@ class ParquetSink:
 
         pq.write_table(table, temp_path, compression=self.compression)
         os.replace(temp_path, final_path)
+        log.info("wrote %d rows -> %s", len(rows), final_path)
 
         self.files_written += 1
         self.rows_written += len(rows)
@@ -332,7 +336,7 @@ def parse_feed(payload, fetched_at, mode=None):
     return rows
 
 
-def poll_once(region, sink, deduper, url, etag, mode=None, verbose=False):
+def poll_once(region, sink, deduper, url, etag, mode=None):
     """Fetch, parse and buffer one snapshot for one region/mode. Returns the new ETag."""
     # region alone is ambiguous once SEQ is split into per-mode sub-feeds
     # (see main()) — "SEQ:Bus" vs. plain "SEQ" tells them apart in the log.
@@ -347,13 +351,12 @@ def poll_once(region, sink, deduper, url, etag, mode=None, verbose=False):
         # exactly how the connection or response broke. Any of them should
         # be logged and retried next cycle, not crash a run that may be
         # mid-way through --max-runtime of continuous polling.
-        print("%-9s fetch failed: %s: %s" % (
-            label, type(error).__name__, error), file=sys.stderr)
+        log.warning("%-9s fetch failed: %s: %s",
+                    label, type(error).__name__, error)
         return etag
 
     if payload is None:
-        if verbose:
-            print("%-9s feed unchanged (304)" % label)
+        log.debug("%-9s feed unchanged (304)", label)
         return new_etag
 
     rows = parse_feed(payload, fetched_at, mode)
@@ -363,9 +366,8 @@ def poll_once(region, sink, deduper, url, etag, mode=None, verbose=False):
     deduper.prune(fetched_at)
 
     flushed = sink.flush() if sink.should_flush() else 0
-    print("%s %-9s entities=%-5d new=%-5d buffered=%-6d flushed=%-6d bytes=%d" % (
-        time.strftime("%H:%M:%S", time.localtime(fetched_at)),
-        label, len(rows), len(fresh), len(sink.rows), flushed, len(payload)))
+    log.info("%-9s entities=%-5d new=%-5d buffered=%-6d flushed=%-6d bytes=%d",
+             label, len(rows), len(fresh), len(sink.rows), flushed, len(payload))
     return new_etag
 
 
@@ -389,10 +391,11 @@ def run_summary(root, limit):
     try:
         import duckdb
     except ImportError:
-        print("duckdb is not installed. Either 'pip install duckdb' or query "
-              "the dataset directly:\n\n  SELECT * FROM read_parquet('%s/**/*.parquet',\n"
-              "                                 hive_partitioning = true);"
-              % root, file=sys.stderr)
+        log.error("duckdb is not installed. Either 'pip install duckdb' or "
+                  "query the dataset directly:\n\n  SELECT * FROM "
+                  "read_parquet('%s/**/*.parquet',\n"
+                  "                                 hive_partitioning = true);",
+                  root)
         return 1
 
     connection = duckdb.connect()
@@ -403,18 +406,11 @@ def run_summary(root, limit):
 
     print_summary(rows)
     if not rows:
-        print("No multi-point trips stored yet. Poll for a few minutes first.",
-              file=sys.stderr)
+        log.warning("No multi-point trips stored yet. Poll for a few minutes first.")
     return 0
 
 
 def main():
-    # stdout is fully block-buffered when redirected to a file (e.g. under
-    # `nohup ... &`), so poll status lines wouldn't reach nohup.out until the
-    # buffer filled or the process exited. Force line buffering so each
-    # print() (they all end in \n) flushes immediately.
-    sys.stdout.reconfigure(line_buffering=True)
-
     parser = argparse.ArgumentParser(
         description="Collect Translink GTFS-RT vehicle positions into Parquet.")
     parser.add_argument("--region", choices=ALL_REGIONS,
@@ -451,6 +447,13 @@ def main():
                         help="rows to show with --summary (default: 20)")
     parser.add_argument("--verbose", action="store_true")
     args = parser.parse_args()
+
+    # Status goes through logging (stderr, flushed per record, so it reaches
+    # nohup.out promptly); stdout is reserved for --summary's TSV output.
+    logging.basicConfig(
+        level=logging.DEBUG if args.verbose else logging.INFO,
+        format="%(asctime)s %(levelname)-7s %(message)s",
+        datefmt="%H:%M:%S")
 
     if args.region and args.all:
         parser.error("--region and --all are mutually exclusive")
@@ -506,7 +509,7 @@ def main():
 
         for sub_mode in sub_modes:
             url = feed_url(region, sub_mode)
-            print("polling %s every %.0fs -> %s/" % (url, args.interval, args.root))
+            log.info("polling %s every %.0fs -> %s/", url, args.interval, args.root)
             feeds.append({"region": region, "mode": sub_mode, "sink": sink,
                          "deduper": deduper, "url": url, "etag": None})
 
@@ -522,14 +525,14 @@ def main():
             for feed in feeds:
                 feed["etag"] = poll_once(feed["region"], feed["sink"],
                                          feed["deduper"], feed["url"],
-                                         feed["etag"], feed["mode"], args.verbose)
+                                         feed["etag"], feed["mode"])
             if args.once:
                 break
             if args.max_runtime and time.monotonic() - started >= args.max_runtime:
                 break
             time.sleep(args.interval)
     except Stopped:
-        print("\nstopping")
+        log.info("stopping")
     finally:
         # Always drain the buffers, otherwise a clean shutdown loses rows.
         # Iterates sinks, not feeds — a region split into several sub-feeds
@@ -537,10 +540,10 @@ def main():
         # flush it repeatedly and multiply its rows/files into the total.
         for sink in sinks:
             sink.flush()
-        print("%d rows in %d files under %s/" % (
-            sum(sink.rows_written for sink in sinks),
-            sum(sink.files_written for sink in sinks),
-            args.root))
+        log.info("%d rows in %d files under %s/",
+                 sum(sink.rows_written for sink in sinks),
+                 sum(sink.files_written for sink in sinks),
+                 args.root)
 
     return 0
 

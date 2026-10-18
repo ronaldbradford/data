@@ -40,68 +40,93 @@ ALL_REGIONS = OFFICIAL_REGIONS + UNDOCUMENTED_REGIONS
 MODES = ("Bus", "Rail", "Tram", "Ferry")
 
 POSITIONS_QUERY = """
-WITH deduped AS (
-    SELECT * EXCLUDE (rn) FROM (
-        SELECT *, row_number() OVER (PARTITION BY vehicle_id, ts) AS rn
-        FROM read_parquet('{glob}', hive_partitioning = true)
-        WHERE lat IS NOT NULL AND region = '{region}' {mode_filter}
-    ) WHERE rn = 1
-),
-latest AS (
-    SELECT *, row_number() OVER (PARTITION BY vehicle_id ORDER BY ts DESC) AS rn2
-    FROM deduped
-)
 SELECT
     vehicle_id,
-    vehicle_label AS label,
-    trip_id,
-    route_id,
-    lat,
-    lon,
-    bearing,
-    speed,
-    current_status,
-    occupancy_status,
-    epoch(ts)::BIGINT AS ts
-FROM latest
-WHERE rn2 = 1 {age_filter}
+    arg_max(vehicle_label, ts) AS label,
+    arg_max(trip_id, ts) AS trip_id,
+    arg_max(route_id, ts) AS route_id,
+    arg_max(lat, ts) AS lat,
+    arg_max(lon, ts) AS lon,
+    arg_max(bearing, ts) AS bearing,
+    arg_max(speed, ts) AS speed,
+    arg_max(current_status, ts) AS current_status,
+    arg_max(occupancy_status, ts) AS occupancy_status,
+    epoch(max(ts))::BIGINT AS ts
+FROM read_parquet({files}, hive_partitioning = true)
+WHERE lat IS NOT NULL {mode_filter} {age_filter}
+GROUP BY vehicle_id
 ORDER BY vehicle_id
 """
 
 
 class ParquetCache:
-    """Caches the "latest known fix per vehicle" query per region so
-    frequent browser polls don't rescan the Parquet dataset more often
-    than --interval. Mirrors FeedCache's role in viewer.py, but the
-    upstream here is local files, not a network fetch — so on error it
-    also serves the last-known-good snapshot rather than failing the page."""
+    """Caches the "latest known fix per vehicle" query per (region, mode).
 
-    def __init__(self, root, min_interval, max_age=None):
-        self.glob = os.path.join(root, "**", "*.parquet")
+    Only the newest --days partition dates for the region are scanned (the
+    directory layout lets DuckDB skip everything else), and a cached result
+    is reused until a Parquet file appears or changes in those partitions —
+    so new collector flushes show up on the next browser poll rather than
+    waiting out a timer. With --max-age the result is also re-evaluated every
+    min_interval seconds, since the age cutoff moves even with no new files.
+    On error the last-known-good snapshot is served instead of failing."""
+
+    def __init__(self, root, min_interval, max_age=None, days=2):
+        self.root = root
+        self.days = days
         self.min_interval = min_interval
+        self.max_age = max_age
         self.age_filter = (" AND ts >= now() - to_seconds(%d)" % max_age
                            if max_age else "")
         self.lock = threading.Lock()
         self.entries = {}
         self.connection = duckdb.connect()
 
+    def _partition_dirs(self, region):
+        try:
+            dates = sorted(name for name in os.listdir(self.root)
+                           if name.startswith("dt="))
+        except OSError:
+            return []
+        dirs = [os.path.join(self.root, name, "region=%s" % region)
+                for name in dates[-self.days:]]
+        return [d for d in dirs if os.path.isdir(d)]
+
+    @staticmethod
+    def _scan(dirs):
+        """Returns (files, signature); signature changes when any file is
+        added or rewritten."""
+        files, newest = [], 0
+        for directory in dirs:
+            with os.scandir(directory) as it:
+                for item in it:
+                    if item.name.endswith(".parquet") and not item.name.startswith("."):
+                        files.append(item.path)
+                        newest = max(newest, item.stat().st_mtime_ns)
+        return files, (len(files), newest)
+
     def get(self, region, mode):
         key = (region, mode)
         with self.lock:
             entry = self.entries.get(key)
-            if entry and time.monotonic() - entry["fetched_monotonic"] < self.min_interval:
+            files, signature = self._scan(self._partition_dirs(region))
+            if (entry and entry["signature"] == signature and not entry["error"]
+                    and not (self.max_age and time.monotonic()
+                             - entry["fetched_monotonic"] >= self.min_interval)):
                 return entry
 
             mode_filter = " AND mode = '%s'" % mode if mode else ""
-            sql = POSITIONS_QUERY.format(glob=self.glob, region=region,
-                                         mode_filter=mode_filter,
-                                         age_filter=self.age_filter)
             try:
-                relation = self.connection.sql(sql)
-                vehicles = [dict(zip(relation.columns, row))
-                           for row in relation.fetchall()]
+                if files:
+                    sql = POSITIONS_QUERY.format(
+                        files=repr(sorted(files)), mode_filter=mode_filter,
+                        age_filter=self.age_filter)
+                    relation = self.connection.sql(sql)
+                    vehicles = [dict(zip(relation.columns, row))
+                               for row in relation.fetchall()]
+                else:
+                    vehicles = []
                 error = None
-            except Exception as exc:  # bad/missing dataset, corrupt file, etc.
+            except Exception as exc:  # corrupt file, etc.
                 if entry:
                     entry["error"] = str(exc)
                     return entry
@@ -109,6 +134,7 @@ class ParquetCache:
 
             entry = {
                 "vehicles": vehicles,
+                "signature": signature,
                 "fetched_monotonic": time.monotonic(),
                 "fetched_at": time.time(),
                 "error": error,
@@ -492,12 +518,17 @@ def main():
     parser.add_argument("--region", default="SEQ", choices=ALL_REGIONS,
                         help="region selected by default when the page loads")
     parser.add_argument("--interval", type=float, default=20.0,
-                        help="seconds between dataset rescans, also used as "
-                             "the browser's refresh interval (default: 20)")
+                        help="browser refresh interval in seconds; the dataset "
+                             "is only rescanned when new files appear "
+                             "(default: 20)")
     parser.add_argument("--max-age", type=float,
                         help="drop vehicles whose latest stored fix is older "
                              "than this many seconds (default: no limit — "
                              "shows the true latest fix even if stale)")
+    parser.add_argument("--days", type=int, default=2,
+                        help="scan only the newest N partition dates "
+                             "(default: 2); raise to include vehicles last "
+                             "seen longer ago, e.g. when replaying old data")
     args = parser.parse_args()
 
     if args.interval <= 0:
@@ -507,7 +538,8 @@ def main():
         print("warning: %r does not exist yet — run translink_parquet.py "
               "first, or pass --root" % args.root, file=sys.stderr)
 
-    cache = ParquetCache(args.root, min_interval=args.interval, max_age=args.max_age)
+    cache = ParquetCache(args.root, min_interval=args.interval, max_age=args.max_age,
+                         days=args.days)
     handler = make_handler(cache, args.region, args.interval)
     server = ThreadingHTTPServer((args.host, args.port), handler)
 
