@@ -90,3 +90,9 @@ trip_id                    route     vehicle                                pts 
 38341254-BT 26_27-43727    330-4948  A7393ED51E387246BB3D6249943091E8_2152  199  2026-08-12 12:54:28  2026-08-12 15:07:46  133.3  47.995  6388.0
 38144216-LVB 26_27-43541   539-5020  3369089D8AB8CC897DFFEE57B7433815_47    106  2026-08-12 13:00:52  2026-08-12 13:54:22  53.5   47.674  1464.0
 ```
+
+
+## Brisbane Train Lines GEOJSON
+```
+python get_brisbane_railway_lines_geojson.py --out brisbane_rail.geojson
+```

@@ -166,7 +166,7 @@ INDEX_HTML = """<!doctype html>
   #map { position: absolute; top: 48px; bottom: 0; left: 0; right: 0; background: #fff; }
   #bar { height: 48px; display: flex; align-items: center; gap: 12px; padding: 0 12px;
          background: #1f2937; color: #f3f4f6; box-sizing: border-box; }
-  #bar select { font: inherit; padding: 4px 6px; }
+  #bar select, #bar input[type=text] { font: inherit; padding: 4px 6px; }
   #bar label { display: flex; align-items: center; gap: 4px; white-space: nowrap; }
   #status { margin-left: auto; opacity: 0.85; white-space: nowrap; }
   #status.error { color: #fca5a5; }
@@ -183,6 +183,9 @@ INDEX_HTML = """<!doctype html>
     <option value="Rail">Rail</option>
     <option value="Ferry">Ferry</option>
   </select></label>
+  <label>Route <input type="text" id="routeFilter" size="6" placeholder="e.g. 606"
+    title="Matches the route_id prefix before '-', e.g. 606 matches 606-99999"></label>
+  <label>History <select id="history"></select></label>
   <label><input type="checkbox" id="hideMap"> Hide base map</label>
   <span id="status">loading…</span>
 </div>
@@ -236,7 +239,38 @@ let nextRefreshAt = 0;
 // Per-vehicle trail of points seen since the browser started polling this
 // region/mode — reset on region/mode change, never persisted server-side.
 const trackData = new Map();
-const MAX_TRACK_POINTS = 300;
+const historySelect = document.getElementById('history');
+for (let n = 5; n <= 50; n += 5) {
+  const opt = document.createElement('option');
+  opt.value = n;
+  opt.textContent = n;
+  historySelect.appendChild(opt);
+}
+historySelect.value = 20; // default; user-selectable 5-50 in steps of 5
+let maxTrackPoints = Number(historySelect.value);
+
+function trimTracks() {
+  // Applies a lowered history length immediately, rather than waiting for
+  // enough future pushes to shift each trail down one point at a time.
+  for (const [id, pts] of trackData) {
+    if (pts.length > maxTrackPoints) trackData.set(id, pts.slice(-maxTrackPoints));
+  }
+}
+historySelect.addEventListener('change', () => {
+  maxTrackPoints = Number(historySelect.value);
+  trimTracks();
+  render();
+});
+
+const routeFilterInput = document.getElementById('routeFilter');
+routeFilterInput.addEventListener('input', render);
+
+function matchesRouteFilter(v) {
+  const filter = routeFilterInput.value.trim();
+  // Prefix match against the part of route_id before its first '-', e.g.
+  // "606" matches "606-99999" — not a plain startsWith, so "60" does not.
+  return !filter || (v.route_id != null && v.route_id.split('-')[0] === filter);
+}
 
 function popupHtml(v) {
   return '<div class="veh-popup">' +
@@ -256,7 +290,7 @@ function updateTracks(vehicles) {
     const last = pts[pts.length - 1];
     if (!last || last[0] !== v.lat || last[1] !== v.lon) {
       pts.push([v.lat, v.lon]);
-      if (pts.length > MAX_TRACK_POINTS) pts.shift();
+      if (pts.length > maxTrackPoints) pts.shift();
       trackData.set(v.vehicle_id, pts);
     }
   }
@@ -277,9 +311,10 @@ function arrowIcon(bearingDeg) {
   return L.divIcon({className: 'track-arrow', html: svg, iconSize: [10, 10], iconAnchor: [5, 5]});
 }
 
-function drawTracks() {
+function drawTracks(visibleIds) {
   trackLayer.clearLayers();
-  for (const pts of trackData.values()) {
+  for (const [id, pts] of trackData) {
+    if (visibleIds && !visibleIds.has(id)) continue;
     if (pts.length > 1) {
       L.polyline(pts, {color: '#f97316', weight: 2, opacity: 0.8}).addTo(trackLayer);
     }
@@ -333,6 +368,32 @@ function updateModeAvailability() {
   if (modeSelect.disabled) modeSelect.value = '';
 }
 
+let lastVehicles = [];
+let lastFetchedAt = 0;
+
+// Draws the current lastVehicles/trackData, applying the route filter —
+// separate from refresh() so the Route input and History dropdown can
+// re-render instantly against already-fetched data, with no need to wait
+// for (or force) another poll.
+function render() {
+  const visible = lastVehicles.filter(matchesRouteFilter);
+  const visibleIds = new Set(visible.map(v => v.vehicle_id));
+  drawTracks(visibleIds);
+  drawMarkers(visible);
+  if (!fittedOnce && visible.length) {
+    map.fitBounds(L.latLngBounds(visible.map(v => [v.lat, v.lon])), {maxZoom: 13});
+    fittedOnce = true;
+  }
+  if (lastFetchedAt) {
+    const ts = new Date(lastFetchedAt * 1000).toLocaleTimeString();
+    const countText = visible.length === lastVehicles.length
+      ? String(visible.length)
+      : visible.length + ' of ' + lastVehicles.length;
+    baseStatusText = countText + ' vehicles • updated ' + ts;
+    statusEl.classList.remove('error');
+  }
+}
+
 async function refresh() {
   const region = regionSelect.value;
   const mode = modeSelect.value;
@@ -346,16 +407,10 @@ async function refresh() {
       statusEl.classList.add('error');
       return;
     }
-    updateTracks(data.vehicles);
-    drawTracks();
-    drawMarkers(data.vehicles);
-    if (!fittedOnce && data.vehicles.length) {
-      map.fitBounds(L.latLngBounds(data.vehicles.map(v => [v.lat, v.lon])), {maxZoom: 13});
-      fittedOnce = true;
-    }
-    const ts = new Date(data.fetched_at * 1000).toLocaleTimeString();
-    baseStatusText = data.vehicles.length + ' vehicles • updated ' + ts;
-    statusEl.classList.remove('error');
+    updateTracks(data.vehicles); // tracks every vehicle, regardless of the route filter
+    lastVehicles = data.vehicles;
+    lastFetchedAt = data.fetched_at;
+    render();
   } catch (err) {
     baseStatusText = 'fetch failed: ' + err;
     statusEl.classList.add('error');

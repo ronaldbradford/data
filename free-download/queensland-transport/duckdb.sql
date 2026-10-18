@@ -1,5 +1,7 @@
-
+INSTALL spatial;
 LOAD spatial;
+
+SET geometry_always_xy = true
 
 CREATE OR REPLACE VIEW positions AS
 SELECT * EXCLUDE (rn) FROM (
